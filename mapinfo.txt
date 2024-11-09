@@ -1,0 +1,12 @@
+include mapinfo/FreedoomPhase1_Levels_X.txt
+include mapinfo/TheLostEpisodes_Levels_X.txt
+include mapinfo/FreedoomPhase2_Levels_X.txt
+include mapinfo/PerditionsGate_Levels_X.txt
+include mapinfo/HellToPay_Levels_X.txt
+
+gameinfo 
+{
+	 AddEventHandlers = "DCX_UOEventHandler"
+}
+
+

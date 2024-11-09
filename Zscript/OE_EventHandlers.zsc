@@ -1,0 +1,143 @@
+
+class DCX_UOEventHandler : EventHandler
+{
+    void DCX_UOTextureReplacements()
+    {
+		String SkyName = TexMan.GetName(level.skytexture1);
+		int flags = TexMan.ReturnFirst;
+		String mapPrefix = level.MapName.Left(3);
+		String mapPrefix2 = level.MapName.Left(4);
+		String mapName = level.MapName.MakeLower();
+		mapPrefix = mapPrefix.MakeLower();
+		mapPrefix2 = mapPrefix2.MakeLower();
+		if ( mapPrefix == "pg_" )
+        {
+			Level.ReplaceTextures("SW1LION", "SW1LIPG", 0);
+			Level.ReplaceTextures("SW2LION", "SW2LIPG", 0);
+            Level.ReplaceTextures("SLADRIP1", "PLANETPG", 0);
+			Level.ReplaceTextures("SLADRIP2", "PLANETPG", 0);
+			Level.ReplaceTextures("SLADRIP3", "PLANETPG", 0);
+			Level.ReplaceTextures("SW1PANEL", "SW1PANPG", 0);
+			Level.ReplaceTextures("SW2PANEL", "SW2PANPG", 0);
+			//Level.ReplaceTextures("SFLR7_1", "pgsf7_1", 0);
+			Level.ReplaceTextures("WFALL1", "GWFALL1", 0);
+            Level.ReplaceTextures("WFALL2", "GWFALL2", 0);
+            Level.ReplaceTextures("WFALL3", "GWFALL3", 0);
+            Level.ReplaceTextures("WFALL4", "GWFALL4", 0);
+			Level.ReplaceTextures("SW1STARG", "SW1PGSTR", 0);
+			Level.ReplaceTextures("SW2STARG", "SW2PGSTR", 0);
+			Level.ReplaceTextures("SW1TEK", "SW1PGTEK", 0);
+			Level.ReplaceTextures("SW2TEK", "SW2PGTEK", 0);
+        }
+		
+		if ( mapPrefix2 == "fd_e" )
+        {
+            Level.ReplaceTextures("BRNPOIS", "BRNPOIS1", 0);
+            Level.ReplaceTextures("NUKEPOIS", "NUKPOIS1", 0);
+
+            Level.ReplaceTextures("SW1BRN1", "SW1BRWN1", 0);
+            Level.ReplaceTextures("SW2BRN1", "SW2BRWN1", 0);
+			
+			Level.ReplaceTextures("SKY1", "FDSKY1", 0);
+			Level.ReplaceTextures("SKY2", "FDSKY2", 0);
+			Level.ReplaceTextures("SKY3", "FDSKY3", 0);
+			Level.ReplaceTextures("SKY4", "FDSKY4", 0);
+			
+			Level.ReplaceTextures("SW1COMP", "SW1COMPAQ", 0);
+			Level.ReplaceTextures("SW2COMP", "SW2COMPAQ", 0);
+			
+			Level.ReplaceTextures("SW1STON1", "SW1STON1FD", 0);
+			Level.ReplaceTextures("SW2STON1", "SW2STON1FD", 0);
+		}
+		
+		if ( mapPrefix == "fd_" )
+        {
+			Level.ReplaceTextures("DBRAIN1", "PBRAIN1", 0);
+            Level.ReplaceTextures("DBRAIN4", "PBRAIN4", 0);
+			
+			Level.ReplaceTextures("P-FRBLU1", "AROCK2", 0);
+			Level.ReplaceTextures("P-FRBLU2", "AROCK3", 0);
+			
+			Level.ReplaceTextures("SKY1", "FDSKY1", 0);
+			Level.ReplaceTextures("SKY2", "FDSKY2", 0);
+			Level.ReplaceTextures("SKY3", "FDSKY3", 0);
+			Level.ReplaceTextures("SKY4", "FDSKY4", 0);
+			
+			Level.ReplaceTextures("SW1COMP", "SW1COMPAQ", 0);
+			Level.ReplaceTextures("SW2COMP", "SW2COMPAQ", 0);
+			
+			Level.ReplaceTextures("SW1STON1", "SW1STON1FD", 0);
+			Level.ReplaceTextures("SW2STON1", "SW2STON1FD", 0);
+		}
+		
+		if ( mapPrefix == "le_" )
+        {
+            Level.ReplaceTextures("BRNPOIS", "BRNPOIS1", 0);
+            Level.ReplaceTextures("NUKEPOIS", "NUKPOIS1", 0);
+
+            Level.ReplaceTextures("SW1BRN1", "SW1BRWN1", 0);
+            Level.ReplaceTextures("SW2BRN1", "SW2BRWN1", 0);
+		}
+		
+		if ( mapPrefix == "hp_" )
+        {
+			Level.ReplaceTextures("WFALL1", "WFALLH2P1", 0);
+            Level.ReplaceTextures("WFALL2", "WFALLH2P1", 0);
+            Level.ReplaceTextures("WFALL3", "WFALLH2P1", 0);
+            Level.ReplaceTextures("WFALL4", "WFALLH2P1", 0);
+			
+			Level.ReplaceTextures("SLIME05", "SLIME072", 0);
+			Level.ReplaceTextures("SLIME06", "SLIME072", 0);
+			Level.ReplaceTextures("SLIME07", "SLIME072", 0);
+			Level.ReplaceTextures("SLIME08", "SLIME072", 0);
+			
+			Level.ReplaceTextures("GATE1", "H2PG1", 0);
+			Level.ReplaceTextures("GATE2", "H2PG2", 0);
+			Level.ReplaceTextures("GATE3", "H2PG3", 0);
+			Level.ReplaceTextures("GATE4", "H2PG4", 0);
+			
+			Level.ReplaceTextures("SW1HOT", "SW1HOTH2P", 0);
+			Level.ReplaceTextures("SW2HOT", "SW2HOTH2P", 0);
+			Level.ReplaceTextures("SW1SATYR", "SW1SATYRH2P", 0);
+			Level.ReplaceTextures("SW2SATYR", "SW2SATYRH2P", 0);
+			Level.ReplaceTextures("SW1LION", "SW1LIONH2P", 0);
+			Level.ReplaceTextures("SW2LION", "SW2LIONH2P", 0);
+			Level.ReplaceTextures("SW1GARG", "SW1GARGH2P", 0);
+			Level.ReplaceTextures("SW2GARG", "SW2GARGH2P", 0);
+			Level.ReplaceTextures("SW1BLUE", "SW1BLUEH2P", 0);
+			Level.ReplaceTextures("SW2BLUE", "SW2BLUEH2P", 0);
+			
+			Level.ReplaceTextures("FIREMAG1", "HOLO01", 0);
+			Level.ReplaceTextures("FIREMAG2", "HOLO01", 0);
+			Level.ReplaceTextures("FIREMAG3", "HOLO01", 0);
+			
+			Level.ReplaceTextures("BLODGR1", "BLODGR1H2P", 0);
+			Level.ReplaceTextures("BLODGR2", "BLODGR1H2P", 0);
+			Level.ReplaceTextures("BLODGR3", "BLODGR1H2P", 0);
+			Level.ReplaceTextures("BLODGR4", "BLODGR1H2P", 0);
+			
+			Level.ReplaceTextures("BLODRIP1", "BLODRIP1H2P", 0);
+			Level.ReplaceTextures("BLODRIP2", "BLODRIP1H2P", 0);
+			Level.ReplaceTextures("BLODRIP3", "BLODRIP1H2P", 0);
+			Level.ReplaceTextures("BLODRIP4", "BLODRIP1H2P", 0);
+			Level.ReplaceTextures("SLADRI08", "SLADRIP1H2P", 0);
+			
+			Level.ReplaceTextures("SLADRIP1", "SLADRIP1H2P", 0);
+			Level.ReplaceTextures("SLADRIP2", "SLADRIP1H2P", 0);
+			Level.ReplaceTextures("SLADRIP3", "SLADRIP1H2P", 0);
+			
+			Level.ReplaceTextures("ROCKRED1", "HPRKRED1", 0);
+			Level.ReplaceTextures("ROCKRED2", "HPRKRED2", 0);
+			Level.ReplaceTextures("ROCKRED3", "HPRKRED3", 0);
+			
+			Level.ReplaceTextures("MIDSPACE", "MIDSPACE2", 0);
+		}
+	
+    }
+	
+	override void WorldLoaded(WorldEvent e)
+	{
+		DCX_UOTextureReplacements();
+	}
+	
+}

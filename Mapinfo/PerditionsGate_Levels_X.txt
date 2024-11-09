@@ -1,0 +1,552 @@
+defaultmap
+{
+	nocrouch
+	nojump
+	exitpic = "perinter"
+	enterpic = "perinter"
+	InterMusic = "$MUSIC_PERINTER"
+}
+
+map PG_MAP01 "Main Gate"
+{
+	next = "PG_MAP02"
+	sky1 = "PG_SKY1"
+	cluster = 30
+	par = 30
+	music = "$MUSIC_PERMAP01"
+	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
+}
+
+map PG_MAP02 "Secondary Complex"
+{
+	next = "PG_MAP03"
+	sky1 = "PG_SKY1"
+	cluster = 31
+	par = 90
+	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
+	music = "$MUSIC_PERMAP02"
+}
+
+map PG_MAP03 "Recreation Yard"
+{
+	next = "PG_MAP04"
+	sky1 = "PG_SKY1"
+	cluster = 31
+	par = 120
+	Author = "$WS_AU_MUSTAINE"
+	music = "$MUSIC_PERMAP03"
+}
+
+map PG_MAP04 "Storage Areas"
+{
+	next = "PG_MAP05"
+	sky1 = "PG_SKY1"
+	cluster = 31
+	par = 120
+	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
+	music = "$MUSIC_PERMAP04"
+}
+
+map PG_MAP05 "Sub-Basement"
+{
+	next = "PG_MAP06"
+	sky1 = "PG_SKY1"
+	cluster = 31
+	par = 90
+	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
+	music = "$MUSIC_PERMAP05"
+}
+
+map PG_MAP06 "Delta Sector"
+{
+	next = "PG_MAP07"
+	sky1 = "PG_SKY1"
+	cluster = 31
+	par = 150
+	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
+	music = "$MUSIC_PERMAP06"
+}
+
+map PG_MAP07 "Nukage Refinery"
+{
+	next = "PG_MAP08"
+	sky1 = "PG_SKY1"
+	cluster = 31
+	par = 120
+	map07special
+	Author = "$WS_AU_MUSTAINE"
+	music = "$MUSIC_PERMAP07"
+}
+
+map PG_MAP08 "Drainage Tunnels"
+{
+	next = "PG_MAP09"
+	sky1 = "PG_SKY1"
+	cluster = 31
+	par = 120
+	Author = "$WS_AU_MUSTAINE"
+	music = "$MUSIC_PERMAP08"
+}
+
+map PG_MAP09 "Experimentation Labs"
+{
+	next = "PG_MAP10"
+	sky1 = "PG_SKY1"
+	cluster = 31
+	par = 270
+	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
+	music = "$MUSIC_PERMAP09"
+}
+
+map PG_MAP10 "High Security Area"
+{
+	next = "PG_MAP11"
+	sky1 = "PG_SKY1"
+	cluster = 31
+	par = 90
+	Author = "$WS_AU_SIEBEN"
+	music = "$MUSIC_PERMAP10"
+}
+
+map PG_MAP11 "Central Portal"
+{
+	next = "PG_MAP12"
+	sky1 = "PG_SKY1"
+	cluster = 31
+	par = 210
+	Author = "$WS_AU_MUSTAINE"
+	music = "$MUSIC_PERMAP11"
+}
+
+//E2 ---------------------------------------------------------------
+
+map PG_MAP12 "Ancient Gate"
+{
+	next = "PG_MAP13"
+	sky1 = "PG_SKY2"
+	cluster = 32
+	par = 150
+	Author = "$WS_AU_MUSTAIN_MUSTAINESR_SIEBEN"
+	music = "$MUSIC_PERMAP12"
+}
+
+map PG_MAP13 "Teleport Platform"
+{
+	next = "PG_MAP14"
+	sky1 = "PG_SKY2"
+	cluster = 32
+	par = 150
+	Author = "$WS_AU_MUSTAIN_MCCANDLISH"
+	music = "$MUSIC_PERMAP13"
+}
+
+map PG_MAP14 "Transfer Locking Area"
+{
+	next = "PG_MAP15"
+	sky1 = "PG_SKY2"
+	cluster = 32
+	par = 150
+	Author = "$WS_AU_SIEBEN"
+	music = "$MUSIC_PERMAP14"
+}
+
+map PG_MAP15 "The Old Fortress"
+{
+	next = "PG_MAP16"
+	secretnext = "PG_MAP31"
+	sky1 = "PG_SKY2"
+	cluster = 32
+	par = 210
+	Author = "$WS_AU_MUSTAIN_MCCANDLISH"
+	music = "$MUSIC_PERMAP15"
+}
+
+map PG_MAP16 "The Alien Shrine"
+{
+	next = "PG_MAP17"
+	sky1 = "PG_SKY2"
+	cluster = 32
+	par = 150
+	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
+	music = "$MUSIC_PERMAP16"
+}
+
+map PG_MAP17 "Interdimensional Control"
+{
+	next = "PG_MAP18"
+	sky1 = "PG_SKY2"
+	cluster = 32
+	par = 420
+	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
+	music = "$MUSIC_PERMAP17"
+}
+
+map PG_MAP18 "Computer Center"
+{
+	next = "PG_MAP19"
+	sky1 = "PG_SKY2"
+	cluster = 32
+	par = 150
+	Author = "$WS_AU_MUSTAINE"
+	music = "$MUSIC_PERMAP18"
+}
+
+map PG_MAP19 "Closer to Hell"
+{
+	next = "PG_MAP20"
+	sky1 = "PG_SKY2"
+	cluster = 32
+	par = 210
+	Author = "$WS_AU_SIEBEN"
+	music = "$MUSIC_PERMAP19"
+}
+
+map PG_MAP20 "The Last Stand"
+{
+	next = "PG_MAP21"
+	sky1 = "PG_SKY2"
+	cluster = 32
+	par = 150
+	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
+	music = "$MUSIC_PERMAP20"
+}
+
+//E3 ---------------------------------------------------------------
+
+map PG_MAP21 "Perdition's Gate"
+{
+	next = "PG_MAP22"
+	sky1 = "PG_SKY3"
+	cluster = 33
+	par = 240
+	Author = "$WS_AU_SIEBEN"
+	music = "$MUSIC_PERMAP21"
+}
+
+map PG_MAP22 "The Deepest Reaches"
+{
+	next = "PG_MAP23"
+	sky1 = "PG_SKY3"
+	cluster = 33
+	par = 150
+	Author = "$WS_AU_MCCANDLISH"
+	music = "$MUSIC_PERMAP22"
+}
+
+map PG_MAP23 "Hell's Gymnasium"
+{
+	next = "PG_MAP24"
+	sky1 = "PG_SKY3"
+	cluster = 33
+	par = 180
+	Author = "$WS_AU_SIEBEN"
+	music = "$MUSIC_PERMAP23"
+}
+
+map PG_MAP24 "BloodStone Gardens"
+{
+	next = "PG_MAP25"
+	sky1 = "PG_SKY3"
+	cluster = 33
+	par = 150
+	Author = "$WS_AU_MCCANDLISH"
+	music = "$MUSIC_PERMAP24"
+}
+
+map PG_MAP25 "Demon's Playground"
+{
+	next = "PG_MAP26"
+	sky1 = "PG_SKY3"
+	cluster = 33
+	par = 150
+	Author = "$WS_AU_MCCANDLISH"
+	music = "$MUSIC_PERMAP25"
+}
+
+map PG_MAP26 "The Bleeding Tunnels"
+{
+	next = "PG_MAP27"
+	sky1 = "PG_SKY3"
+	cluster = 33
+	par = 300
+	Author = "$WS_AU_UNKNOWN"
+	music = "$MUSIC_PERMAP26"
+}
+
+map PG_MAP27 "Devil's Masterpiece"
+{
+	next = "PG_MAP28"
+	sky1 = "PG_SKY3"
+	cluster = 33
+	par = 330
+	Author = "$WS_AU_SIEBEN"
+	music = "$MUSIC_PERMAP27"
+}
+
+map PG_MAP28 "High-Tech Hades"
+{
+	next = "PG_MAP29"
+	sky1 = "PG_SKY3"
+	cluster = 33
+	par = 420
+	Author = "$WS_AU_SIEBEN"
+	music = "$MUSIC_PERMAP28"
+}
+
+map PG_MAP29 "Bomb Facility"
+{
+	next = "PG_MAP30"
+	sky1 = "PG_SKY3"
+	cluster = 34
+	par = 300
+	Author = "$WS_AU_MUSTAINE"
+	music = "$MUSIC_PERMAP29"
+}
+
+map PG_MAP30 "Escape!"
+{
+	next = EndSequence, "PERInter_Cast"
+	secretnext = EndSequence, "PERInter_Cast"
+	sky1 = "PG_SKY3"
+	cluster = 35
+	par = 180
+	nointermission
+	nosoundclipping
+	allowmonstertelefrags
+	Author = "$WS_AU_MUSTAINE"
+	music = "$MUSIC_PERMAP30"
+}
+
+//Secret Levels ----------------------------------------------------
+
+map PG_MAP31 "Living Rock"
+{
+	next = "PG_MAP16"
+	secretnext = "PG_MAP32"
+	sky1 = "PG_SKY3"
+	cluster = 36
+	par = 120
+	Author = "$WS_AU_MCCANDLISH"
+	music = "$MUSIC_PERMAP31"
+}
+
+map PG_MAP32 "Radioactive Sea"
+{
+	next = "PG_MAP16"
+	sky1 = "PG_SKY3"
+	cluster = 37
+	par = 30
+	nointermission
+	nosoundclipping
+	Author = "$WS_AU_MCCANDLISH"
+	music = "$MUSIC_PERMAP32"
+}
+
+cluster 30
+{
+	flat = "$htpflat6"
+	music = "$MUSIC_PERTEXT"
+	exittext = lookup, "PGTEXT1"
+}
+
+cluster 31
+{
+	flat = "$tma9"
+	music = "$MUSIC_PERTEXT"
+	exittext = lookup, "PGTEXT2"
+}
+
+cluster 32
+{
+	flat = "$htpflat7"
+	music = "$MUSIC_PERTEXT"
+	exittext = lookup, "PGTEXT3"
+}
+
+cluster 33
+{
+	flat = "$avrockrr"
+	music = "$MUSIC_PERTEXT"
+	exittext = lookup, "PGTEXT4"
+}
+
+cluster 34
+{
+	flat = "$avmetfww"
+	music = "$MUSIC_PERTEXT"
+	exittext = lookup, "PGTEXT5"
+}
+
+cluster 35
+{
+	pic = "perbos2"
+	music = "$MUSIC_PERTEXT"
+	exittext = lookup, "PGTEXT6"
+}
+
+cluster 36
+{
+	flat = "$avflt1"
+	music = "$MUSIC_PERTEXT"
+	exittext = lookup, "PGTEXT7"
+}
+
+cluster 37
+{
+	flat = "$avbw4"
+	music = "$MUSIC_PERTEXT"
+	exittext = lookup, "PGTEXT8"
+}
+
+Intermission PERInter_Cast
+{
+	Image
+	{
+		Background = "perboss"
+		music = "$MUSIC_PEREND"
+		Time = -1
+	}
+	Link = Perditioncast
+}
+
+Intermission Perditioncast
+{
+	Cast
+	{
+		CastClass = "Zombieman"
+		CastName = "$CC_ZOMBIE"
+		AttackSound = "Missile", 1, "grunt/attack"
+	}
+	Cast
+	{
+		CastClass = "ShotgunGuy"
+		CastName = "$CC_SHOTGUN"
+		AttackSound = "Missile", 1, "shotguy/attack"
+	}
+	Cast
+	{
+		CastClass = "DoomImp"
+		CastName = "$CC_IMP"
+		AttackSound = "Missile", 2, "imp/attack"
+	}
+	Cast
+	{
+		CastClass = "ChaingunGuy"
+		CastName = "$CC_HEAVY"
+		AttackSound = "Missile", 1, "chainguy/attack"
+		AttackSound = "Missile", 2, "chainguy/attack"
+		AttackSound = "Missile", 3, "chainguy/attack"
+	}
+	Cast
+	{
+		CastClass = "Demon"
+		CastName = "$CC_DEMON"
+		AttackSound = "Melee", 1, "demon/melee"
+	}
+	Cast
+	{
+		CastClass = "DCCT_Spectre"
+		CastName = "Spectre"
+		AttackSound = "Melee", 1, "demon/melee"
+	}
+	Cast
+	{
+		CastClass = "LostSoul"
+		CastName = "$CC_LOST"
+		AttackSound = "Missile", 1, "skull/melee"
+	}
+	Cast
+	{
+		CastClass = "Cacodemon"
+		CastName = "$CC_CACO"
+		AttackSound = "Missile", 1, "caco/attack"
+	}
+	Cast
+	{
+		CastClass = "HellKnight"
+		CastName = "$CC_HELL"
+		AttackSound = "Missile", 1, "baron/attack"
+	}
+	Cast
+	{
+		CastClass = "BaronOfHell"
+		CastName = "$CC_BARON"
+		AttackSound = "Missile", 1, "baron/attack"
+	}
+		Cast
+	{
+		CastClass = "Arachnotron"
+		CastName = "$CC_ARACH"
+		AttackSound = "Missile", 1, "baby/attack"
+	}
+	Cast
+	{
+		CastClass = "PainElemental"
+		CastName = "$CC_PAIN"
+		AttackSound = "Missile", 2, "skull/melee"
+	}
+	Cast
+	{
+		CastClass = "Revenant"
+		CastName = "$CC_REVEN"
+		AttackSound = "Missile", 1, "skeleton/attack"
+		AttackSound = "Melee", 1, "skeleton/swing"
+		AttackSound = "Melee", 3, "skeleton/melee"
+	}
+	Cast
+	{
+		CastClass = "Fatso"
+		CastName = "$CC_MANCU"
+		AttackSound = "Missile", 1, "fatso/attack"
+		AttackSound = "Missile", 4, "fatso/attack"
+		AttackSound = "Missile", 7, "fatso/attack"
+	}
+	Cast
+	{
+		CastClass = "Archvile"
+		CastName = "$CC_ARCH"
+		AttackSound = "Missile", 1, "vile/start"
+	}
+	Cast
+	{
+		CastClass = "SpiderMastermind"
+		CastName = "$CC_SPIDER"
+		AttackSound = "Missile", 1, "spider/attack"
+		AttackSound = "Missile", 2, "spider/attack"
+	}
+	Cast
+	{
+		CastClass = "Cyberdemon"
+		CastName = "$CC_CYBER"
+		AttackSound = "Missile", 1, "weapons/rocklf"
+		AttackSound = "Missile", 3, "weapons/rocklf"
+		AttackSound = "Missile", 5, "weapons/rocklf"
+	}
+	Cast
+	{
+		CastClass = "DoomPlayer"
+		CastName = "Our Hero"
+		AttackSound = "Missile", 0, "weapons/sshotf"
+	}
+	
+	Wiper {} 
+	Link = PerditionCredits
+}
+
+Intermission PerditionCredits
+{
+	Image 
+	{
+		Background = "D2CRED"		
+	}
+	Wiper {} 
+	Link = Perditiontittle
+}
+
+Intermission Perditiontittle
+{
+	Image 
+	{
+		Background = "PGTITTLE"		
+	}
+}

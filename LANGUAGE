@@ -1,0 +1,148 @@
+[enu default]
+
+//	Perditions Gate
+WS_AU_MUSTAIN_MUSTAINESR = "Tom & Bob Mustaine";
+WS_AU_MUSTAIN_SIEBEN = "Tom Mustaine & Jimmy Sieben";
+WS_AU_MUSTAIN_MUSTAINESR_SIEBEN = "Tom & Bob Mustaine, Jimmy Sieben";
+WS_AU_MUSTAINESR = "Bob Mustaine";
+WS_AU_MCCANDLISH = "Mackey McCandlish";
+WS_AU_MUSTAIN_MCCANDLISH = "Tom Mustaine & Mackey McCandlish";
+
+//	AUTHOR UNKNOWN
+WS_AU_UNKNOWN = "???";
+
+
+MUSIC_PERINTER = "INTERG";
+MUSIC_H2PINTER = "INTERH";
+MUSIC_PERTEXT = "READPER";
+MUSIC_PEREND = "SUBTOX";
+
+MUSIC_PERMAP01 = "TIME";
+MUSIC_PERMAP02 = "OMINOS";
+MUSIC_PERMAP03 = "PEAMKR";
+MUSIC_PERMAP04 = "STRDRK";
+MUSIC_PERMAP05 = "HSEPWR";
+MUSIC_PERMAP06 = "SUBTOX";
+MUSIC_PERMAP07 = "LIQUID";
+MUSIC_PERMAP08 = "FSHFLD";
+MUSIC_PERMAP09 = "RBYSUT";
+MUSIC_PERMAP10 = "PLUCK";
+MUSIC_PERMAP11 = "NASTY";
+MUSIC_PERMAP12 = "CRUISN";
+MUSIC_PERMAP13 = "CTRLCV";
+MUSIC_PERMAP14 = "FSHFLD";
+MUSIC_PERMAP15 = "RISASH";
+MUSIC_PERMAP16 = "EVLOPE";
+MUSIC_PERMAP17 = "PLUCK";
+MUSIC_PERMAP18 = "NASTY";
+MUSIC_PERMAP19 = "PEAMKR";
+MUSIC_PERMAP20 = "HEDSHO";
+MUSIC_PERMAP21 = "RBYSUT";
+MUSIC_PERMAP22 = "THUMPR";
+MUSIC_PERMAP23 = "LIQUID";
+MUSIC_PERMAP24 = "PLUCK";
+MUSIC_PERMAP25 = "TOOTH";
+MUSIC_PERMAP26 = "HSEPWR";
+MUSIC_PERMAP27 = "JAVILN";
+MUSIC_PERMAP28 = "NASTY";
+MUSIC_PERMAP29 = "FSHFLD";
+MUSIC_PERMAP30 = "BOMRUS";
+MUSIC_PERMAP31 = "SUBTOX";
+MUSIC_PERMAP32 = "STRDRK";
+
+PGTEXT1 = "You entered the Main Gate expecting the\n"
+		  "worst, and the worst has happened. Once\n"
+		  "again the demon hordes have invaded and\n"
+		  "plan to finish what they started years\n"
+		  "ago.\n\n The entire facility has just gone\n"
+		  "into lockdown, sealing it off from the\n"
+		  "outside world. This keeps in the demons,\n"
+		  "but effectively cuts you and the other\n"
+		  "survivors off from any kind of help.\n"
+		  "You'll need to make your way deeper\n"
+		  "into the UAC Headquarters and find the\n"
+		  "facility's marine strike force team.\n"
+		  "Once you've joined up with them you'll\n"
+		  "have a real chance to seal the Central\n"
+		  "Portal and hopefully prevent another\n"
+		  "full blown invasion.";
+		  
+PGTEXT2 = "By the time you reach the Central\n"
+		  "Portal, you find yourself as the only\n"
+		  "survivor. While the marines were\n"
+		  "successful in holding off the main\n"
+		  "demon invasion force, they lost their\n"
+		  "lives doing so.\n\n With no one left to\n"
+		  "defend the facility, the demons could\n"
+		  "simply send a second invasion force\n"
+		  "and finish the job. The only real\n"
+		  "chance to stop them would be to enter\n"
+		  "the portal and stop them at the source.\n\n"
+		  "You step into the portal and see what\n"
+		  "appears to be a structure floating in\n"
+		  "space. The portal's now closed, so\n"
+		  "there's no way back now. Time to find\n"
+		  "out where you are...";
+		  
+PGTEXT3 = "From the computer terminals you've seen\n"
+		  "throughout that strage world, you learn\n"
+		  "a great deal from them. That the\n"
+		  "technology there was made by a race\n"
+		  "known as the 'Overseers' who had died\n"
+		  "out eons ago in a war with the demons.\n"
+		  "That the demons had stolen the\n"
+		  "Overseers technology for the purpose of\n"
+		  "exterminating all life in the universe.\n"
+		  "That since they've failed to take\n"
+		  "control of Earth, they plan to use a\n"
+		  "planet killing bomb so that the human\n"
+		  "race will no longer pose a threat to\n"
+		  "them.\n\n Your now in Hell itself and must\n"
+		  "find the bomb facility in order to\n"
+		  "prevent them from destroying Earth.";
+		  
+PGTEXT4 = "The Bomb Facility at long last.\n\n You can't\n"
+		  "waste any time in finding the control\n"
+		  "room, because once your there, you'll\n"
+		  "need to overide the main portal and set\n"
+		  "the the planet killing bomb to go off.\n\n"
+
+		  "There maybe no way out of this, but at\n"
+		  "least Hell will be destroyed.";
+		  
+PGTEXT5 = "You've started the 2 minute final\n"
+		  "countdown. You see no exit or way\n"
+		  "out, leaving you to simply sit down\n"
+		  "and await your impending death.\n\n"
+
+		  "Suddenly the door behind you opens\n"
+		  "and you waste no time making a break\n"
+		  "for it. This may be your last chance\n"
+		  "for survival, so don't waste a second!";
+		  
+PGTEXT6 = "As the bomb facility crumbles around\n"
+		  "you, you notice one final portal has\n"
+		  "been left active and you jump through\n"
+		  "it. You arrive on an unknown world as\n"
+		  "you see the last visages of Hell being\n"
+		  "vaporized in a fiery blast. But the\n"
+		  "portal was destroyed too, so you have\n"
+		  "no way home.\n\n"
+
+		  "Even though your stuck here, you still\n"
+		  "feel proud of yourself for saving the\n"
+		  "universe from the demon threat.\n"
+		  "Besides, there are probably other\n"
+		  "Overseer portals that are still active.\n"
+		  "With that in mind, you can't help but\n"
+		  "smile as you begin the journey home...";
+		  
+PGTEXT7 = "You've stumbled upon a world of Living\n"
+		  "Rock, and it's under attack by Hell's\n"
+		  "forces! Travel to far end of this world\n"
+		  "and stop this attack by the hellspawn!";
+		  
+PGTEXT8 = "Good work! The hellspawn have stopped\n"
+		  "their invasion of this world and now\n"
+		  "they're after you! Make a break for the\n"
+		  "portal and hope that they follow.";

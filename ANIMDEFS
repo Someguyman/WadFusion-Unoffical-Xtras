@@ -1,0 +1,60 @@
+
+switch doom 1 SW1LIPG on sound switches/normbutn pic SW2LIPG tics 0
+switch doom 1 SW2LIPG on sound switches/normbutn pic SW1LIPG tics 0
+switch doom 1 SW1PANPG on sound switches/normbutn pic SW2PANPG tics 0
+switch doom 1 SW1PGSTR on sound switches/normbutn pic SW2PGSTR tics 0
+switch doom 1 SW2PGSTR on sound switches/normbutn pic SW1PGSTR tics 0
+switch doom 1 SW1PGTEK on sound switches/normbutn pic SW2PGTEK tics 0
+switch doom 1 SW2PGTEK on sound switches/normbutn pic SW1PGTEK tics 0
+
+switch doom 1 SW1HOTH2P on sound switches/normbutn pic SW2HOTH2P tics 0
+switch doom 1 SW2HOTH2P on sound switches/normbutn pic SW1HOTH2P tics 0
+
+switch doom 1 SW1CMTH2P on sound switches/normbutn pic SW2CMTH2P tics 0
+switch doom 1 SW2CMTH2P on sound switches/normbutn pic SW1CMTH2P tics 0
+
+switch doom 1 SW1BLUEH2P on sound switches/normbutn pic SW2BLUEH2P tics 0
+switch doom 1 SW2BLUEH2P on sound switches/normbutn pic SW1BLUEH2P tics 0
+
+switch doom 1 SW1SATYRH2P on sound switches/normbutn pic SW2SATYRH2P tics 0
+switch doom 1 SW2SATYRH2P on sound switches/normbutn pic SW1SATYRH2P tics 0
+
+switch doom 1 SW1LIONH2P on sound switches/normbutn pic SW2LIONH2P tics 0
+switch doom 1 SW2LIONH2P on sound switches/normbutn pic SW1LIONH2P tics 0
+
+switch doom 1 SW1GARGH2P on sound switches/normbutn pic SW2GARGH2P tics 0
+switch doom 1 SW2GARGH2P on sound switches/normbutn pic SW1GARGH2P tics 0
+
+texture optional GWFALL1
+pic GWFALL1 tics 8
+pic GWFALL2 tics 8
+pic GWFALL3 tics 8
+pic GWFALL4 tics 8
+
+texture optional GWFALL2
+pic GWFALL2 tics 8
+pic GWFALL3 tics 8
+pic GWFALL4 tics 8
+pic GWFALL1 tics 8
+
+texture optional GWFALL3
+pic GWFALL3 tics 8
+pic GWFALL4 tics 8
+pic GWFALL1 tics 8
+pic GWFALL2 tics 8
+
+texture optional GWFALL4
+pic GWFALL4 tics 8
+pic GWFALL1 tics 8
+pic GWFALL2 tics 8
+pic GWFALL3 tics 8
+
+Texture optional PLANETPG
+pic planet01 tics 6
+pic planet02 tics 6
+pic planet03 tics 6
+pic planet04 tics 6
+pic planet05 tics 6
+pic planet06 tics 6
+pic planet07 tics 6
+pic planet08 tics 6

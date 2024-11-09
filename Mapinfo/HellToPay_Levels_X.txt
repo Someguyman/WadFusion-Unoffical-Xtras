@@ -1,0 +1,429 @@
+
+defaultmap
+{
+	nojump
+	nocrouch
+	enterpic = "H2PINTER"
+	exitpic = "H2PINTER"
+	InterMusic = "$MUSIC_H2PINTER"
+}
+
+map HP_MAP01 "The Holding Cells"
+{
+	next = "HP_MAP02"
+	sky1 = "H2P_SKY1"
+	par = 30
+	music = "$MUSIC_PERMAP15"
+	//exitpic = "H2PINT01"
+}
+
+map HP_MAP02 "The Slave Quarters"
+{
+	next = "HP_MAP03"
+	sky1 = "H2P_SKY1"
+	par = 90
+	music = "$MUSIC_PERMAP02"
+	enterpic = "H2PINT01"
+	//exitpic = "H2PINT02"
+}
+
+map HP_MAP03 "The Mines"
+{
+	next = "HP_MAP04"
+	sky1 = "H2P_SKY1"
+	par = 120
+	music = "$MUSIC_PERMAP10"
+	enterpic = "H2PINT02"
+	//exitpic = "H2PINT03"
+}
+
+map HP_MAP04 "Nukage Processing"
+{
+	next = "HP_MAP05"
+	sky1 = "H2P_SKY1"
+	par = 120
+	music = "$MUSIC_PERMAP07"
+	enterpic = "H2PINT03"
+	//exitpic = "H2PINT04"
+}
+
+map HP_MAP05 "Trustee Country"
+{
+	next = "HP_MAP06"
+	sky1 = "H2P_SKY1"
+	par = 90
+	music = "$MUSIC_PERMAP22"
+	enterpic = "H2PINT04"
+	//exitpic = "H2PINT05"
+}
+
+map HP_MAP06 "Command And Control"
+{
+	next = "HP_MAP07"
+	sky1 = "H2P_SKY1"
+	par = 150
+	sucktime = 1
+	music = "$MUSIC_PERMAP20"
+	enterpic = "H2PINT05"
+	//exitpic = "H2PINT06"
+}
+
+map HP_MAP07 "The Industrial Park"
+{
+	next = "HP_MAP08"
+	sky1 = "H2P_SKY1"
+	par = 120
+	map07special
+	music = "$MUSIC_PERMAP12"
+	enterpic = "H2PINT06"
+	//exitpic = "H2PINT07"
+}
+
+map HP_MAP08 "The Warehouse"
+{
+	next = "HP_MAP09"
+	sky1 = "H2P_SKY1"
+	par = 120
+	music = "$MUSIC_PERMAP16"
+	enterpic = "H2PINT07"
+	//exitpic = "H2PINT08"
+}
+
+map HP_MAP09 "The Military Complex"
+{
+	next = "HP_MAP10"
+	sky1 = "H2P_SKY1"
+	par = 270
+	music = "$MUSIC_PERMAP25"
+	enterpic = "H2PINT08"
+	//exitpic = "H2PINT09"
+}
+
+map HP_MAP10 "The Liquid Metal Labs"
+{
+	next = "HP_MAP11"
+	sky1 = "H2P_SKY1"
+	par = 90
+	music = "$MUSIC_PERMAP14"
+	enterpic = "H2PINT09"
+	//exitpic = "H2PINT10"
+}
+
+map HP_MAP11 "The Spaceport"
+{
+	next = "HP_MAP12"
+	sky1 = "H2P_SKY1"
+	par = 210
+	music = "$MUSIC_PERMAP27"
+	enterpic = "H2PINT10"
+	//exitpic = "H2PINT11"
+}
+
+map HP_MAP12 "The Cargo Hold"
+{
+	next = "HP_MAP13"
+	sky1 = "H2P_SKY2"
+	par = 150
+	music = "$MUSIC_PERMAP03"
+	enterpic = "H2PINT11"
+	//exitpic = "H2PINT12"
+}
+
+map HP_MAP13 "The Engine Room"
+{
+	next = "HP_MAP14"
+	sky1 = "H2P_SKY2"
+	par = 150
+	music = "$MUSIC_PERMAP05"
+	enterpic = "H2PINT12"
+	//exitpic = "H2PINT13"
+}
+
+map HP_MAP14 "The Habitat Deck"
+{
+	next = "HP_MAP15"
+	sky1 = "H2P_SKY2"
+	par = 150
+	music = "$MUSIC_PERMAP11"
+	enterpic = "H2PINT13"
+	//exitpic = "H2PINT14"
+}
+
+map HP_MAP15 "Captain Bellows"
+{
+	next = "HP_MAP16"
+	sky1 = "H2P_SKY2"
+	par = 210
+	music = "$MUSIC_PERMAP23"
+	enterpic = "H2PINT14"
+	//exitpic = "H2PINT15"
+}
+
+map HP_MAP16 "Secret Facility" //Map 31
+{
+	next = "HP_MAP17"
+	sky1 = "H2P_SKY3"
+	par = 120
+	music = "$MUSIC_PERMAP31"
+	enterpic = "H2PINT15"
+	//exitpic = "H2PINT16"
+}
+
+map HP_MAP17 "Self-Destruct" //Map 32
+{
+	next = "HP_MAP18"
+	sky1 = "H2P_SKY3"
+	par = 30
+	music = "$MUSIC_PERMAP30"
+	enterpic = "H2PINT16"
+	//exitpic = "H2PINT17"
+}
+
+map HP_MAP18 "Io Base" //Map 16
+{
+	next = "HP_MAP19"
+	sky1 = "H2P_SKY2"
+	par = 150
+	music = "$MUSIC_PERMAP14"
+	enterpic = "H2PINT17"
+	//exitpic = "H2PINT18"
+}
+
+map HP_MAP19 "Hot As Hell" //Map 17
+{
+	next = "HP_MAP20"
+	sky1 = "H2P_SKY2"
+	par = 420
+	music = "$MUSIC_PERMAP13"
+	enterpic = "H2PINT18"
+	//exitpic = "H2PINT19"
+}
+
+map HP_MAP20 "Big Crane" //Map 18
+{
+	next = "HP_MAP21"
+	sky1 = "H2P_SKY2"
+	par = 150
+	music = "$MUSIC_PERMAP02"
+	enterpic = "H2PINT19"
+	//exitpic = "H2PINT20"
+}
+
+map HP_MAP21 "Demon Chow" //Map 19
+{
+	next = "HP_MAP22"
+	sky1 = "H2P_SKY2"
+	par = 210
+	music = "$MUSIC_PERMAP17"
+	enterpic = "H2PINT20"
+	//exitpic = "H2PINT21"
+}
+
+map HP_MAP22 "Master Computer" //Map 20
+{
+	next = "HP_MAP23"
+	sky1 = "H2P_SKY2"
+	par = 150
+	music = "$MUSIC_PERMAP27"
+	enterpic = "H2PINT21"
+	//exitpic = "H2PINT22"
+}
+
+map HP_MAP23 "Planet Hell" //Map 21
+{
+	next = "HP_MAP24"
+	sky1 = "H2P_SKY3"
+	par = 240
+	music = "$MUSIC_PERMAP09"
+	enterpic = "H2PINT22"
+	//exitpic = "H2PINT23"
+}
+
+map HP_MAP24 "Vile Temple" //Map 22
+{
+	next = "HP_MAP25"
+	sky1 = "H2P_SKY3"
+	par = 150
+	music = "$MUSIC_PERMAP04"
+	enterpic = "H2PINT23"
+	//exitpic = "H2PINT24"
+}
+
+map HP_MAP25 "Hell's Cavern" //Map 23
+{
+	next = "HP_MAP26"
+	sky1 = "H2P_SKY3"
+	par = 180
+	music = "$MUSIC_PERMAP19"
+	enterpic = "H2PINT24"
+	//exitpic = "H2PINT25"
+}
+
+map HP_MAP26 "Hell's Park" //Map 24
+{
+	next = "HP_MAP27"
+	sky1 = "H2P_SKY3"
+	par = 150
+	music = "$MUSIC_PERMAP23"
+	enterpic = "H2PINT25"
+	//exitpic = "H2PINT26"
+}
+
+map HP_MAP27 "Hell's Gauntlet" //Map 25
+{
+	next = "HP_MAP28"
+	sky1 = "H2P_SKY3"
+	par = 150
+	music = "$MUSIC_PERMAP27"
+	enterpic = "H2PINT26"
+	//exitpic = "H2PINT27"
+}
+
+map HP_MAP28 "Circle of Hell" //Map 26
+{
+	next = "HP_MAP29"
+	sky1 = "H2P_SKY3"
+	par = 300
+	music = "$MUSIC_PERMAP20"
+	enterpic = "H2PINT27"
+	//exitpic = "H2PINT28"
+}
+
+map HP_MAP29 "Hell Squared" //Map 27
+{
+	next = "HP_MAP30"
+	sky1 = "H2P_SKY3"
+	par = 330
+	music = "$MUSIC_PERMAP28"
+	enterpic = "H2PINT28"
+	//exitpic = "H2PINT29"
+}
+
+map HP_MAP30 "Neophyte Reception" //Map 28
+{
+	next = "HP_MAP31"
+	sky1 = "H2P_SKY3"
+	par = 420
+	music = "$MUSIC_PERMAP26"
+	enterpic = "H2PINT29"
+	//exitpic = "H2PINT30"
+}
+
+map HP_MAP31 "Initiation" //Map 29
+{
+	next = "HP_MAP32"
+	sky1 = "H2P_SKY3"
+	par = 300
+	music = "$MUSIC_PERMAP25"
+	enterpic = "H2PINT30"
+	//exitpic = "H2PINT31"
+}
+
+map HP_MAP32 "Sky High" //Map 30
+{
+	next = EndSequence, "H2PEnding"
+	sky1 = "H2P_SKY3"
+	par = 180
+	nointermission
+	nosoundclipping
+	allowmonstertelefrags
+	enterpic = "H2PINT31"
+	music = "$MUSIC_PERMAP22"
+}
+
+Intermission H2PEnding
+{
+	Image
+	{
+		// This is only here to initialize the background and the music
+		Background = "h2pbossb"
+		music = "$MUSIC_PERTEXT"
+		Time = -800
+	}
+	Wiper {} 
+	Link = H2PInter_Cast
+}
+
+Intermission H2PInter_Cast
+{
+	Image
+	{
+		// This is only here to initialize the background and the music
+		Background = "H2PEND"
+		music = "$MUSIC_PEREND"
+		Time = -1
+	}
+	Link = H2PCast
+}
+
+Intermission H2PCast
+{
+	Cast
+	{
+		CastClass = "H2P_MetalHellion"
+		CastName = "Metal Hellion"
+		AttackSound = "Missile", 2, "imp/attack"
+	}
+	Cast
+	{
+		CastClass = "H2P_MechaReaper"
+		CastName = "Mecha Reaper"
+		AttackSound = "Melee", 1, "H2pPinky/Attack"
+	}
+	Cast
+	{
+		CastClass = "H2P_StealthReaper"
+		CastName = "Stealth Reaper"
+		AttackSound = "Melee", 1, "H2pPinky/Attack"
+	}
+	Cast
+	{
+		CastClass = "H2P_LiquidMetalBlob2"
+		CastName = "Liquid Metal Blob"
+		AttackSound = "Missile", 1, "H2pSkull/Attack"
+	}
+	Cast
+	{
+		CastClass = "H2P_Watcher"
+		CastName = "Secuity Watcher"
+		AttackSound = "Missile", 1, "caco/attack"
+	}
+	Cast
+	{
+		CastClass = "H2P_HotLiquidMetal"
+		CastName = "Mass of Molten Metal"
+		AttackSound = "Missile", 2, "H2pSkull/Attack"
+	}
+	Cast
+	{
+		CastClass = "H2P_Sentry"
+		CastName = "Incendiary Sentry"
+		AttackSound = "Missile", 1, "fatso/attack"
+		AttackSound = "Missile", 4, "fatso/attack"
+		AttackSound = "Missile", 7, "fatso/attack"
+	}
+	Cast
+	{
+		CastClass = "DoomPlayer"
+		CastName = "Our Hero"
+		AttackSound = "Missile", 0, "weapons/sshotf"
+	}
+	
+	Wiper {} 
+	Link = HPtittle
+}
+
+Intermission HPtittle
+{
+	Image 
+	{
+		Background = "H2PTITLE"		
+	}
+}
+
+clusterdef 80
+{
+	//flat = "$RROCK03"
+	//music = "D_JP_WAS"
+	entertext = lookup, "P2_TEXT5"
+}

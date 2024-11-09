@@ -1,0 +1,453 @@
+
+defaultmap
+{
+	nojump
+	nocrouch
+	ExitPic = "FNTERPIC"
+	EnterPic = "FNTERPIC"
+	InterMusic = "F_INTER"
+}
+
+map FD_E1M1 "Outer Prison"
+{
+	levelnum = 1
+	next = "FD_E1M2"
+	secretnext = "FD_E1M9"
+	sky1 = "FDSKY1"
+	cluster = 81
+	par = 30
+	music = "F_E1M1"
+}
+
+map FD_E1M2 "Communications Center"
+{
+	levelnum = 2
+	next = "FD_E1M3"
+	secretnext = "FD_E1M9"
+	sky1 = "FDSKY1"
+	cluster = 81
+	par = 75
+	music = "F_E1M2"
+}
+
+map FD_E1M3 "Waste Disposal"
+{
+	levelnum = 3
+	next = "FD_E1M4"
+	secretnext = "FD_E1M9"
+	sky1 = "FDSKY1"
+	cluster = 81
+	par = 120
+	music = "F_E1M3"
+}
+
+map FD_E1M4 "Supply Depot"
+{
+	levelnum = 4
+	next = "FD_E1M5"
+	secretnext = "FD_E1M9"
+	sky1 = "FDSKY1"
+	cluster = 81
+	par = 90
+	music = "F_E1M4"
+}
+
+map FD_E1M5 "Armory"
+{
+	levelnum = 5
+	next = "FD_E1M6"
+	secretnext = "FD_E1M9"
+	sky1 = "FDSKY1"
+	cluster = 81
+	par = 165
+	music = "F_E1M5"
+}
+
+map FD_E1M6 "Training Facility"
+{
+	levelnum = 6
+	next = "FD_E1M7"
+	secretnext = "FD_E1M9"
+	sky1 = "FDSKY1"
+	cluster = 81
+	par = 180
+	music = "F_E1M6"
+}
+
+map FD_E1M7 "Xenobiotic Materials Lab"
+{
+	levelnum = 7
+	next = "FD_E1M8"
+	secretnext = "FD_E1M9"
+	sky1 = "FDSKY1"
+	cluster = 81
+	par = 180
+	music = "F_E1M7"
+}
+
+map FD_E1M8 "Outpost Quarry"
+{
+	levelnum = 8
+	next = "FD_E2M1"
+	secretnext = "FD_E1M9"
+	sky1 = "FDSKY1"
+	cluster = 81
+	par = 30
+	nointermission
+	nosoundclipping
+	baronspecial
+	specialaction_lowerfloor
+	music = "F_E1M8"
+}
+
+map FD_E1M9 "Nutrient Recycling"
+{
+	levelnum = 9
+	next = "FD_E1M4"
+	secretnext = "FD_E1M4"
+	sky1 = "FDSKY1"
+	cluster = 81
+	par = 165
+	music = "F_E1M9"
+}
+
+map FD_E2M1 "Elemental Gate"
+{
+	levelnum = 11
+	next = "FD_E2M2"
+	secretnext = "FD_E2M9"
+	sky1 = "FDSKY2"
+	cluster = 82
+	par = 90
+	music = "F_E2M1"
+}
+
+map FD_E2M2 "Shifter"
+{
+	levelnum = 12
+	next = "FD_E2M3"
+	secretnext = "FD_E2M9"
+	sky1 = "FDSKY2"
+	cluster = 82
+	par = 90
+	music = "F_E2M2"
+}
+
+map FD_E2M3 "Reclaimed Facilities"
+{
+	levelnum = 13
+	next = "FD_E2M4"
+	secretnext = "FD_E2M9"
+	sky1 = "FDSKY2"
+	cluster = 82
+	par = 90
+	music = "F_E2M3"	
+}
+
+map FD_E2M4 "Flooded Installation"
+{
+	levelnum = 14
+	next = "FD_E2M5"
+	secretnext = "FD_E2M9"
+	sky1 = "FDSKY2"
+	cluster = 82
+	par = 120
+	music = "F_E2M4"
+}
+
+map FD_E2M5 "Underground Hub"
+{
+	levelnum = 15
+	next = "FD_E2M6"
+	secretnext = "FD_E2M9"
+	sky1 = "FDSKY2"
+	cluster = 82
+	par = 90
+	music = "F_E2M5"
+}
+
+map FD_E2M6 "Hidden Sector"
+{
+	levelnum = 16
+	next = "FD_E2M7"
+	secretnext = "FD_E2M9"
+	sky1 = "FDSKY2"
+	cluster = 82
+	par = 360
+	music = "F_E2M6"
+}
+
+map FD_E2M7 "Control Complex"
+{
+	levelnum = 17
+	next = "FD_E2M8"
+	secretnext = "FD_E2M9"
+	sky1 = "FDSKY2"
+	cluster = 82
+	par = 240
+	music = "F_E2M7"
+}
+
+map FD_E2M8 "Containment Cell"
+{
+	levelnum = 18
+	next = "FD_E3M1"
+	secretnext = "FD_E2M9"
+	sky1 = "FDSKY2"
+	cluster = 82
+	par = 30
+	nointermission
+	nosoundclipping
+	cyberdemonspecial
+	specialaction_exitlevel
+	music = "F_E2M8"
+}
+
+map FD_E2M9 "Fortress 31"
+{
+	levelnum = 19
+	next = "FD_E2M6"
+	secretnext = "FD_E2M6"
+	sky1 = "FDSKY2"
+	cluster = 82
+	par = 170
+	music = "F_E2M9"
+}
+
+map FD_E3M1 "Land of the Lost"
+{
+	levelnum = 21
+	next = "FD_E3M2"
+	secretnext = "FD_E3M9"
+	sky1 = "FDSKY3"
+	cluster = 83
+	par = 90
+	music = "F_E3M1"
+}
+
+map FD_E3M2 "Geothermal Tunnels"
+{
+	levelnum = 22
+	next = "FD_E3M3"
+	secretnext = "FD_E3M9"
+	sky1 = "FDSKY3"
+	cluster = 83
+	par = 45
+	music = "F_E3M2"
+}
+
+map FD_E3M3 "Sacrificial Bastion"
+{
+	levelnum = 23
+	next = "FD_E3M4"
+	secretnext = "FD_E3M9"
+	sky1 = "FDSKY3"
+	cluster = 83
+	par = 90
+	music = "F_E3M3"
+}
+
+map FD_E3M4 "Oblation Temple"
+{
+	levelnum = 24
+	next = "FD_E3M5"
+	secretnext = "FD_E3M9"
+	sky1 = "FDSKY3"
+	cluster = 83
+	par = 150
+	music = "F_E3M4"
+}
+
+map FD_E3M5 "Infernal Hallows"
+{
+	levelnum = 25
+	next = "FD_E3M6"
+	secretnext = "FD_E3M9"
+	sky1 = "FDSKY3"
+	cluster = 83
+	par = 90
+	music = "F_E3M5"
+}
+
+map FD_E3M6 "Igneous Intrusion"
+{
+	levelnum = 26
+	next = "FD_E3M7"
+	secretnext = "FD_E3M9"
+	sky1 = "FDSKY3"
+	cluster = 83
+	par = 90
+	music = "F_E3M6"
+}
+
+map FD_E3M7 "No Regrets"
+{
+	levelnum = 27
+	next = "FD_E3M8"
+	secretnext = "FD_E3M9"
+	sky1 = "FDSKY3"
+	cluster = 83
+	par = 165
+	music = "F_E3M7"
+}
+
+map FD_E3M8 "Ancient Lair"
+{
+	levelnum = 28
+	next = "FD_E4M1"
+	secretnext = "FD_E3M9"
+	sky1 = "FDSKY3"
+	cluster = 83
+	par = 30
+	nointermission
+	nosoundclipping
+	spidermastermindspecial
+	specialaction_exitlevel
+	music = "F_E3M8"
+}
+
+map FD_E3M9 "Acquainted With Grief"
+{
+	levelnum = 29
+	next = "FD_E3M7"
+	secretnext = "FD_E3M7"
+	sky1 = "FDSKY3"
+	cluster = 83
+	par = 135
+	music = "F_E3M9"
+}
+
+map FD_E4M1 "Maintenance Area"
+{
+	levelnum = 31
+	next = "FD_E4M2"
+	secretnext = "FD_E4M9"
+	sky1 = "FDSKY4"
+	cluster = 84
+	music = "F_E4M1"
+	exitpic = "dnterpic"
+	enterpic = "dnterpic"
+    par = 90
+}
+
+map FD_E4M2 "Research Complex"
+{
+	levelnum = 32
+	next = "FD_E4M3"
+	secretnext = "FD_E4M9"
+	sky1 = "FDSKY4"
+	cluster = 84
+	music = "$MUSIC_E2M6"
+    par = 40
+}
+
+map FD_E4M3 "Central Computing"
+{
+	levelnum = 33
+	next = "FD_E4M4"
+	secretnext = "FD_E4M9"
+	sky1 = "FDSKY4"
+	cluster = 84
+	music = "F_E4M3"
+    par = 105
+}
+
+map FD_E4M4 "Hydroponic Facility"
+{
+	levelnum = 34
+	next = "FD_E4M5"
+	secretnext = "FD_E4M9"
+	sky1 = "FDSKY4"
+	cluster = 84
+	music = "$MUSIC_E1M5"
+    par = 80
+}
+
+map FD_E4M5 "Engineering Station"
+{
+	levelnum = 35
+	next = "FD_E4M6"
+	secretnext = "FD_E4M9"
+	sky1 = "FDSKY4"
+	cluster = 84
+	music = "$MUSIC_E1M2"
+    par = 100
+}
+
+map FD_E4M6 "Command Center"
+{
+	levelnum = 36
+	next = "FD_E4M7"
+	secretnext = "FD_E4M9"
+	sky1 = "FDSKY4"
+	cluster = 84
+	cyberdemonspecial
+	specialaction_opendoor
+	music = "$MUSIC_E1M6"
+    par = 150
+}
+
+map FD_E4M7 "Waste Treatment"
+{
+	levelnum = 37
+	next = "FD_E4M8"
+	secretnext = "FD_E4M9"
+	sky1 = "FDSKY4"
+	cluster = 84
+	music = "$MUSIC_E1M7"
+    par = 75
+}
+
+map FD_E4M8 "Launch Bay"
+{
+	levelnum = 38
+	next = "EndGame4"
+	secretnext = "FD_E4M9"
+	sky1 = "FDSKY4"
+	cluster = 84
+	nointermission
+	nosoundclipping
+	spidermastermindspecial
+	specialaction_lowerfloor
+	music = "F_E4M8"
+    par = 100
+}
+
+map FD_E4M9 "Operations"
+{
+	levelnum = 39
+	next = "FD_E4M3"
+	secretnext = "FD_E4M3"
+	sky1 = "FDSKY4"
+	cluster = 84
+	music = "$MUSIC_E2M2"
+    par = 90
+}
+
+cluster 81 
+{
+	flat = "$bgflatE1"
+	music = "F_VICTOR"
+	exittext = lookup, "F1_TEXT1"
+}
+
+cluster 82
+{
+	flat = "$bgflatE2"
+	music = "F_VICTOR"
+	exittext = lookup, "F1_TEXT2"
+}
+
+cluster 83
+{
+	flat = "$bgflatE3"
+	music = "F_VICTOR"
+	exittext = lookup, "F1_TEXT3"
+}
+
+cluster 84
+{
+	flat = "$bgflatE4"
+	music = "F_VICTOR"
+	exittext = lookup, "F1_TEXT4"
+}

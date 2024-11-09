@@ -1,0 +1,387 @@
+
+defaultmap
+{
+	nojump
+	nocrouch
+	ExitPic = "FNTERPIC"
+	EnterPic = "FNTERPIC"
+	InterMusic = "F_DM2INT"
+}
+
+map FD_MAP01 "Hydroelectric Plant"
+{
+	next = "FD_MAP02"
+	secretnext = "FD_MAP02"
+	sky1 = "FDSKY5"
+	cluster = 90
+	par = 30
+	music = "F_RUNNIN"
+}
+
+map FD_MAP02 "Filtration Tunnels"
+{
+	next = "FD_MAP03"
+	secretnext = "FD_MAP03"
+	sky1 = "FDSKY5"
+	cluster = 90
+	par = 90
+	music = "F_STALKS"
+}
+
+map FD_MAP03 "Crude Processing Center"
+{
+	next = "FD_MAP04"
+	secretnext = "FD_MAP04"
+	sky1 = "FDSKY5"
+	cluster = 90
+	par = 120
+	music = "F_COUNTD"
+}
+
+map FD_MAP04 "Containment Bay"
+{
+	next = "FD_MAP05"
+	secretnext = "FD_MAP05"
+	sky1 = "FDSKY5"
+	cluster = 90
+	par = 120
+	music = "F_BETWEE"
+}
+
+map FD_MAP05 "Sludge Burrow"
+{
+	next = "FD_MAP06"
+	secretnext = "FD_MAP06"
+	sky1 = "FDSKY5"
+	cluster = 90
+	par = 90
+	music = "F_DOOM"
+}
+
+map FD_MAP06 "Janus Terminal"
+{
+	next = "FD_MAP07"
+	secretnext = "FD_MAP07"
+	sky1 = "FDSKY5"
+	cluster = 90
+	par = 150
+	sucktime = 1
+	music = "F_THE_DA"
+}
+
+map FD_MAP07 "Logic Gate"
+{
+	next = "FD_MAP08"
+	secretnext = "FD_MAP08"
+	sky1 = "FDSKY5"
+	cluster = 91
+	par = 120
+	map07special
+	music = "F_SHAWN"
+}
+
+map FD_MAP08 "Astronomy Complex"
+{
+	next = "FD_MAP09"
+	secretnext = "FD_MAP09"
+	sky1 = "FDSKY5"
+	cluster = 91
+	par = 120
+	music = "F_DDTBLU"
+}
+
+map FD_MAP09 "Datacenter"
+{
+	next = "FD_MAP10"
+	secretnext = "FD_MAP10"
+	sky1 = "FDSKY5"
+	cluster = 91
+	par = 270
+	music = "F_IN_CIT"
+}
+
+map FD_MAP10 "Deadly Outlands"
+{
+	next = "FD_MAP11"
+	secretnext = "FD_MAP11"
+	sky1 = "FDSKY5"
+	cluster = 91
+	par = 90
+	music = "F_DEAD"
+}
+
+map FD_MAP11 "Dimensional Rift Observatory"
+{
+	next = "FD_MAP12"
+	secretnext = "FD_MAP12"
+	sky1 = "FDSKY5"
+	cluster = 91
+	par = 210
+	music = "F_STLKS2"
+}
+
+map FD_MAP12 "Railroads"
+{
+	next = "FD_MAP13"
+	secretnext = "FD_MAP13"
+	sky1 = "FDSKY6"
+	cluster = 92
+	par = 150
+	music = "F_THEDA2"
+}
+
+map FD_MAP13 "Station Earth"
+{
+	next = "FD_MAP14"
+	secretnext = "FD_MAP14"
+	sky1 = "FDSKY6"
+	cluster = 92
+	par = 150
+	music = "F_DOOM2"
+}
+
+map FD_MAP14 "Nuclear Zone"
+{
+	next = "FD_MAP15"
+	secretnext = "FD_MAP15"
+	sky1 = "FDSKY6"
+	cluster = 92
+	par = 150
+	music = "F_DDTBL2"
+}
+
+map FD_MAP15 "Hostile Takeover"
+{
+	next = "FD_MAP16"
+	secretnext = "FD_MAP31"
+	sky1 = "FDSKY6"
+	cluster = 92
+	par = 210
+	music = "F_RUNNI2"
+}
+
+map FD_MAP16 "Urban Jungle"
+{
+	next = "FD_MAP17"
+	secretnext = "FD_MAP17"
+	sky1 = "FDSKY6"
+	cluster = 92
+	par = 150
+	music = "F_DEAD2"
+}
+
+map FD_MAP17 "City Capitol"
+{
+	next = "FD_MAP18"
+	secretnext = "FD_MAP18"
+	sky1 = "FDSKY6"
+	cluster = 92
+	par = 420
+	music = "F_STLKS3"
+}
+
+map FD_MAP18 "Aquatics Lab"
+{
+	next = "FD_MAP19"
+	secretnext = "FD_MAP19"
+	sky1 = "FDSKY6"
+	cluster = 92
+	par = 150
+	music = "F_ROMERO"
+}
+
+map FD_MAP19 "Sewage Control"
+{
+	next = "FD_MAP20"
+	secretnext = "FD_MAP20"
+	sky1 = "FDSKY6"
+	cluster = 92
+	par = 210
+	music = "F_SHAWN2"	
+}
+
+map FD_MAP20 "Blood Ember Fortress"
+{
+	next = "FD_MAP21"
+	secretnext = "FD_MAP21"
+	sky1 = "FDSKY6"
+	cluster = 92
+	par = 150
+	music = "F_MESSAG"	
+}
+
+map FD_MAP21 "Under Realm"
+{
+	next = "FD_MAP22"
+	secretnext = "FD_MAP22"
+	sky1 = "FDSKY7"
+	cluster = 93
+	par = 240
+	music = "F_COUNT2"
+}
+
+map FD_MAP22 "Remanasu"
+{
+	next = "FD_MAP23"
+	secretnext = "FD_MAP23"
+	sky1 = "FDSKY7"
+	cluster = 93
+	par = 150
+	music = "F_DDTBL3"
+}
+
+map FD_MAP23 "Underground Facility"
+{
+	next = "FD_MAP24"
+	secretnext = "FD_MAP24"
+	sky1 = "FDSKY7"
+	cluster = 93
+	par = 180
+	music = "F_AMPIE"
+}
+
+map FD_MAP24 "Abandoned Teleporter Lab"
+{
+	next = "FD_MAP25"
+	secretnext = "FD_MAP25"
+	sky1 = "FDSKY7"
+	cluster = 93
+	par = 150
+	music = "F_THEDA3"
+}
+
+map FD_MAP25 "Persistence of Memory"
+{
+	next = "FD_MAP26"
+	secretnext = "FD_MAP26"
+	sky1 = "FDSKY7"
+	cluster = 93
+	par = 150
+	music = "F_ADRIAN"
+}
+
+map FD_MAP26 "Dark Depths"
+{
+	next = "FD_MAP27"
+	secretnext = "FD_MAP27"
+	sky1 = "FDSKY7"
+	cluster = 93
+	par = 300
+	music = "F_MESSG2"
+}
+
+map FD_MAP27 "Palace of Red"
+{
+	next = "FD_MAP28"
+	secretnext = "FD_MAP28"
+	sky1 = "FDSKY7"
+	cluster = 93
+	par = 330
+	music = "F_ROMER2"
+}
+
+map FD_MAP28 "Grim Redoubt"
+{
+	next = "FD_MAP29"
+	secretnext = "FD_MAP29"
+	sky1 = "FDSKY7"
+	cluster = 93
+	par = 420
+	music = "F_TENSE"
+}
+
+map FD_MAP29 "Melting Point"
+{
+	next = "FD_MAP30"
+	secretnext = "FD_MAP30"
+	sky1 = "FDSKY7"
+	cluster = 93
+	par = 300
+	music = "F_SHAWN3"
+}
+
+map FD_MAP30 "Jaws of Defeat"
+{
+	next = "EndGameC"
+	secretnext = "EndGameC"
+	sky1 = "FDSKY7"
+	cluster = 93
+	par = 180
+	nointermission
+	nosoundclipping
+	allowmonstertelefrags
+	music = "F_OPENIN"
+}
+
+map FD_MAP31 "Be Quiet"
+{
+	next = "FD_MAP16"
+	secretnext = "FD_MAP32"
+	sky1 = "FDSKY7"
+	cluster = 94
+	par = 120
+	music = "F_EVIL"
+}
+
+map FD_MAP32 "Not Sure"
+{
+	next = "FD_MAP16"
+	secretnext = "FD_MAP16"
+	sky1 = "FDSKY7"
+	cluster = 95
+	par = 30
+	music = "F_ULTIMA"
+}
+
+cluster 90
+{
+	flat = "$BGFLAT06"
+	exittext = lookup, "F2_TEXT1"
+	music = "F_READ_ME"
+}
+
+// DOOM II second cluster (up thru level 11)
+
+cluster 91
+{
+	flat = "$BGFLAT11"
+	exittext = lookup, "F2_TEXT2"
+	music = "F_READ_ME"
+
+}
+
+// DOOM II third cluster (up thru level 20)
+
+cluster 92
+{
+	flat = "$BGFLAT20"
+	exittext = lookup, "F2_TEXT3"
+	music = "F_READ_ME"
+}
+
+// DOOM II fourth cluster (up thru level 30)
+
+cluster 93
+{
+	flat = "$BGFLAT30"
+	exittext = lookup, "F2_TEXT4"
+	music = "F_READ_ME"
+}
+
+// DOOM II fifth cluster (level 31)
+
+cluster 94
+{
+	flat = "$BGFLAT15"
+	entertext = lookup, "F2_TEXT5"
+	music = "F_READ_ME"
+}
+
+// DOOM II sixth cluster (level 32)
+
+cluster 95
+{
+	flat = "$BGFLAT31"
+	entertext = lookup, "F2_TEXT6"
+	music = "F_READ_ME"
+}

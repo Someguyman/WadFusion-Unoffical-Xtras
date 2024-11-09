@@ -1,0 +1,3 @@
+#include TEXTURES.PerditionsGate
+#include TEXTURES.HellToPay
+#include TEXTURES.Freedoom
