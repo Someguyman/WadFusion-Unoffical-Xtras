@@ -349,6 +349,7 @@ cluster 30
 	exittext = lookup, "PGTEXT1"
 }
 
+/*
 cluster 31
 {
 	flat = "$tma9"
@@ -397,6 +398,7 @@ cluster 37
 	music = "$MUSIC_PERTEXT"
 	exittext = lookup, "PGTEXT8"
 }
+*/
 
 Intermission PERInter_Cast
 {

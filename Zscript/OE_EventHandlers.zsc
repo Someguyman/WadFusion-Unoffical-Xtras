@@ -19,7 +19,6 @@ class DCX_UOEventHandler : EventHandler
 			Level.ReplaceTextures("SLADRIP3", "PLANETPG", 0);
 			Level.ReplaceTextures("SW1PANEL", "SW1PANPG", 0);
 			Level.ReplaceTextures("SW2PANEL", "SW2PANPG", 0);
-			//Level.ReplaceTextures("SFLR7_1", "pgsf7_1", 0);
 			Level.ReplaceTextures("WFALL1", "GWFALL1", 0);
             Level.ReplaceTextures("WFALL2", "GWFALL2", 0);
             Level.ReplaceTextures("WFALL3", "GWFALL3", 0);

@@ -11,6 +11,26 @@ WS_AU_MUSTAIN_MCCANDLISH = "Tom Mustaine & Mackey McCandlish";
 //	AUTHOR UNKNOWN
 WS_AU_UNKNOWN = "???";
 
+FREED1_EP01 = "\c[DARK RED]Outpost Outbreak";
+FREED1_EP02 = "\c[DARK RED]Military Labs";
+FREED1_EP03 = "\c[DARK RED]Event Horizon";
+FREED1_EP04 = "\c[DARK RED]Double Impact";
+
+FREED2_EP01 = "\c[DARK RED]Corrupted Complex";
+FREED2_EP02 = "\c[DARK RED]Desolate Detroit";
+FREED2_EP03 = "\c[DARK RED]Operation On The Offense";
+
+LOSTE_EP01 = "\c[Green]Massacre on Callisto";
+LOSTE_EP02 = "\c[Green]The Killing Fields of Io";
+LOSTE_EP03 = "\c[Green]Hell's Gate - The Red Spot";
+
+PERD_G_EP1 = "\c[RED]Earth Gate";
+PERD_G_EP2 = "\c[RED]World of the Ancients";
+PERD_G_EP3 = "\c[RED]Planet Hell";
+
+HELL2P_EP1 = "\c[Fire]The Rebellion";
+HELL2P_EP2 = "\c[Fire]Planetary Voyage";
+HELL2P_EP3 = "\c[Fire]Return To Planet Hell";
 
 MUSIC_PERINTER = "INTERG";
 MUSIC_H2PINTER = "INTERH";

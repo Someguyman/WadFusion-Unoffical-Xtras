@@ -14,7 +14,7 @@ map LE_E1M1 "UAC Spaceport"
 	next = "LE_E1M2"
 	sky1 = "LED_SKY1"
 	par = 30
-	Music = "$MUSIC_TNTOLD01"
+	Music = "T_RUNNIN"
 }
 
 map LE_E1M2 "Fusion Power Plant"
@@ -58,7 +58,7 @@ map LE_E1M6 "Halls of Injustice"
 	levelnum = 6
 	next = "LE_E1M7"
 	sky1 = "LED_SKY1"
-	Music = "$MUSIC_TNTOLD05"
+	Music = "T_THE_DA"
 	par = 180
 }
 
@@ -77,7 +77,7 @@ map LE_E1M8 "Callisto Consecration"
 	next = "LE_E2M1"
 	sky1 = "LED_SKY1"
 	par = 30
-	music = "$MUSIC_TNTOLD12"
+	music = "T_MESSAG"
 	nointermission
 	nosoundclipping
 	baronspecial
@@ -139,7 +139,7 @@ map LE_E2M6 "Military Garrison"
 	next = "LE_E2M7"
 	sky1 = "LED_SKY2"
 	par = 360
-	music = "$MUSIC_TNTOLD14"
+	music = "T_EVIL"
 }
 
 map LE_E2M7 "The Draining Pit"
