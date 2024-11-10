@@ -34,8 +34,8 @@ class DCX_UOEventHandler : EventHandler
             Level.ReplaceTextures("BRNPOIS", "BRNPOIS1", 0);
             Level.ReplaceTextures("NUKEPOIS", "NUKPOIS1", 0);
 
-            Level.ReplaceTextures("SW1BRN1", "SW1BRWN1", 0);
-            Level.ReplaceTextures("SW2BRN1", "SW2BRWN1", 0);
+            Level.ReplaceTextures("SW1BRN1", "SW1BRN1A", 0);
+            Level.ReplaceTextures("SW2BRN1", "SW2BRN1A", 0);
 			
 			Level.ReplaceTextures("SKY1", "FDSKY1", 0);
 			Level.ReplaceTextures("SKY2", "FDSKY2", 0);
@@ -74,8 +74,8 @@ class DCX_UOEventHandler : EventHandler
             Level.ReplaceTextures("BRNPOIS", "BRNPOIS1", 0);
             Level.ReplaceTextures("NUKEPOIS", "NUKPOIS1", 0);
 
-            Level.ReplaceTextures("SW1BRN1", "SW1BRWN1", 0);
-            Level.ReplaceTextures("SW2BRN1", "SW2BRWN1", 0);
+            Level.ReplaceTextures("SW1BRN1", "SW1BRN1A", 0);
+            Level.ReplaceTextures("SW2BRN1", "SW2BRN1A", 0);
 		}
 		
 		if ( mapPrefix == "hp_" )

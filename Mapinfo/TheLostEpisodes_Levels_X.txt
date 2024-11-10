@@ -74,7 +74,7 @@ map LE_E1M7 "Core of Evil"
 map LE_E1M8 "Callisto Consecration"
 {
 	levelnum = 8
-	next = "LE_E2M1"
+	//next = "LE_E2M1"
 	sky1 = "LED_SKY1"
 	par = 30
 	music = "T_MESSAG"
@@ -154,7 +154,7 @@ map LE_E2M7 "The Draining Pit"
 map LE_E2M8 "Late For Supper"
 {
 	levelnum = 18
-	next = "LE_E3M1"
+	//next = "LE_E3M1"
 	sky1 = "LED_SKY2"
 	par = 30
 	music = "$MUSIC_E2M8"

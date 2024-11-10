@@ -11,14 +11,14 @@ WS_AU_MUSTAIN_MCCANDLISH = "Tom Mustaine & Mackey McCandlish";
 //	AUTHOR UNKNOWN
 WS_AU_UNKNOWN = "???";
 
-FREED1_EP01 = "\c[DARK RED]Outpost Outbreak";
-FREED1_EP02 = "\c[DARK RED]Military Labs";
-FREED1_EP03 = "\c[DARK RED]Event Horizon";
-FREED1_EP04 = "\c[DARK RED]Double Impact";
+FREED1_EP01 = "\c[RED]Outpost Outbreak";
+FREED1_EP02 = "\c[RED]Military Labs";
+FREED1_EP03 = "\c[RED]Event Horizon";
+FREED1_EP04 = "\c[RED]Double Impact";
 
-FREED2_EP01 = "\c[DARK RED]Corrupted Complex";
-FREED2_EP02 = "\c[DARK RED]Desolate Detroit";
-FREED2_EP03 = "\c[DARK RED]Operation On The Offense";
+FREED2_EP01 = "\c[RED]Corrupted Complex";
+FREED2_EP02 = "\c[RED]Desolate Detroit";
+FREED2_EP03 = "\c[RED]Operation On The Offense";
 
 LOSTE_EP01 = "\c[Green]Massacre on Callisto";
 LOSTE_EP02 = "\c[Green]The Killing Fields of Io";
@@ -69,6 +69,57 @@ MUSIC_PERMAP29 = "FSHFLD";
 MUSIC_PERMAP30 = "BOMRUS";
 MUSIC_PERMAP31 = "SUBTOX";
 MUSIC_PERMAP32 = "STRDRK";
+
+JE1TEXT =
+"You've beaten back the demon hordes and\n"
+"cleared out the Callisto moon base.\n"
+"At this point it'd be wishful thinking to\n"
+"believe that the battle was already over.\n"
+"The harsh reality still lingers as all of\n"
+"your friends are still dead.\n"
+"\n"
+"As you stand victorious, you can't help\n"
+"but feel that it was all in vain. That\n"
+"even with everything you've accomplished,\n"
+"you couldn't save anyone.\n"
+"\n"
+"Now you've been teleported to the\n"
+"devestated Io base, and it reeks like a\n"
+"pile of festering corpses. With the death\n"
+"of your colleagues still fresh in your mind,\n"
+"you press on to the Killing Fields of Io.\n";
+
+JE2TEXT =
+"You've laid waste to the demons of Io and\n"
+"their Cyberdemon master. With the area now\n"
+"cleared, you discover a hidden portal deep\n"
+"within the base. With nothing left to lose,\n"
+"you pass through and find yourself in a\n"
+"strange facility you've never seen before\n"
+"in your life.\n"
+"\n"
+"You check your automap and discover a\n"
+"shocking truth. You are now inside the\n"
+"Red Spot of Jupiter! Here you discover that\n"
+"the demons are using the giant storm as a\n"
+"gateway into our dimension. Now you need to\n"
+"close it for good.\n"
+"\n"
+"The final battle begins at Hell's Gate!\n";
+
+JE3TEXT =
+"The merciless Spiderdemon that lead the\n"
+"destruction of the Jovian moons has\n"
+"finally met its fiery demise. Your friends\n"
+"can now rest in peace knowing that their\n"
+"lives have been avenged.\n"
+"\n"
+"A portal suddenly appears and you quickly\n"
+"enter it. Behind you, you see the mysterious\n"
+"facilty trapped in Jupiter's Red Spot slowly\n"
+"fade into the planet's endless storm. The\n"
+"portal then disappears, and you look around\n"
+"to see the wondrous mountains of Earth!\n";
 
 PGTEXT1 = "You entered the Main Gate expecting the\n"
 		  "worst, and the worst has happened. Once\n"
@@ -166,3 +217,180 @@ PGTEXT8 = "Good work! The hellspawn have stopped\n"
 		  "their invasion of this world and now\n"
 		  "they're after you! Make a break for the\n"
 		  "portal and hope that they follow.";
+		  
+F1_TEXT1 = "Free at last from that dreadful outpost!\n"
+		   "But you're still stuck on this rock, with\n"
+           "the UAC and all their monstrous "experiments."\n"
+           "Best not to dwell on what evil horrors\n"
+           "they were going to create from you...\n\n"
+		 
+           "You need a functioning starship to\n"
+		   "get back to Earth. The best chance at\n"
+           "one is the facility they had you in\n"
+           "when they first brought you planetside.\n"
+           "When they first gave you your powers.\n\n"
+		   
+           "When the nightmare first began...\n\n"
+		   
+           "Perfect time for the teleporter to\n"
+           "glitch out your gear as you get ready\n"
+           "to raid the Military Labs.";
+
+F1_TEXT2 =  "The remains of the massive brutes splat\n"
+			"onto the ground, dripping blood bit by bit.\n"
+			"The starport is yours.\n\n"
+			
+			"But no ship: the launch bay sits empty,\n"
+			"leaving only a massive teleporter pad.\n"
+			"Limited inorganics. Fixed destination.\n\n"
+			
+			"The name suggests it's probably the new\n"
+			"AGM ship hub in this remote star cluster.\n"
+			"Bastards owe you for what they've done,\n"
+			"so what even is interstellar piracy\n"
+			"but a bit of D.I.Y. law enforcement?\n\n"
+			
+			"You board the platform and fade away.\n"
+			"Next stop: Horizon.";
+
+F1_TEXT3 =  "The abomination explodes into oblivion.\n"
+			"What the hell even was that?\n\n"
+			
+			"As the shadow sets over this red rock,\n"
+			"you realize that you're now trapped here.\n"
+			"At least you've got more space in this\n"
+			"wasteland than your old cell.\n\n"
+			
+			"You kick the corpse in anger, and it feels\n"
+			"good. You kick it again, and a remote falls\n"
+			"out. You press the button, and the ground\n"
+			"gives way to reveal a teleporter. You look\n"
+			"at the gizmo - it says "To Double Impact."\n\n"
+			
+			"Wherever or whatever that is, you pray\n"
+			"to any listening deity that there's\n"
+			"a working ship on the other side.";
+
+F1_TEXT4 = 	"Suppressing fire echoes above as the last\n"
+			"survivors flee the ship. The launch process\n"
+			"is irreversible: killing you now would only\n"
+			"bring a slow death drifting through space.\n\n"
+		 
+			"Fifty-nine. Fifty-eight. Fifty-seven. .  .\n"
+			"You melt into the pilot's seat, lost in the\n"
+			"voice of an automated assembly of angels\n"
+			"delivering you from this wretched rock.\n\n"
+		 
+			"The ship rumbles as she wakes up;\n"
+			"you think of Earth as she lifts off.\n"
+			"Hopefully the UAC won't find you there:\n"
+			"they've got the outbreak to deal with,\n"
+			"so that'll give you some time.\n\n"
+		 
+			"Destination: Earth!";
+
+
+
+F2_TEXT1 =  "Not even Earth is safe. The monsters show\n"
+			"up ahead of you everywhere you run.\n"
+			"Where are they even coming from?\n\n"
+			
+			"Despite all the other destruction they've\n"
+			"wrought, the teleportation infrastructure\n"
+			"remains intact - you might be able to\n"
+			"get back to civilization this way.\n\n"
+			
+			"You find an old pad and boot it up.\n"
+			"Connection live. Handshake established.\n\n"
+			
+			"Growling and chittering on the intercom.\n\n"
+			
+			"Planted your feet.\n"
+			"Checked your weapons.\n"
+			"Time to punch through.";
+
+F2_TEXT2 =  "You didn't find anyone alive. Again.\n\n"
+
+			"The fighting is taking its toll on you.\n"
+			"The pain. The brutality. The loneliness.\n"
+			"There's got to be a way to somewhere,\n"
+			"something that isn't... this.\n\n"
+			
+			"A train rumbles in the distance.\n\n"
+		 
+			"You follow the sound down the empty road\n"
+			"and reach the edge of a railyard.\n\n"
+			
+			"Trains mean cities.\n"
+			"Cities mean people.\n\n"
+			
+			"Right?";
+
+F2_TEXT3 =  "Here is no UAC but only monsters.\n"
+			"Monsters, no humans and dusty days\n"
+			"sleeping in old ruins and eating scraps.\n"
+			"No one has escaped this wasteland alive.\n\n"
+		 
+			"You've been tracking their movements.\n"
+			"UAC records and demon scrawlings point\n"
+			"to something big worming its way through\n"
+			"the entire teleportation network.\n"
+			"Sending its nightmare armies of brain-\n"
+			"scrambled sapients - including humans -\n"
+			"to conquer all known space.\n\n"
+			
+			"And now you're fighting at its doorstep.\n\n"
+			"This could be the beginning\n"
+			"of your freedom - or your doom.";
+
+F2_TEXT4 =  "The evil thing becomes unstable.\n"
+			"Its final roars echo throughout the room\n"
+			"until it crumples into scrap metal.\n\n"
+			
+			"A targeting portal opens, blissfully\n"
+			"unaware of its master's demise.\n\n"
+			
+			"On the other side you see a small town.\n"
+			"You ditch your weapons and slip through,\n"
+			"leaving the UAC and all its horrors behind.\n\n"
+			
+			"No one will know who saved them.\n\n"
+			
+			"No one will know what happened here.\n\n"
+			
+			"No one will ever find you again.";
+
+F2_TEXT5 =  "You step into the teleporter. You feel a\n"
+			"familiar flash and... you're in a cage?\n"
+			"Jailed?\n\n"
+			
+			"There are other cages in here. Occupied.\n"
+			"So is this how they capture humans?\n"
+			"Or did they set this up specially for you,\n"
+			"as a reward for being such a monkey wrench\n"
+			"in their plans?\n\n"
+			
+			"The guards haven't noticed you - yet.\n"
+			"Any noise could mean death. Or worse.\n\n"
+			
+			"When they zombify you, are you awake the\n"
+			"entire time, locked inside of your brain?\n\n"
+			
+			"You'd rather not find out.";
+
+F2_TEXT6 =  "Forcibly uncaged again. Good job.\n\n"
+
+			"But where are you? The air and gravity\n"
+			"still feel like whatever planet that\n"
+			"strange prison had been on.\n\n"
+			
+			"You look around and the layout triggers\n"
+			"some old memories from history class.\n\n"
+			
+			"This is an arena.\n"
+			"Where they send prisoners to die.\n"
+			"That wasn't an exit - but an entrance.\n\n"
+		 
+			"You will find your way back to the city,\n"
+			"but it will have to be on the other side\n"
+			"of a few homicidal mutants...";

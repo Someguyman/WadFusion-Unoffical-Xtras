@@ -337,7 +337,7 @@ map FD_E4M2 "Research Complex"
 	secretnext = "FD_E4M9"
 	sky1 = "FDSKY4"
 	cluster = 84
-	music = "$MUSIC_E2M6"
+	music = "F_E4M2"
     par = 40
 }
 
@@ -359,7 +359,7 @@ map FD_E4M4 "Hydroponic Facility"
 	secretnext = "FD_E4M9"
 	sky1 = "FDSKY4"
 	cluster = 84
-	music = "$MUSIC_E1M5"
+	music = "F_E4M4"
     par = 80
 }
 
@@ -370,7 +370,7 @@ map FD_E4M5 "Engineering Station"
 	secretnext = "FD_E4M9"
 	sky1 = "FDSKY4"
 	cluster = 84
-	music = "$MUSIC_E1M2"
+	music = "F_E4M5"
     par = 100
 }
 
@@ -383,7 +383,7 @@ map FD_E4M6 "Command Center"
 	cluster = 84
 	cyberdemonspecial
 	specialaction_opendoor
-	music = "$MUSIC_E1M6"
+	music = "F_E4M6"
     par = 150
 }
 
@@ -394,7 +394,7 @@ map FD_E4M7 "Waste Treatment"
 	secretnext = "FD_E4M9"
 	sky1 = "FDSKY4"
 	cluster = 84
-	music = "$MUSIC_E1M7"
+	music = "F_E4M7"
     par = 75
 }
 
@@ -420,7 +420,7 @@ map FD_E4M9 "Operations"
 	secretnext = "FD_E4M3"
 	sky1 = "FDSKY4"
 	cluster = 84
-	music = "$MUSIC_E2M2"
+	music = "F_E4M9"
     par = 90
 }
 
