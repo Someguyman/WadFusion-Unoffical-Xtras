@@ -1,0 +1,11 @@
+Background dmmap0
+Screensize 320 200
+Splat wisplat
+Pointer wiurh0 wiurh1
+
+Animation 64 24 11
+{
+	DMA00900
+	DMA00901
+	DMA00902
+}

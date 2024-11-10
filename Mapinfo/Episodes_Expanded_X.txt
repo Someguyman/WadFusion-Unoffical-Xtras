@@ -195,6 +195,52 @@ episode PL_MAP21
 	Optional
 }
 
+//	Freedoom Phase 1
+
+episode FD_E1M1
+{
+	Name = "$FREED1_EP01"
+	Optional
+}
+
+episode FD_E2M1
+{
+	Name = "$FREED1_EP02"
+	Optional
+}
+
+episode FD_E3M1
+{
+	Name = "$FREED1_EP03"
+	Optional
+}
+
+episode FD_E4M1
+{
+	Name = "$FREED1_EP04"
+	Optional
+}
+
+//	Freedoom Phase 2
+
+episode FD_MAP01
+{
+	Name = "$FREED2_EP01"
+	Optional
+}
+
+episode FD_MAP12
+{
+	Name = "$FREED2_EP02"
+	Optional
+}
+
+episode FD_MAP21
+{
+	Name = "$FREED2_EP03"
+	Optional
+}
+
 //	The Lost Episodes of Doom
 
 episode LE_E1M1
@@ -256,50 +302,4 @@ episode HP_MAP23
 	Name = "$HELL2P_EP3"
 	Optional
 	Intro { Video = "movies/HELL2PAYINTRO.IVF" Sound = "movies/HELL2PAYINTRO.OGG" } 
-}
-
-//	Freedoom Phase 1
-
-episode FD_E1M1
-{
-	Name = "$FREED1_EP01"
-	Optional
-}
-
-episode FD_E2M1
-{
-	Name = "$FREED1_EP02"
-	Optional
-}
-
-episode FD_E3M1
-{
-	Name = "$FREED1_EP03"
-	Optional
-}
-
-episode FD_E4M1
-{
-	Name = "$FREED1_EP04"
-	Optional
-}
-
-//	Freedoom Phase 2
-
-episode FD_MAP01
-{
-	Name = "$FREED2_EP01"
-	Optional
-}
-
-episode FD_MAP12
-{
-	Name = "$FREED2_EP02"
-	Optional
-}
-
-episode FD_MAP21
-{
-	Name = "$FREED2_EP03"
-	Optional
 }

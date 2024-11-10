@@ -317,16 +317,21 @@ map FD_E3M9 "Acquainted With Grief"
 	music = "F_E3M9"
 }
 
+adddefaultmap
+{
+	sky1 = "FDSKY4"
+	Cluster = 84
+	exitpic = "$in_dbimp"
+	enterpic = "$in_dbimp"
+	InterMusic = "f_INTR3"
+}
+
 map FD_E4M1 "Maintenance Area"
 {
 	levelnum = 31
 	next = "FD_E4M2"
 	secretnext = "FD_E4M9"
-	sky1 = "FDSKY4"
-	cluster = 84
 	music = "F_E4M1"
-	exitpic = "dnterpic"
-	enterpic = "dnterpic"
     par = 90
 }
 
@@ -335,8 +340,6 @@ map FD_E4M2 "Research Complex"
 	levelnum = 32
 	next = "FD_E4M3"
 	secretnext = "FD_E4M9"
-	sky1 = "FDSKY4"
-	cluster = 84
 	music = "F_E4M2"
     par = 40
 }
@@ -346,8 +349,6 @@ map FD_E4M3 "Central Computing"
 	levelnum = 33
 	next = "FD_E4M4"
 	secretnext = "FD_E4M9"
-	sky1 = "FDSKY4"
-	cluster = 84
 	music = "F_E4M3"
     par = 105
 }
@@ -357,8 +358,6 @@ map FD_E4M4 "Hydroponic Facility"
 	levelnum = 34
 	next = "FD_E4M5"
 	secretnext = "FD_E4M9"
-	sky1 = "FDSKY4"
-	cluster = 84
 	music = "F_E4M4"
     par = 80
 }
@@ -368,8 +367,6 @@ map FD_E4M5 "Engineering Station"
 	levelnum = 35
 	next = "FD_E4M6"
 	secretnext = "FD_E4M9"
-	sky1 = "FDSKY4"
-	cluster = 84
 	music = "F_E4M5"
     par = 100
 }
@@ -379,8 +376,6 @@ map FD_E4M6 "Command Center"
 	levelnum = 36
 	next = "FD_E4M7"
 	secretnext = "FD_E4M9"
-	sky1 = "FDSKY4"
-	cluster = 84
 	cyberdemonspecial
 	specialaction_opendoor
 	music = "F_E4M6"
@@ -392,8 +387,6 @@ map FD_E4M7 "Waste Treatment"
 	levelnum = 37
 	next = "FD_E4M8"
 	secretnext = "FD_E4M9"
-	sky1 = "FDSKY4"
-	cluster = 84
 	music = "F_E4M7"
     par = 75
 }
@@ -401,10 +394,8 @@ map FD_E4M7 "Waste Treatment"
 map FD_E4M8 "Launch Bay"
 {
 	levelnum = 38
-	next = "EndGame4"
+	Next = endpic, "DIMCRED"
 	secretnext = "FD_E4M9"
-	sky1 = "FDSKY4"
-	cluster = 84
 	nointermission
 	nosoundclipping
 	spidermastermindspecial
@@ -426,28 +417,28 @@ map FD_E4M9 "Operations"
 
 cluster 81 
 {
-	flat = "$bgflatE1"
+	flat = "AQF051"
 	music = "F_VICTOR"
 	exittext = lookup, "F1_TEXT1"
 }
 
 cluster 82
 {
-	flat = "$bgflatE2"
+	flat = "AQF054"
 	music = "F_VICTOR"
 	exittext = lookup, "F1_TEXT2"
 }
 
 cluster 83
 {
-	flat = "$bgflatE3"
+	flat = "FLAT5_2"
 	music = "F_VICTOR"
 	exittext = lookup, "F1_TEXT3"
 }
 
 cluster 84
 {
-	flat = "$bgflatE4"
-	music = "F_VICTOR"
+	Flat = "AQF075"
+	music = "f_VICTO2"
 	exittext = lookup, "F1_TEXT4"
 }

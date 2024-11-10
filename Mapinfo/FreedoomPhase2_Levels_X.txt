@@ -335,7 +335,7 @@ map FD_MAP32 "Not Sure"
 
 cluster 90
 {
-	flat = "$BGFLAT06"
+	flat = "AQF016"
 	exittext = lookup, "F2_TEXT1"
 	music = "F_READ_ME"
 }
@@ -344,7 +344,7 @@ cluster 90
 
 cluster 91
 {
-	flat = "$BGFLAT11"
+	flat = "AQF001"
 	exittext = lookup, "F2_TEXT2"
 	music = "F_READ_ME"
 
@@ -354,7 +354,7 @@ cluster 91
 
 cluster 92
 {
-	flat = "$BGFLAT20"
+	flat = "FLAT5_6"
 	exittext = lookup, "F2_TEXT3"
 	music = "F_READ_ME"
 }
@@ -363,7 +363,7 @@ cluster 92
 
 cluster 93
 {
-	flat = "$BGFLAT30"
+	flat = "SLIME13"
 	exittext = lookup, "F2_TEXT4"
 	music = "F_READ_ME"
 }
@@ -372,7 +372,7 @@ cluster 93
 
 cluster 94
 {
-	flat = "$BGFLAT15"
+	flat = "AQF004"
 	entertext = lookup, "F2_TEXT5"
 	music = "F_READ_ME"
 }
@@ -381,7 +381,7 @@ cluster 94
 
 cluster 95
 {
-	flat = "$BGFLAT31"
+	flat = "AQF021"
 	entertext = lookup, "F2_TEXT6"
 	music = "F_READ_ME"
 }
