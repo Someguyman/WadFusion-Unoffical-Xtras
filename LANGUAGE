@@ -24,11 +24,11 @@ LOSTE_EP01 = "\c[Green]Massacre on Callisto";
 LOSTE_EP02 = "\c[Green]The Killing Fields of Io";
 LOSTE_EP03 = "\c[Green]Hell's Gate - The Red Spot";
 
-PERD_G_EP1 = "\c[RED]Earth Gate";
+PERD_G_EP1 = "\c[RED]The Earth Gates";
 PERD_G_EP2 = "\c[RED]World of the Ancients";
 PERD_G_EP3 = "\c[RED]Planet Hell";
 
-HELL2P_EP1 = "\c[Fire]The Rebellion";
+HELL2P_EP1 = "\c[Fire]Enslaved Homeword";
 HELL2P_EP2 = "\c[Fire]Planetary Voyage";
 HELL2P_EP3 = "\c[Fire]Return To Planet Hell";
 

@@ -241,18 +241,21 @@ episode HP_MAP01
 {
 	Name = "$HELL2P_EP1"
 	Optional
+	Intro { Video = "movies/HELL2PAYINTRO.IVF" Sound = "movies/HELL2PAYINTRO.OGG" } 
 }
 
 episode HP_MAP12
 {
 	Name = "$HELL2P_EP2"
 	Optional
+	Intro { Video = "movies/HELL2PAYINTRO.IVF" Sound = "movies/HELL2PAYINTRO.OGG" } 
 }
 
-episode HP_MAP21
+episode HP_MAP23
 {
 	Name = "$HELL2P_EP3"
 	Optional
+	Intro { Video = "movies/HELL2PAYINTRO.IVF" Sound = "movies/HELL2PAYINTRO.OGG" } 
 }
 
 //	Freedoom Phase 1

@@ -159,6 +159,9 @@ map HP_MAP15 "Captain Bellows"
 	//exitpic = "H2PINT15"
 }
 
+// From this point on the level order shifts as the secrect maps are just normal maps in hell to pay
+// Example: Map 31 is now map 16 and map 16 is now map 18.
+
 map HP_MAP16 "Secret Facility" //Map 31
 {
 	next = "HP_MAP17"
@@ -226,7 +229,6 @@ map HP_MAP22 "Master Computer" //Map 20
 	par = 150
 	music = "$MUSIC_PERMAP27"
 	enterpic = "H2PINT21"
-	//exitpic = "H2PINT22"
 }
 
 map HP_MAP23 "Planet Hell" //Map 21
