@@ -1,0 +1,653 @@
+
+
+class DCX_Player_Unoffical : DCX_Player Replaces Doomplayer
+{
+	Default
+	{
+		Player.WeaponSlot 5, "H2P_RocketLauncher", "RocketLauncher";
+		Player.WeaponSlot 6, "H2P_PlasmaTrident", "PlasmaRifle", "Incinerator", "DCX_HeavyPlasmaGun";
+		Player.WeaponSlot 7, "H2P_IncendiaryTrident", "BFG9000", "CalamityBlade";
+		Player.WeaponSlot 8, "DCX_Unmaker";
+	}
+}
+
+
+class H2P_MetalHellion : DoomImp
+{
+	Default
+	{
+		Bloodcolor "ff b1 0a";
+		SeeSound "H2pImp/Sight";
+		PainSound "imp/pain";
+		DeathSound "H2pImp/death";
+		ActiveSound "H2pImp/Active";
+		HitObituary "%o was clawed by a Metal Hellion.";
+		Obituary "%o was burned by a Metal Hellion.";
+		Tag "Metal Hellion";
+	}
+	States
+	{
+	Spawn:
+		H2TR AB 10 A_Look;
+		Loop;
+	See:
+		H2TR AABBCCDD 3 A_Chase;
+		Loop;
+	Melee:
+	Missile:
+		H2TR EF 8 A_FaceTarget;
+		H2TR G 6 A_TroopAttack ;
+		Goto See;
+	Pain:
+		H2TR H 2;
+		H2TR H 2 A_Pain;
+		Goto See;
+	Death:
+		H2TR I 8;
+		H2TR J 8 A_Scream;
+		H2TR K 6;
+		H2TR L 6 A_NoBlocking;
+		H2TR M -1;
+		Stop;
+	XDeath:
+		H2TR N 5;
+		H2TR O 5 A_XScream;
+		H2TR P 5;
+		H2TR Q 5 A_NoBlocking;
+		H2TR RST 5;
+		H2TR U -1;
+		Stop;
+	Raise:
+		H2TR ML 8;
+		H2TR KJI 6;
+		Goto See;
+	}
+}
+
+class H2P_MechaReaper : Demon
+{
+	Default
+	{
+		+NOBLOOD
+		SeeSound "H2pPinky/Sight";
+		AttackSound "H2pPinky/Attack";
+		PainSound "H2pDemon/Pain";
+		DeathSound "H2pPinky/Death";
+		ActiveSound "H2pDemon/active";
+		Obituary "%o was slashed by a Mecha Reaper.";
+		Tag "Mecha Reaper";
+	}
+	States
+	{
+	Spawn:
+		H2SA AB 10 A_Look;
+		Loop;
+	See:
+		H2SA AABBCCDD 2 Fast A_Chase;
+		Loop;
+	Melee:
+		H2SA EF 8 Fast A_FaceTarget;
+		H2SA G 8 Fast A_SargAttack;
+		Goto See;
+	Pain:
+		H2SA H 2 Fast;
+		H2SA H 2 Fast A_Pain;
+		Goto See;
+	Death:
+		H2SA I 8;
+		H2SA J 8 A_Scream;
+		H2SA K 4;
+		H2SA L 4 A_NoBlocking;
+		H2SA M 4;
+		H2SA N -1;
+		Stop;
+	Raise:
+		H2SA N 5;
+		H2SA MLKJI 5;
+		Goto See;
+	}
+}
+
+class H2P_StealthReaper : H2P_MechaReaper
+{
+	Default
+	{
+		+SHADOW
+		RenderStyle "OptFuzzy";
+		Alpha 0.25;
+		Obituary "%o was slashed by a Stealth Reaper.";
+		Tag "Stealth Reaper";
+		Translation "SpectreColor";
+	}
+}
+
+class H2P_Watcher : Cacodemon
+{
+	Default
+	{
+		+NOBLOOD
+		SeeSound "H2pCaco/Sight";
+		PainSound "H2pDemon/Pain";
+		DeathSound "H2pCaco/death";
+		ActiveSound "H2pDemon/active";
+		Obituary "%o was ambushed by a Secuity Watcher.";
+		HitObituary "%o was scorched by a Secuity Watcher.";
+		Tag "Secuity Watcher";
+	}
+	States
+	{
+	Spawn:
+		H2HD A 10 A_Look;
+		Loop;
+	See:
+		H2HD A 3 A_Chase;
+		Loop;
+	Missile:
+		H2HD B 5 A_FaceTarget;
+		H2HD C 5 A_FaceTarget;
+		H2HD D 5 BRIGHT A_HeadAttack;
+		Goto See;
+	Pain:
+		H2HD E 3;
+		H2HD E 3 A_Pain;
+		H2HD F 6;
+		Goto See;
+	Death:
+		H2HD G 8;
+		H2HD H 8 A_Scream;
+		H2HD I 8;
+		H2HD J 8;
+		H2HD K 8 A_NoBlocking;
+		H2HD L -1 A_SetFloorClip;
+		Stop;
+	Raise:
+		H2HD L 8 A_UnSetFloorClip;
+		H2HD KJIHG 8;
+		Goto See;
+	}
+}
+
+class H2P_LiquidMetalBlob : LostSoul
+{
+	Default
+	{
+		-DONTFALL
+		AttackSound "H2pSkull/Attack";
+		PainSound "H2pSkull/pain";
+		DeathSound "H2pSkull/Death";
+		ActiveSound "H2pDemon/Active";
+		Obituary "%o was consumed by liquid metal.";
+		Bloodcolor "blue";
+		Tag "LiquidMetal";
+	}
+	States
+	{
+	Spawn:
+		H2SK AB 10 A_Look;
+		Loop;
+	See:
+		H2SK AB 6 A_Chase;
+		Loop;
+	Missile:
+		H2SK C 10 A_FaceTarget;
+		H2SK D 4 A_SkullAttack;
+		H2SK CD 4;
+		Goto Missile+2;
+	Pain:
+		H2SK E 3;
+		H2SK E 3 A_Pain;
+		Goto See;
+	Death:
+		H2SK F 1 A_Pain;
+		H2SK F 3;
+		Goto Death+1;
+	Crash:
+		H2SK F 6 A_Scream;
+		H2SK G 6;
+		H2SK H 6 A_NoBlocking;
+		H2SK I 6;
+		H2SK J -1;
+		Stop;
+	}
+}
+
+class H2P_LiquidMetalBlob2 : H2P_LiquidMetalBlob
+{
+		States
+	{
+	Spawn:
+		H2SK AB 10 A_Look;
+		Loop;
+	See:
+		H2SK AB 6 A_Chase;
+		Loop;
+	Missile:
+		H2SK C 10 A_FaceTarget;
+		H2SK D 4 A_SkullAttack;
+		H2SK CD 4;
+		Goto Missile+2;
+	Pain:
+		H2SK E 3;
+		H2SK E 3 A_Pain;
+		Goto See;
+	Death:
+		H2SK F 6;
+		H2SK F 6 A_Scream;
+		H2SK G 6;
+		H2SK H 6 A_NoBlocking;
+		H2SK I 6;
+		H2SK J -1;
+		Stop;
+	}
+}
+
+class H2P_HotLiquidMetal : PainElemental
+{
+	Default
+	{
+		Bloodcolor "e8 61 1e";
+		SeeSound "H2pPain/Sight";
+		PainSound "H2pPain/pain";
+		DeathSound "H2pPain/death";
+		ActiveSound "H2pDemon/Active";
+		Tag "Mass of Molten Metal";
+	}
+	States
+	{
+	Spawn:
+		H2PN A 10 BRIGHT A_Look;
+		Loop;
+	See:
+		H2PN AABBCC 3 BRIGHT A_Chase;
+		Loop;
+	Missile:
+		H2PN D 5 BRIGHT A_FaceTarget;
+		H2PN E 5 BRIGHT A_FaceTarget;
+		H2PN F 5 BRIGHT A_FaceTarget;
+		H2PN F 0 BRIGHT A_PainAttack("H2P_LiquidMetalBlob");
+		Goto See;
+	Pain:
+		H2PN G 6 BRIGHT;
+		H2PN G 6 BRIGHT A_Pain;
+		Goto See;
+	Death:
+		H2PN H 8 BRIGHT;
+		H2PN I 8 BRIGHT A_Scream;
+		H2PN JK 8;
+		H2PN L 8 A_PainDie("H2P_LiquidMetalBlob");
+		H2PN M -1;
+		Stop;
+	Raise:
+		Stop;
+	}
+}
+
+class H2P_Sentry : Fatso
+{
+	Default
+	{
+		+NOBLOOD
+		Monster;
+		SeeSound "H2pFatso/Sight";
+		PainSound "H2pFatso/pain";
+		DeathSound "H2pFatso/death";
+		ActiveSound "H2pDemon/Active2";
+		Obituary "%o was destroyed by a sentry.";
+		Tag "Sentry";
+	}
+	States
+	{
+	Spawn:
+		H2FT AB 15 A_Look;
+		Loop;
+	See:
+		H2FT AABBCCDDEEFF 4 A_Chase;
+		Loop;
+	Missile:
+		H2FT G 20 { A_FaceTarget(); A_Startsound("H2pFatso/Attack"); }
+		H2FT H 10 BRIGHT A_FatAttack1;
+		H2FT IG 5 A_FaceTarget;
+		H2FT H 10 BRIGHT A_FatAttack2;
+		H2FT IG 5 A_FaceTarget;
+		H2FT H 10 BRIGHT A_FatAttack3;
+		H2FT IG 5 A_FaceTarget;
+		Goto See;
+	Pain:
+		H2FT J 3;
+		H2FT J 3 A_Pain;
+		Goto See;
+    Death:
+		H2FT K 6 BRIGHT;
+		H2FT L 6 BRIGHT A_Scream;
+		H2FT M 6 BRIGHT A_NoBlocking;
+		H2FT NOPQR 6 BRIGHT;
+		H2FT S 6;
+		H2FT T -1 A_BossDeath;
+	    Stop;
+	 Raise:
+		H2FT R 5;
+		H2FT QPONMLK 5;
+		Goto See;
+	}
+}
+
+class H2P_PowerCore : CommanderKeen
+{
+	Default
+	{
+		+Noblood
+		PainSound "H2pKeen/Pain";
+		DeathSound "H2pKeen/death";
+	}
+	States
+	{
+	Spawn:
+		H2KN A -1;
+		Loop;
+	Death:
+		H2KN AB	6;
+		H2KN C 6 A_Scream;
+		H2KN DEFGH	6;
+		H2KN I 6;
+		H2KN J 6;
+		H2KN K 6 A_KeenDie;
+		H2KN L -1;
+		Stop;
+	Pain:
+		H2KN M	4;
+		H2KN M	8 A_Pain;
+		Goto Spawn;
+	}
+}
+
+class H2P_PeiceOfMeat : ShortRedColumn
+{
+	States
+	{
+	Spawn:
+		H2C4 A -1;
+		Stop;
+	}
+}
+
+class H2P_PeiceOfMeat2 : SkullColumn
+{
+	States
+	{
+	Spawn:
+		H2C6 A -1;
+		Stop;
+	}
+}
+
+class H2P_SkinnedMeat : Meat2
+{
+	States
+	{
+	Spawn:
+		H2GO A -1;
+		Stop;
+	}
+}
+
+class H2P_SkinnedMeat2 : Meat3
+{
+	States
+	{
+	Spawn:
+		H2G2 A -1;
+		Stop;
+	}
+}
+
+class H2P_SkinnedMeat3 : Meat4
+{
+	States
+	{
+	Spawn:
+		H2G3 A -1;
+		Stop;
+	}
+}
+
+class H2P_ADeadguy : TechPillar
+{
+	States
+	{
+	Spawn:
+		h2tp A -1;
+		Loop;
+	}
+}
+
+Class H2P_BOMBDestruct : Actor
+{
+	Default
+	{
+		Health 50;
+		Radius 20;
+		Height 56;
+		Speed 0;
+		PainChance 0;
+		+LOOKALLAROUND
+		-countkill
+		-ISMONSTER
+		+SOLID 
+		+SHOOTABLE
+		+NOICEDEATH
+		+OLDRADIUSDMG
+		+BOSS
+		SeeSound "H2pBombDestruct/Sight";
+	}
+	States
+	{
+	Spawn:
+		TNT1 AB 10 A_Look;
+		Loop;
+	See:
+		TNT1 AABBCCDD 3 A_Chase;
+		stop;
+	}
+}
+
+Class H2P_Meltdown : BossEye
+{
+	States
+	{
+	Spawn:
+		TNT1 A 10 A_Look;
+		Loop;
+	See:
+		TNT1 A 181 A_StartSound("H2pMeltdown/Sight");
+		TNT1 A 150 A_BrainSpit;
+		Wait;
+	}
+}
+
+class H2P_Explosion : DCX_Bossbrain
+{
+	Default
+	{
+		PainSound "H2pExplosion/Explosion1";
+		DeathSound "H2pExplosion/Explosion2";
+	}
+	States
+	{
+	Spawn:
+		h2bb A -1;
+		Stop;
+	Pain:
+		h2bb A 36 A_BrainPain;
+		Goto Spawn;
+	Death:
+		h2bb A 100 A_BrainScream;
+		h2bb AA 10;
+		h2bb A -1 A_BrainDie;
+		Stop;
+	}
+}
+
+class H2P_RocketLauncher : RocketLauncher
+{
+	Default
+	{
+		Weapon.Slotnumber 5;
+	}
+	States
+	{
+	Ready:
+		h2mi A 1 A_WeaponReady;
+		Loop;
+	Deselect:
+		h2mi A 1 A_Lower;
+		Loop;
+	Select:
+		h2mi A 1 A_Raise;
+		Loop;
+	Fire:
+		h2mi B 8 A_GunFlash;
+		h2mi B 12 Bright A_FireMissile;
+		h2mi B 0 A_ReFire;
+		Goto Ready;
+	Flash:
+		stop;
+	Spawn:
+		h2mp A -1;
+		Stop;
+	}
+}
+
+class H2P_PlasmaTrident : PlasmaRifle
+{
+	Default
+	{
+		Inventory.PickupMessage "$GOTPLASMA";
+		Tag "Plasma Trident";
+		Weapon.Slotnumber 6;
+	}
+	
+	action void A_H2PFirePlasma()
+	{
+		if (player == null)
+		{
+			return;
+		}
+		Weapon weap = player.ReadyWeapon;
+		if (weap != null && invoker == weap && stateinfo != null && stateinfo.mStateType == STATE_Psprite)
+		{
+			if (!weap.DepleteAmmo (weap.bAltFire, true, 1))
+				return;
+			
+			State flash = weap.FindState('Flash');
+			if (flash != null)
+			{
+				player.SetSafeFlash(weap, flash, random[FirePlasma](0, 1));
+			}
+			
+		}
+		
+		SpawnPlayerMissile ("H2P_PlasmaBall");
+	}
+	
+	States
+	{
+	Ready:
+		h2pr A 1 A_WeaponReady;
+		Loop;
+	Deselect:
+		h2pr A 1 A_Lower;
+		Loop;
+	Select:
+		h2pr A 1 A_Raise;
+		Loop;
+	Fire:
+		h2pr A 3 A_H2PFirePlasma();
+		h2pr B 20 A_ReFire;
+		Goto Ready;
+	Flash:
+		h2pf A 4 Bright A_Light1;
+		Goto LightDone;
+		h2pf B 4 Bright A_Light1;
+		Goto LightDone;
+	Spawn:
+		h2pr C -1;
+		Stop;
+	}
+}
+
+class H2P_PlasmaBall : PlasmaBall
+{
+	States
+	{
+	Death:
+		h2pp ABCD 4 Bright;
+		PLSE E 4 Bright;
+		Stop;
+	}
+}
+
+class H2P_IncendiaryTrident : BFG9000
+{
+	Default
+	{
+		Inventory.PickupMessage "$GOTBFG9000";
+		Tag "Incendiary Trident";
+		Weapon.Slotnumber 7;
+	}
+	
+		Action Void A_H2PFireBFG()
+	{
+		A_FireProjectile("H2P_BFGBall",0,1,0,0,0); 
+	}
+	States
+	{
+	Ready:
+		h2bf A 1 A_WeaponReady;
+		Loop;
+	Deselect:
+		h2bf A 1 A_Lower;
+		Loop;
+	Select:
+		h2bf A 1 A_Raise;
+		Loop;
+	Fire:
+		h2bf A 20 A_BFGsound;
+		TNT1 A 10 A_GunFlash;
+		TNT1 A 7 A_H2PFireBFG();
+		h2bf A 3;
+		h2bf A 20 A_ReFire;
+		Goto Ready;
+	Flash:
+		h2bf B 11 Bright A_Light1;
+		h2bf C 6 Bright A_Light2;
+		Goto LightDone;
+	Spawn:
+		h2wp A -1;
+		Stop;
+	}
+}
+
+class H2P_BFGBall : BFGBall
+{
+	States
+	{
+	Spawn:
+		h2bp AB 4 Bright;
+		Loop;
+	Death:
+		h2bp CD 8 Bright;
+		h2bp E 8 Bright A_BFGSpray("H2P_BFGExtra");
+		h2bp FGH 8 Bright;
+		Stop;
+	}
+}
+		
+class H2P_BFGExtra : BFGExtra
+{
+	States
+	{
+	Spawn:
+		h2b2 ABCD 8 Bright;
+		Stop;
+	}
+}

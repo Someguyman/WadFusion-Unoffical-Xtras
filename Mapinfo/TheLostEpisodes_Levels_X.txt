@@ -15,6 +15,7 @@ map LE_E1M1 "UAC Spaceport"
 	sky1 = "LED_SKY1"
 	par = 30
 	Music = "T_RUNNIN"
+	Label = "E1M1"
 }
 
 map LE_E1M2 "Fusion Power Plant"
@@ -24,6 +25,7 @@ map LE_E1M2 "Fusion Power Plant"
 	sky1 = "LED_SKY1"
 	Music = "$MUSIC_e1m2"
 	par = 75
+	Label = "E1M2"
 }
 
 map LE_E1M3 "Jovian Deuterium Plant"
@@ -33,6 +35,7 @@ map LE_E1M3 "Jovian Deuterium Plant"
 	sky1 = "LED_SKY1"
 	Music = "$MUSIC_COUNTD"
 	par = 120
+	Label = "E1M3"
 }
 
 map LE_E1M4 "Planetary Control Center"
@@ -42,6 +45,7 @@ map LE_E1M4 "Planetary Control Center"
 	sky1 = "LED_SKY1"
 	Music = "$MUSIC_E2M2"
 	par = 90
+	Label = "E1M4"
 }
 
 map LE_E1M5 "Weapons Research Center"
@@ -51,6 +55,7 @@ map LE_E1M5 "Weapons Research Center"
 	sky1 = "LED_SKY1"
 	Music = "$MUSIC_E1M5"
 	par = 165
+	Label = "E1M5"
 }
 
 map LE_E1M6 "Halls of Injustice"
@@ -60,6 +65,7 @@ map LE_E1M6 "Halls of Injustice"
 	sky1 = "LED_SKY1"
 	Music = "T_THE_DA"
 	par = 180
+	Label = "E1M6"
 }
 
 map LE_E1M7 "Core of Evil"
@@ -69,6 +75,7 @@ map LE_E1M7 "Core of Evil"
 	sky1 = "LED_SKY1"
 	Music = "$MUSIC_UNUSED22"
 	par = 180
+	Label = "E1M7"
 }
 
 map LE_E1M8 "Callisto Consecration"
@@ -82,6 +89,7 @@ map LE_E1M8 "Callisto Consecration"
 	nosoundclipping
 	baronspecial
 	specialaction_lowerfloor
+	Label = "E1M8"
 }
 
 //E2-------------------------------
@@ -95,6 +103,7 @@ map LE_E2M1 "Io Anomaly"
 	par = 90
 	ResetHealth
     ResetInventory
+	Label = "E2M1"
 }
 
 map LE_E2M2 "Munitions Factory"
@@ -104,6 +113,7 @@ map LE_E2M2 "Munitions Factory"
 	sky1 = "LED_SKY2"
 	par = 90
 	music = "$MUSIC_E1M3"
+	Label = "E2M2"
 }
 
 map LE_E2M3 "Toxic Disposal Plant"
@@ -113,6 +123,7 @@ map LE_E2M3 "Toxic Disposal Plant"
 	sky1 = "LED_SKY2"
 	par = 90
 	music = "$MUSIC_E1M7"
+	Label = "E2M3"
 }
 
 map LE_E2M4 "Weapons Testing Facility"
@@ -122,6 +133,7 @@ map LE_E2M4 "Weapons Testing Facility"
 	sky1 = "LED_SKY2"
 	par = 120
 	music = "$MUSIC_BETWEE"
+	Label = "E2M4"
 }
 
 map LE_E2M5 "Training Grounds"
@@ -131,6 +143,7 @@ map LE_E2M5 "Training Grounds"
 	sky1 = "LED_SKY2"
 	par = 90
 	music = "$MUSIC_E2M6"
+	Label = "E2M5"
 }
 
 map LE_E2M6 "Military Garrison"
@@ -140,6 +153,7 @@ map LE_E2M6 "Military Garrison"
 	sky1 = "LED_SKY2"
 	par = 360
 	music = "T_EVIL"
+	Label = "E2M6"
 }
 
 map LE_E2M7 "The Draining Pit"
@@ -149,6 +163,7 @@ map LE_E2M7 "The Draining Pit"
 	sky1 = "LED_SKY2"
 	par = 240
 	music = "$MUSIC_MESSAG"
+	Label = "E2M7"
 }
 
 map LE_E2M8 "Late For Supper"
@@ -162,6 +177,7 @@ map LE_E2M8 "Late For Supper"
 	nosoundclipping
 	cyberdemonspecial
 	specialaction_exitlevel
+	Label = "E2M8"
 }
 
 //E3--------------------------------
@@ -175,6 +191,7 @@ map LE_E3M1 "Jovian Stonehenge"
 	music = "$MUSIC_E1M8"
 	ResetHealth
     ResetInventory
+	Label = "E3M1"
 }
 
 map LE_E3M2 "Pillar of Peril"
@@ -184,6 +201,7 @@ map LE_E3M2 "Pillar of Peril"
 	sky1 = "tnt_sky3"
 	par = 45
 	music = "$MUSIC_E3M7"
+	Label = "E3M2"
 }
 
 map LE_E3M3 "Subterranean Stoneworks"
@@ -193,6 +211,7 @@ map LE_E3M3 "Subterranean Stoneworks"
 	sky1 = "tnt_sky3"
 	par = 90
 	music = "$MUSIC_E3M3"
+	Label = "E3M3"
 }
 
 map LE_E3M4 "Pools of Despair"
@@ -202,6 +221,7 @@ map LE_E3M4 "Pools of Despair"
 	sky1 = "tnt_sky3"
 	par = 150
 	music = "$MUSIC_DOOM"
+	Label = "E3M4"
 }
 
 map LE_E3M5 "The Cat-Skinner Box"
@@ -211,6 +231,7 @@ map LE_E3M5 "The Cat-Skinner Box"
 	sky1 = "tnt_sky3"
 	par = 90
 	music = "$MUSIC_E3M2"
+	Label = "E3M5"
 }
 
 map LE_E3M6 "Somber Promenade"
@@ -220,6 +241,7 @@ map LE_E3M6 "Somber Promenade"
 	sky1 = "tnt_sky3"
 	par = 90
 	music = "$MUSIC_DEAD"
+	Label = "E3M6"
 }
 
 map LE_E3M7 "Jupiter Killjoy"
@@ -229,6 +251,7 @@ map LE_E3M7 "Jupiter Killjoy"
 	sky1 = "tnt_sky3"
 	par = 165
 	music = "$MUSIC_E2M4"
+	Label = "E3M7"
 }
 
 map LE_E3M8 "Deja Vu"
@@ -242,4 +265,5 @@ map LE_E3M8 "Deja Vu"
 	nosoundclipping
 	spidermastermindspecial
 	specialaction_exitlevel
+	Label = "E3M8"
 }

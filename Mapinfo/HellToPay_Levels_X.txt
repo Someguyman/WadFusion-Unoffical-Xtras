@@ -14,6 +14,7 @@ map HP_MAP01 "The Holding Cells"
 	sky1 = "H2P_SKY1"
 	par = 30
 	music = "$MUSIC_PERMAP15"
+	Label = "Map01"
 	//exitpic = "H2PINT01"
 }
 
@@ -24,6 +25,7 @@ map HP_MAP02 "The Slave Quarters"
 	par = 90
 	music = "$MUSIC_PERMAP02"
 	enterpic = "H2PINT01"
+	Label = "Map02"
 	//exitpic = "H2PINT02"
 }
 
@@ -34,6 +36,7 @@ map HP_MAP03 "The Mines"
 	par = 120
 	music = "$MUSIC_PERMAP10"
 	enterpic = "H2PINT02"
+	Label = "Map03"
 	//exitpic = "H2PINT03"
 }
 
@@ -44,6 +47,7 @@ map HP_MAP04 "Nukage Processing"
 	par = 120
 	music = "$MUSIC_PERMAP07"
 	enterpic = "H2PINT03"
+	Label = "Map04"
 	//exitpic = "H2PINT04"
 }
 
@@ -54,6 +58,7 @@ map HP_MAP05 "Trustee Country"
 	par = 90
 	music = "$MUSIC_PERMAP22"
 	enterpic = "H2PINT04"
+	Label = "Map05"
 	//exitpic = "H2PINT05"
 }
 
@@ -65,6 +70,7 @@ map HP_MAP06 "Command And Control"
 	sucktime = 1
 	music = "$MUSIC_PERMAP20"
 	enterpic = "H2PINT05"
+	Label = "Map06"
 	//exitpic = "H2PINT06"
 }
 
@@ -76,6 +82,7 @@ map HP_MAP07 "The Industrial Park"
 	map07special
 	music = "$MUSIC_PERMAP12"
 	enterpic = "H2PINT06"
+	Label = "Map07"
 	//exitpic = "H2PINT07"
 }
 
@@ -86,6 +93,7 @@ map HP_MAP08 "The Warehouse"
 	par = 120
 	music = "$MUSIC_PERMAP16"
 	enterpic = "H2PINT07"
+	Label = "Map08"
 	//exitpic = "H2PINT08"
 }
 
@@ -96,6 +104,7 @@ map HP_MAP09 "The Military Complex"
 	par = 270
 	music = "$MUSIC_PERMAP25"
 	enterpic = "H2PINT08"
+	Label = "Map09"
 	//exitpic = "H2PINT09"
 }
 
@@ -106,6 +115,7 @@ map HP_MAP10 "The Liquid Metal Labs"
 	par = 90
 	music = "$MUSIC_PERMAP14"
 	enterpic = "H2PINT09"
+	Label = "Map10"
 	//exitpic = "H2PINT10"
 }
 
@@ -116,6 +126,7 @@ map HP_MAP11 "The Spaceport"
 	par = 210
 	music = "$MUSIC_PERMAP27"
 	enterpic = "H2PINT10"
+	Label = "Map11"
 	//exitpic = "H2PINT11"
 }
 
@@ -126,6 +137,7 @@ map HP_MAP12 "The Cargo Hold"
 	par = 150
 	music = "$MUSIC_PERMAP03"
 	enterpic = "H2PINT11"
+	Label = "Map12"
 	//exitpic = "H2PINT12"
 }
 
@@ -136,6 +148,7 @@ map HP_MAP13 "The Engine Room"
 	par = 150
 	music = "$MUSIC_PERMAP05"
 	enterpic = "H2PINT12"
+	Label = "Map13"
 	//exitpic = "H2PINT13"
 }
 
@@ -146,6 +159,7 @@ map HP_MAP14 "The Habitat Deck"
 	par = 150
 	music = "$MUSIC_PERMAP11"
 	enterpic = "H2PINT13"
+	Label = "Map14"
 	//exitpic = "H2PINT14"
 }
 
@@ -156,172 +170,186 @@ map HP_MAP15 "Captain Bellows"
 	par = 210
 	music = "$MUSIC_PERMAP23"
 	enterpic = "H2PINT14"
+	Label = "Map15"
 	//exitpic = "H2PINT15"
 }
 
-// From this point on the level order shifts as the secrect maps are just normal maps in hell to pay
-// Example: Map 31 is now map 16 and map 16 is now map 18.
-
-map HP_MAP16 "Secret Facility" //Map 31
+map HP_MAP31 "Secret Facility"
 {
 	next = "HP_MAP17"
 	sky1 = "H2P_SKY3"
 	par = 120
 	music = "$MUSIC_PERMAP31"
 	enterpic = "H2PINT15"
+	Label = "Map16"
 	//exitpic = "H2PINT16"
 }
 
-map HP_MAP17 "Self-Destruct" //Map 32
+map HP_MAP32 "Self-Destruct"
 {
 	next = "HP_MAP18"
 	sky1 = "H2P_SKY3"
 	par = 30
 	music = "$MUSIC_PERMAP30"
 	enterpic = "H2PINT16"
+	Label = "Map17"
 	//exitpic = "H2PINT17"
 }
 
-map HP_MAP18 "Io Base" //Map 16
+map HP_MAP16 "Io Base"
 {
 	next = "HP_MAP19"
 	sky1 = "H2P_SKY2"
 	par = 150
 	music = "$MUSIC_PERMAP14"
 	enterpic = "H2PINT17"
+	Label = "Map18"
 	//exitpic = "H2PINT18"
 }
 
-map HP_MAP19 "Hot As Hell" //Map 17
+map HP_MAP17 "Hot As Hell"
 {
 	next = "HP_MAP20"
 	sky1 = "H2P_SKY2"
 	par = 420
 	music = "$MUSIC_PERMAP13"
 	enterpic = "H2PINT18"
+	Label = "Map19"
 	//exitpic = "H2PINT19"
 }
 
-map HP_MAP20 "Big Crane" //Map 18
+map HP_MAP18 "Big Crane"
 {
 	next = "HP_MAP21"
 	sky1 = "H2P_SKY2"
 	par = 150
 	music = "$MUSIC_PERMAP02"
 	enterpic = "H2PINT19"
+	Label = "Map20"
 	//exitpic = "H2PINT20"
 }
 
-map HP_MAP21 "Demon Chow" //Map 19
+map HP_MAP19 "Demon Chow"
 {
 	next = "HP_MAP22"
 	sky1 = "H2P_SKY2"
 	par = 210
 	music = "$MUSIC_PERMAP17"
 	enterpic = "H2PINT20"
+	Label = "Map21"
 	//exitpic = "H2PINT21"
 }
 
-map HP_MAP22 "Master Computer" //Map 20
+map HP_MAP20 "Master Computer"
 {
 	next = "HP_MAP23"
 	sky1 = "H2P_SKY2"
 	par = 150
 	music = "$MUSIC_PERMAP27"
 	enterpic = "H2PINT21"
+	Label = "Map22"
 }
 
-map HP_MAP23 "Planet Hell" //Map 21
+map HP_MAP21 "Planet Hell"
 {
 	next = "HP_MAP24"
 	sky1 = "H2P_SKY3"
 	par = 240
 	music = "$MUSIC_PERMAP09"
 	enterpic = "H2PINT22"
+	Label = "Map23"
 	//exitpic = "H2PINT23"
 }
 
-map HP_MAP24 "Vile Temple" //Map 22
+map HP_MAP22 "Vile Temple"
 {
 	next = "HP_MAP25"
 	sky1 = "H2P_SKY3"
 	par = 150
 	music = "$MUSIC_PERMAP04"
 	enterpic = "H2PINT23"
+	Label = "Map24"
 	//exitpic = "H2PINT24"
 }
 
-map HP_MAP25 "Hell's Cavern" //Map 23
+map HP_MAP23 "Hell's Cavern"
 {
 	next = "HP_MAP26"
 	sky1 = "H2P_SKY3"
 	par = 180
 	music = "$MUSIC_PERMAP19"
 	enterpic = "H2PINT24"
+	Label = "Map25"
 	//exitpic = "H2PINT25"
 }
 
-map HP_MAP26 "Hell's Park" //Map 24
+map HP_MAP24 "Hell's Park"
 {
 	next = "HP_MAP27"
 	sky1 = "H2P_SKY3"
 	par = 150
 	music = "$MUSIC_PERMAP23"
 	enterpic = "H2PINT25"
+	Label = "Map26"
 	//exitpic = "H2PINT26"
 }
 
-map HP_MAP27 "Hell's Gauntlet" //Map 25
+map HP_MAP25 "Hell's Gauntlet"
 {
 	next = "HP_MAP28"
 	sky1 = "H2P_SKY3"
 	par = 150
 	music = "$MUSIC_PERMAP27"
 	enterpic = "H2PINT26"
+	Label = "Map27"
 	//exitpic = "H2PINT27"
 }
 
-map HP_MAP28 "Circle of Hell" //Map 26
+map HP_MAP26 "Circle of Hell"
 {
 	next = "HP_MAP29"
 	sky1 = "H2P_SKY3"
 	par = 300
 	music = "$MUSIC_PERMAP20"
 	enterpic = "H2PINT27"
+	Label = "Map28"
 	//exitpic = "H2PINT28"
 }
 
-map HP_MAP29 "Hell Squared" //Map 27
+map HP_MAP27 "Hell Squared"
 {
 	next = "HP_MAP30"
 	sky1 = "H2P_SKY3"
 	par = 330
 	music = "$MUSIC_PERMAP28"
 	enterpic = "H2PINT28"
+	Label = "Map29"
 	//exitpic = "H2PINT29"
 }
 
-map HP_MAP30 "Neophyte Reception" //Map 28
+map HP_MAP28 "Neophyte Reception"
 {
 	next = "HP_MAP31"
 	sky1 = "H2P_SKY3"
 	par = 420
 	music = "$MUSIC_PERMAP26"
 	enterpic = "H2PINT29"
+	Label = "Map30"
 	//exitpic = "H2PINT30"
 }
 
-map HP_MAP31 "Initiation" //Map 29
+map HP_MAP29 "Initiation"
 {
 	next = "HP_MAP32"
 	sky1 = "H2P_SKY3"
 	par = 300
 	music = "$MUSIC_PERMAP25"
 	enterpic = "H2PINT30"
+	Label = "Map31"
 	//exitpic = "H2PINT31"
 }
 
-map HP_MAP32 "Sky High" //Map 30
+map HP_MAP30 "Sky High"
 {
 	next = EndSequence, "H2PEnding"
 	sky1 = "H2P_SKY3"
@@ -331,6 +359,7 @@ map HP_MAP32 "Sky High" //Map 30
 	allowmonstertelefrags
 	enterpic = "H2PINT31"
 	music = "$MUSIC_PERMAP22"
+	Label = "Map32"
 }
 
 Intermission H2PEnding

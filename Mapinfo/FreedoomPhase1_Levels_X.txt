@@ -17,6 +17,7 @@ map FD_E1M1 "Outer Prison"
 	cluster = 81
 	par = 30
 	music = "F_E1M1"
+	Label = "E1M1"
 }
 
 map FD_E1M2 "Communications Center"
@@ -28,6 +29,7 @@ map FD_E1M2 "Communications Center"
 	cluster = 81
 	par = 75
 	music = "F_E1M2"
+	Label = "E1M2"
 }
 
 map FD_E1M3 "Waste Disposal"
@@ -39,6 +41,7 @@ map FD_E1M3 "Waste Disposal"
 	cluster = 81
 	par = 120
 	music = "F_E1M3"
+	Label = "E1M3"
 }
 
 map FD_E1M4 "Supply Depot"
@@ -50,6 +53,7 @@ map FD_E1M4 "Supply Depot"
 	cluster = 81
 	par = 90
 	music = "F_E1M4"
+	Label = "E1M4"
 }
 
 map FD_E1M5 "Armory"
@@ -61,6 +65,7 @@ map FD_E1M5 "Armory"
 	cluster = 81
 	par = 165
 	music = "F_E1M5"
+	Label = "E1M5"
 }
 
 map FD_E1M6 "Training Facility"
@@ -72,6 +77,7 @@ map FD_E1M6 "Training Facility"
 	cluster = 81
 	par = 180
 	music = "F_E1M6"
+	Label = "E1M6"
 }
 
 map FD_E1M7 "Xenobiotic Materials Lab"
@@ -83,6 +89,7 @@ map FD_E1M7 "Xenobiotic Materials Lab"
 	cluster = 81
 	par = 180
 	music = "F_E1M7"
+	Label = "E1M7"
 }
 
 map FD_E1M8 "Outpost Quarry"
@@ -98,6 +105,7 @@ map FD_E1M8 "Outpost Quarry"
 	baronspecial
 	specialaction_lowerfloor
 	music = "F_E1M8"
+	Label = "E1M8"
 }
 
 map FD_E1M9 "Nutrient Recycling"
@@ -109,6 +117,7 @@ map FD_E1M9 "Nutrient Recycling"
 	cluster = 81
 	par = 165
 	music = "F_E1M9"
+	Label = "E1M9"
 }
 
 map FD_E2M1 "Elemental Gate"
@@ -120,6 +129,7 @@ map FD_E2M1 "Elemental Gate"
 	cluster = 82
 	par = 90
 	music = "F_E2M1"
+	Label = "E2M1"
 }
 
 map FD_E2M2 "Shifter"
@@ -131,6 +141,7 @@ map FD_E2M2 "Shifter"
 	cluster = 82
 	par = 90
 	music = "F_E2M2"
+	Label = "E2M2"
 }
 
 map FD_E2M3 "Reclaimed Facilities"
@@ -142,6 +153,7 @@ map FD_E2M3 "Reclaimed Facilities"
 	cluster = 82
 	par = 90
 	music = "F_E2M3"	
+	Label = "E2M3"
 }
 
 map FD_E2M4 "Flooded Installation"
@@ -153,6 +165,7 @@ map FD_E2M4 "Flooded Installation"
 	cluster = 82
 	par = 120
 	music = "F_E2M4"
+	Label = "E2M4"
 }
 
 map FD_E2M5 "Underground Hub"
@@ -164,6 +177,7 @@ map FD_E2M5 "Underground Hub"
 	cluster = 82
 	par = 90
 	music = "F_E2M5"
+	Label = "E2M5"
 }
 
 map FD_E2M6 "Hidden Sector"
@@ -175,6 +189,7 @@ map FD_E2M6 "Hidden Sector"
 	cluster = 82
 	par = 360
 	music = "F_E2M6"
+	Label = "E2M6"
 }
 
 map FD_E2M7 "Control Complex"
@@ -186,6 +201,7 @@ map FD_E2M7 "Control Complex"
 	cluster = 82
 	par = 240
 	music = "F_E2M7"
+	Label = "E2M7"
 }
 
 map FD_E2M8 "Containment Cell"
@@ -201,6 +217,7 @@ map FD_E2M8 "Containment Cell"
 	cyberdemonspecial
 	specialaction_exitlevel
 	music = "F_E2M8"
+	Label = "E2M8"
 }
 
 map FD_E2M9 "Fortress 31"
@@ -212,6 +229,7 @@ map FD_E2M9 "Fortress 31"
 	cluster = 82
 	par = 170
 	music = "F_E2M9"
+	Label = "E2M9"
 }
 
 map FD_E3M1 "Land of the Lost"
@@ -223,6 +241,7 @@ map FD_E3M1 "Land of the Lost"
 	cluster = 83
 	par = 90
 	music = "F_E3M1"
+	Label = "E3M1"
 }
 
 map FD_E3M2 "Geothermal Tunnels"
@@ -234,6 +253,7 @@ map FD_E3M2 "Geothermal Tunnels"
 	cluster = 83
 	par = 45
 	music = "F_E3M2"
+	Label = "E3M2"
 }
 
 map FD_E3M3 "Sacrificial Bastion"
@@ -245,6 +265,7 @@ map FD_E3M3 "Sacrificial Bastion"
 	cluster = 83
 	par = 90
 	music = "F_E3M3"
+	Label = "E3M3"
 }
 
 map FD_E3M4 "Oblation Temple"
@@ -256,6 +277,7 @@ map FD_E3M4 "Oblation Temple"
 	cluster = 83
 	par = 150
 	music = "F_E3M4"
+	Label = "E3M4"
 }
 
 map FD_E3M5 "Infernal Hallows"
@@ -267,6 +289,7 @@ map FD_E3M5 "Infernal Hallows"
 	cluster = 83
 	par = 90
 	music = "F_E3M5"
+	Label = "E3M5"
 }
 
 map FD_E3M6 "Igneous Intrusion"
@@ -278,6 +301,7 @@ map FD_E3M6 "Igneous Intrusion"
 	cluster = 83
 	par = 90
 	music = "F_E3M6"
+	Label = "E3M6"
 }
 
 map FD_E3M7 "No Regrets"
@@ -289,6 +313,7 @@ map FD_E3M7 "No Regrets"
 	cluster = 83
 	par = 165
 	music = "F_E3M7"
+	Label = "E3M7"
 }
 
 map FD_E3M8 "Ancient Lair"
@@ -304,6 +329,7 @@ map FD_E3M8 "Ancient Lair"
 	spidermastermindspecial
 	specialaction_exitlevel
 	music = "F_E3M8"
+	Label = "E3M8"
 }
 
 map FD_E3M9 "Acquainted With Grief"
@@ -315,6 +341,7 @@ map FD_E3M9 "Acquainted With Grief"
 	cluster = 83
 	par = 135
 	music = "F_E3M9"
+	Label = "E3M9"
 }
 
 adddefaultmap
@@ -333,6 +360,7 @@ map FD_E4M1 "Maintenance Area"
 	secretnext = "FD_E4M9"
 	music = "F_E4M1"
     par = 90
+	Label = "E4M1"
 }
 
 map FD_E4M2 "Research Complex"
@@ -342,6 +370,7 @@ map FD_E4M2 "Research Complex"
 	secretnext = "FD_E4M9"
 	music = "F_E4M2"
     par = 40
+	Label = "E4M2"
 }
 
 map FD_E4M3 "Central Computing"
@@ -351,6 +380,7 @@ map FD_E4M3 "Central Computing"
 	secretnext = "FD_E4M9"
 	music = "F_E4M3"
     par = 105
+	Label = "E4M3"
 }
 
 map FD_E4M4 "Hydroponic Facility"
@@ -360,6 +390,7 @@ map FD_E4M4 "Hydroponic Facility"
 	secretnext = "FD_E4M9"
 	music = "F_E4M4"
     par = 80
+	Label = "E4M4"
 }
 
 map FD_E4M5 "Engineering Station"
@@ -369,6 +400,7 @@ map FD_E4M5 "Engineering Station"
 	secretnext = "FD_E4M9"
 	music = "F_E4M5"
     par = 100
+	Label = "E4M5"
 }
 
 map FD_E4M6 "Command Center"
@@ -380,6 +412,7 @@ map FD_E4M6 "Command Center"
 	specialaction_opendoor
 	music = "F_E4M6"
     par = 150
+	Label = "E4M6"
 }
 
 map FD_E4M7 "Waste Treatment"
@@ -389,6 +422,7 @@ map FD_E4M7 "Waste Treatment"
 	secretnext = "FD_E4M9"
 	music = "F_E4M7"
     par = 75
+	Label = "E4M7"
 }
 
 map FD_E4M8 "Launch Bay"
@@ -402,6 +436,7 @@ map FD_E4M8 "Launch Bay"
 	specialaction_lowerfloor
 	music = "F_E4M8"
     par = 100
+	Label = "E4M8"
 }
 
 map FD_E4M9 "Operations"
@@ -413,6 +448,7 @@ map FD_E4M9 "Operations"
 	cluster = 84
 	music = "F_E4M9"
     par = 90
+	Label = "E4M9"
 }
 
 cluster 81 

@@ -16,6 +16,7 @@ map FD_MAP01 "Hydroelectric Plant"
 	cluster = 90
 	par = 30
 	music = "F_RUNNIN"
+	Label = "E1M1"
 }
 
 map FD_MAP02 "Filtration Tunnels"
@@ -26,6 +27,7 @@ map FD_MAP02 "Filtration Tunnels"
 	cluster = 90
 	par = 90
 	music = "F_STALKS"
+	Label = "E1M2"
 }
 
 map FD_MAP03 "Crude Processing Center"
@@ -36,6 +38,7 @@ map FD_MAP03 "Crude Processing Center"
 	cluster = 90
 	par = 120
 	music = "F_COUNTD"
+	Label = "E1M3"
 }
 
 map FD_MAP04 "Containment Bay"
@@ -46,6 +49,7 @@ map FD_MAP04 "Containment Bay"
 	cluster = 90
 	par = 120
 	music = "F_BETWEE"
+	Label = "E1M4"
 }
 
 map FD_MAP05 "Sludge Burrow"
@@ -56,6 +60,7 @@ map FD_MAP05 "Sludge Burrow"
 	cluster = 90
 	par = 90
 	music = "F_DOOM"
+	Label = "E1M5"
 }
 
 map FD_MAP06 "Janus Terminal"
@@ -67,6 +72,7 @@ map FD_MAP06 "Janus Terminal"
 	par = 150
 	sucktime = 1
 	music = "F_THE_DA"
+	Label = "E1M6"
 }
 
 map FD_MAP07 "Logic Gate"
@@ -78,6 +84,7 @@ map FD_MAP07 "Logic Gate"
 	par = 120
 	map07special
 	music = "F_SHAWN"
+	Label = "E1M7"
 }
 
 map FD_MAP08 "Astronomy Complex"
@@ -88,6 +95,7 @@ map FD_MAP08 "Astronomy Complex"
 	cluster = 91
 	par = 120
 	music = "F_DDTBLU"
+	Label = "E1M8"
 }
 
 map FD_MAP09 "Datacenter"
@@ -98,6 +106,7 @@ map FD_MAP09 "Datacenter"
 	cluster = 91
 	par = 270
 	music = "F_IN_CIT"
+	Label = "E1M9"
 }
 
 map FD_MAP10 "Deadly Outlands"
@@ -108,26 +117,27 @@ map FD_MAP10 "Deadly Outlands"
 	cluster = 91
 	par = 90
 	music = "F_DEAD"
+	Label = "E1M10"
 }
 
 map FD_MAP11 "Dimensional Rift Observatory"
 {
 	next = "FD_MAP12"
-	secretnext = "FD_MAP12"
 	sky1 = "FDSKY5"
 	cluster = 91
 	par = 210
 	music = "F_STLKS2"
+	Label = "E1M11"
 }
 
 map FD_MAP12 "Railroads"
 {
 	next = "FD_MAP13"
-	secretnext = "FD_MAP13"
 	sky1 = "FDSKY6"
 	cluster = 92
 	par = 150
 	music = "F_THEDA2"
+	Label = "E2M1"
 }
 
 map FD_MAP13 "Station Earth"
@@ -138,6 +148,7 @@ map FD_MAP13 "Station Earth"
 	cluster = 92
 	par = 150
 	music = "F_DOOM2"
+	Label = "E2M2"
 }
 
 map FD_MAP14 "Nuclear Zone"
@@ -148,6 +159,7 @@ map FD_MAP14 "Nuclear Zone"
 	cluster = 92
 	par = 150
 	music = "F_DDTBL2"
+	Label = "E2M3"
 }
 
 map FD_MAP15 "Hostile Takeover"
@@ -158,6 +170,7 @@ map FD_MAP15 "Hostile Takeover"
 	cluster = 92
 	par = 210
 	music = "F_RUNNI2"
+	Label = "E2M4"
 }
 
 map FD_MAP16 "Urban Jungle"
@@ -168,6 +181,7 @@ map FD_MAP16 "Urban Jungle"
 	cluster = 92
 	par = 150
 	music = "F_DEAD2"
+	Label = "E2M5"
 }
 
 map FD_MAP17 "City Capitol"
@@ -178,6 +192,7 @@ map FD_MAP17 "City Capitol"
 	cluster = 92
 	par = 420
 	music = "F_STLKS3"
+	Label = "E2M6"
 }
 
 map FD_MAP18 "Aquatics Lab"
@@ -188,6 +203,7 @@ map FD_MAP18 "Aquatics Lab"
 	cluster = 92
 	par = 150
 	music = "F_ROMERO"
+	Label = "E2M7"
 }
 
 map FD_MAP19 "Sewage Control"
@@ -197,7 +213,8 @@ map FD_MAP19 "Sewage Control"
 	sky1 = "FDSKY6"
 	cluster = 92
 	par = 210
-	music = "F_SHAWN2"	
+	music = "F_SHAWN2"
+	Label = "E2M8"
 }
 
 map FD_MAP20 "Blood Ember Fortress"
@@ -208,6 +225,7 @@ map FD_MAP20 "Blood Ember Fortress"
 	cluster = 92
 	par = 150
 	music = "F_MESSAG"	
+	Label = "E2M9"
 }
 
 map FD_MAP21 "Under Realm"
@@ -218,6 +236,7 @@ map FD_MAP21 "Under Realm"
 	cluster = 93
 	par = 240
 	music = "F_COUNT2"
+	Label = "E3M1"
 }
 
 map FD_MAP22 "Remanasu"
@@ -228,6 +247,7 @@ map FD_MAP22 "Remanasu"
 	cluster = 93
 	par = 150
 	music = "F_DDTBL3"
+	Label = "E3M2"
 }
 
 map FD_MAP23 "Underground Facility"
@@ -238,6 +258,7 @@ map FD_MAP23 "Underground Facility"
 	cluster = 93
 	par = 180
 	music = "F_AMPIE"
+	Label = "E3M3"
 }
 
 map FD_MAP24 "Abandoned Teleporter Lab"
@@ -248,6 +269,7 @@ map FD_MAP24 "Abandoned Teleporter Lab"
 	cluster = 93
 	par = 150
 	music = "F_THEDA3"
+	Label = "E3M4"
 }
 
 map FD_MAP25 "Persistence of Memory"
@@ -258,6 +280,7 @@ map FD_MAP25 "Persistence of Memory"
 	cluster = 93
 	par = 150
 	music = "F_ADRIAN"
+	Label = "E3M5"
 }
 
 map FD_MAP26 "Dark Depths"
@@ -268,6 +291,7 @@ map FD_MAP26 "Dark Depths"
 	cluster = 93
 	par = 300
 	music = "F_MESSG2"
+	Label = "E3M6"
 }
 
 map FD_MAP27 "Palace of Red"
@@ -278,6 +302,7 @@ map FD_MAP27 "Palace of Red"
 	cluster = 93
 	par = 330
 	music = "F_ROMER2"
+	Label = "E3M7"
 }
 
 map FD_MAP28 "Grim Redoubt"
@@ -288,6 +313,7 @@ map FD_MAP28 "Grim Redoubt"
 	cluster = 93
 	par = 420
 	music = "F_TENSE"
+	Label = "E3M8"
 }
 
 map FD_MAP29 "Melting Point"
@@ -298,6 +324,7 @@ map FD_MAP29 "Melting Point"
 	cluster = 93
 	par = 300
 	music = "F_SHAWN3"
+	Label = "E3M9"
 }
 
 map FD_MAP30 "Jaws of Defeat"
@@ -311,6 +338,7 @@ map FD_MAP30 "Jaws of Defeat"
 	nosoundclipping
 	allowmonstertelefrags
 	music = "F_OPENIN"
+	Label = "E3M10"
 }
 
 map FD_MAP31 "Be Quiet"
@@ -321,6 +349,7 @@ map FD_MAP31 "Be Quiet"
 	cluster = 94
 	par = 120
 	music = "F_EVIL"
+	Label = "E2M10"
 }
 
 map FD_MAP32 "Not Sure"
@@ -331,6 +360,7 @@ map FD_MAP32 "Not Sure"
 	cluster = 95
 	par = 30
 	music = "F_ULTIMA"
+	Label = "E2M11"
 }
 
 cluster 90

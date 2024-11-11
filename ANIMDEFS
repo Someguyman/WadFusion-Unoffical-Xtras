@@ -25,6 +25,12 @@ switch doom 1 SW2LIONH2P on sound switches/normbutn pic SW1LIONH2P tics 0
 switch doom 1 SW1GARGH2P on sound switches/normbutn pic SW2GARGH2P tics 0
 switch doom 1 SW2GARGH2P on sound switches/normbutn pic SW1GARGH2P tics 0
 
+switch doom 1 SW1COMPAQ on sound switches/normbutn pic SW2COMPAQ tics 0
+switch doom 1 SW2COMPAQ on sound switches/normbutn pic SW1COMPAQ tics 0
+
+switch doom 1 SW1STON1FD on sound switches/normbutn pic SW2STON1FD tics 0
+switch doom 1 SW2STON1FD on sound switches/normbutn pic SW1STON1FD tics 0
+
 texture optional GWFALL1
 pic GWFALL1 tics 8
 pic GWFALL2 tics 8

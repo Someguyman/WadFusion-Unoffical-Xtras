@@ -1,0 +1,306 @@
+
+defaultmap
+{
+	SuckTime = 1
+	NoJump
+	NoCrouch
+	NoIntermission
+	NoSoundClipping
+	AllowRespawn 
+	ExitPic = "DMVICTOR"
+	Cluster = 666
+	SpecialAction = "DCX_DM_MarineBotSpawner", EXIT_NORMAL, 0, 1
+	ResetHealth
+    ResetInventory
+}
+
+map FD_DMM01 "Tech Test"
+{
+	next = "FD_DMM02"
+	secretnext = "FD_DMM02"
+	sky1 = "FDSKY5"
+	music = "F_RUNNIN"
+	Label = "DM01"
+}
+
+map FD_DMM02 "Natural Station"
+{
+	next = "FD_DMM03"
+	secretnext = "FD_DMM03"
+	sky1 = "FDSKY5"
+	music = "F_STALKS"
+	Label = "DM02"
+}
+
+map FD_DMM03 "Issues of Claveria"
+{
+	next = "FD_DMM04"
+	secretnext = "FD_DMM04"
+	sky1 = "FDSKY5"
+	music = "F_COUNTD"
+	Label = "DM03"
+}
+
+map FD_DMM04 "Steel"
+{
+	next = "FD_DMM05"
+	secretnext = "FD_DMM05"
+	sky1 = "FDSKY5"
+	music = "F_BETWEE"
+	Label = "DM04"
+}
+
+map FD_DMM05 "Dense Fields"
+{
+	next = "FD_DMM06"
+	secretnext = "FD_DMM06"
+	sky1 = "FDSKY5"
+	cluster = 90
+	par = 90
+	music = "F_DOOM"
+	Label = "DM05"
+}
+
+map FD_DMM06 "Temple of Ammon"
+{
+	next = "FD_DMM07"
+	secretnext = "FD_DMM07"
+	sky1 = "FDSKY5"
+	sucktime = 1
+	music = "F_THE_DA"
+	Label = "DM06"
+}
+
+map FD_DMM07 "Main Stronghold"
+{
+	next = "FD_DMM08"
+	secretnext = "FD_DMM08"
+	sky1 = "FDSKY5"
+	map07special
+	music = "F_SHAWN"
+	Label = "DM07"
+}
+
+map FD_DMM08 "Artifact Base"
+{
+	next = "FD_DMM09"
+	secretnext = "FD_DMM09"
+	sky1 = "FDSKY5"
+	music = "F_DDTBLU"
+	Label = "DM08"
+}
+
+map FD_DMM09 "Industrial Outland"
+{
+	next = "FD_DMM10"
+	secretnext = "FD_DMM10"
+	sky1 = "FDSKY5"
+	music = "F_IN_CIT"
+	Label = "DM09"
+}
+
+map FD_DMM10 "Detached Grounds"
+{
+	next = "FD_DMM11"
+	secretnext = "FD_DMM11"
+	sky1 = "FDSKY5"
+	music = "F_DEAD"
+	Label = "DM10"
+}
+
+map FD_DMM11 "Isolated Facility"
+{
+	next = "FD_DMM12"
+	sky1 = "FDSKY5"
+	music = "F_STLKS2"
+	Label = "DM11"
+}
+
+map FD_DMM12 "Up 'n' Down Canyon"
+{
+	next = "FD_DMM13"
+	sky1 = "FDSKY6"
+	music = "F_THEDA2"
+	Label = "DM12"
+}
+
+map FD_DMM13 "Unholy Blood"
+{
+	next = "FD_DMM14"
+	secretnext = "FD_DMM14"
+	sky1 = "FDSKY6"
+	music = "F_DOOM2"
+	Label = "DM13"
+}
+
+map FD_DMM14 "Technical Assault"
+{
+	next = "FD_DMM15"
+	secretnext = "FD_DMM15"
+	sky1 = "FDSKY6"
+	music = "F_DDTBL2"
+	Label = "DM14"
+}
+
+map FD_DMM15 "Shallow Complex"
+{
+	next = "FD_DMM16"
+	secretnext = "FD_DMM31"
+	sky1 = "FDSKY6"
+	music = "F_RUNNI2"
+	Label = "DM15"
+}
+
+map FD_DMM16 "Barren Alleys"
+{
+	next = "FD_DMM17"
+	secretnext = "FD_DMM17"
+	sky1 = "FDSKY6"
+	music = "F_DEAD2"
+	Label = "DM16"
+}
+
+map FD_DMM17 "Underwoods"
+{
+	next = "FD_DMM18"
+	secretnext = "FD_DMM18"
+	sky1 = "FDSKY6"
+	music = "F_STLKS3"
+	Label = "DM17"
+}
+
+map FD_DMM18 "Deserted Courtyard"
+{
+	next = "FD_DMM19"
+	secretnext = "FD_DMM19"
+	sky1 = "FDSKY6"
+	music = "F_ROMERO"
+	Label = "DM18"
+}
+
+map FD_DMM19 "Tech Isle"
+{
+	next = "FD_DMM20"
+	secretnext = "FD_DMM20"
+	sky1 = "FDSKY6"
+	music = "F_SHAWN2"
+	Label = "DM19"
+}
+
+map FD_DMM20 "Warehouse"
+{
+	next = "FD_DMM21"
+	secretnext = "FD_DMM21"
+	sky1 = "FDSKY6"
+	music = "F_MESSAG"	
+	Label = "DM20"
+}
+
+map FD_DMM21 "Refinery"
+{
+	next = "FD_DMM22"
+	secretnext = "FD_DMM22"
+	sky1 = "FDSKY7"
+	music = "F_COUNT2"
+	Label = "DM21"
+}
+
+map FD_DMM22 "Military Depot"
+{
+	next = "FD_DMM23"
+	secretnext = "FD_DMM23"
+	sky1 = "FDSKY7"
+	music = "F_DDTBL3"
+	Label = "DM22"
+}
+
+map FD_DMM23 "Confrontation"
+{
+	next = "FD_DMM24"
+	secretnext = "FD_DMM24"
+	sky1 = "FDSKY7"
+	music = "F_AMPIE"
+	Label = "DM23"
+}
+
+map FD_DMM24 "Flooded Base"
+{
+	next = "FD_DMM25"
+	secretnext = "FD_DMM25"
+	sky1 = "FDSKY7"
+	music = "F_THEDA3"
+	Label = "DM24"
+}
+
+map FD_DMM25 "Mansion Yard"
+{
+	next = "FD_DMM26"
+	secretnext = "FD_DMM26"
+	sky1 = "FDSKY7"
+	music = "F_ADRIAN"
+	Label = "DM25"
+}
+
+map FD_DMM26 "Acidic Crypt"
+{
+	next = "FD_DMM27"
+	secretnext = "FD_DMM27"
+	sky1 = "FDSKY7"
+	music = "F_MESSG2"
+	Label = "DM26"
+}
+
+map FD_DMM27 "The Exile"
+{
+	next = "FD_DMM28"
+	secretnext = "FD_DMM28"
+	sky1 = "FDSKY7"
+	music = "F_ROMER2"
+	Label = "DM27"
+}
+
+map FD_DMM28 "Weapons Factory"
+{
+	next = "FD_DMM29"
+	secretnext = "FD_DMM29"
+	sky1 = "FDSKY7"
+	music = "F_TENSE"
+	Label = "DM28"
+}
+
+map FD_DMM29 "Unusual Territory"
+{
+	next = "FD_DMM30"
+	secretnext = "FD_DMM30"
+	sky1 = "FDSKY7"
+	music = "F_SHAWN3"
+	Label = "DM29"
+}
+
+map FD_DMM30 "Last Man Standing"
+{
+	next = "EndGameC"
+	secretnext = "EndGameC"
+	sky1 = "FDSKY7"
+	allowmonstertelefrags
+	music = "F_OPENIN"
+	Label = "DM30"
+}
+
+map FD_DMM31 "Desolated Fort"
+{
+	next = "FD_DMM16"
+	secretnext = "FD_DMM32"
+	sky1 = "FDSKY7"
+	music = "F_EVIL"
+	Label = "DM31"
+}
+
+map FD_DMM32 "Fourplay"
+{
+	next = "FD_DMM16"
+	secretnext = "FD_DMM16"
+	sky1 = "FDSKY7"
+	music = "F_ULTIMA"
+	Label = "DM32"
+}

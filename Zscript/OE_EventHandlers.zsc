@@ -1,6 +1,156 @@
 
 class DCX_UOEventHandler : EventHandler
 {
+	override void CheckReplacement(ReplaceEvent e)
+	{
+		String mapPrefix = level.MapName.Left(3);
+        mapPrefix = mapPrefix.MakeLower();
+		String mapName = level.MapName.MakeLower();
+		if ( mapPrefix == "hp_" )
+        {
+			if (e.Replacee == 'Doomimp')
+			{
+				e.Replacement = 'H2P_MetalHellion';
+			}
+			
+			if (e.Replacee == 'Demon')
+			{
+				e.Replacement = 'H2P_MechaReaper';
+			}
+			
+			if (e.Replacee == 'Spectre')
+			{
+				e.Replacement = 'H2P_StealthReaper';
+			}
+			
+			if (e.Replacee == 'LostSoul')
+			{
+				e.Replacement = 'H2P_LiquidMetalBlob';
+			}
+			
+			if (e.Replacee == 'Cacodemon')
+			{
+				e.Replacement = 'H2P_Watcher';
+			}
+			
+			if (e.Replacee == 'Painelemental')
+			{
+				e.Replacement = 'H2P_HotLiquidMetal';
+			}
+			
+			if (e.Replacee == 'Fatso')
+			{
+				e.Replacement = 'H2P_Sentry';
+			}
+			
+			if (e.Replacee == 'CommanderKeen')
+			{
+				e.Replacement = 'H2P_PowerCore';
+			}
+			
+			if (e.Replacee == 'ShortRedColumn')
+			{
+				e.Replacement = 'H2P_PeiceOfMeat';
+			}
+			
+			if (e.Replacee == 'SkullColumn')
+			{
+				e.Replacement = 'H2P_PeiceOfMeat2';
+			}
+			
+			if (e.Replacee == 'Meat2')
+			{
+				e.Replacement = 'H2P_SkinnedMeat';
+			}
+			
+			if (e.Replacee == 'Meat3')
+			{
+				e.Replacement = 'H2P_SkinnedMeat2';
+			}
+			
+			if (e.Replacee == 'Meat4')
+			{
+				e.Replacement = 'H2P_SkinnedMeat3';
+			}
+			
+			if (e.Replacee == 'TechPillar')
+			{
+				e.Replacement = 'H2P_ADeadguy';
+			}
+			
+			if (e.Replacee == 'WolfensteinSS')
+			{
+				e.Replacement = 'H2P_BOMBDestruct';
+			}
+			
+			if (e.Replacee == 'BossEye')
+			{
+				e.Replacement = 'H2P_Meltdown';
+			}
+			
+			if (e.Replacee == 'BossBrain')
+			{
+				e.Replacement = 'H2P_Explosion';
+			}
+			
+			if (e.Replacee == 'RocketLauncher')
+			{
+				e.Replacement = 'H2P_RocketLauncher';
+			}
+			
+			if (e.Replacee == 'Plasmarifle')
+			{
+				e.Replacement = 'H2P_PlasmaTrident';
+			}
+			
+			if (e.Replacee == 'BFG9000')
+			{
+				e.Replacement = 'H2P_IncendiaryTrident';
+			}
+			
+			}
+			
+		}
+		
+		/*
+		if ( mapPrefix == "tr_" )
+        {
+			if (e.Replacee == 'BossEye')
+			{
+				e.Replacement = 'FakeSpawnerCube';
+			}
+			
+			if (e.Replacee == 'BossBrain')
+			{
+				e.Replacement = 'VIOSBoss';
+			}
+			
+			if (e.Replacee == 'Wolfensteinss')
+			{
+				e.Replacement = 'DCX_PlasmaTurret';
+			}
+			
+			if (e.Replacee == 'BossTarget')
+			{
+				e.Replacement = 'DCX_RocketTurret';
+			}
+		}
+		*/
+		
+		override void CheckReplacee (ReplacedEvent e)
+		{
+			String mapPrefix = level.MapName.Left(3);
+			mapPrefix = mapPrefix.MakeLower();
+			String mapName = level.MapName.MakeLower();
+			if ( mapPrefix == "hp_" )
+			{
+				if (e.Replacement == 'H2P_Sentry')
+				{
+				e.Replacee = 'Fatso';
+				}
+			}
+		}
+	
     void DCX_UOTextureReplacements()
     {
 		String SkyName = TexMan.GetName(level.skytexture1);
@@ -131,7 +281,6 @@ class DCX_UOEventHandler : EventHandler
 			
 			Level.ReplaceTextures("MIDSPACE", "MIDSPACE2", 0);
 		}
-	
     }
 	
 	override void WorldLoaded(WorldEvent e)

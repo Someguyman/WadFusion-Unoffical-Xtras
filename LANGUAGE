@@ -20,6 +20,8 @@ FREED2_EP01 = "\c[RED]Corrupted Complex";
 FREED2_EP02 = "\c[RED]Desolate Detroit";
 FREED2_EP03 = "\c[RED]Operation On The Offense";
 
+FREEDM = "\c[GOLD]Bonus: \c[RED]DeathMatch FreeDoom";
+
 LOSTE_EP01 = "\c[Green]Massacre on Callisto";
 LOSTE_EP02 = "\c[Green]The Killing Fields of Io";
 LOSTE_EP03 = "\c[Green]Hell's Gate - The Red Spot";

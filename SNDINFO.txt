@@ -1,0 +1,50 @@
+
+VIOS/Sight DSVIOSSI
+VIOS/Pain DSVIOSPN
+VIOS/Death DSVIOSDH
+
+Turret/Attack DSTURSIT
+
+$Random H2pImp/Sight { H2pImp/Sight1 H2pImp/Sight2 }
+H2pImp/Sight1 dshisit1
+H2pImp/Sight2 dshisit2
+H2pImp/Active dsh2tact
+$Random H2pImp/Death { H2pImp/Death1 H2pImp/Death2 }
+H2pImp/Death1 dshidth1
+H2pImp/Death2 dshidth2
+
+H2pDemon/Active dsh2dact
+H2pDemon/Active2 DSTURSIT
+
+H2pDemon/Pain dsh2dpin
+
+H2pPinky/Sight dsh2psit
+H2pPinky/Attack dsh2patk
+H2pPinky/Death dsh2pdth
+
+H2pCaco/Sight dsh2csit
+H2pCaco/Death dsh2cdth
+
+H2pPain/Sight dshpsit
+H2pPain/Pain dsphpain
+H2pPain/Death dshpdth
+
+H2pSkull/Attack dsh2satk
+H2pSkull/Pain dsh2spin
+H2pSkull/Death dsh2sdth
+
+H2pFatso/Sight dsh2msit
+H2pFatso/Attack dsh2matk
+H2pFatso/Pain dsh2mpin
+H2pFatso/Death dsh2mdth
+
+H2pKeen/Pain dsh2pkpn
+H2pKeen/Death dsh2pkdt
+
+H2pBombDestruct/Sight dsbombde
+$attenuation H2pBombDestruct/Sight 0
+H2pMeltdown/Sight dsmeltdn
+$attenuation H2pMeltdown/Sight 0
+H2pExplosion/Explosion1 dsh2exp1
+H2pExplosion/Explosion2 dsh2exp2
+$attenuation H2pExplosion/Explosion2 0
