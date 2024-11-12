@@ -5,27 +5,51 @@ defaultmap
 	
 	nocrouch
 	nojump
-	forcenoskystretch
-	compat_crossdropoff = "1"
-	compat_dehhealth = "1"
-	compat_light = "1"
-	compat_missileclip = "1"
-	compat_nodoorlight = "1"
-	compat_shorttex = "1"
-	compat_soundtarget = "1"
-	compat_spritesort = "1"
-	compat_stairs = "1"
-	compat_trace = "1"
-	compat_useblocking = "1"
-	compat_floormove = "1"
-	compat_maskedmidtex = "1"
-	compat_corpsegibs = "1"
-	compat_invisibility = "1"
-	compat_notossdrops = "1"
-	compat_sectorsounds = "1"
 	ExitPic = "tnrinter"
 	enterpic = "tnrinter"
 	intermusic = "$MUSIC_TNRINTER"
+}
+
+clusterdef 62
+{
+	flat = "$BLOOD1"
+	music = "$MUSIC_TNRTEXT"
+	exittext = lookup, "TR_TEXT1"
+}
+
+clusterdef 63
+{
+	flat = "$TEKDARKF"
+	music = "$MUSIC_TNRTEXT"
+	exittext = lookup, "TR_TEXT2"
+}
+
+clusterdef 64
+{
+	flat = "$FLOOR0_4"
+	music = "$MUSIC_TNRTEXT"
+	exittext = lookup, "TR_TEXT3"
+}
+
+clusterdef 65
+{
+	pic = "TNRCRED"
+	music = "$MUSIC_TNRTEXT"
+	exittext = lookup, "tr_TEXT4"
+}
+
+clusterdef 66
+{
+	flat = "$METALFL4"
+	music = "$MUSIC_TNRTEXT"
+	entertext = lookup, "TR_TEXT5"
+}
+
+clusterdef 67
+{
+	flat = "$BLUDSOUP"
+	music = "$MUSIC_TNRTEXT"
+	entertext = lookup, "TR_TEXT6"
 }
 
 map tr_map01 lookup "TRHUSTR_1"

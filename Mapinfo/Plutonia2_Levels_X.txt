@@ -8,6 +8,48 @@ defaultmap
 	intermusic = "D_JA_CER"
 }
 
+clusterdef 50
+{
+	flat = "$GRASS2"
+	music = "D_JP_WAS"
+	exittext = lookup, "P2_TEXT1"
+}
+
+clusterdef 51
+{
+	flat = "$FMETAL1"
+	music = "D_JP_WAS"
+	exittext = lookup, "P2_TEXT2"
+}
+
+clusterdef 52
+{
+	flat = "$FLAT1"
+	music = "D_JP_WAS"
+	exittext = lookup, "P2_TEXT3"
+}
+
+clusterdef 53
+{
+	pic = "P2END"
+	music = "D_JP_WAS"
+	exittext = lookup, "P2_TEXT4"
+}
+
+clusterdef 54
+{
+	flat = "$RROCK03"
+	music = "D_JP_WAS"
+	entertext = lookup, "P2_TEXT5"
+}
+
+clusterdef 55
+{
+	flat = "$FLAT5_8"
+	music = "D_JP_WAS"
+	entertext = lookup, "P2_TEXT6"
+}
+
 map PT_MAP01 lookup "P2HUSTR_1"
 {
 	next = "PT_MAP02"
