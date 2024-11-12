@@ -1,4 +1,11 @@
 
+$attenuation PGBomb/Voice1 0
+PGBomb/Voice1 dsbomwar
+$limit PGBomb/Voice2 1
+$attenuation PGBomb/Voice2 0
+PGBomb/Voice2 dsbomdet
+chainguy/attack dspistol
+
 VIOS/Sight DSVIOSSI
 VIOS/Pain DSVIOSPN
 VIOS/Death DSVIOSDH

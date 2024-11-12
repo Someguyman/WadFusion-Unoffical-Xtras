@@ -11,6 +11,55 @@ class DCX_Player_Unoffical : DCX_Player Replaces Doomplayer
 	}
 }
 
+Class PG_BOMBSafe : Actor
+{
+	Default
+	{
+		Health 50;
+		Radius 20;
+		Height 56;
+		Speed 0;
+		PainChance 0;
+		+LOOKALLAROUND
+		-countkill
+		-ISMONSTER
+		+SOLID 
+		+SHOOTABLE
+		+NOICEDEATH
+		+OLDRADIUSDMG
+		+BOSS
+		Mass 10000000;
+		SeeSound "PGBomb/Voice1";
+		PainSound "";
+		DeathSound "";
+		ActiveSound "";
+		AttackSound "";
+	}
+	States
+	{
+	Spawn:
+		TNT1 AB 10 A_Look;
+		Loop;
+	See:
+		TNT1 AABBCCDD 3 A_Chase;
+		stop;
+	}
+}
+
+Class PG_BOMBdet : BossEye
+{
+	States
+	{
+	Spawn:
+		SSWV A 10 A_Look;
+		Loop;
+	See:
+		TNT1 A 181 A_StartSound("PGBomb/Voice2");
+		TNT1 A 150 A_BrainSpit;
+		Wait;
+	}
+}
+
 
 class H2P_MetalHellion : DoomImp
 {

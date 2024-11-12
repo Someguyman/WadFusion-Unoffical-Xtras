@@ -6,6 +6,20 @@ class DCX_UOEventHandler : EventHandler
 		String mapPrefix = level.MapName.Left(3);
         mapPrefix = mapPrefix.MakeLower();
 		String mapName = level.MapName.MakeLower();
+		
+		if ( mapPrefix == "pg_" )
+		{
+			if (e.Replacee == 'WolfensteinSS')
+			{
+				e.Replacement = 'PG_BOMBSafe';
+			}
+			
+			if (e.Replacee == 'BossEye')
+			{
+				e.Replacement = 'PG_BOMBdet';
+			}
+		}
+		
 		if ( mapPrefix == "hp_" )
         {
 			if (e.Replacee == 'Doomimp')

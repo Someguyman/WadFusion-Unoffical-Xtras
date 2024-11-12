@@ -3,9 +3,8 @@ defaultmap
 {
 	nojump
 	nocrouch
-	enterpic = "H2PINTER"
-	exitpic = "H2PINTER"
 	InterMusic = "$MUSIC_H2PINTER"
+	exitpic = "$in_H2P"
 	enterpic = "$in_H2P"
 }
 

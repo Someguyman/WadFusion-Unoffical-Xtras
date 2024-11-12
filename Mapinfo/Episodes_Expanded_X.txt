@@ -329,12 +329,10 @@ episode HP_MAP12
 {
 	Name = "$HELL2P_EP2"
 	Optional
-	Intro { Video = "movies/HELL2PAYINTRO.IVF" Sound = "movies/HELL2PAYINTRO.OGG" } 
 }
 
 episode HP_MAP21
 {
 	Name = "$HELL2P_EP3"
 	Optional
-	Intro { Video = "movies/HELL2PAYINTRO.IVF" Sound = "movies/HELL2PAYINTRO.OGG" } 
 }
