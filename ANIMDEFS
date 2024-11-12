@@ -1,3 +1,11 @@
+switch doom 1 ps1skull on sound switches/normbutn pic ps2skull tics 0
+switch doom 1 ps2skull on sound switches/normbutn pic ps1skull tics 0
+
+switch doom 1 P2SW2 on sound switches/normbutn pic P2SWX2 tics 0
+switch doom 1 P2SWX2 on sound switches/normbutn pic P2SW2 tics 0
+
+switch doom 1 P2SW2C on sound switches/normbutn pic P2SWX2C tics 0
+switch doom 1 P2SWX2C on sound switches/normbutn pic P2SW2C tics 0
 
 switch doom 1 SW1LIPG on sound switches/normbutn pic SW2LIPG tics 0
 switch doom 1 SW2LIPG on sound switches/normbutn pic SW1LIPG tics 0
@@ -30,6 +38,67 @@ switch doom 1 SW2COMPAQ on sound switches/normbutn pic SW1COMPAQ tics 0
 
 switch doom 1 SW1STON1FD on sound switches/normbutn pic SW2STON1FD tics 0
 switch doom 1 SW2STON1FD on sound switches/normbutn pic SW1STON1FD tics 0
+
+switch doom 1 SW1PIPETR on sound switches/normbutn pic SW2PIPETR tics 0
+switch doom 1 SW2PIPETR on sound switches/normbutn pic SW1PIPETR tics 0
+
+switch doom 1 SW1BRCOMTR on sound switches/normbutn pic SW2BRCOMTR tics 0
+switch doom 1 SW2BRCOMTR on sound switches/normbutn pic SW1BRCOMTR tics 0
+
+switch doom 1 SW1BRN1TR on sound switches/normbutn pic SW2BRN1TR tics 0
+switch doom 1 SW2BRN1TR on sound switches/normbutn pic SW1BRN1TR tics 0
+
+switch doom 1 SW1BLUETR on sound switches/normbutn pic SW2BLUETR tics 0
+switch doom 1 SW2BLUETR on sound switches/normbutn pic SW1BLUETR tics 0
+
+switch doom 1 SW1BRIKTR on sound switches/normbutn pic SW2BRIKTR tics 0
+switch doom 1 SW2BRIKTR on sound switches/normbutn pic SW1BRIKTR tics 0
+
+switch doom 1 SW1BROWNTR on sound switches/normbutn pic SW2BROWNTR tics 0
+switch doom 1 SW2BROWNTR on sound switches/normbutn pic SW1BROWNTR tics 0
+
+switch doom 1 SW1COMMTR on sound switches/normbutn pic SW2COMMTR tics 0
+switch doom 1 SW2COMMTR on sound switches/normbutn pic SW1COMMTR tics 0
+
+switch doom 1 SW1COMPTR on sound switches/normbutn pic SW2COMPTR tics 0
+switch doom 1 SW2COMPTR on sound switches/normbutn pic SW1COMPTR tics 0
+
+switch doom 1 SW1DIRTTR on sound switches/normbutn pic SW2DIRTTR tics 0
+switch doom 1 SW2DIRTTR on sound switches/normbutn pic SW1DIRTTR tics 0
+
+switch doom 1 SW1EXITTR on sound switches/normbutn pic SW2EXITTR tics 0
+switch doom 1 SW2EXITTR on sound switches/normbutn pic SW1EXITTR tics 0
+
+switch doom 1 SW1GARGTR on sound switches/normbutn pic SW2GARGTR tics 0
+switch doom 1 SW2GARGTR on sound switches/normbutn pic SW1GARGTR tics 0
+
+switch doom 1 SW1GRAYTR on sound switches/normbutn pic SW2GRAYTR tics 0
+switch doom 1 SW2GRAYTR on sound switches/normbutn pic SW1GRAYTR tics 0
+
+switch doom 1 SW1GSTONTR on sound switches/normbutn pic SW2GSTONTR tics 0
+switch doom 1 SW2GSTONTR on sound switches/normbutn pic SW1GSTONTR tics 0
+
+switch doom 1 SW1HOTTR on sound switches/normbutn pic SW2HOTTR tics 0
+switch doom 1 SW2HOTTR on sound switches/normbutn pic SW1HOTTR tics 0
+
+switch doom 1 SW1LIONTR on sound switches/normbutn pic SW2LIONTR tics 0
+switch doom 1 SW2LIONTR on sound switches/normbutn pic SW1LIONTR tics 0
+
+switch doom 1 SW1METALTR on sound switches/normbutn pic SW2METALTR tics 0
+switch doom 1 SW2METALTR on sound switches/normbutn pic SW1METALTR tics 0
+
+switch doom 1 SW1ROCKTR on sound switches/normbutn pic SW2ROCKTR tics 0
+switch doom 1 SW2ROCKTR on sound switches/normbutn pic SW1ROCKTR tics 0
+
+switch doom 1 SW1SLADTR on sound switches/normbutn pic SW2SLADTR tics 0
+switch doom 1 SW2SLADTR on sound switches/normbutn pic SW1SLADTR tics 0
+
+switch doom 1 SW1STON2TR on sound switches/normbutn pic SW2STON2TR tics 0
+switch doom 1 SW2STON2TR on sound switches/normbutn pic SW1STON2TR tics 0
+
+switch doom 1 SW1SKULLT1 on sound switches/normbutn pic SW2SKULLT1 tics 0
+switch doom 1 SW2SKULLT1 on sound switches/normbutn pic SW1SKULLT1 tics 0
+
 
 texture optional GWFALL1
 pic GWFALL1 tics 8
@@ -64,3 +133,248 @@ pic planet05 tics 6
 pic planet06 tics 6
 pic planet07 tics 6
 pic planet08 tics 6
+
+texture optional FIREBLUTR1
+pic FIREBLUTR1 tics 8
+pic FIREBLUX tics 8
+pic FIREBLUY tics 8
+pic FIREBLUTR2 tics 8
+
+texture optional FIREBLUX
+pic FIREBLUTR1 tics 8
+pic FIREBLUX tics 8
+pic FIREBLUY tics 8
+pic FIREBLUTR2 tics 8
+
+texture optional FIREBLUY
+pic FIREBLUTR1 tics 8
+pic FIREBLUX tics 8
+pic FIREBLUY tics 8
+pic FIREBLUTR2 tics 8
+
+texture optional FIREBLUTR2
+pic FIREBLUTR1 tics 8
+pic FIREBLUX tics 8
+pic FIREBLUY tics 8
+pic FIREBLUTR2 tics 8
+
+texture optional lightb01
+pic lightb01 tics 8
+pic lightb02 tics 8
+pic lightb03 tics 8
+pic lightb04 tics 8
+
+texture optional GSTFNTR1
+pic GSTFNTR1 tics 8
+pic GSTFNTR2 tics 8
+pic GSTFNTR3 tics 8
+
+texture optional SW1SKULLT1
+pic SW1SKULLT1 tics 8
+pic SW1SKULLT2 tics 8
+pic SW1SKULLT3 tics 8
+pic SW1SKULLT4 tics 8
+
+texture optional SW2SKULLT1
+pic SW2SKULLT1 tics 8
+pic SW2SKULLT2 tics 8
+pic SW2SKULLT3 tics 8
+pic SW2SKULLT4 tics 8
+
+texture optional DBRAIN1TR
+pic DBRAIN1TR tics 8
+pic DBRAIN2TR tics 8
+pic DBRAIN3TR tics 8
+pic DBRAIN4TR tics 8
+
+texture optional BLODGR1H2P
+pic BLODGR1H2P tics 8
+pic BLODGR2H2P tics 8
+pic BLODGR3H2P tics 8
+pic BLODGR04 tics 8
+pic BLODGR05 tics 8
+pic BLODGR06 tics 8
+pic BLODGR07 tics 8
+pic BLODGR4H2P tics 8
+
+texture optional MISCTNR01
+pic MISCTNR01 tics 8
+pic MISCTNR02 tics 8
+pic MISCTNR03 tics 8
+pic MISCTNR04 tics 8
+pic MISCTNR05 tics 8
+pic MISCTNR06 tics 8
+pic MISCTNR07 tics 8
+pic MISCTNR08 tics 8
+pic MISCTNR09 tics 8
+pic MISCTNR10 tics 8
+pic MISCTNR11 tics 8
+pic MISCTNR12 tics 8
+
+texture optional BLODRIP1H2P
+pic BLODRIP1H2P tics 8
+pic BLODRIP2H2P tics 8
+pic BLODRIP3H2P tics 8
+pic BLODRI04 tics 8
+pic BLODRI05 tics 8
+pic BLODRI06 tics 8
+pic BLODRI07 tics 8
+pic BLODRI08 tics 8
+pic BLODRI09 tics 8
+pic BLODRI10 tics 8
+pic BLODRI11 tics 8
+pic BLODRI12 tics 8
+pic BLODRI13 tics 8
+pic BLODRI14 tics 8
+pic BLODRI15 tics 8
+pic BLODRIP4H2P tics 8
+
+texture optional SLADRIP1H2P
+pic SLADRIP2H2P tics 8
+pic SLADRI03H2P tics 8
+pic SLADRI04H2P tics 8
+pic SLADRI05H2P tics 8
+pic SLADRI06H2P tics 8
+pic SLADRI07H2P tics 8
+pic SLADRI08H2P tics 8
+pic SLADRI09H2P tics 8
+pic SLADRI10H2P tics 8
+pic SLADRI11H2P tics 8
+pic SLADRI12H2P tics 8
+pic SLADRI13H2P tics 8
+pic SLADRI14H2P tics 8
+pic SLADRI15H2P tics 8
+pic SLADRIP3H2P tics 8
+
+texture optional SLADRIP2H2P
+pic SLADRI03H2P tics 8
+pic SLADRI04H2P tics 8
+pic SLADRI05H2P tics 8
+pic SLADRI06H2P tics 8
+pic SLADRI07H2P tics 8
+pic SLADRI08H2P tics 8
+pic SLADRI09H2P tics 8
+pic SLADRI10H2P tics 8
+pic SLADRI11H2P tics 8
+pic SLADRI12H2P tics 8
+pic SLADRI13H2P tics 8
+pic SLADRI14H2P tics 8
+pic SLADRI15H2P tics 8
+pic SLADRIP3H2P tics 8
+pic SLADRIP1H2P tics 8
+
+texture optional SLADRIP3H2P
+pic SLADRIP1H2P tics 8
+pic SLADRIP2H2P tics 8
+pic SLADRI03H2P tics 8
+pic SLADRI04H2P tics 8
+pic SLADRI05H2P tics 8
+pic SLADRI06H2P tics 8
+pic SLADRI07H2P tics 8
+pic SLADRI08H2P tics 8
+pic SLADRI09H2P tics 8
+pic SLADRI10H2P tics 8
+pic SLADRI11H2P tics 8
+pic SLADRI12H2P tics 8
+pic SLADRI13H2P tics 8
+pic SLADRI14H2P tics 8
+pic SLADRI15H2P tics 8
+
+texture optional HPRKRED1
+pic HPRKRED1 tics 8
+pic HPRKRED2 tics 8
+pic HPRKRED3 tics 8
+pic HPRKRED4 tics 8
+
+texture optional HPRKRED2
+pic HPRKRED2 tics 8
+pic HPRKRED3 tics 8
+pic HPRKRED4 tics 8
+pic HPRKRED1 tics 8
+
+texture optional HPRKRED3
+pic HPRKRED3 tics 8
+pic HPRKRED4 tics 8
+pic HPRKRED1 tics 8
+pic HPRKRED2 tics 8
+
+texture optional HPRKRED4
+pic HPRKRED4 tics 8
+pic HPRKRED1 tics 8
+pic HPRKRED2 tics 8
+pic HPRKRED3 tics 8
+
+texture optional LFALL1
+pic LFALL1 tics 8
+pic LFALL2 tics 8
+pic LFALL3 tics 8
+pic LFALL4 tics 8
+
+texture optional LFALL2
+pic LFALL2 tics 8
+pic LFALL3 tics 8
+pic LFALL4 tics 8
+pic LFALL1 tics 8
+
+texture optional LFALL3
+pic LFALL3 tics 8
+pic LFALL4 tics 8
+pic LFALL1 tics 8
+pic LFALL2 tics 8
+
+texture optional LFALL4
+pic LFALL4 tics 8
+pic LFALL1 tics 8
+pic LFALL2 tics 8
+pic LFALL3 tics 8
+
+texture optional TRBFL1
+pic TRBFL1 tics 8
+pic TRBFL2 tics 8
+pic TRBFL3 tics 8
+pic TRBFL4 tics 8
+
+texture optional TRBFL2
+pic TRBFL2 tics 8
+pic TRBFL3 tics 8
+pic TRBFL4 tics 8
+pic TRBFL1 tics 8
+
+texture optional TRBFL3
+pic TRBFL3 tics 8
+pic TRBFL4 tics 8
+pic TRBFL1 tics 8
+pic TRBFL2 tics 8
+
+texture optional TRBFL4
+pic TRBFL4 tics 8
+pic TRBFL1 tics 8
+pic TRBFL2 tics 8
+pic TRBFL3 tics 8
+
+texture optional P2CMPSA1
+pic P2CMPSA1 tics 8
+pic P2CMPSA2 tics 8
+pic P2CMPSA3 tics 8
+pic P2CMPSA4 tics 8
+pic P2CMPSA5 tics 8
+pic P2CMPSA6 tics 8
+pic P2CMPSA7 tics 8
+
+Flat SWATER5 Range SWATER8 Tics 8
+Flat 2WATER1 Range 2WATER4 Tics 8
+TEXTURE WFALLH2P1 Range WFALLH2P4 Tics 8
+TEXTURE HOLO01 Range HOLO09 Tics 8
+
+texture optional P2SHITF1
+pic brfall1 tics 8
+pic brfall2 tics 8
+pic brfall3 tics 8
+pic brfall4 tics 8
+
+Texture optional slime072
+pic slime072 tics 8
+pic slime073 tics 8
+pic slime074 tics 8
+pic slime075 tics 8
+pic slime076 tics 8

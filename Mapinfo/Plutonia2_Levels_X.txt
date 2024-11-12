@@ -1,0 +1,542 @@
+defaultmap
+{
+	nojump
+	nocrouch
+	//forcenoskystretch
+	ExitPic = "p2interp"
+	enterpic = "p2interp"
+	intermusic = "D_JA_CER"
+}
+
+map PT_MAP01 lookup "P2HUSTR_1"
+{
+	next = "PT_MAP02"
+	secretnext = "PT_MAP02"
+	sky1 = "PSKY1"
+	cluster = 50
+	par = 30
+	music = "$MUSIC_PL2MAP01"
+	Author = "$WS_AU_GUSTA"
+	Label = "E4M1"
+}
+
+map PT_MAP02 lookup "P2HUSTR_2"
+{
+	next = "PT_MAP03"
+	secretnext = "PT_MAP03"
+	sky1 = "PSKY1"
+	cluster = 50
+	par = 90
+	music = "$MUSIC_PL2MAP02"
+	Author = "$WS_AU_GUSTA"
+	Label = "E4M2"
+}
+
+map PT_MAP03 lookup "P2HUSTR_3"
+{
+	next = "PT_MAP04"
+	secretnext = "PT_MAP04"
+	sky1 = "PSKY1"
+	cluster = 50
+	par = 120
+	music = "$MUSIC_PL2MAP03"
+	Author = "$WS_AU_GUSTA_PIPICZ"
+	Label = "E4M3"
+}
+
+map PT_MAP04 lookup "P2HUSTR_4"
+{
+	next = "PT_MAP05"
+	secretnext = "PT_MAP05"
+	sky1 = "PSKY1"
+	cluster = 50
+	par = 120
+	music = "$MUSIC_PLUMAP01"
+	Author = "$WS_AU_FREDRICK"
+	Label = "E4M4"
+}
+
+map PT_MAP05 lookup "P2HUSTR_5"
+{
+	next = "PT_MAP06"
+	secretnext = "PT_MAP06"
+	sky1 = "PSKY1"
+	cluster = 50
+	par = 90
+	music = "$MUSIC_PL2MAP05"
+	Author = "$WS_AU_GUSTA"
+	Label = "E4M5"
+}
+
+map PT_MAP06 lookup "P2HUSTR_6"
+{
+	next = "PT_MAP07"
+	secretnext = "PT_MAP07"
+	sky1 = "PSKY1"
+	cluster = 50
+	par = 150
+	music = "$MUSIC_PLUMAP06"
+	Author = "$WS_AU_METABOLIST_PEROXYD"
+	Label = "E4M6"
+}
+
+map PT_MAP07 lookup "P2HUSTR_7"
+{
+	next = "PT_MAP08"
+	secretnext = "PT_MAP08"
+	sky1 = "PSKY1"
+	cluster = 51
+	//titlepatch = "PWILV06"
+	par = 120
+	map07special
+	music = "$MUSIC_PL2MAP07"
+	Author = "$WS_AU_KIRA_PEROXYD"
+	Label = "E4M7"
+}
+
+map PT_MAP08 lookup "P2HUSTR_8"
+{
+	next = "PT_MAP09"
+	secretnext = "PT_MAP09"
+	sky1 = "PSKY1"
+	cluster = 51
+	//titlepatch = "PWILV07"
+	par = 120
+	music = "$MUSIC_PL2MAP08"
+	Author = "$WS_AU_TANGO"
+	Label = "E4M8"
+}
+
+map PT_MAP09 lookup "P2HUSTR_9"
+{
+	next = "PT_MAP10"
+	secretnext = "PT_MAP10"
+	sky1 = "PSKY1"
+	cluster = 51
+	//titlepatch = "PWILV08"
+	par = 270
+	music = "$MUSIC_PL2MAP09"
+	Author = "$WS_AU_GUSTA"
+	Label = "E4M9"
+}
+
+map PT_MAP10 lookup "P2HUSTR_10"
+{
+	next = "PT_MAP11"
+	secretnext = "PT_MAP11"
+	sky1 = "PSKY1"
+	cluster = 51
+	//titlepatch = "PWILV09"
+	par = 90
+	music = "$MUSIC_PL2MAP10"
+	Author = "$WS_AU_RABOTIK"
+	Label = "E4M10"
+}
+
+map PT_MAP11 lookup "P2HUSTR_11"
+{
+	next = "PT_MAP12"
+	secretnext = "PT_MAP12"
+	sky1 = "PSKY1"
+	cluster = 51
+	//titlepatch = "PWILV10"
+	par = 210
+	music = "$MUSIC_PL2MAP11"
+	Author = "$WS_AU_GUSTA_RABOTIK"
+	Label = "E4M11"
+}
+
+map PT_MAP12 lookup "P2HUSTR_12"
+{
+	next = "PT_MAP13"
+	secretnext = "PT_MAP13"
+	sky1 = "PSKY2"
+	cluster = 52
+	//titlepatch = "PWILV11"
+	par = 150
+	music = "$MUSIC_PL2MAP12"
+	Author = "$WS_AU_KrRaMePa"
+	Label = "E5M1"
+}
+
+map PT_MAP13 lookup "P2HUSTR_13"
+{
+	next = "PT_MAP14"
+	secretnext = "PT_MAP14"
+	sky1 = "PSKY2"
+	cluster = 52
+	par = 150
+	music = "$MUSIC_PLUMAP13"
+	Author = "$WS_AU_FrGuMe"
+	Label = "E5M2"
+}
+
+map PT_MAP14 lookup "P2HUSTR_14"
+{
+	next = "PT_MAP15"
+	secretnext = "PT_MAP15"
+	sky1 = "PSKY2"
+	cluster = 52
+	par = 150
+	music = "$MUSIC_PL2MAP14"
+	Author = "$WS_AU_ETERNAL"
+	Label = "E5M3"
+}
+
+map PT_MAP15 lookup "P2HUSTR_15"
+{
+	next = "PT_MAP16"
+	secretnext = "PT_MAP31"
+	sky1 = "PSKY2"
+	cluster = 52
+	//titlepatch = "PWILV14"
+	par = 210
+	music = "$MUSIC_PL2MAP15"
+	Author = "$WS_AU_KIRA"
+	Label = "E5M4"
+}
+
+map PT_MAP16 lookup "P2HUSTR_16"
+{
+	next = "PT_MAP17"
+	secretnext = "PT_MAP17"
+	sky1 = "PSKY2"
+	cluster = 52
+	par = 150
+	music = "$MUSIC_PL2MAP16"
+	Author = "$WS_AU_GUSTA"
+	Label = "E5M5"
+}
+
+map PT_MAP17 lookup "P2HUSTR_17"
+{
+	next = "PT_MAP18"
+	secretnext = "PT_MAP18"
+	sky1 = "PSKY2"
+	cluster = 52
+	par = 420
+	music = "D_SR_NIG"
+	Author = "$WS_AU_GUSTA"
+	Label = "E5M6"
+}
+
+map PT_MAP18 lookup "P2HUSTR_18"
+{
+	next = "PT_MAP19"
+	secretnext = "PT_MAP19"
+	sky1 = "PSKY2"
+	cluster = 52
+	par = 150
+	music = "$MUSIC_PL2MAP18"
+	Author = "$WS_AU_GUSTA"
+	Label = "E5M7"
+}
+
+map PT_MAP19 lookup "P2HUSTR_19"
+{
+	next = "PT_MAP20"
+	secretnext = "PT_MAP20"
+	sky1 = "PSKY2"
+	cluster = 52
+	par = 210
+	music = "$MUSIC_PL2MAP19"
+	Author = "$WS_AU_MeJaPe"
+	Label = "E5M8"
+}
+
+map PT_MAP20 lookup "P2HUSTR_20"
+{
+	next = "PT_MAP21"
+	secretnext = "PT_MAP21"
+	sky1 = "PSKY2"
+	cluster = 52
+	par = 150
+	music = "$MUSIC_PL2MAP20"
+	//Author = "$"
+	Label = "E5M9"
+}
+
+map PT_MAP21 lookup "P2HUSTR_21"
+{
+	next = "PT_MAP22"
+	secretnext = "PT_MAP22"
+	sky1 = "PSKY3"
+	cluster = 53
+	par = 240
+	music = "$MUSIC_PL2MAP21"
+	Author = "$WS_AU_ANGUS_GUSTA"
+	Label = "E6M1"
+}
+
+map PT_MAP22 lookup "P2HUSTR_22"
+{
+	next = "PT_MAP23"
+	secretnext = "PT_MAP23"
+	sky1 = "PSKY3"
+	cluster = 53
+	par = 150
+	music = "$MUSIC_PLUMAP08"
+	Author = "$WS_AU_ERIK_GUSTA"
+	Label = "E6M2"
+}
+
+map PT_MAP23 lookup "P2HUSTR_23"
+{
+	next = "PT_MAP24"
+	secretnext = "PT_MAP24"
+	sky1 = "PSKY3"
+	cluster = 53
+	par = 180
+	music = "$MUSIC_PL2MAP23"
+	Author = "$WS_AU_PALLAI"
+	Label = "E6M3"
+}
+
+map PT_MAP24 lookup "P2HUSTR_24"
+{
+	next = "PT_MAP25"
+	secretnext = "PT_MAP25"
+	sky1 = "PSKY3"
+	cluster = 53
+	par = 150
+	music = "$MUSIC_PL2MAP24"
+	Author = "$WS_AU_ERIK"
+	Label = "E6M4"
+}
+
+map PT_MAP25 lookup "P2HUSTR_25"
+{
+	next = "PT_MAP26"
+	secretnext = "PT_MAP26"
+	sky1 = "PSKY3"
+	cluster = 53
+	par = 150
+	music = "$MUSIC_PL2MAP25"
+	Author = "$WS_AU_GUSTA"
+	Label = "E6M5"
+}
+
+map PT_MAP26 lookup "P2HUSTR_26"
+{
+	next = "PT_MAP27"
+	secretnext = "PT_MAP27"
+	sky1 = "PSKY3"
+	cluster = 53
+	par = 300
+	music = "$MUSIC_PL2MAP26"
+	Author = "$WS_AU_RABOTIK"
+	Label = "E6M6"
+}
+
+map PT_MAP27 lookup "P2HUSTR_27"
+{
+	next = "PT_MAP28"
+	secretnext = "PT_MAP28"
+	sky1 = "PSKY3"
+	cluster = 53
+	par = 330
+	music = "$MUSIC_PL2MAP27"
+	Author = "$WS_AU_MeViRa"
+	Label = "E6M7"
+}
+
+map PT_MAP28 lookup "P2HUSTR_28"
+{
+	next = "PT_MAP29"
+	secretnext = "PT_MAP29"
+	sky1 = "PSKY3"
+	cluster = 53
+	par = 420
+	music = "$MUSIC_PL2MAP28"
+	Author = "$WS_AU_ETERNAL"
+	Label = "E6M8"
+}
+
+map PT_MAP29 lookup "P2HUSTR_29"
+{
+	next = "PT_MAP30"
+	secretnext = "PT_MAP30"
+	sky1 = "PSKY3"
+	cluster = 53
+	par = 300
+	music = "$MUSIC_PL2MAP29"
+	Author = "$WS_AU_GUSTA_PIPICZ"
+	Label = "E6M9"
+}
+
+map PT_MAP30 lookup "P2HUSTR_30"
+{
+	sky1 = "PSKY3"
+	cluster = 53
+	par = 180
+	nointermission
+	nosoundclipping
+	allowmonstertelefrags
+	music = "$MUSIC_PL2MAP30"
+	Author = "$WS_AU_RABOTIK"
+	next = EndSequence, "Plutonia2cast"
+	secretnext = EndSequence, "Plutonia2cast"
+	Label = "E6M10"
+}
+
+map PT_MAP31 lookup "P2HUSTR_31"
+{
+	next = "PT_MAP16"
+	secretnext = "PT_MAP32"
+	sky1 = "PSKY3"
+	cluster = 54
+	par = 120
+	music = "$MUSIC_PLUMAP20"
+	Author = "$WS_AU_ETERNAL"
+	Label = "E5M0"
+}
+
+map PT_MAP32 lookup "P2HUSTR_32"
+{
+	next = "PT_MAP16"
+	secretnext = "PT_MAP16"
+	sky1 = "PSKY3"
+	cluster = 55
+	par = 30
+	music = "$MUSIC_PL2MAP32"
+	Author = "$WS_AU_KIRA_RABOTIK"
+	Label = "E5M666^2"
+}
+
+map PT_MAP33 lookup "P2HUSTR_33"
+{
+	next = "PT_MAP16"
+	secretnext = "PT_MAP16"
+	sky1 = "PSKY3"
+	cluster = 55
+	par = 30
+	music = "$MUSIC_PL2MAP33"
+	Author = "$WS_AU_BAKER"
+	Label = "E5MC"
+}
+
+Intermission Plutonia2cast
+{
+	Cast
+	{
+		Background = "p2bossbk"
+		music = "$MUSIC_PL2END"
+		CastClass = "Zombieman"
+		CastName = "$CC_ZOMBIE"
+		AttackSound = "Missile", 1, "grunt/attack"
+	}
+	Cast
+	{
+		CastClass = "ShotgunGuy"
+		CastName = "$CC_SHOTGUN"
+		AttackSound = "Missile", 1, "shotguy/attack"
+	}
+	Cast
+	{
+		CastClass = "DoomImp"
+		CastName = "$CC_IMP"
+		AttackSound = "Missile", 2, "imp/attack"
+	}
+	Cast
+	{
+		CastClass = "ChaingunGuy"
+		CastName = "$CC_HEAVY"
+		AttackSound = "Missile", 1, "chainguy/attack"
+		AttackSound = "Missile", 2, "chainguy/attack"
+		AttackSound = "Missile", 3, "chainguy/attack"
+	}
+	Cast
+	{
+		CastClass = "Demon"
+		CastName = "$CC_DEMON"
+		AttackSound = "Melee", 1, "demon/melee"
+	}
+	Cast
+	{
+		CastClass = "DCX_Spectre"
+		CastName = "Spectre"
+		AttackSound = "Melee", 1, "demon/melee"
+	}
+	Cast
+	{
+		CastClass = "LostSoul"
+		CastName = "$CC_LOST"
+		AttackSound = "Missile", 1, "skull/melee"
+	}
+	Cast
+	{
+		CastClass = "Cacodemon"
+		CastName = "$CC_CACO"
+		AttackSound = "Missile", 1, "caco/attack"
+	}
+	Cast
+	{
+		CastClass = "HellKnight"
+		CastName = "$CC_HELL"
+		AttackSound = "Missile", 1, "baron/attack"
+	}
+	Cast
+	{
+		CastClass = "BaronOfHell"
+		CastName = "$CC_BARON"
+		AttackSound = "Missile", 1, "baron/attack"
+	}
+		Cast
+	{
+		CastClass = "Arachnotron"
+		CastName = "$CC_ARACH"
+		AttackSound = "Missile", 1, "baby/attack"
+	}
+	Cast
+	{
+		CastClass = "PainElemental"
+		CastName = "$CC_PAIN"
+		AttackSound = "Missile", 2, "skull/melee"
+	}
+	Cast
+	{
+		CastClass = "Revenant"
+		CastName = "$CC_REVEN"
+		AttackSound = "Missile", 1, "skeleton/attack"
+		AttackSound = "Melee", 1, "skeleton/swing"
+		AttackSound = "Melee", 3, "skeleton/melee"
+	}
+	Cast
+	{
+		CastClass = "Fatso"
+		CastName = "$CC_MANCU"
+		AttackSound = "Missile", 1, "fatso/attack"
+		AttackSound = "Missile", 4, "fatso/attack"
+		AttackSound = "Missile", 7, "fatso/attack"
+	}
+	Cast
+	{
+		CastClass = "Archvile"
+		CastName = "$CC_ARCH"
+		AttackSound = "Missile", 1, "vile/start"
+	}
+	Cast
+	{
+		CastClass = "SpiderMastermind"
+		CastName = "$CC_SPIDER"
+		AttackSound = "Missile", 1, "spider/attack"
+		AttackSound = "Missile", 2, "spider/attack"
+	}
+	Cast
+	{
+		CastClass = "Cyberdemon"
+		CastName = "$CC_CYBER"
+		AttackSound = "Missile", 1, "weapons/rocklf"
+		AttackSound = "Missile", 3, "weapons/rocklf"
+		AttackSound = "Missile", 5, "weapons/rocklf"
+	}
+	Cast
+	{
+		CastClass = "DoomPlayer"
+		CastName = "Our Hero"
+		AttackSound = "Missile", 0, "weapons/sshotf"
+	}
+	
+	Wiper {} 
+	Link = P2Credits
+}

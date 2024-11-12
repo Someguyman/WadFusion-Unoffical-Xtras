@@ -1,0 +1,520 @@
+//
+
+defaultmap
+{
+	
+	nocrouch
+	nojump
+	forcenoskystretch
+	compat_crossdropoff = "1"
+	compat_dehhealth = "1"
+	compat_light = "1"
+	compat_missileclip = "1"
+	compat_nodoorlight = "1"
+	compat_shorttex = "1"
+	compat_soundtarget = "1"
+	compat_spritesort = "1"
+	compat_stairs = "1"
+	compat_trace = "1"
+	compat_useblocking = "1"
+	compat_floormove = "1"
+	compat_maskedmidtex = "1"
+	compat_corpsegibs = "1"
+	compat_invisibility = "1"
+	compat_notossdrops = "1"
+	compat_sectorsounds = "1"
+	ExitPic = "tnrinter"
+	enterpic = "tnrinter"
+	intermusic = "$MUSIC_TNRINTER"
+}
+
+map tr_map01 lookup "TRHUSTR_1"
+{
+	next = "tr_map02"
+	secretnext = "tr_map02"
+	sky1 = "TNR_SKY1"
+	cluster = 62
+	par = 30
+	Author = "$WS_AU_UNI"
+	music = "$MUSIC_TNRMAP01"
+}
+
+map tr_map02 lookup "TRHUSTR_2"
+{
+	next = "tr_map03"
+	secretnext = "tr_map03"
+	sky1 = "TNR_SKY1"
+	cluster = 62
+	par = 90
+	Author = "$WS_AU_BRAYDEN"
+	music = "$MUSIC_TNRMAP02"
+}
+
+map tr_map03 lookup "TRHUSTR_3"
+{
+	next = "tr_map04"
+	secretnext = "tr_map04"
+	sky1 = "TNR_SKY1"
+	cluster = 62
+	par = 120
+	Author = "$WS_AU_HANSEN"
+	music = "$MUSIC_TNRMAP03"
+}
+
+map tr_map04 lookup "TRHUSTR_4"
+{
+	next = "tr_map05"
+	secretnext = "tr_map05"
+	sky1 = "TNR_SKY1"
+	cluster = 62
+	par = 120
+	Author = "$WS_AU_DUFF"
+	music = "$MUSIC_TNRMAP04"
+}
+
+map tr_map05 lookup "TRHUSTR_5"
+{
+	next = "tr_map06"
+	secretnext = "tr_map06"
+	sky1 = "TNR_SKY1"
+	cluster = 62
+	par = 90
+	Author = "$WS_AU_MICAH"
+	music = "$MUSIC_TNRMAP05"
+}
+
+map tr_map06 lookup "TRHUSTR_6"
+{
+	next = "tr_map07"
+	secretnext = "tr_map07"
+	sky1 = "TNR_SKY1"
+	cluster = 62
+	par = 150
+	Author = "$WS_AU_XENO_MULLER_STEFFIN_MICAH"
+	music = "$MUSIC_TNRMAP06"
+}
+
+map tr_map07 lookup "TRHUSTR_7"
+{
+	next = "tr_map08"
+	secretnext = "tr_map08"
+	sky1 = "TNR_SKY1"
+	cluster = 63
+	par = 120
+	map07special
+	Author = "$WS_AU_POWELL"
+	music = "$MUSIC_TNRMAP07"
+}
+
+map tr_map08 lookup "TRHUSTR_8"
+{
+	next = "tr_map09"
+	secretnext = "tr_map09"
+	sky1 = "TNR_SKY1"
+	cluster = 63
+	par = 120
+	Author = "$WS_AU_SINCITY_STEFFIN"
+	music = "$MUSIC_TNRMAP08"
+}
+
+map tr_map09 lookup "TRHUSTR_9"
+{
+	next = "tr_map10"
+	secretnext = "tr_map10"
+	sky1 = "TNR_SKY1"
+	cluster = 63
+	par = 270
+	Author = "$WS_AU_WHOO_MICAH"
+	music = "$MUSIC_TNRMAP09"
+}
+
+map tr_map10 lookup "TRHUSTR_10"
+{
+	next = "tr_map11"
+	secretnext = "tr_map11"
+	sky1 = "TNR_SKY1"
+	cluster = 63
+	par = 90
+	Author = "$WS_AU_LOPEX_MULLER"
+	music = "$MUSIC_TNRMAP10"
+}
+
+map tr_map11 lookup "TRHUSTR_11"
+{
+	next = "tr_map12"
+	secretnext = "tr_map12"
+	sky1 = "TNR_SKY1"
+	cluster = 63
+	par = 210
+	Author = "$WS_AU_SEIFERT"
+	music = "$MUSIC_TNRMAP11"
+}
+
+map tr_map12 lookup "TRHUSTR_12"
+{
+	next = "tr_map13"
+	secretnext = "tr_map13"
+	sky1 = "TNR_SKY2"
+	cluster = 64
+	par = 150
+	Author = "$WS_AU_BUNNY_MULLER_MEGAMUR_STEFFEN"
+	music = "$MUSIC_TNRMAP12"
+}
+
+map tr_map13 lookup "TRHUSTR_13"
+{
+	next = "tr_map14"
+	secretnext = "tr_map14"
+	sky1 = "TNR_SKY2"
+	cluster = 64
+	par = 150
+	Author = "$WS_AU_MICAH"
+	music = "$MUSIC_TNRMAP13"
+}
+
+map tr_map14 lookup "TRHUSTR_14"
+{
+	next = "tr_map15"
+	secretnext = "tr_map15"
+	sky1 = "TNR_SKY2"
+	cluster = 64
+	par = 150
+	Author = "$WS_AU_DUFF"
+	music = "$MUSIC_TNRMAP14"
+}
+
+map tr_map15 lookup "TRHUSTR_15"
+{
+	next = "tr_map16"
+	secretnext = "tr_map31"
+	sky1 = "TNR_SKY2"
+	cluster = 64
+	par = 210
+	Author = "$WS_AU_D_GARG_MICAH"
+	music = "$MUSIC_TNRMAP15"
+}
+
+map tr_map16 lookup "TRHUSTR_16"
+{
+	next = "tr_map17"
+	secretnext = "tr_map17"
+	sky1 = "TNR_SKY2"
+	cluster = 64
+	par = 150
+	Author = "$WS_AU_STEFFIN"
+	music = "$MUSIC_TNRMAP16"
+}
+
+map tr_map17 lookup "TRHUSTR_17"
+{
+	next = "tr_map18"
+	secretnext = "tr_map18"
+	sky1 = "TNR_SKY2"
+	cluster = 64
+	par = 420
+	Author = "$WS_AU_BOURKE"
+	music = "$MUSIC_TNRMAP17"
+}
+
+map tr_map18 lookup "TRHUSTR_18"
+{
+	next = "tr_map19"
+	secretnext = "tr_map19"
+	sky1 = "TNR_SKY2"
+	cluster = 64
+	par = 150
+	Author = "$WS_AU_ALEXANDER"
+	music = "$MUSIC_TNRMAP18"
+}
+
+map tr_map19 lookup "TRHUSTR_19"
+{
+	next = "tr_map20"
+	secretnext = "tr_map20"
+	sky1 = "TNR_SKY2"
+	cluster = 64
+	par = 210
+	Author = "$WS_AU_GASPE"
+	music = "$MUSIC_TNRMAP19"
+}
+
+map tr_map20 lookup "TRHUSTR_20"
+{
+	next = "tr_map21"
+	secretnext = "tr_map21"
+	sky1 = "TNR_SKY2"
+	cluster = 64
+	par = 150
+	Author = "$WS_AU_CRESSWELL" 
+	music = "$MUSIC_TNRMAP20"
+}
+
+map tr_map21 lookup "TRHUSTR_21"
+{
+	next = "tr_map22"
+	secretnext = "tr_map22"
+	sky1 = "TNR_SKY3"
+	cluster = 65
+	par = 240
+	Author = "$WS_AU_ERADROP"
+	music = "$MUSIC_TNRMAP21"
+}
+
+map tr_map22 lookup "TRHUSTR_22"
+{
+	next = "tr_map23"
+	secretnext = "tr_map23"
+	sky1 = "TNR_SKY3"
+	cluster = 65
+	par = 150
+	Author = "$WS_AU_OlLYMPUS_MULLER_STEFFIN"
+	music = "$MUSIC_TNRMAP22"
+}
+
+map tr_map23 lookup "TRHUSTR_23"
+{
+	next = "tr_map24"
+	secretnext = "tr_map24"
+	sky1 = "TNR_SKY3"
+	cluster = 65
+	par = 180
+	Author = "$WS_AU_MICAH"
+	music = "$MUSIC_TNRMAP23"
+}
+
+map tr_map24 lookup "TRHUSTR_24"
+{
+	next = "tr_map25"
+	secretnext = "tr_map25"
+	sky1 = "TNR_SKY3"
+	cluster = 65
+	par = 150
+	Author = "$WS_AU_KRIZIK"
+	music = "$MUSIC_TNRMAP24"
+}
+
+map tr_map25 lookup "TRHUSTR_25"
+{
+	next = "tr_map26"
+	secretnext = "tr_map26"
+	sky1 = "TNR_SKY3"
+	cluster = 65
+	par = 150
+	Author = "$WS_AU_POWELL"
+	music = "$MUSIC_TNRMAP25"
+}
+
+map tr_map26 lookup "TRHUSTR_26"
+{
+	next = "tr_map27"
+	secretnext = "tr_map27"
+	sky1 = "TNR_SKY3"
+	cluster = 65
+	par = 300
+	Author = "$" //
+	music = "$MUSIC_TNRMAP26"
+}
+
+map tr_map27 lookup "TRHUSTR_27"
+{
+	next = "tr_map28"
+	secretnext = "tr_map28"
+	sky1 = "TNR_SKY3"
+	cluster = 65
+	par = 330
+	Author = "$WS_AU_MIONIC"
+	music = "$MUSIC_TNRMAP27"
+}
+
+map tr_map28 lookup "TRHUSTR_28"
+{
+	next = "tr_map29"
+	secretnext = "tr_map29"
+	sky1 = "TNR_SKY3"
+	cluster = 65
+	par = 420
+	Author = "$WS_AU_PINCHY"
+	music = "$MUSIC_TNRMAP28"
+}
+
+map tr_map29 lookup "TRHUSTR_29"
+{
+	next = "tr_map30"
+	secretnext = "tr_map30"
+	sky1 = "TNR_SKY3"
+	cluster = 65
+	par = 300
+	Author = "$WS_AU_ERADROP"
+	music = "$MUSIC_TNRMAP29"
+}
+
+map tr_map30 lookup "TRHUSTR_30"
+{
+	sky1 = "TNR_SKY3"
+	cluster = 65
+	par = 180
+	nointermission
+	nosoundclipping
+	allowmonstertelefrags
+	Author = "$WS_AU_CALDWELL"
+	music = "$MUSIC_TNRMAP30"
+	next = EndSequence, "TNRInter_Cast"
+	secretnext = EndSequence, "TNRInter_Cast"
+}
+
+map tr_map31 lookup "TRHUSTR_31"
+{
+	next = "tr_map16"
+	secretnext = "tr_map32"
+	sky1 = "TNR_SKY3"
+	cluster = 66
+	par = 120
+	Author = "$WS_AU_KRIZIK"
+	music = "$MUSIC_TNRMAP31"
+}
+
+map tr_map32 lookup "TRHUSTR_32"
+{
+	next = "tr_map16"
+	secretnext = "tr_map16"
+	sky1 = "TNR_SKY3"
+	cluster = 67
+	par = 30
+	Author = "$WS_AU_MULLER_MICAH"
+	music = "$MUSIC_TNRMAP32"
+}
+
+Intermission TNRInter_Cast
+{
+	Image
+	{
+		Background = "tnrboss"
+		music =  "$MUSIC_TNREND"
+		Time = -1
+	}
+	Link = TNTRevoCast
+}
+
+Intermission TNTRevoCast
+{
+	Cast
+	{
+		CastClass = "Zombieman"
+		CastName = "$CC_ZOMBIE"
+		AttackSound = "Missile", 1, "grunt/attack"
+	}
+	Cast
+	{
+		CastClass = "ShotgunGuy"
+		CastName = "$CC_SHOTGUN"
+		AttackSound = "Missile", 1, "shotguy/attack"
+	}
+	Cast
+	{
+		CastClass = "DoomImp"
+		CastName = "$CC_IMP"
+		AttackSound = "Missile", 2, "imp/attack"
+	}
+	Cast
+	{
+		CastClass = "ChaingunGuy"
+		CastName = "$CC_HEAVY"
+		AttackSound = "Missile", 1, "chainguy/attack"
+		AttackSound = "Missile", 2, "chainguy/attack"
+		AttackSound = "Missile", 3, "chainguy/attack"
+	}
+	Cast
+	{
+		CastClass = "Demon"
+		CastName = "$CC_DEMON"
+		AttackSound = "Melee", 1, "demon/melee"
+	}
+	Cast
+	{
+		CastClass = "DCX_Spectre"
+		CastName = "Spectre"
+		AttackSound = "Melee", 1, "demon/melee"
+	}
+	Cast
+	{
+		CastClass = "LostSoul"
+		CastName = "$CC_LOST"
+		AttackSound = "Missile", 1, "skull/melee"
+	}
+	Cast
+	{
+		CastClass = "Cacodemon"
+		CastName = "$CC_CACO"
+		AttackSound = "Missile", 1, "caco/attack"
+	}
+	Cast
+	{
+		CastClass = "HellKnight"
+		CastName = "$CC_HELL"
+		AttackSound = "Missile", 1, "baron/attack"
+	}
+	Cast
+	{
+		CastClass = "BaronOfHell"
+		CastName = "$CC_BARON"
+		AttackSound = "Missile", 1, "baron/attack"
+	}
+		Cast
+	{
+		CastClass = "Arachnotron"
+		CastName = "$CC_ARACH"
+		AttackSound = "Missile", 1, "baby/attack"
+	}
+	Cast
+	{
+		CastClass = "PainElemental"
+		CastName = "$CC_PAIN"
+		AttackSound = "Missile", 2, "skull/melee"
+	}
+	Cast
+	{
+		CastClass = "Revenant"
+		CastName = "$CC_REVEN"
+		AttackSound = "Missile", 1, "skeleton/attack"
+		AttackSound = "Melee", 1, "skeleton/swing"
+		AttackSound = "Melee", 3, "skeleton/melee"
+	}
+	Cast
+	{
+		CastClass = "Fatso"
+		CastName = "$CC_MANCU"
+		AttackSound = "Missile", 1, "fatso/attack"
+		AttackSound = "Missile", 4, "fatso/attack"
+		AttackSound = "Missile", 7, "fatso/attack"
+	}
+	Cast
+	{
+		CastClass = "Archvile"
+		CastName = "$CC_ARCH"
+		AttackSound = "Missile", 1, "vile/start"
+	}
+	Cast
+	{
+		CastClass = "SpiderMastermind"
+		CastName = "$CC_SPIDER"
+		AttackSound = "Missile", 1, "spider/attack"
+		AttackSound = "Missile", 2, "spider/attack"
+	}
+	Cast
+	{
+		CastClass = "Cyberdemon"
+		CastName = "$CC_CYBER"
+		AttackSound = "Missile", 1, "weapons/rocklf"
+		AttackSound = "Missile", 3, "weapons/rocklf"
+		AttackSound = "Missile", 5, "weapons/rocklf"
+	}
+	Cast
+	{
+		CastClass = "DoomPlayer"
+		CastName = "Our Hero"
+		AttackSound = "Missile", 0, "weapons/sshotf"
+	}
+	
+	Wiper {} 
+	Link = TNTRevoCast
+}

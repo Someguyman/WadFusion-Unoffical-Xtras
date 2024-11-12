@@ -651,3 +651,135 @@ class H2P_BFGExtra : BFGExtra
 		Stop;
 	}
 }
+
+// TNT Revilution
+
+Class VIOSBoss : DCX_Bossbrain
+{
+	Default
+	{
+		Health 250;
+		Mass 10000000;
+		PainChance 255;
+		Radius 16;
+		+SOLID 
+		+SHOOTABLE
+		+NOICEDEATH
+		+OLDRADIUSDMG
+		+BOSS
+		Seesound "VIOS/Sight";
+		PainSound "VIOS/pain";
+		DeathSound "VIOS/Death";
+		Tag "VIOS";
+	}
+	States
+	{
+		Spawn:
+			ICON AB 2 bright A_Look;
+			Loop;
+		See:
+			ICON CD 2 Bright;
+			Loop;
+		Pain:
+			ICON E 4 BRIGHT;
+			ICON F 4 BRIGHT A_BrainPain;
+			ICON C 5 BRIGHT;
+			Goto See;
+		Death:
+			ICON E 6 BRIGHT;
+			ICON F 6 BRIGHT A_BrainScream();
+			ICON D 4 BRIGHT;
+			ICON F 2 BRIGHT;
+			ICON E 4 BRIGHT;
+			ICON F 16 BRIGHT;
+			ICON G 96 BRIGHT;
+			ICON G -1 A_BrainDie;
+			Stop;
+	}
+}
+
+Class FakeSpawnerCube : Actor
+{
+	Default
+	{
+		Health 1;
+		+BUDDHA
+		+NOBLOOD
+		+SOLID
+		+SHOOTABLE
+		+ZDOOMTRANS
+		Radius 20;
+		Height 32;
+		mass 999999;
+		DeathSound "brain/spit";
+		Tag "Spawner Cube";
+	}
+	states
+	{
+		Spawn:
+			BOSF ABCD 3 Bright;
+			Loop;	
+		Death:
+			FIRE A 1 BRIGHT A_SetRenderStyle(1.0, STYLE_add);
+			FIRE A 3 Bright A_Scream;
+			FIRE B 4 Bright A_Noblocking;
+			FIRE CDEFGH 4 Bright A_Fire;
+			Stop;
+	}
+}
+
+class DCX_PlasmaTurret : Actor
+{
+	Default
+	{
+		Health 999999;
+		Radius 20;
+		Height 56;
+		Speed 0;
+		PainChance 170;
+		Mass 999999;
+		+FLOORCLIP
+		+SYNCHRONIZED
+		+SOLID
+		Obituary "%o died.";
+		Tag "Plasma Turret";
+	}
+	States
+	{
+	Spawn:
+		TURR A 10 A_Look;
+		Loop;
+	See:
+		TURR A 3 A_Chase;
+		Loop;
+	Missile:
+		TURR A 18 { A_FaceTarget(); A_Startsound("Turret/Attack"); }
+		TURR B 3 BRIGHT A_FaceTarget;
+		TURR C 3 BRIGHT A_BspiAttack;
+		TURR C 3 BRIGHT A_BspiAttack;
+		TURR C 3 BRIGHT A_BspiAttack;
+		Goto see;
+	}
+}
+
+class DCX_RocketTurret : DCX_PlasmaTurret
+{
+	Default
+	{
+		Tag "Rocket Turret";
+	}
+	States
+	{
+	Spawn:
+		RTUR A 10 A_Look;
+		Loop;
+	See:
+		RTUR A 3 A_Chase;
+		Loop;
+	Missile:
+		RTUR A 18 { A_FaceTarget(); A_Startsound("Turret/Attack"); }
+		RTUR B 3 Bright A_FaceTarget;
+		RTUR C 3 BRIGHT A_CyberAttack;
+		Goto see;
+	}
+}
