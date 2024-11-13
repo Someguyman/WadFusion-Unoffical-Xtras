@@ -117,6 +117,27 @@ episode AB_MAP33
 	Optional
 }
 
+episode dz_map01
+{
+	Name = "$DZERO_EPI01"
+	PicName = "M_ZERO"
+	optional
+}
+
+episode dz_map12
+{
+	Name = "$DZERO_EPI02"
+	PicName = "M_ZERO"
+	optional
+}
+
+episode dz_map21
+{
+	Name = "$DZERO_EPI03"
+	PicName = "M_ZERO"
+	optional
+}
+
 episode ML_MAP01
 {
 	Name = "$MASTER_LV01"
@@ -221,6 +242,12 @@ episode PT_MAP12
 episode PT_MAP21
 {
 	Name = "$PLUTONIA2_EPI03"
+	Optional
+}
+
+episode PT_MAP33
+{
+	Name = "$PLUTONIA2_BONUS"
 	Optional
 }
 

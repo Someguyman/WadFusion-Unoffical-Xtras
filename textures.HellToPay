@@ -126,7 +126,7 @@ WallTexture "0BLAK", 256, 128
 	Patch "0BLAK", 0, 0
 }
 
-WallTexture "MIDSPACE2", 64, 128
+WallTexture "MIDSPACE3", 64, 128
 {
 	Patch "0MIDSPAC", 0, 0
 }

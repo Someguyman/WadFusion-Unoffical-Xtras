@@ -55,3 +55,14 @@ $attenuation H2pMeltdown/Sight 0
 H2pExplosion/Explosion1 dsh2exp1
 H2pExplosion/Explosion2 dsh2exp2
 $attenuation H2pExplosion/Explosion2 0
+
+Dopefish/grunt dsdopepn
+
+Alpha/sight dsalpsit
+Alpha/pain dsalppin
+Alpha/death dsalpdth
+
+witch/sight dswicsit
+witch/pain dswicpn
+witch/death dswicdth
+witch/attack dswicpit

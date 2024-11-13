@@ -832,3 +832,171 @@ class DCX_RocketTurret : DCX_PlasmaTurret
 		Goto see;
 	}
 }
+
+Class DCX_Dopefish : CommanderKeen 
+{
+	Default
+	{
+		+SPAWNCEILING 
+		-DONTFALL
+		Painsound "Dopefish/grunt";
+		Deathsound "Dopefish/grunt";
+		Tag "Dopefish";
+	}
+	States
+	{
+		Spawn:
+			DOPE A -1;
+			Loop;
+		Pain:
+			DOPE B 4;
+			DOPE B 8 A_Pain;
+			Goto Spawn;
+		Death:
+			DOPE A 6;
+			DOPE B 6 A_Scream;
+			DOPE C 6;
+			DOPE D 6 A_KeenDie;
+			DOPE FGFGFGFGFG 6;
+			DOPE E -1;
+			Stop;
+	}
+}
+
+class DCX_Alphasoul : Actor
+{ 
+	Default
+	{
+		Health 100;
+		Radius 20;
+		Height 56;
+		Speed 8;
+		PainChance 40;
+		Monster;
+		+FLOORCLIP
+		+JUSTHIT
+		+FLOAT
+		+NOGRAVITY
+		+DONTFALL
+		-COUNTKILL
+		BloodColor "green";
+		SeeSound "Alpha/sight";
+		PainSound "Alpha/pain";
+		DeathSound "Alpha/death";
+		ActiveSound "skull/active";
+		Obituary "%o was spooked by an AlphaSoul";
+	}
+	States
+	{
+	Spawn:
+		SSKL AB 10 A_Look;
+		Loop;
+	See:
+		SSKL AABBCCDD 3 A_Chase;
+		Loop;
+	Missile:
+		SSKL E 10 A_FaceTarget;
+		SSKL F 4 A_FaceTarget;
+		SSKL G 4 BRIGHT A_headAttack;
+		SSKL F 4 A_FaceTarget;
+		SSKL E 12 A_Chase;
+		SSKL E 1 A_CPosRefire;
+		Goto Missile+1;
+	Pain:
+		SSKL H 3;
+		SSKL H 3 A_Pain;
+		Goto See;
+	Death:
+		SSKL I 5;
+		SSKL J 5 bright A_Scream;
+		SSKL K 5 bright A_NoBlocking;
+		SSKL LMNOPQ 5 bright;
+		Stop;
+	}
+}
+
+Class DCX_Demonwitch : DCX_Bossbrain
+{
+	Default
+	{
+		health 500;
+		PainSound "witch/pain";
+		DeathSound "witch/death";
+	}
+	States
+	{
+		Spawn:
+			wtch A -1;
+			Stop;
+		Pain:
+			wtch B 36 A_BrainPain;
+			Goto Spawn;
+		Death:
+			wtch B 100 A_BrainScream();
+			wtch BB 10;
+			wtch B -1 A_BrainDie;
+			Stop;
+	}
+}
+
+Class DCX_Witcheye : DCX_BossEye
+{
+	Default
+	{
+		SeeSound "witch/sight";
+		Attacksound "witch/attack";
+	}
+	states
+	{
+	See:
+		SSWV A 181 A_BrainAwake;
+		SSWV A 150 A_BrainSpit("DCX_WitchShot");
+		Wait;
+	}
+}
+
+Class DCX_WitchShot : SpawnShot
+{
+	Default
+	{
+		SeeSound "witch/attack";
+		DeathSound "brain/cubeboom";
+	}
+	States
+	{
+	Spawn:
+		TNT1 A 3 BRIGHT; //A_SpawnSound
+		TNT1 BCD 3 BRIGHT A_SpawnFly;
+		Loop;
+	}
+}
+
+Class DCX_Pentegram : Candlestick
+{
+	States
+	{
+	Spawn:
+		tstr A -1 BRIGHT;
+		Stop;
+	}
+}
+
+Class DCX_Witchheart : BlueTorch
+{
+	States
+	{
+	Spawn:
+		hart ABCD 4 BRIGHT;
+		Loop;
+	}
+}
+
+Class DCX_Deadwitch : DeadStick
+{
+	States
+	{
+	Spawn:
+		GORE A -1;
+		Stop;
+	}
+}

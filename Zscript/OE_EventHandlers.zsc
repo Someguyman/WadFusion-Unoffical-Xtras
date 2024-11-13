@@ -147,6 +147,50 @@ class DCX_UOEventHandler : EventHandler
 			}
 		}
 		
+		if ( mapPrefix == "dz_" )
+		{
+			//Pentegram
+			if (e.Replacee == 'Candlestick')
+			{
+				e.Replacement = 'DCX_Pentegram';
+			}
+			//witchheart
+			if (e.Replacee == 'BlueTorch')
+			{
+				e.Replacement = 'DCX_witchheart';
+			}
+			//Deadwitch
+			if (e.Replacee == 'DeadStick')
+			{
+				e.Replacement = 'DCX_Deadwitch';
+			}
+			
+			if (e.Replacee == 'BossEye')
+			{
+				e.Replacement = 'DCX_Witcheye';
+			}
+			
+			if (e.Replacee == 'Bossbrain')
+			{
+				e.Replacement = 'DCX_Demonwitch';
+			}
+			
+			if (e.Replacee == 'CommanderKeen')
+			{
+				e.Replacement = 'DCX_Dopefish';
+			}
+			
+			if (e.Replacee == 'WolfensteinSS')
+			{
+				e.Replacement = 'DCX_Alphasoul';
+			}
+			
+			if (e.Replacee == 'LiveStick')
+			{
+				e.Replacement = 'DC_Replacer';
+			}
+		}
+		
 		}
 		
 		override void CheckReplacee (ReplacedEvent e)
@@ -172,8 +216,10 @@ class DCX_UOEventHandler : EventHandler
 		String mapName = level.MapName.MakeLower();
 		mapPrefix = mapPrefix.MakeLower();
 		mapPrefix2 = mapPrefix2.MakeLower();
+		
 		if ( mapPrefix == "pg_" )
         {
+			Level.ReplaceTextures("SFLR7_1", "SFLR7_1M", 0);
 			Level.ReplaceTextures("SW1LION", "SW1LIPG", 0);
 			Level.ReplaceTextures("SW2LION", "SW2LIPG", 0);
             Level.ReplaceTextures("SLADRIP1", "PLANETPG", 0);
@@ -291,7 +337,7 @@ class DCX_UOEventHandler : EventHandler
 			Level.ReplaceTextures("ROCKRED2", "HPRKRED2", 0);
 			Level.ReplaceTextures("ROCKRED3", "HPRKRED3", 0);
 			
-			Level.ReplaceTextures("MIDSPACE", "MIDSPACE2", 0);
+			Level.ReplaceTextures("MIDSPACE", "MIDSPACE3", 0);
 		}
 		
 		if ( mapPrefix == "pt_" )
@@ -303,7 +349,7 @@ class DCX_UOEventHandler : EventHandler
 			Level.ReplaceTextures("DEM2_1", "DEM5_1", 0);	
 			Level.ReplaceTextures("DEM2_2", "DEM5_2", 0);	
 			Level.ReplaceTextures("DEM2_3", "DEM5_3", 0);	
-			Level.ReplaceTextures("DEM2_4", "DEM5_4", 0);	
+			Level.ReplaceTextures("DEM2_4", "DEM5_4", 0);
 			
 			Level.ReplaceTextures("BIGDOOR1", "BIGP2DR1", 0);			 
 			Level.ReplaceTextures("PLANET1", "P2ANET1", 0);			 			 
@@ -350,7 +396,17 @@ class DCX_UOEventHandler : EventHandler
 			Level.ReplaceTextures("SW2BROWN", "ps2skull", 0);
 			Level.ReplaceTextures("SW1STARG", "SW1BRCOM", 0);
 			Level.ReplaceTextures("SW2STARG", "SW2BRCOM", 0);
-			Level.ReplaceTextures("COMPSTA1", "P2CMPSA1", 0);
+			
+			if ( CVar.FindCVar("dcx_TextureEchancements").GetBool() )
+			{
+				Level.ReplaceTextures("COMPSTA1", "P2CMPSA1", 0);
+				Level.ReplaceTextures("COMPUTE2", "A62", 0);
+			}
+			else
+			{
+				Level.ReplaceTextures("COMPUTE2", "A6", 0);
+				Level.ReplaceTextures("COMPSTA1", "P2COMPS1", 0);
+			}
 			 
 			Level.ReplaceTextures("AROCK2", "BFALL1", 0);
 			Level.ReplaceTextures("AROCK3", "BFALL2", 0);
@@ -514,9 +570,50 @@ class DCX_UOEventHandler : EventHandler
 		}
     }
 	
+	void DCX_DZTextureReplacement()
+    {
+		String SkyName = TexMan.GetName(level.skytexture1);
+		int flags = TexMan.ReturnFirst;
+		String mapPrefix = level.MapName.Left(3);
+		String mapName = level.MapName.MakeLower();
+		mapPrefix = mapPrefix.MakeLower();
+		if ( mapPrefix == "dz_" )
+        {
+			Level.ReplaceTextures("floor0_4", "dzflr0_4", 0);
+			Level.ReplaceTextures("floor6_3", "dzflr6_3", 0);
+			
+			Level.ReplaceTextures("SW1STONE", "SW1WITCH", 0);
+            Level.ReplaceTextures("WOODGARG", "WOODWITC", 0);
+			Level.ReplaceTextures("SW2STONE", "SW2WITCH", 0);
+			
+			Level.ReplaceTextures("fwater1", "dzwatr1", 0);
+			Level.ReplaceTextures("fwater2", "dzwatr2", 0);
+			Level.ReplaceTextures("fwater3", "dzwatr3", 0);
+			Level.ReplaceTextures("fwater4", "dzwatr4", 0);
+			
+			Level.ReplaceTextures("slime05", "dzlim05", 0);
+			Level.ReplaceTextures("slime06", "dzlim06", 0);
+			Level.ReplaceTextures("slime07", "dzlim07", 0);
+			Level.ReplaceTextures("slime08", "dzlim08", 0);
+			
+			Level.ReplaceTextures("slime09", "dzlim09", 0);
+			Level.ReplaceTextures("slime10", "dzlim10", 0);
+			Level.ReplaceTextures("slime11", "dzlim11", 0);
+			Level.ReplaceTextures("slime12", "dzlim12", 0);
+			
+			Level.ReplaceTextures("SKY3", "dz0_sky3", 0);
+			Level.ReplaceTextures("SW1STARG", "SW1BRCOM", 0);
+            Level.ReplaceTextures("SW2STARG", "SW2BRCOM", 0);
+			
+			Level.ReplaceTextures("SW1BRN1", "SW1BRN1DZ", 0);
+			Level.ReplaceTextures("SW2BRN1", "SW2BRN1DZ", 0);
+        }
+	}
+	
 	override void WorldLoaded(WorldEvent e)
 	{
 		DCX_UOTextureReplacements();
+		DCX_DZTextureReplacement();
 	}
 	
 }

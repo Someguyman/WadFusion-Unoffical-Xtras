@@ -1,0 +1,561 @@
+
+defaultmap
+{
+	nocrouch
+	nojump
+	compat_crossdropoff = "1"
+	compat_dehhealth = "1"
+	compat_light = "1"
+	compat_missileclip = "1"
+	compat_nodoorlight = "1"
+	compat_shorttex = "1"
+	compat_soundtarget = "1"
+	compat_spritesort = "1"
+	compat_stairs = "1"
+	compat_trace = "1"
+	compat_useblocking = "1"
+	compat_floormove = "1"
+	compat_maskedmidtex = "1"
+	compat_corpsegibs = "1"
+	compat_invisibility = "1"
+	compat_notossdrops = "1"
+	compat_sectorsounds = "1"
+	InterMusic = "$MUSIC_DZ0INTER"
+	ExitPic = "DZOINTER"
+	enterpic = "DZOINTER"
+	Author = "$WS_AU_GOLDEN"
+}
+
+cluster 201
+{
+	flat = "$BGFLAT06"
+	music = "$MUSIC_DZ0TEXT"
+	exittext = lookup, "IN_DZ1"
+
+}
+
+cluster 202
+{
+	flat = "$BGFLAT11"
+	music = "$MUSIC_DZ0TEXT"
+	exittext = lookup, "IN_DZ2"
+
+}
+
+cluster 203
+{
+	flat = "$BGFLAT20"
+	music = "$MUSIC_DZ0TEXT"
+	exittext = lookup, "IN_DZ3"
+}
+
+cluster 204
+{
+	//pic = "bossback"
+	flat = "MFLR8_1"
+	music = "$MUSIC_DZ0TEXT"
+	exittext = lookup, "IN_DZ4"
+}
+
+cluster 205
+{
+	flat = "$BGFLAT15"
+	music = "$MUSIC_DZ0TEXT"
+	entertext = lookup, "IN_DZ5"
+}
+
+cluster 206
+{
+	flat = "$BGFLAT31"
+	music = "$MUSIC_DZ0TEXT"
+	entertext = lookup, "IN_DZ6"
+}
+
+adddefaultmap
+{
+	Cluster = 201
+	sky1 = "dz0_sky1"
+}
+
+map DZ_MAP01 lookup "DZHUSTR_1"
+{
+	next = "DZ_MAP02"
+	secretnext = "DZ_MAP02"
+	titlepatch = "Zwilv00"
+	par = 30
+	music = "$MUSIC_DZ0MAP01"
+	Label = "E1M1"
+}
+
+map DZ_MAP02 lookup "DZHUSTR_2"
+{
+	next = "DZ_MAP03"
+	secretnext = "DZ_MAP03"
+	titlepatch = "Zwilv01"
+	par = 90
+	music = "$MUSIC_DZ0MAP02"
+	Label = "E1M2"
+}
+
+map DZ_MAP03 lookup "DZHUSTR_3"
+{
+	next = "DZ_MAP04"
+	secretnext = "DZ_MAP04"
+	titlepatch = "Zwilv02"
+	par = 120
+	music = "$MUSIC_DZ0MAP03"
+	Label = "E1M3"
+}
+
+map DZ_MAP04 lookup "DZHUSTR_4"
+{
+	next = "DZ_MAP05"
+	secretnext = "DZ_MAP05"
+	titlepatch = "Zwilv03"
+	par = 120
+	music = "$MUSIC_DZ0MAP04"
+	Label = "E1M4"
+}
+
+map DZ_MAP05 lookup "DZHUSTR_5"
+{
+	next = "DZ_MAP06"
+	secretnext = "DZ_MAP06"
+	titlepatch = "Zwilv04"
+	par = 90
+	music = "$MUSIC_DZ0MAP05"
+	Label = "E1M5"
+}
+
+map DZ_MAP06 lookup "DZHUSTR_6"
+{
+	next = "DZ_MAP07"
+	secretnext = "DZ_MAP07"
+	titlepatch = "Zwilv05"
+	par = 150
+	sucktime = 1
+	music = "$MUSIC_DZ0MAP06"
+	Label = "E1M6"
+}
+
+adddefaultmap
+{
+	Cluster = 202
+	sky1 = "dz0_sky1"
+}
+
+map DZ_MAP07 lookup "DZHUSTR_7"
+{
+	next = "DZ_MAP08"
+	secretnext = "DZ_MAP08"
+	titlepatch = "Zwilv06"
+	par = 120
+	map07special
+	music = "$MUSIC_DZ0MAP07"
+	Label = "E1M7"
+}
+
+map DZ_MAP08 lookup "DZHUSTR_8"
+{
+	next = "DZ_MAP09"
+	titlepatch = "Zwilv07"
+	par = 120
+	music = "$MUSIC_DZ0MAP08"
+	Label = "E1M8"
+}
+
+map DZ_MAP09 lookup "DZHUSTR_9"
+{
+	next = "DZ_MAP10"
+	titlepatch = "Zwilv08"
+	par = 270
+	music = "$MUSIC_DZ0MAP09"
+	Label = "E1M9"
+}
+
+map DZ_MAP10 lookup "DZHUSTR_10"
+{
+	next = "DZ_MAP11"
+	titlepatch = "Zwilv09"
+	par = 90
+	music = "$MUSIC_DZ0MAP10"
+	Label = "E1M10"
+}
+
+map DZ_MAP11 lookup "DZHUSTR_11"
+{
+	Next = endpic, "DZOCRED"
+	titlepatch = "Zwilv10"
+	par = 210
+	music = "$MUSIC_DZ0MAP11"
+	Label = "E1M11"
+}
+
+adddefaultmap
+{
+	Cluster = 203
+	sky1 = "dz0_sky2"
+}
+
+map DZ_MAP12 lookup "DZHUSTR_12"
+{
+	next = "DZ_MAP13"
+	titlepatch = "Zwilv11"
+	par = 150
+	music = "$MUSIC_DZ0MAP12"
+	Label = "E2M1"
+}
+
+map DZ_MAP13 lookup "DZHUSTR_13"
+{
+	next = "DZ_MAP14"
+	titlepatch = "Zwilv12"
+	par = 150
+	music = "$MUSIC_DZ0MAP13"
+	Label = "E2M2"
+}
+
+map DZ_MAP14 lookup "DZHUSTR_14"
+{
+	next = "DZ_MAP15"
+	titlepatch = "Zwilv13"
+	par = 150
+	music = "$MUSIC_DZ0MAP14"
+	Label = "E2M3"
+}
+
+map DZ_MAP15 lookup "DZHUSTR_15"
+{
+	next = "DZ_MAP16"
+	secretnext = "DZ_MAP31"
+	titlepatch = "Zwilv14"
+	par = 210
+	music = "$MUSIC_DZ0MAP15"
+	Label = "E2M4"
+}
+
+map DZ_MAP16 lookup "DZHUSTR_16"
+{
+	next = "DZ_MAP17"
+	secretnext = "DZ_MAP17"
+	titlepatch = "Zwilv15"
+	par = 150
+	music = "$MUSIC_DZ0MAP16"
+	Label = "E2M5"
+}
+
+map DZ_MAP17 lookup "DZHUSTR_17"
+{
+	next = "DZ_MAP18"
+	titlepatch = "Zwilv16"
+	par = 420
+	music = "$MUSIC_DZ0MAP17"
+	Label = "E2M6"
+}
+
+map DZ_MAP18 lookup "DZHUSTR_18"
+{
+	next = "DZ_MAP19"
+	titlepatch = "Zwilv17"
+	par = 150
+	music = "$MUSIC_DZ0MAP18"
+	Label = "E2M7"
+}
+
+map DZ_MAP19 lookup "DZHUSTR_19"
+{
+	next = "DZ_MAP20"
+	titlepatch = "Zwilv18"
+	par = 210
+	music = "$MUSIC_DZ0MAP19"
+	Label = "E2M8"
+}
+
+map DZ_MAP20 lookup "DZHUSTR_20"
+{
+	Next = endpic, "DZOCRED"
+	titlepatch = "Zwilv19"
+	par = 150
+	music = "$MUSIC_DZ0MAP20"
+	Label = "E2M9"
+}
+
+adddefaultmap
+{
+	Cluster = 204
+	sky1 = "dz0_sky3"
+}
+
+map DZ_MAP21 lookup "DZHUSTR_21"
+{
+	next = "DZ_MAP22"
+	secretnext = "DZ_MAP22"
+	titlepatch = "Zwilv20"
+	par = 240
+	music = "$MUSIC_DZ0MAP21"
+	forcenoskystretch
+	Label = "E3M1"
+}
+
+map DZ_MAP22 lookup "DZHUSTR_22"
+{
+	next = "DZ_MAP23"
+	secretnext = "DZ_MAP23"
+	titlepatch = "Zwilv21"
+	par = 150
+	music = "$MUSIC_DZ0MAP22"
+	forcenoskystretch
+	Label = "E3M2"
+}
+
+map DZ_MAP23 lookup "DZHUSTR_23"
+{
+	next = "DZ_MAP24"
+	secretnext = "DZ_MAP24"
+	titlepatch = "Zwilv22"
+	par = 180
+	music = "$MUSIC_DZ0MAP23"
+	forcenoskystretch
+	Label = "E3M3"
+}
+
+map DZ_MAP24 lookup "DZHUSTR_24"
+{
+	next = "DZ_MAP25"
+	secretnext = "DZ_MAP25"
+	titlepatch = "Zwilv23"
+	par = 150
+	music = "$MUSIC_DZ0MAP24"
+	forcenoskystretch
+	Label = "E3M4"
+}
+
+map DZ_MAP25 lookup "DZHUSTR_25"
+{
+	next = "DZ_MAP26"
+	secretnext = "DZ_MAP26"
+	titlepatch = "Zwilv24"
+	par = 150
+	music = "$MUSIC_DZ0MAP25"
+	forcenoskystretch
+	Label = "E3M5"
+}
+
+map DZ_MAP26 lookup "DZHUSTR_26"
+{
+	next = "DZ_MAP27"
+	secretnext = "DZ_MAP27"
+	titlepatch = "Zwilv25"
+	par = 300
+	music = "$MUSIC_DZ0MAP26"
+	forcenoskystretch
+	Label = "E3M6"
+}
+
+map DZ_MAP27 lookup "DZHUSTR_27"
+{
+	next = "DZ_MAP28"
+	secretnext = "DZ_MAP28"
+	titlepatch = "Zwilv26"
+	par = 330
+	music = "$MUSIC_DZ0MAP27"
+	forcenoskystretch
+	Label = "E3M7"
+}
+
+map DZ_MAP28 lookup "DZHUSTR_28"
+{
+	next = "DZ_MAP29"
+	secretnext = "DZ_MAP29"
+	titlepatch = "Zwilv27"
+	par = 420
+	music = "$MUSIC_DZ0MAP28"
+	forcenoskystretch
+	Label = "E3M8"
+}
+
+map DZ_MAP29 lookup "DZHUSTR_29"
+{
+	next = "DZ_MAP30"
+	secretnext = "DZ_MAP30"
+	titlepatch = "Zwilv28"
+	par = 300
+	music = "$MUSIC_DZ0MAP29"
+	forcenoskystretch
+	Label = "E3M9"
+}
+
+map DZ_MAP30 lookup "DZHUSTR_30"
+{
+	titlepatch = "Zwilv29"
+	next = EndSequence, "DZ0Inter_Cast"
+	secretnext = EndSequence, "DZ0Inter_Cast"
+	par = 180
+	allowmonstertelefrags
+	music = "$MUSIC_DZ0MAP30"
+	forcenoskystretch
+	Label = "E3M10"
+}
+
+map DZ_MAP31 lookup "DZHUSTR_31"
+{
+	next = "DZ_MAP16"
+	secretnext = "DZ_MAP32"
+	titlepatch = "Zwilv30"
+	par = 120
+	Cluster = 205
+	music = "$MUSIC_DZ0MAP31"
+	forcenoskystretch
+	Label = "E2M10"
+}
+
+map DZ_MAP32 lookup "DZHUSTR_32"
+{
+	next = "DZ_MAP16"
+	titlepatch = "Zwilv31"
+	par = 30
+	Cluster = 206
+	music = "$MUSIC_DZ0MAP32"
+	forcenoskystretch
+	Label = "E2M?"
+}
+
+Intermission DZ0Inter_Cast
+{
+	Image
+	{
+		// This is only here to initialize the background and the music
+		Background = "SARCOPH"
+		music = "$MUSIC_DZ0END"
+		Time = -1
+	}
+	Link = DZerocast
+}
+
+Intermission DZerocast
+{
+	Cast
+	{
+		CastClass = "Zombieman"
+		CastName = "$CC_ZOMBIE"
+		AttackSound = "Missile", 1, "grunt/attack"
+	}
+	Cast
+	{
+		CastClass = "ShotgunGuy"
+		CastName = "$CC_SHOTGUN"
+		AttackSound = "Missile", 1, "shotguy/attack"
+	}
+	Cast
+	{
+		CastClass = "DoomImp"
+		CastName = "$CC_IMP"
+		AttackSound = "Missile", 2, "imp/attack"
+	}
+	Cast
+	{
+		CastClass = "ChaingunGuy"
+		CastName = "$CC_HEAVY"
+		AttackSound = "Missile", 1, "chainguy/attack"
+		AttackSound = "Missile", 2, "chainguy/attack"
+		AttackSound = "Missile", 3, "chainguy/attack"
+	}
+	Cast
+	{
+		CastClass = "Demon"
+		CastName = "$CC_DEMON"
+		AttackSound = "Melee", 1, "demon/melee"
+	}
+	Cast
+	{
+		CastClass = "DCX_Spectre"
+		CastName = "Spectre"
+		AttackSound = "Melee", 1, "demon/melee"
+	}
+	Cast
+	{
+		CastClass = "LostSoul"
+		CastName = "$CC_LOST"
+		AttackSound = "Missile", 1, "caco/attack"
+	}
+	Cast
+	{
+		CastClass = "DCX_Alphasoul"
+		CastName = "Alpha Soul"
+		AttackSound = "Missile", 2, "imp/attack"
+	}
+	Cast
+	{
+		CastClass = "Cacodemon"
+		CastName = "$CC_CACO"
+		AttackSound = "Missile", 1, "caco/attack"
+	}
+	Cast
+	{
+		CastClass = "HellKnight"
+		CastName = "$CC_HELL"
+		AttackSound = "Missile", 1, "baron/attack"
+	}
+	Cast
+	{
+		CastClass = "BaronOfHell"
+		CastName = "$CC_BARON"
+		AttackSound = "Missile", 1, "baron/attack"
+	}
+		Cast
+	{
+		CastClass = "Arachnotron"
+		CastName = "$CC_ARACH"
+		AttackSound = "Missile", 1, "baby/attack"
+	}
+	Cast
+	{
+		CastClass = "PainElemental"
+		CastName = "$CC_PAIN"
+		AttackSound = "Missile", 2, "skull/melee"
+	}
+	Cast
+	{
+		CastClass = "Revenant"
+		CastName = "$CC_REVEN"
+		AttackSound = "Missile", 1, "skeleton/attack"
+		AttackSound = "Melee", 1, "skeleton/swing"
+		AttackSound = "Melee", 3, "skeleton/melee"
+	}
+	Cast
+	{
+		CastClass = "Fatso"
+		CastName = "$CC_MANCU"
+		AttackSound = "Missile", 1, "fatso/attack"
+		AttackSound = "Missile", 4, "fatso/attack"
+		AttackSound = "Missile", 7, "fatso/attack"
+	}
+	Cast
+	{
+		CastClass = "Archvile"
+		CastName = "$CC_ARCH"
+		AttackSound = "Missile", 1, "vile/start"
+	}
+	Cast
+	{
+		CastClass = "SpiderMastermind"
+		CastName = "$CC_SPIDER"
+		AttackSound = "Missile", 1, "spider/attack"
+		AttackSound = "Missile", 2, "spider/attack"
+	}
+	Cast
+	{
+		CastClass = "Cyberdemon"
+		CastName = "$CC_CYBER"
+		AttackSound = "Missile", 1, "weapons/rocklf"
+		AttackSound = "Missile", 3, "weapons/rocklf"
+		AttackSound = "Missile", 5, "weapons/rocklf"
+	}
+	Cast
+	{
+		CastClass = "DoomPlayer"
+		CastName = "Our Hero"
+		AttackSound = "Missile", 0, "weapons/sshotf"
+	}
+	Link = DZerocast
+}

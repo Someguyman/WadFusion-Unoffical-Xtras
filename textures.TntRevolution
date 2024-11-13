@@ -4445,7 +4445,7 @@ WallTexture "MIDVINE4", 256, 128
 
 WallTexture "MISCTNR01", 512, 128
 {
-	Patch "DOSPI1C", 0, 0
+	Patch "DOCOM1B", 0, 0
 	Patch "COMP03_4", 256, 0
 	Patch "COMP03_4", 256, 64
 	Patch "COMP03_4", 288, 0
@@ -4465,7 +4465,7 @@ WallTexture "MISCTNR01", 512, 128
 
 WallTexture "MISCTNR02", 512, 128
 {
-	Patch "DOSPI2C", 0, 0
+	Patch "DOCOM2B", 0, 0
 	Patch "COMP03_4", 256, 0
 	Patch "COMP03_4", 256, 64
 	Patch "COMP03_4", 288, 0
@@ -4485,7 +4485,7 @@ WallTexture "MISCTNR02", 512, 128
 
 WallTexture "MISCTNR03", 512, 128
 {
-	Patch "DOSPI3C", 0, 0
+	Patch "DOCOM3B", 0, 0
 	Patch "COMP03_4", 256, 0
 	Patch "COMP03_4", 256, 64
 	Patch "COMP03_4", 288, 0
@@ -4505,7 +4505,7 @@ WallTexture "MISCTNR03", 512, 128
 
 WallTexture "MISCTNR04", 512, 128
 {
-	Patch "DOSPI2C", 0, 0
+	Patch "DOCOM2B", 0, 0
 	Patch "COMP03_4", 256, 0
 	Patch "COMP03_4", 256, 64
 	Patch "COMP03_4", 288, 0
@@ -4525,7 +4525,7 @@ WallTexture "MISCTNR04", 512, 128
 
 WallTexture "MISCTNR05", 512, 128
 {
-	Patch "DOSPI3C", 0, 0
+	Patch "DOCOM3B", 0, 0
 	Patch "COMP03_4", 256, 0
 	Patch "COMP03_4", 256, 64
 	Patch "COMP03_4", 288, 0
@@ -4546,7 +4546,7 @@ WallTexture "MISCTNR05", 512, 128
 
 WallTexture "MISCTNR06", 512, 128
 {
-	Patch "DOSPI4C", 0, 0
+	Patch "DOCOM4B", 0, 0
 	Patch "COMP03_4", 256, 0
 	Patch "COMP03_4", 256, 64
 	Patch "COMP03_4", 288, 0
@@ -4567,7 +4567,7 @@ WallTexture "MISCTNR06", 512, 128
 
 WallTexture "MISCTNR07", 512, 128
 {
-	Patch "DOSPI1C", 0, 0
+	Patch "DOCOM1B", 0, 0
 	Patch "COMP03_4", 256, 0
 	Patch "COMP03_4", 256, 64
 	Patch "COMP03_4", 288, 0
@@ -4589,7 +4589,7 @@ WallTexture "MISCTNR07", 512, 128
 
 WallTexture "MISCTNR08", 512, 128
 {
-	Patch "DOSPI2C", 0, 0
+	Patch "DOCOM2B", 0, 0
 	Patch "COMP03_4", 256, 0
 	Patch "COMP03_4", 256, 64
 	Patch "COMP03_4", 288, 0
@@ -4612,7 +4612,7 @@ WallTexture "MISCTNR08", 512, 128
 
 WallTexture "MISCTNR09", 512, 128
 {
-	Patch "DOSPI3C", 0, 0
+	Patch "DOCOM3B", 0, 0
 	Patch "COMP03_4", 256, 0
 	Patch "COMP03_4", 256, 64
 	Patch "COMP03_4", 288, 0
@@ -4635,7 +4635,7 @@ WallTexture "MISCTNR09", 512, 128
 
 WallTexture "MISCTNR10", 512, 128
 {
-	Patch "DOSPI2C", 0, 0
+	Patch "DOCOM2B", 0, 0
 	Patch "COMP03_4", 256, 0
 	Patch "COMP03_4", 256, 64
 	Patch "COMP03_4", 288, 0
@@ -4659,7 +4659,7 @@ WallTexture "MISCTNR10", 512, 128
 
 WallTexture "MISCTNR11", 512, 128
 {
-	Patch "DOSPI3C", 0, 0
+	Patch "DOCOM3B", 0, 0
 	Patch "COMP03_4", 256, 0
 	Patch "COMP03_4", 256, 64
 	Patch "COMP03_4", 288, 0
@@ -4683,7 +4683,7 @@ WallTexture "MISCTNR11", 512, 128
 
 WallTexture "MISCTNR12", 512, 128
 {
-	Patch "DOSPI4C", 0, 0
+	Patch "DOCOM4B", 0, 0
 	Patch "COMP03_4", 256, 0
 	Patch "COMP03_4", 256, 64
 	Patch "COMP03_4", 288, 0

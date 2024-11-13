@@ -50,12 +50,16 @@ clusterdef 55
 	entertext = lookup, "P2_TEXT6"
 }
 
+adddefaultmap
+{
+	Cluster = 50
+	sky1 = "PSKY1"
+}
+
 map PT_MAP01 lookup "P2HUSTR_1"
 {
 	next = "PT_MAP02"
 	secretnext = "PT_MAP02"
-	sky1 = "PSKY1"
-	cluster = 50
 	par = 30
 	music = "$MUSIC_PL2MAP01"
 	Author = "$WS_AU_GUSTA"
@@ -66,8 +70,6 @@ map PT_MAP02 lookup "P2HUSTR_2"
 {
 	next = "PT_MAP03"
 	secretnext = "PT_MAP03"
-	sky1 = "PSKY1"
-	cluster = 50
 	par = 90
 	music = "$MUSIC_PL2MAP02"
 	Author = "$WS_AU_GUSTA"
@@ -78,8 +80,6 @@ map PT_MAP03 lookup "P2HUSTR_3"
 {
 	next = "PT_MAP04"
 	secretnext = "PT_MAP04"
-	sky1 = "PSKY1"
-	cluster = 50
 	par = 120
 	music = "$MUSIC_PL2MAP03"
 	Author = "$WS_AU_GUSTA_PIPICZ"
@@ -90,8 +90,6 @@ map PT_MAP04 lookup "P2HUSTR_4"
 {
 	next = "PT_MAP05"
 	secretnext = "PT_MAP05"
-	sky1 = "PSKY1"
-	cluster = 50
 	par = 120
 	music = "$MUSIC_PLUMAP01"
 	Author = "$WS_AU_FREDRICK"
@@ -102,8 +100,6 @@ map PT_MAP05 lookup "P2HUSTR_5"
 {
 	next = "PT_MAP06"
 	secretnext = "PT_MAP06"
-	sky1 = "PSKY1"
-	cluster = 50
 	par = 90
 	music = "$MUSIC_PL2MAP05"
 	Author = "$WS_AU_GUSTA"
@@ -114,21 +110,22 @@ map PT_MAP06 lookup "P2HUSTR_6"
 {
 	next = "PT_MAP07"
 	secretnext = "PT_MAP07"
-	sky1 = "PSKY1"
-	cluster = 50
 	par = 150
 	music = "$MUSIC_PLUMAP06"
 	Author = "$WS_AU_METABOLIST_PEROXYD"
 	Label = "E4M6"
 }
 
+adddefaultmap
+{
+	Cluster = 51
+	sky1 = "PSKY1"
+}
+
 map PT_MAP07 lookup "P2HUSTR_7"
 {
 	next = "PT_MAP08"
 	secretnext = "PT_MAP08"
-	sky1 = "PSKY1"
-	cluster = 51
-	//titlepatch = "PWILV06"
 	par = 120
 	map07special
 	music = "$MUSIC_PL2MAP07"
@@ -140,9 +137,6 @@ map PT_MAP08 lookup "P2HUSTR_8"
 {
 	next = "PT_MAP09"
 	secretnext = "PT_MAP09"
-	sky1 = "PSKY1"
-	cluster = 51
-	//titlepatch = "PWILV07"
 	par = 120
 	music = "$MUSIC_PL2MAP08"
 	Author = "$WS_AU_TANGO"
@@ -153,9 +147,6 @@ map PT_MAP09 lookup "P2HUSTR_9"
 {
 	next = "PT_MAP10"
 	secretnext = "PT_MAP10"
-	sky1 = "PSKY1"
-	cluster = 51
-	//titlepatch = "PWILV08"
 	par = 270
 	music = "$MUSIC_PL2MAP09"
 	Author = "$WS_AU_GUSTA"
@@ -165,10 +156,6 @@ map PT_MAP09 lookup "P2HUSTR_9"
 map PT_MAP10 lookup "P2HUSTR_10"
 {
 	next = "PT_MAP11"
-	secretnext = "PT_MAP11"
-	sky1 = "PSKY1"
-	cluster = 51
-	//titlepatch = "PWILV09"
 	par = 90
 	music = "$MUSIC_PL2MAP10"
 	Author = "$WS_AU_RABOTIK"
@@ -177,24 +164,22 @@ map PT_MAP10 lookup "P2HUSTR_10"
 
 map PT_MAP11 lookup "P2HUSTR_11"
 {
-	next = "PT_MAP12"
-	secretnext = "PT_MAP12"
-	sky1 = "PSKY1"
-	cluster = 51
-	//titlepatch = "PWILV10"
+	Next = endpic, "p2cred"
 	par = 210
 	music = "$MUSIC_PL2MAP11"
 	Author = "$WS_AU_GUSTA_RABOTIK"
 	Label = "E4M11"
 }
 
+adddefaultmap
+{
+	Cluster = 52
+	sky1 = "PSKY2"
+}
+
 map PT_MAP12 lookup "P2HUSTR_12"
 {
 	next = "PT_MAP13"
-	secretnext = "PT_MAP13"
-	sky1 = "PSKY2"
-	cluster = 52
-	//titlepatch = "PWILV11"
 	par = 150
 	music = "$MUSIC_PL2MAP12"
 	Author = "$WS_AU_KrRaMePa"
@@ -204,9 +189,6 @@ map PT_MAP12 lookup "P2HUSTR_12"
 map PT_MAP13 lookup "P2HUSTR_13"
 {
 	next = "PT_MAP14"
-	secretnext = "PT_MAP14"
-	sky1 = "PSKY2"
-	cluster = 52
 	par = 150
 	music = "$MUSIC_PLUMAP13"
 	Author = "$WS_AU_FrGuMe"
@@ -216,9 +198,6 @@ map PT_MAP13 lookup "P2HUSTR_13"
 map PT_MAP14 lookup "P2HUSTR_14"
 {
 	next = "PT_MAP15"
-	secretnext = "PT_MAP15"
-	sky1 = "PSKY2"
-	cluster = 52
 	par = 150
 	music = "$MUSIC_PL2MAP14"
 	Author = "$WS_AU_ETERNAL"
@@ -229,9 +208,6 @@ map PT_MAP15 lookup "P2HUSTR_15"
 {
 	next = "PT_MAP16"
 	secretnext = "PT_MAP31"
-	sky1 = "PSKY2"
-	cluster = 52
-	//titlepatch = "PWILV14"
 	par = 210
 	music = "$MUSIC_PL2MAP15"
 	Author = "$WS_AU_KIRA"
@@ -242,8 +218,6 @@ map PT_MAP16 lookup "P2HUSTR_16"
 {
 	next = "PT_MAP17"
 	secretnext = "PT_MAP17"
-	sky1 = "PSKY2"
-	cluster = 52
 	par = 150
 	music = "$MUSIC_PL2MAP16"
 	Author = "$WS_AU_GUSTA"
@@ -254,8 +228,6 @@ map PT_MAP17 lookup "P2HUSTR_17"
 {
 	next = "PT_MAP18"
 	secretnext = "PT_MAP18"
-	sky1 = "PSKY2"
-	cluster = 52
 	par = 420
 	music = "D_SR_NIG"
 	Author = "$WS_AU_GUSTA"
@@ -266,8 +238,6 @@ map PT_MAP18 lookup "P2HUSTR_18"
 {
 	next = "PT_MAP19"
 	secretnext = "PT_MAP19"
-	sky1 = "PSKY2"
-	cluster = 52
 	par = 150
 	music = "$MUSIC_PL2MAP18"
 	Author = "$WS_AU_GUSTA"
@@ -278,8 +248,6 @@ map PT_MAP19 lookup "P2HUSTR_19"
 {
 	next = "PT_MAP20"
 	secretnext = "PT_MAP20"
-	sky1 = "PSKY2"
-	cluster = 52
 	par = 210
 	music = "$MUSIC_PL2MAP19"
 	Author = "$WS_AU_MeJaPe"
@@ -288,22 +256,23 @@ map PT_MAP19 lookup "P2HUSTR_19"
 
 map PT_MAP20 lookup "P2HUSTR_20"
 {
-	next = "PT_MAP21"
-	secretnext = "PT_MAP21"
-	sky1 = "PSKY2"
-	cluster = 52
+	Next = endpic, "p2cred"
 	par = 150
 	music = "$MUSIC_PL2MAP20"
-	//Author = "$"
+	Author = "$WS_AU_ANGUS_GUSTA"
 	Label = "E5M9"
+}
+
+adddefaultmap
+{
+	Cluster = 53
+	sky1 = "PSKY3"
 }
 
 map PT_MAP21 lookup "P2HUSTR_21"
 {
 	next = "PT_MAP22"
 	secretnext = "PT_MAP22"
-	sky1 = "PSKY3"
-	cluster = 53
 	par = 240
 	music = "$MUSIC_PL2MAP21"
 	Author = "$WS_AU_ANGUS_GUSTA"
@@ -314,8 +283,6 @@ map PT_MAP22 lookup "P2HUSTR_22"
 {
 	next = "PT_MAP23"
 	secretnext = "PT_MAP23"
-	sky1 = "PSKY3"
-	cluster = 53
 	par = 150
 	music = "$MUSIC_PLUMAP08"
 	Author = "$WS_AU_ERIK_GUSTA"
@@ -326,8 +293,6 @@ map PT_MAP23 lookup "P2HUSTR_23"
 {
 	next = "PT_MAP24"
 	secretnext = "PT_MAP24"
-	sky1 = "PSKY3"
-	cluster = 53
 	par = 180
 	music = "$MUSIC_PL2MAP23"
 	Author = "$WS_AU_PALLAI"
@@ -338,8 +303,6 @@ map PT_MAP24 lookup "P2HUSTR_24"
 {
 	next = "PT_MAP25"
 	secretnext = "PT_MAP25"
-	sky1 = "PSKY3"
-	cluster = 53
 	par = 150
 	music = "$MUSIC_PL2MAP24"
 	Author = "$WS_AU_ERIK"
@@ -350,8 +313,6 @@ map PT_MAP25 lookup "P2HUSTR_25"
 {
 	next = "PT_MAP26"
 	secretnext = "PT_MAP26"
-	sky1 = "PSKY3"
-	cluster = 53
 	par = 150
 	music = "$MUSIC_PL2MAP25"
 	Author = "$WS_AU_GUSTA"
@@ -362,8 +323,6 @@ map PT_MAP26 lookup "P2HUSTR_26"
 {
 	next = "PT_MAP27"
 	secretnext = "PT_MAP27"
-	sky1 = "PSKY3"
-	cluster = 53
 	par = 300
 	music = "$MUSIC_PL2MAP26"
 	Author = "$WS_AU_RABOTIK"
@@ -374,8 +333,6 @@ map PT_MAP27 lookup "P2HUSTR_27"
 {
 	next = "PT_MAP28"
 	secretnext = "PT_MAP28"
-	sky1 = "PSKY3"
-	cluster = 53
 	par = 330
 	music = "$MUSIC_PL2MAP27"
 	Author = "$WS_AU_MeViRa"
@@ -386,8 +343,6 @@ map PT_MAP28 lookup "P2HUSTR_28"
 {
 	next = "PT_MAP29"
 	secretnext = "PT_MAP29"
-	sky1 = "PSKY3"
-	cluster = 53
 	par = 420
 	music = "$MUSIC_PL2MAP28"
 	Author = "$WS_AU_ETERNAL"
@@ -398,8 +353,6 @@ map PT_MAP29 lookup "P2HUSTR_29"
 {
 	next = "PT_MAP30"
 	secretnext = "PT_MAP30"
-	sky1 = "PSKY3"
-	cluster = 53
 	par = 300
 	music = "$MUSIC_PL2MAP29"
 	Author = "$WS_AU_GUSTA_PIPICZ"
@@ -408,8 +361,6 @@ map PT_MAP29 lookup "P2HUSTR_29"
 
 map PT_MAP30 lookup "P2HUSTR_30"
 {
-	sky1 = "PSKY3"
-	cluster = 53
 	par = 180
 	nointermission
 	nosoundclipping
@@ -447,14 +398,13 @@ map PT_MAP32 lookup "P2HUSTR_32"
 
 map PT_MAP33 lookup "P2HUSTR_33"
 {
-	next = "PT_MAP16"
-	secretnext = "PT_MAP16"
+	Next = endpic, "P2TITTLE"
 	sky1 = "PSKY3"
 	cluster = 55
 	par = 30
 	music = "$MUSIC_PL2MAP33"
 	Author = "$WS_AU_BAKER"
-	Label = "E5MC"
+	Label = "Bonus"
 }
 
 Intermission Plutonia2cast

@@ -4,17 +4,45 @@ defaultmap
 	nocrouch
 	nojump
 	InterMusic = "$MUSIC_INTER"
-	enterpic = "INTERPI2"
-	exitpic = "INTERPI2"
+	enterpic = "LEINTER"
+	exitpic = "LEINTER"
+}
+
+cluster 85
+{
+	flat = "$bgflat06"
+	music = "D_VICTOR"
+	exittext = lookup, "JE1TEXT"
+
+}
+
+cluster 86
+{
+	flat = "$bgflat11"
+	music = "D_VICTOR"
+	exittext = lookup, "JE2TEXT"
+}
+
+cluster 87
+{
+	flat = "$bgflat20"
+	music = "D_VICTOR"
+	exittext = lookup, "JE3TEXT"
+}
+
+adddefaultmap
+{
+	Cluster = 85
+	sky1 = "LED_SKY1"
 }
 
 map LE_E1M1 "UAC Spaceport"
 {
 	levelnum = 1
 	next = "LE_E1M2"
-	sky1 = "LED_SKY1"
 	par = 30
 	Music = "T_RUNNIN"
+	Author = "$WS_AU_KLIE"
 	Label = "E1M1"
 }
 
@@ -22,8 +50,8 @@ map LE_E1M2 "Fusion Power Plant"
 {
 	levelnum = 2
 	next = "LE_E1M3"
-	sky1 = "LED_SKY1"
 	Music = "$MUSIC_e1m2"
+	Author = "$WS_AU_KLIE"
 	par = 75
 	Label = "E1M2"
 }
@@ -32,8 +60,8 @@ map LE_E1M3 "Jovian Deuterium Plant"
 {
 	levelnum = 3
 	next = "LE_E1M4"
-	sky1 = "LED_SKY1"
 	Music = "$MUSIC_COUNTD"
+	Author = "$WS_AU_KLIE"
 	par = 120
 	Label = "E1M3"
 }
@@ -42,8 +70,8 @@ map LE_E1M4 "Planetary Control Center"
 {
 	levelnum = 4
 	next = "LE_E1M5"
-	sky1 = "LED_SKY1"
 	Music = "$MUSIC_E2M2"
+	Author = "$WS_AU_KLIE"
 	par = 90
 	Label = "E1M4"
 }
@@ -52,8 +80,8 @@ map LE_E1M5 "Weapons Research Center"
 {
 	levelnum = 5
 	next = "LE_E1M6"
-	sky1 = "LED_SKY1"
 	Music = "$MUSIC_E1M5"
+	Author = "$WS_AU_KLIE"
 	par = 165
 	Label = "E1M5"
 }
@@ -62,8 +90,8 @@ map LE_E1M6 "Halls of Injustice"
 {
 	levelnum = 6
 	next = "LE_E1M7"
-	sky1 = "LED_SKY1"
 	Music = "T_THE_DA"
+	Author = "$WS_AU_KLIE"
 	par = 180
 	Label = "E1M6"
 }
@@ -72,8 +100,8 @@ map LE_E1M7 "Core of Evil"
 {
 	levelnum = 7
 	next = "LE_E1M8"
-	sky1 = "LED_SKY1"
 	Music = "$MUSIC_UNUSED22"
+	Author = "$WS_AU_KLIE"
 	par = 180
 	Label = "E1M7"
 }
@@ -81,10 +109,10 @@ map LE_E1M7 "Core of Evil"
 map LE_E1M8 "Callisto Consecration"
 {
 	levelnum = 8
-	//next = "LE_E2M1"
-	sky1 = "LED_SKY1"
 	par = 30
+	next = "EndGame1"
 	music = "T_MESSAG"
+	Author = "$WS_AU_KLIE"
 	nointermission
 	nosoundclipping
 	baronspecial
@@ -94,12 +122,18 @@ map LE_E1M8 "Callisto Consecration"
 
 //E2-------------------------------
 
+adddefaultmap
+{
+	Cluster = 86
+	sky1 = "LED_SKY2"
+}
+
 map LE_E2M1 "Io Anomaly"
 {
 	levelnum = 11
 	next = "LE_E2M2"
-	sky1 = "LED_SKY2"
 	music = "$MUSIC_IN_CIT"
+	Author = "$WS_AU_KLIE"
 	par = 90
 	ResetHealth
     ResetInventory
@@ -110,9 +144,9 @@ map LE_E2M2 "Munitions Factory"
 {
 	levelnum = 12
 	next = "LE_E2M3"
-	sky1 = "LED_SKY2"
 	par = 90
 	music = "$MUSIC_E1M3"
+	Author = "$WS_AU_KLIE"
 	Label = "E2M2"
 }
 
@@ -120,9 +154,9 @@ map LE_E2M3 "Toxic Disposal Plant"
 {
 	levelnum = 13
 	next = "LE_E2M4"
-	sky1 = "LED_SKY2"
 	par = 90
 	music = "$MUSIC_E1M7"
+	Author = "$WS_AU_KLIE"
 	Label = "E2M3"
 }
 
@@ -130,9 +164,9 @@ map LE_E2M4 "Weapons Testing Facility"
 {
 	levelnum = 14
 	next = "LE_E2M5"
-	sky1 = "LED_SKY2"
 	par = 120
 	music = "$MUSIC_BETWEE"
+	Author = "$WS_AU_KLIE"
 	Label = "E2M4"
 }
 
@@ -140,9 +174,9 @@ map LE_E2M5 "Training Grounds"
 {
 	levelnum = 15
 	next = "LE_E2M6"
-	sky1 = "LED_SKY2"
 	par = 90
 	music = "$MUSIC_E2M6"
+	Author = "$WS_AU_KLIE"
 	Label = "E2M5"
 }
 
@@ -150,9 +184,9 @@ map LE_E2M6 "Military Garrison"
 {
 	levelnum = 16
 	next = "LE_E2M7"
-	sky1 = "LED_SKY2"
 	par = 360
 	music = "T_EVIL"
+	Author = "WS_AU_CARTER"
 	Label = "E2M6"
 }
 
@@ -160,19 +194,19 @@ map LE_E2M7 "The Draining Pit"
 {
 	levelnum = 17
 	next = "LE_E2M8"
-	sky1 = "LED_SKY2"
 	par = 240
 	music = "$MUSIC_MESSAG"
+	Author = "WS_AU_CARTER"
 	Label = "E2M7"
 }
 
 map LE_E2M8 "Late For Supper"
 {
 	levelnum = 18
-	//next = "LE_E3M1"
-	sky1 = "LED_SKY2"
 	par = 30
+	next = "EndGame1"
 	music = "$MUSIC_E2M8"
+	Author = "WS_AU_CARTER"
 	nointermission
 	nosoundclipping
 	cyberdemonspecial
@@ -182,88 +216,103 @@ map LE_E2M8 "Late For Supper"
 
 //E3--------------------------------
 
+adddefaultmap
+{
+	Cluster = 87
+	sky1 = "SKY3A", 0.4
+	sky2 = "SKY3B", 0.1
+	doublesky
+	forcenoskystretch
+}
+
 map LE_E3M1 "Jovian Stonehenge"
 {
 	levelnum = 21
 	next = "LE_E3M2"
-	sky1 = "tnt_sky3"
 	par = 90
 	music = "$MUSIC_E1M8"
-	ResetHealth
-    ResetInventory
+	Author = "WS_AU_CARTER"
 	Label = "E3M1"
+	lightning
 }
 
 map LE_E3M2 "Pillar of Peril"
 {
 	levelnum = 22
 	next = "LE_E3M3"
-	sky1 = "tnt_sky3"
 	par = 45
 	music = "$MUSIC_E3M7"
+	Author = "WS_AU_CARTER"
 	Label = "E3M2"
+	lightning
 }
 
 map LE_E3M3 "Subterranean Stoneworks"
 {
 	levelnum = 23
 	next = "LE_E3M4"
-	sky1 = "tnt_sky3"
 	par = 90
 	music = "$MUSIC_E3M3"
+	Author = "WS_AU_CARTER"
 	Label = "E3M3"
+	lightning
 }
 
 map LE_E3M4 "Pools of Despair"
 {
 	levelnum = 24
 	next = "LE_E3M5"
-	sky1 = "tnt_sky3"
 	par = 150
 	music = "$MUSIC_DOOM"
+	Author = "WS_AU_CARTER"
 	Label = "E3M4"
+	lightning
 }
 
 map LE_E3M5 "The Cat-Skinner Box"
 {
 	levelnum = 25
 	next = "LE_E3M6"
-	sky1 = "tnt_sky3"
 	par = 90
 	music = "$MUSIC_E3M2"
+	Author = "WS_AU_CARTER"
 	Label = "E3M5"
+	lightning
 }
 
 map LE_E3M6 "Somber Promenade"
 {
 	levelnum = 26
 	next = "LE_E3M7"
-	sky1 = "tnt_sky3"
 	par = 90
 	music = "$MUSIC_DEAD"
+	Author = "WS_AU_CARTER"
 	Label = "E3M6"
+	lightning
 }
 
 map LE_E3M7 "Jupiter Killjoy"
 {
 	levelnum = 27
 	next = "LE_E3M8"
-	sky1 = "tnt_sky3"
 	par = 165
 	music = "$MUSIC_E2M4"
+	Author = "WS_AU_CARTER"
 	Label = "E3M7"
+	lightning
 }
 
 map LE_E3M8 "Deja Vu"
 {
 	levelnum = 28
 	next = "EndGame1"
-	sky1 = "tnt_sky3"
 	par = 30
 	music = "$MUSIC_E1M1"
+	Author = "WS_AU_CARTER"
 	nointermission
 	nosoundclipping
 	spidermastermindspecial
 	specialaction_exitlevel
 	Label = "E3M8"
+	lightning
 }

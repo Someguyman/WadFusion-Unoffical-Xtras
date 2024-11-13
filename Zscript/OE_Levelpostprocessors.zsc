@@ -11,12 +11,11 @@ class DCX_PlayerbotSpawner : LevelPostProcessor
 				mapPrefix = mapPrefix.MakeLower();
 				String mapName = level.MapName.MakeLower();
 				
-				if ( mapName.Left(6) == "fd_dmm" )
-				{
-					if (ednum == 11)
-					SetThingEdNum(i, 7734); 
+					if ( mapName.Left(6) == "fd_dmm" )
+					{
+						if (ednum == 11)
+						SetThingEdNum(i, 7734); 
+					}			 
 				}
-				 
-		}
-	}
+			}
 }
