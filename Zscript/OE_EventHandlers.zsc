@@ -189,6 +189,11 @@ class DCX_UOEventHandler : EventHandler
 			{
 				e.Replacement = 'DC_Replacer';
 			}
+			
+			if (e.Replacee == 'PlasmaRifle')
+			{
+				e.Replacement = 'DCX_DZ0PlasmaRifle';
+			}
 		}
 		
 		}
