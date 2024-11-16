@@ -68,12 +68,17 @@ WS_AU_MULLER_MICAH = "Steve Muller & Micah Petersen";
 //The Lost Episodes Of Doom
 WS_AU_CARTER = "Bob Carter";
 
+//Doom: the lost episode (Evil Unleashed)
+WS_AU_XASER = "Xaser\"The Conquerer\" Acheron";
+
 //Doom Zero
 WS_AU_GOLDEN = "Christopher \"DASI-I\" Golden";
 
 
 //	AUTHOR UNKNOWN
 WS_AU_UNKNOWN = "???";
+
+EVIL_UNLEASHED = "\c[RED]Evil Unleashed";
 
 FREED1_EP01 = "\c[RED]Outpost Outbreak";
 FREED1_EP02 = "\c[RED]Military Labs";
@@ -110,6 +115,24 @@ PLUTONIA2_EPI01 = "\c[DarkGreen]U.A.A.F Guerrilla Warfare";
 PLUTONIA2_EPI02 = "\c[DarkGreen]Hemoptic Hurricane";
 PLUTONIA2_EPI03 = "\c[DarkGreen]Satan's Coloney";
 PLUTONIA2_BONUS = "\c[GOLD]Bonus: \c[DarkBrown]Choclate";
+
+EUTEXT =  "The smoking carcass of the carnivorous\n"
+		  "arachnid sizzles and slides to the floor\n"
+		  "with a sickening plop. The end, fiend.\n"
+		  "As walls and winds shift back into place,\n"
+		  "you simply can't hide a grin. Even Hell's\n"
+		  "ace of spades, the maniacal Void Lords,\n"
+		  "folded in the face of your hand. Their\n"
+		  "powers gone, this ghostly dimension\n"
+		  "begins to fade before your very eyes.\n"
+		  "You can't stifle a laugh, mocking Hell's\n"
+		  "champions, glory for all eternity.\n"
+		  "\n"
+		  "Grunting and heaving, you slowly rise to\n"
+		  "your feet. All that's left is Earth. If\n"
+		 "it's trouble the demons want, you'll\n"
+		  "deliver the goods. It's about time to\n"
+		  "show those bastards what Hell truly is!";
 
 MUSIC_PERINTER = "INTERG";
 MUSIC_H2PINTER = "INTERH";

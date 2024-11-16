@@ -1,0 +1,112 @@
+
+defaultmap
+{
+	SuckTime = 1
+	NoJump
+	NoCrouch
+	EnterPic = "$EP5INTE"
+	ExitPic = "$EP5INTE"
+	Cluster = 88
+	Sky1 = "EU_SKY5"
+	InterMusic = "D_BETA01"
+	Author = "$WS_AU_XASER"
+}
+
+cluster 88
+{
+	flat = "$ceil4_1"
+	music = "D_BETA19"
+	exittext = lookup, "EUTEXT"
+}
+
+map EU_MAP01 "Logos Anomaly"
+{
+	levelnum = 41
+	next = "EU_MAP02"
+	par = 30
+	music = "L_E5M1"
+	Label = "E7M1"
+}
+
+map EU_MAP02 "The Infernal Palace"
+{
+	levelnum = 42
+	next = "EU_MAP03"
+	par = 60
+	music = "L_E5M2"
+	Label = "E7M2"
+}
+
+map EU_MAP03 "Ominous Lair"
+{
+	levelnum = 43
+	next = "EU_MAP04"
+	par = 240
+	//music = "D_E2M6"
+	music = "D_BETA10"
+	Author = "Wills"
+	Label = "E7M3"
+}
+
+map EU_MAP04 "Caroll St. Station"
+{
+	levelnum = 44
+	next = "EU_MAP05"
+	par = 817
+	//music = "D_E2M4"
+	music = "D_BETA14"
+	Label = "E7M4"
+}
+
+map EU_MAP05 "The Mansion"
+{
+	levelnum = 45
+	next = "EU_MAP06"
+	SecretNext = "EU_MAP09"
+	par = 180
+	music = "D_BETA22"
+	Label = "E7M5"
+}
+
+map EU_MAP06 "Twilight Descends"
+{
+	levelnum = 46
+	next = "EU_MAP07"
+	par = 300
+	//music = "D_E1M6"
+	music = "D_BETA08"
+	Label = "E7M6"
+}
+
+map EU_MAP07 "Threshold of Pain"
+{
+	levelnum = 47
+	next = "EU_MAP08"
+	par = 142
+	music = "L_E5M7"
+	Label = "E7M7"
+}
+
+map EU_MAP08 "Redemption Denied"
+{
+	levelnum = 48
+	par = 300
+	next = "EndDemon"
+	nointermission
+	nosoundclipping
+	spidermastermindspecial
+	specialaction_exitlevel
+	music = "D_BETA21"
+	Label = "E7M8"
+}
+
+map EU_MAP09 "The Marshes"
+{
+	levelnum = 49
+	next = "EU_MAP06"
+	par = 30
+	music = "D_BETA11"
+	cyberdemonspecial
+	specialaction_opendoor
+	Label = "E7M9"
+}

@@ -1,3 +1,11 @@
+SpaceVile/Sight dssvilse
+SpaceVile/Active dssvilac
+SpaceVile/Attack dssvilak
+SpaceVile/Pain dssvilpn
+SpaceVile/Death dssvildh
+
+VoidFire/Start dsblaze2
+VoidFire/Crackle dscrakl2
 
 $attenuation PGBomb/Voice1 0
 PGBomb/Voice1 dsbomwar

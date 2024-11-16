@@ -1,13 +1,94 @@
 
-
-class DCX_Player_Unoffical : DCX_Player Replaces Doomplayer
+class DCX_Spacevile : Archvile
 {
 	Default
 	{
-		Player.WeaponSlot 5, "H2P_RocketLauncher", "RocketLauncher";
-		Player.WeaponSlot 6, "H2P_PlasmaTrident", "PlasmaRifle", "Incinerator", "DCX_HeavyPlasmaGun";
-		Player.WeaponSlot 7, "H2P_IncendiaryTrident", "BFG9000", "CalamityBlade";
-		Player.WeaponSlot 8, "DCX_Unmaker";
+		SeeSound "SpaceVile/Sight";
+		PainSound "SpaceVile/pain";
+		DeathSound "SpaceVile/death";
+		ActiveSound "SpaceVile/active";
+		//MeleeSound "SpaceVile/stop";
+	}
+	States
+	{
+	Spawn:
+		SVIL AB 10 A_Look;
+		Loop;
+	See:
+		SVIL AABBCCDDEEFF 2 A_VileChase;
+		Loop;
+	Missile:
+		SVIL G 0 BRIGHT A_StartSound("SpaceVile/Attack", CHAN_AUTO);
+		SVIL G 10 BRIGHT A_FaceTarget;
+		SVIL H 8 BRIGHT A_VileTarget("DCX_VoidFire");
+		SVIL IJKLMN 8 BRIGHT A_FaceTarget;
+		SVIL O 8 BRIGHT A_VileAttack;
+		SVIL P 20 BRIGHT;
+		Goto See;
+	Heal:
+		SVIH ABC 10 BRIGHT;
+		Goto See;
+	Pain:
+		SVIL Q 5;
+		SVIL Q 5 A_Pain;
+		Goto See;
+	Death:
+		SVIL Q 7;
+		SVIL R 7 A_Scream;
+		SVIL S 7 A_NoBlocking;
+		SVIL TUVWXY 7;
+		SVIL Z -1;
+		Stop;
+	}
+}
+
+class DCX_HookeyClean : Actor
+{
+	Default
+	{
+		Radius 16;
+		Height 64;
+		+NOGRAVITY
+		+SPAWNCEILING
+	}
+	States
+	{
+	Spawn:
+		HOOK A -1;
+		Stop;
+	}
+}
+
+class DCX_HookeyBlood : Actor
+{
+	Default
+	{
+		Radius 16;
+		Height 64;
+		+NOGRAVITY
+		+SPAWNCEILING
+	}
+	States
+	{
+	Spawn:
+		HOOK B -1;
+		Stop;
+	}
+}
+
+class DCX_VoidFire : ArchvileFire
+{
+	States
+	{
+	Spawn:
+		VOIF A 1 BRIGHT;
+		VOIF A 1 BRIGHT { A_Fire(); A_Startsound("VoidFire/Start"); }
+		VOIF BAB 2 BRIGHT  A_Fire;
+		VOIF C 2 BRIGHT  { A_Fire(); A_Startsound("VoidFire/Crackle"); }
+		VOIF BCBCDCDCDEDED 2 BRIGHT  A_Fire;
+		VOIF E 2 BRIGHT  { A_Fire(); A_Startsound("VoidFire/Crackle"); }
+		VOIF FEFEFGHGHGH 2 BRIGHT  A_Fire;
+		Stop;
 	}
 }
 

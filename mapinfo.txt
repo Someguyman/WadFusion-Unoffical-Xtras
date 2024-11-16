@@ -1,3 +1,4 @@
+include mapinfo/EvilUnleashed_Levels_X.txt
 include mapinfo/FreedoomPhase1_Levels_X.txt
 include mapinfo/FreedoomPhase2_Levels_X.txt
 include mapinfo/FreedoomDM_Levels_X.txt

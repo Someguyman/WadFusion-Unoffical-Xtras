@@ -42,6 +42,12 @@ episode E6M1
 	Optional
 }
 
+episode EU_MAP01
+{
+	Name = "$EVIL_UNLEASHED"
+	Optional
+}
+
 episode JA_MAP01
 {
 	Name = "$BONUS_JAGUAR"

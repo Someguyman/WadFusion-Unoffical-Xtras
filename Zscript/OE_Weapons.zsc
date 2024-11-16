@@ -1,3 +1,13 @@
+class DCX_Player_Unoffical : DCX_Player Replaces Doomplayer
+{
+	Default
+	{
+		Player.WeaponSlot 5, "H2P_RocketLauncher", "RocketLauncher";
+		Player.WeaponSlot 6, "H2P_PlasmaTrident", "PlasmaRifle", "Incinerator", "DCX_HeavyPlasmaGun";
+		Player.WeaponSlot 7, "H2P_IncendiaryTrident", "BFG9000", "CalamityBlade";
+		Player.WeaponSlot 8, "DCX_Unmaker";
+	}
+}
 
 class H2P_RocketLauncher : RocketLauncher
 {

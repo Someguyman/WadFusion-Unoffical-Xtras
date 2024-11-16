@@ -7,6 +7,24 @@ class DCX_UOEventHandler : EventHandler
         mapPrefix = mapPrefix.MakeLower();
 		String mapName = level.MapName.MakeLower();
 		
+		if ( mapPrefix == "eu_" )
+		{
+			if (e.Replacee == 'Archvile')
+			{
+				e.Replacement = 'DCX_Spacevile';
+			}
+			
+			if (e.Replacee == 'HangTSkull')
+			{
+				e.Replacement = 'DCX_HookeyClean';
+			}
+			
+			if (e.Replacee == 'HangTLookingDown')
+			{
+				e.Replacement = 'DCX_HookeyBlood';
+			}
+		}
+		
 		if ( mapPrefix == "pg_" )
 		{
 			if (e.Replacee == 'WolfensteinSS')
@@ -575,6 +593,19 @@ class DCX_UOEventHandler : EventHandler
 		}
     }
 	
+	void DCX_EUTextureReplacement()
+    {
+		String mapPrefix = level.MapName.Left(3);
+		String mapName = level.MapName.MakeLower();
+		mapPrefix = mapPrefix.MakeLower();
+		if ( mapPrefix == "eu_" )
+        {
+			Level.ReplaceTextures("SP_FACE3", "SP_FACE7", 0);
+			Level.ReplaceTextures("sflr7_2", "sflr7_7", 0);
+			Level.ReplaceTextures("sflr7_3", "sflr7_8", 0);
+		}
+	}
+	
 	void DCX_DZTextureReplacement()
     {
 		String SkyName = TexMan.GetName(level.skytexture1);
@@ -619,6 +650,7 @@ class DCX_UOEventHandler : EventHandler
 	{
 		DCX_UOTextureReplacements();
 		DCX_DZTextureReplacement();
+		DCX_EUTextureReplacement();
 	}
 	
 }
