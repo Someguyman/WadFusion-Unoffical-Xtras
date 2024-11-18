@@ -8,10 +8,16 @@ defaultmap
 	InterMusic = "$MUSIC_PERINTER"
 }
 
+//		Episode 1 Part 1		//
+
+adddefaultmap
+{
+	sky1 = "PG_SKY1"
+}
+
 map PG_MAP01 "Main Gate"
 {
 	next = "PG_MAP02"
-	sky1 = "PG_SKY1"
 	par = 30
 	music = "$MUSIC_PERMAP01"
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
@@ -21,7 +27,6 @@ map PG_MAP01 "Main Gate"
 map PG_MAP02 "Secondary Complex"
 {
 	next = "PG_MAP03"
-	sky1 = "PG_SKY1"
 	par = 90
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
 	music = "$MUSIC_PERMAP02"
@@ -31,7 +36,6 @@ map PG_MAP02 "Secondary Complex"
 map PG_MAP03 "Recreation Yard"
 {
 	next = "PG_MAP04"
-	sky1 = "PG_SKY1"
 	par = 120
 	Author = "$WS_AU_MUSTAINE"
 	music = "$MUSIC_PERMAP03"
@@ -41,7 +45,6 @@ map PG_MAP03 "Recreation Yard"
 map PG_MAP04 "Storage Areas"
 {
 	next = "PG_MAP05"
-	sky1 = "PG_SKY1"
 	par = 120
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
 	music = "$MUSIC_PERMAP04"
@@ -51,7 +54,6 @@ map PG_MAP04 "Storage Areas"
 map PG_MAP05 "Sub-Basement"
 {
 	next = "PG_MAP06"
-	sky1 = "PG_SKY1"
 	par = 90
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
 	music = "$MUSIC_PERMAP05"
@@ -61,17 +63,17 @@ map PG_MAP05 "Sub-Basement"
 map PG_MAP06 "Delta Sector"
 {
 	next = "PG_MAP07"
-	sky1 = "PG_SKY1"
 	par = 150
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
 	music = "$MUSIC_PERMAP06"
 	Label = "Map06"
 }
 
+//		Episode 1 Part 2		//
+
 map PG_MAP07 "Nukage Refinery"
 {
 	next = "PG_MAP08"
-	sky1 = "PG_SKY1"
 	par = 120
 	map07special
 	Author = "$WS_AU_MUSTAINE"
@@ -82,7 +84,6 @@ map PG_MAP07 "Nukage Refinery"
 map PG_MAP08 "Drainage Tunnels"
 {
 	next = "PG_MAP09"
-	sky1 = "PG_SKY1"
 	par = 120
 	Author = "$WS_AU_MUSTAINE"
 	music = "$MUSIC_PERMAP08"
@@ -92,7 +93,6 @@ map PG_MAP08 "Drainage Tunnels"
 map PG_MAP09 "Experimentation Labs"
 {
 	next = "PG_MAP10"
-	sky1 = "PG_SKY1"
 	par = 270
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
 	music = "$MUSIC_PERMAP09"
@@ -102,7 +102,6 @@ map PG_MAP09 "Experimentation Labs"
 map PG_MAP10 "High Security Area"
 {
 	next = "PG_MAP11"
-	sky1 = "PG_SKY1"
 	par = 90
 	Author = "$WS_AU_SIEBEN"
 	music = "$MUSIC_PERMAP10"
@@ -112,19 +111,22 @@ map PG_MAP10 "High Security Area"
 map PG_MAP11 "Central Portal"
 {
 	next = "PG_MAP12"
-	sky1 = "PG_SKY1"
 	par = 210
 	Author = "$WS_AU_MUSTAINE"
 	music = "$MUSIC_PERMAP11"
 	Label = "Map11"
 }
 
-//E2 ---------------------------------------------------------------
+//		Episode 2		//
+
+adddefaultmap
+{
+	sky1 = "PG_SKY2"
+}
 
 map PG_MAP12 "Ancient Gate"
 {
 	next = "PG_MAP13"
-	sky1 = "PG_SKY2"
 	par = 150
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR_SIEBEN"
 	music = "$MUSIC_PERMAP12"
@@ -134,7 +136,6 @@ map PG_MAP12 "Ancient Gate"
 map PG_MAP13 "Teleport Platform"
 {
 	next = "PG_MAP14"
-	sky1 = "PG_SKY2"
 	par = 150
 	Author = "$WS_AU_MUSTAIN_MCCANDLISH"
 	music = "$MUSIC_PERMAP13"
@@ -144,7 +145,6 @@ map PG_MAP13 "Teleport Platform"
 map PG_MAP14 "Transfer Locking Area"
 {
 	next = "PG_MAP15"
-	sky1 = "PG_SKY2"
 	par = 150
 	Author = "$WS_AU_SIEBEN"
 	music = "$MUSIC_PERMAP14"
@@ -155,7 +155,6 @@ map PG_MAP15 "The Old Fortress"
 {
 	next = "PG_MAP16"
 	secretnext = "PG_MAP31"
-	sky1 = "PG_SKY2"
 	par = 210
 	Author = "$WS_AU_MUSTAIN_MCCANDLISH"
 	music = "$MUSIC_PERMAP15"
@@ -165,7 +164,6 @@ map PG_MAP15 "The Old Fortress"
 map PG_MAP16 "The Alien Shrine"
 {
 	next = "PG_MAP17"
-	sky1 = "PG_SKY2"
 	par = 150
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
 	music = "$MUSIC_PERMAP16"
@@ -175,7 +173,6 @@ map PG_MAP16 "The Alien Shrine"
 map PG_MAP17 "Interdimensional Control"
 {
 	next = "PG_MAP18"
-	sky1 = "PG_SKY2"
 	par = 420
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
 	music = "$MUSIC_PERMAP17"
@@ -185,7 +182,6 @@ map PG_MAP17 "Interdimensional Control"
 map PG_MAP18 "Computer Center"
 {
 	next = "PG_MAP19"
-	sky1 = "PG_SKY2"
 	par = 150
 	Author = "$WS_AU_MUSTAINE"
 	music = "$MUSIC_PERMAP18"
@@ -195,7 +191,6 @@ map PG_MAP18 "Computer Center"
 map PG_MAP19 "Closer to Hell"
 {
 	next = "PG_MAP20"
-	sky1 = "PG_SKY2"
 	par = 210
 	Author = "$WS_AU_SIEBEN"
 	music = "$MUSIC_PERMAP19"
@@ -205,19 +200,22 @@ map PG_MAP19 "Closer to Hell"
 map PG_MAP20 "The Last Stand"
 {
 	next = "PG_MAP21"
-	sky1 = "PG_SKY2"
 	par = 150
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
 	music = "$MUSIC_PERMAP20"
 	Label = "Map20"
 }
 
-//E3 ---------------------------------------------------------------
+//		Episode 3		//
+
+adddefaultmap
+{
+	sky1 = "PG_SKY3"
+}
 
 map PG_MAP21 "Perdition's Gate"
 {
 	next = "PG_MAP22"
-	sky1 = "PG_SKY3"
 	par = 240
 	Author = "$WS_AU_SIEBEN"
 	music = "$MUSIC_PERMAP21"
@@ -227,7 +225,6 @@ map PG_MAP21 "Perdition's Gate"
 map PG_MAP22 "The Deepest Reaches"
 {
 	next = "PG_MAP23"
-	sky1 = "PG_SKY3"
 	par = 150
 	Author = "$WS_AU_MCCANDLISH"
 	music = "$MUSIC_PERMAP22"
@@ -237,7 +234,6 @@ map PG_MAP22 "The Deepest Reaches"
 map PG_MAP23 "Hell's Gymnasium"
 {
 	next = "PG_MAP24"
-	sky1 = "PG_SKY3"
 	par = 180
 	Author = "$WS_AU_SIEBEN"
 	music = "$MUSIC_PERMAP23"
@@ -247,7 +243,6 @@ map PG_MAP23 "Hell's Gymnasium"
 map PG_MAP24 "BloodStone Gardens"
 {
 	next = "PG_MAP25"
-	sky1 = "PG_SKY3"
 	par = 150
 	Author = "$WS_AU_MCCANDLISH"
 	music = "$MUSIC_PERMAP24"
@@ -257,7 +252,6 @@ map PG_MAP24 "BloodStone Gardens"
 map PG_MAP25 "Demon's Playground"
 {
 	next = "PG_MAP26"
-	sky1 = "PG_SKY3"
 	par = 150
 	Author = "$WS_AU_MCCANDLISH"
 	music = "$MUSIC_PERMAP25"
@@ -267,7 +261,6 @@ map PG_MAP25 "Demon's Playground"
 map PG_MAP26 "The Bleeding Tunnels"
 {
 	next = "PG_MAP27"
-	sky1 = "PG_SKY3"
 	par = 300
 	Author = "$WS_AU_UNKNOWN"
 	music = "$MUSIC_PERMAP26"
@@ -277,7 +270,6 @@ map PG_MAP26 "The Bleeding Tunnels"
 map PG_MAP27 "Devil's Masterpiece"
 {
 	next = "PG_MAP28"
-	sky1 = "PG_SKY3"
 	par = 330
 	Author = "$WS_AU_SIEBEN"
 	music = "$MUSIC_PERMAP27"
@@ -287,7 +279,6 @@ map PG_MAP27 "Devil's Masterpiece"
 map PG_MAP28 "High-Tech Hades"
 {
 	next = "PG_MAP29"
-	sky1 = "PG_SKY3"
 	par = 420
 	Author = "$WS_AU_SIEBEN"
 	music = "$MUSIC_PERMAP28"
@@ -297,7 +288,6 @@ map PG_MAP28 "High-Tech Hades"
 map PG_MAP29 "Bomb Facility"
 {
 	next = "PG_MAP30"
-	sky1 = "PG_SKY3"
 	par = 300
 	Author = "$WS_AU_MUSTAINE"
 	music = "$MUSIC_PERMAP29"
@@ -308,7 +298,6 @@ map PG_MAP30 "Escape!"
 {
 	next = EndSequence, "PEREnding"
 	secretnext = EndSequence, "PEREnding"
-	sky1 = "PG_SKY3"
 	par = 180
 	nointermission
 	nosoundclipping
@@ -318,13 +307,12 @@ map PG_MAP30 "Escape!"
 	Label = "Map30"
 }
 
-//Secret Levels ----------------------------------------------------
+//		Secret Maps		//
 
 map PG_MAP31 "Living Rock"
 {
 	next = "PG_MAP16"
 	secretnext = "PG_MAP32"
-	sky1 = "PG_SKY3"
 	par = 120
 	Author = "$WS_AU_MCCANDLISH"
 	music = "$MUSIC_PERMAP31"
@@ -334,18 +322,18 @@ map PG_MAP31 "Living Rock"
 map PG_MAP32 "Radioactive Sea"
 {
 	next = "PG_MAP16"
-	sky1 = "PG_SKY3"
 	par = 30
 	Author = "$WS_AU_MCCANDLISH"
 	music = "$MUSIC_PERMAP32"
 	Label = "Map32"
 }
 
+//		Ending Screen and Roll Call		//
+
 Intermission PEREnding
 {
 	Image
 	{
-		// This is only here to initialize the background and the music
 		Background = "perbos2"
 		music = "$MUSIC_PERTEXT"
 		Time = -800
@@ -353,7 +341,6 @@ Intermission PEREnding
 	Wiper {} 
 	Link = PERInter_Cast
 }
-
 
 Intermission PERInter_Cast
 {

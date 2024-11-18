@@ -1,4 +1,3 @@
-//
 
 defaultmap
 {
@@ -9,6 +8,8 @@ defaultmap
 	enterpic = "tnrinter"
 	intermusic = "$MUSIC_TNRINTER"
 }
+
+//		Clusterdefs		//
 
 clusterdef 62
 {
@@ -51,6 +52,8 @@ clusterdef 67
 	music = "$MUSIC_TNRTEXT"
 	entertext = lookup, "TR_TEXT6"
 }
+
+//		Episode 1 Part 1		//
 
 adddefaultmap
 {
@@ -112,6 +115,8 @@ map tr_map06 lookup "TRHUSTR_6"
 	Label = "E4M6"
 }
 
+//		Episode 1 Part 2		//
+
 adddefaultmap
 {
 	Cluster = 63
@@ -163,6 +168,8 @@ map tr_map11 lookup "TRHUSTR_11"
 	music = "$MUSIC_TNRMAP11"
 	Label = "E4M11"
 }
+
+//		Episode 2		//
 
 adddefaultmap
 {
@@ -251,6 +258,8 @@ map tr_map20 lookup "TRHUSTR_20"
 	music = "$MUSIC_TNRMAP20"
 	Label = "E5M9"
 }
+
+//		Episode 3		//
 
 adddefaultmap
 {
@@ -360,6 +369,8 @@ map tr_map30 lookup "TRHUSTR_30"
 	secretnext = EndSequence, "TNRInter_Cast"
 	Label = "E6M10"
 }
+
+//		Secret maps		//
 
 map tr_map31 lookup "TRHUSTR_31"
 {

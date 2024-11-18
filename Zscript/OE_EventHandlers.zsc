@@ -235,10 +235,8 @@ class DCX_UOEventHandler : EventHandler
 		String SkyName = TexMan.GetName(level.skytexture1);
 		int flags = TexMan.ReturnFirst;
 		String mapPrefix = level.MapName.Left(3);
-		String mapPrefix2 = level.MapName.Left(4);
 		String mapName = level.MapName.MakeLower();
 		mapPrefix = mapPrefix.MakeLower();
-		mapPrefix2 = mapPrefix2.MakeLower();
 		
 		if ( mapPrefix == "pg_" )
         {
@@ -260,7 +258,7 @@ class DCX_UOEventHandler : EventHandler
 			Level.ReplaceTextures("SW2TEK", "SW2PGTEK", 0);
         }
 		
-		if ( mapPrefix2 == "fd_e" )
+		if ( mapName.left(4) == "fd_e" )
         {
             Level.ReplaceTextures("BRNPOIS", "BRNPOIS1", 0);
             Level.ReplaceTextures("NUKEPOIS", "NUKPOIS1", 0);
@@ -643,6 +641,24 @@ class DCX_UOEventHandler : EventHandler
 			
 			Level.ReplaceTextures("SW1BRN1", "SW1BRN1DZ", 0);
 			Level.ReplaceTextures("SW2BRN1", "SW2BRN1DZ", 0);
+			
+			if ( ( mapName == "dz_map32" ) && ( CVar.FindCVar("dcx_TextureEchancements").GetBool() ) )
+			{
+				Level.ReplaceTextures("COMPUTE1", "COMPUTE9", 0);
+				Level.ReplaceTextures("COMPUTE2", "COMPUTE5", 0);
+				Level.ReplaceTextures("COMPUTE3", "COMPUTE7", 0);
+				
+				Level.ReplaceTextures("COMPTALL",  "COMPTAL3",0);
+				
+				Level.ReplaceTextures("COMP2", 	   "COMP2OFF",0);
+				
+				Level.ReplaceTextures("COMPSTA1", "COMPAOFF", 0);
+				Level.ReplaceTextures("COMPSTA2", "COMPBOFF", 0);
+				
+				Level.ReplaceTextures("CONS1_1", "CONF1_1", 0);
+				Level.ReplaceTextures("CONS1_5", "CONF1_5", 0);
+				Level.ReplaceTextures("CONS1_7", "CONF1_7", 0);
+			}
         }
 	}
 	

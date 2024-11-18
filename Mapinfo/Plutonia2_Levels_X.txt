@@ -2,11 +2,12 @@ defaultmap
 {
 	nojump
 	nocrouch
-	//forcenoskystretch
 	ExitPic = "p2interp"
 	enterpic = "p2interp"
 	intermusic = "D_JA_CER"
 }
+
+//		Clusterdefs		//
 
 clusterdef 50
 {
@@ -55,6 +56,8 @@ adddefaultmap
 	Cluster = 50
 	sky1 = "PSKY1"
 }
+
+//		Episode 1 Part 1		//
 
 map PT_MAP01 lookup "P2HUSTR_1"
 {
@@ -116,6 +119,8 @@ map PT_MAP06 lookup "P2HUSTR_6"
 	Label = "E4M6"
 }
 
+//		Episode 1 Part 2		//
+
 adddefaultmap
 {
 	Cluster = 51
@@ -170,6 +175,8 @@ map PT_MAP11 lookup "P2HUSTR_11"
 	Author = "$WS_AU_GUSTA_RABOTIK"
 	Label = "E4M11"
 }
+
+//		Episode 2		//
 
 adddefaultmap
 {
@@ -262,6 +269,8 @@ map PT_MAP20 lookup "P2HUSTR_20"
 	Author = "$WS_AU_ANGUS_GUSTA"
 	Label = "E5M9"
 }
+
+//		Episode 3		//
 
 adddefaultmap
 {
@@ -372,6 +381,8 @@ map PT_MAP30 lookup "P2HUSTR_30"
 	Label = "E6M10"
 }
 
+//		Secret maps		//
+
 map PT_MAP31 lookup "P2HUSTR_31"
 {
 	next = "PT_MAP16"
@@ -395,6 +406,8 @@ map PT_MAP32 lookup "P2HUSTR_32"
 	Author = "$WS_AU_KIRA_RABOTIK"
 	Label = "E5M666^2"
 }
+
+//		Bonus Map: Choclate		//
 
 map PT_MAP33 lookup "P2HUSTR_33"
 {

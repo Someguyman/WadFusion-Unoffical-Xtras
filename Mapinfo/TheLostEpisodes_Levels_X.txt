@@ -36,6 +36,8 @@ adddefaultmap
 	sky1 = "LED_SKY1"
 }
 
+//		Episode 1		//
+
 map LE_E1M1 "UAC Spaceport"
 {
 	levelnum = 1
@@ -120,7 +122,7 @@ map LE_E1M8 "Callisto Consecration"
 	Label = "E1M8"
 }
 
-//E2-------------------------------
+//		Episode 2		//
 
 adddefaultmap
 {
@@ -214,7 +216,7 @@ map LE_E2M8 "Late For Supper"
 	Label = "E2M8"
 }
 
-//E3--------------------------------
+//		Episode 3		//
 
 adddefaultmap
 {
@@ -316,3 +318,5 @@ map LE_E3M8 "Deja Vu"
 	Label = "E3M8"
 	lightning
 }
+
+//		No Episode 4 =(		//

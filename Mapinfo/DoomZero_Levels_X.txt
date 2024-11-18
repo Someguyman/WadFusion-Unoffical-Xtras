@@ -71,6 +71,8 @@ cluster 206
 	entertext = lookup, "IN_DZ6"
 }
 
+//		Episode 1		//
+
 adddefaultmap
 {
 	Cluster = 201
@@ -191,6 +193,8 @@ map DZ_MAP11 lookup "DZHUSTR_11"
 	Label = "E1M11"
 }
 
+//		Episode 2		//
+
 adddefaultmap
 {
 	Cluster = 203
@@ -279,6 +283,8 @@ map DZ_MAP20 lookup "DZHUSTR_20"
 	music = "$MUSIC_DZ0MAP20"
 	Label = "E2M9"
 }
+
+//		Episode 3		//
 
 adddefaultmap
 {
@@ -397,6 +403,8 @@ map DZ_MAP30 lookup "DZHUSTR_30"
 	Label = "E3M10"
 }
 
+//		Secret maps		//
+
 map DZ_MAP31 lookup "DZHUSTR_31"
 {
 	next = "DZ_MAP16"
@@ -424,7 +432,6 @@ Intermission DZ0Inter_Cast
 {
 	Image
 	{
-		// This is only here to initialize the background and the music
 		Background = "SARCOPH"
 		music = "$MUSIC_DZ0END"
 		Time = -1

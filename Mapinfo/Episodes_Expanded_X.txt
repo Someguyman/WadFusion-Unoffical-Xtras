@@ -1,5 +1,9 @@
 clearepisodes
 
+//		Doom 1 Episodes		//
+
+// The Original Triology //
+
 episode E1M1
 {
 	Name = "$DOOM1_EPI01"
@@ -20,6 +24,8 @@ episode E3M1
 	PicName = "M_EPI3"
 	Optional
 }
+
+// Doom 1 Expansions //
 
 episode E4M1
 {
@@ -42,11 +48,15 @@ episode E6M1
 	Optional
 }
 
+// Unoffical Episode //
+
 episode EU_MAP01
 {
 	Name = "$EVIL_UNLEASHED"
 	Optional
 }
+
+// Bonus Original Doom Maps //
 
 episode JA_MAP01
 {
@@ -59,6 +69,10 @@ episode GBA_DM1
 	Name = "$BONUS_GBADM"
 	Optional
 }
+
+//		Doom 2 Episodes		//
+
+//	Hell on earth	//
 
 episode MAP01
 {
@@ -78,12 +92,16 @@ episode MAP21
 	Optional
 }
 
+//	Doom 2 Expansions	//
+
 episode NV_MAP01
 {
 	Name = "$DOOM2_EPI04"
 	PicName = "M_NOREST"
 	Optional
 }
+
+//	Legacy of Rust	//
 
 episode LR_MAP01
 {
@@ -99,11 +117,15 @@ episode LR_MAP08
 	Optional
 }
 
+//	Bonus Doom 2 maps	//
+
 episode DM_MAP01
 {
 	Name = "$BONUS_KEXDM"
 	Optional
 }
+
+//		Doom 64 For Doom 2 Episodes		//
 
 episode AB_MAP01
 {
@@ -123,11 +145,15 @@ episode AB_MAP21
 	Optional
 }
 
+//	Bonus Doom 64 maps	//
+
 episode AB_MAP33
 {
 	Name = "$BONUS_TITLE"
 	Optional
 }
+
+//		Doom Zero Episodes		//
 
 episode dz_map01
 {
@@ -149,6 +175,8 @@ episode dz_map21
 	PicName = "M_ZERO"
 	optional
 }
+
+//		Master Levles		//
 
 episode ML_MAP01
 {
@@ -185,6 +213,10 @@ episode ML_MAP37
 	Optional
 }
 
+//		TNT Episodes		//
+
+//	Original Evilution	//
+
 episode TN_MAP01
 {
 	Name = "$TNTE_EPI01"
@@ -202,6 +234,8 @@ episode TN_MAP21
 	Name = "$TNTE_EPI03"
 	Optional
 }
+
+//	Revilution Episodes	//
 
 episode TR_MAP01
 {
@@ -221,6 +255,10 @@ episode TR_MAP21
 	Optional
 }
 
+//		Plutonia Episodes		//
+
+//	Original Plutonia	//
+
 episode PL_MAP01
 {
 	Name = "$PLUTONIA_EPI01"
@@ -238,6 +276,8 @@ episode PL_MAP21
 	Name = "$PLUTONIA_EPI03"
 	Optional
 }
+
+//	Plutonia 2 Episodes	//
 
 episode PT_MAP01
 {
@@ -263,7 +303,7 @@ episode PT_MAP33
 	Optional
 }
 
-//	Freedoom Phase 1
+//		Freedoom Phase 1		//
 
 episode FD_E1M1
 {
@@ -289,7 +329,7 @@ episode FD_E4M1
 	Optional
 }
 
-//	Freedoom Phase 2
+//		Freedoom Phase 2		//
 
 episode FD_MAP01
 {
@@ -315,7 +355,7 @@ episode FD_DMM01
 	Optional
 }
 
-//	The Lost Episodes of Doom
+//		The Lost Episodes of Doom		//
 
 episode LE_E1M1
 {
@@ -335,7 +375,7 @@ episode LE_E3M1
 	Optional
 }
 
-//	Perditions Gate
+//		Perditions Gate		//
 
 episode PG_MAP01
 {
@@ -355,13 +395,13 @@ episode PG_MAP21
 	Optional
 }
 
-//	Hell 2 pay
+//		Hell 2 pay		//
 
 episode HP_MAP01
 {
 	Name = "$HELL2P_EP1"
 	Optional
-	Intro { Video = "movies/HELL2PAYINTRO.IVF" Sound = "movies/HELL2PAYINTRO.OGG" } 
+	Intro { Video = "movies/HELL2PAYINTRO.IVF" Sound = "movies/HELL2PAYINTRO.OGG" } //The Only one with an intro like this.
 }
 
 episode HP_MAP12

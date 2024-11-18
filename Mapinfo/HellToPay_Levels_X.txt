@@ -8,10 +8,16 @@ defaultmap
 	enterpic = "$in_H2P"
 }
 
+//		Episode 1 Part 1		//
+
+adddefaultmap
+{
+	sky1 = "H2P_SKY1"
+}
+
 map HP_MAP01 "The Holding Cells"
 {
 	next = "HP_MAP02"
-	sky1 = "H2P_SKY1"
 	par = 30
 	music = "$MUSIC_PERMAP15"
 	Label = "Map01"
@@ -20,7 +26,6 @@ map HP_MAP01 "The Holding Cells"
 map HP_MAP02 "The Slave Quarters"
 {
 	next = "HP_MAP03"
-	sky1 = "H2P_SKY1"
 	par = 90
 	music = "$MUSIC_PERMAP02"
 	Label = "Map02"
@@ -29,7 +34,6 @@ map HP_MAP02 "The Slave Quarters"
 map HP_MAP03 "The Mines"
 {
 	next = "HP_MAP04"
-	sky1 = "H2P_SKY1"
 	par = 120
 	music = "$MUSIC_PERMAP10"
 	Label = "Map03"
@@ -38,7 +42,6 @@ map HP_MAP03 "The Mines"
 map HP_MAP04 "Nukage Processing"
 {
 	next = "HP_MAP05"
-	sky1 = "H2P_SKY1"
 	par = 120
 	music = "$MUSIC_PERMAP07"
 	Label = "Map04"
@@ -47,7 +50,6 @@ map HP_MAP04 "Nukage Processing"
 map HP_MAP05 "Trustee Country"
 {
 	next = "HP_MAP06"
-	sky1 = "H2P_SKY1"
 	par = 90
 	music = "$MUSIC_PERMAP22"
 	Label = "Map05"
@@ -56,17 +58,17 @@ map HP_MAP05 "Trustee Country"
 map HP_MAP06 "Command And Control"
 {
 	next = "HP_MAP07"
-	sky1 = "H2P_SKY1"
 	par = 150
 	sucktime = 1
 	music = "$MUSIC_PERMAP20"
 	Label = "Map06"
 }
 
+//		Episode 1 Part 2		//
+
 map HP_MAP07 "The Industrial Park"
 {
 	next = "HP_MAP08"
-	sky1 = "H2P_SKY1"
 	par = 120
 	map07special
 	music = "$MUSIC_PERMAP12"
@@ -76,7 +78,6 @@ map HP_MAP07 "The Industrial Park"
 map HP_MAP08 "The Warehouse"
 {
 	next = "HP_MAP09"
-	sky1 = "H2P_SKY1"
 	par = 120
 	music = "$MUSIC_PERMAP16"
 	Label = "Map08"
@@ -85,7 +86,6 @@ map HP_MAP08 "The Warehouse"
 map HP_MAP09 "The Military Complex"
 {
 	next = "HP_MAP10"
-	sky1 = "H2P_SKY1"
 	par = 270
 	music = "$MUSIC_PERMAP25"
 	Label = "Map09"
@@ -94,7 +94,6 @@ map HP_MAP09 "The Military Complex"
 map HP_MAP10 "The Liquid Metal Labs"
 {
 	next = "HP_MAP11"
-	sky1 = "H2P_SKY1"
 	par = 90
 	music = "$MUSIC_PERMAP14"
 	Label = "Map10"
@@ -103,16 +102,21 @@ map HP_MAP10 "The Liquid Metal Labs"
 map HP_MAP11 "The Spaceport"
 {
 	next = "HP_MAP12"
-	sky1 = "H2P_SKY1"
 	par = 210
 	music = "$MUSIC_PERMAP27"
 	Label = "Map11"
 }
 
+//		Episode 2		//
+
+adddefaultmap
+{
+	sky1 = "H2P_SKY2"
+}
+
 map HP_MAP12 "The Cargo Hold"
 {
 	next = "HP_MAP13"
-	sky1 = "H2P_SKY2"
 	par = 150
 	music = "$MUSIC_PERMAP03"
 	Label = "Map12"
@@ -121,7 +125,6 @@ map HP_MAP12 "The Cargo Hold"
 map HP_MAP13 "The Engine Room"
 {
 	next = "HP_MAP14"
-	sky1 = "H2P_SKY2"
 	par = 150
 	music = "$MUSIC_PERMAP05"
 	Label = "Map13"
@@ -130,7 +133,6 @@ map HP_MAP13 "The Engine Room"
 map HP_MAP14 "The Habitat Deck"
 {
 	next = "HP_MAP15"
-	sky1 = "H2P_SKY2"
 	par = 150
 	music = "$MUSIC_PERMAP11"
 	Label = "Map14"
@@ -139,11 +141,12 @@ map HP_MAP14 "The Habitat Deck"
 map HP_MAP15 "Captain Bellows"
 {
 	next = "HP_MAP31"
-	sky1 = "H2P_SKY2"
 	par = 210
 	music = "$MUSIC_PERMAP23"
 	Label = "Map15"
 }
+
+//	"Secret" Maps. These are treated as normal maps.	//
 
 map HP_MAP31 "Secret Facility"
 {
@@ -151,7 +154,7 @@ map HP_MAP31 "Secret Facility"
 	sky1 = "H2P_SKY3"
 	par = 120
 	music = "$MUSIC_PERMAP31"
-	Label = "Map16"
+	Label = "Map16"	// From this point on the map labels don't match the map slot
 }
 
 map HP_MAP32 "Self-Destruct"
@@ -163,10 +166,11 @@ map HP_MAP32 "Self-Destruct"
 	Label = "Map17"
 }
 
+//	back to base maps	//
+
 map HP_MAP16 "Io Base"
 {
 	next = "HP_MAP17"
-	sky1 = "H2P_SKY2"
 	par = 150
 	music = "$MUSIC_PERMAP14"
 	Label = "Map18"
@@ -175,7 +179,6 @@ map HP_MAP16 "Io Base"
 map HP_MAP17 "Hot As Hell"
 {
 	next = "HP_MAP18"
-	sky1 = "H2P_SKY2"
 	par = 420
 	music = "$MUSIC_PERMAP13"
 	Label = "Map19"
@@ -184,7 +187,6 @@ map HP_MAP17 "Hot As Hell"
 map HP_MAP18 "Big Crane"
 {
 	next = "HP_MAP19"
-	sky1 = "H2P_SKY2"
 	par = 150
 	music = "$MUSIC_PERMAP02"
 	Label = "Map20"
@@ -193,7 +195,6 @@ map HP_MAP18 "Big Crane"
 map HP_MAP19 "Demon Chow"
 {
 	next = "HP_MAP20"
-	sky1 = "H2P_SKY2"
 	par = 210
 	music = "$MUSIC_PERMAP17"
 	Label = "Map21"
@@ -202,16 +203,21 @@ map HP_MAP19 "Demon Chow"
 map HP_MAP20 "Master Computer"
 {
 	next = "HP_MAP21"
-	sky1 = "H2P_SKY2"
 	par = 150
 	music = "$MUSIC_PERMAP27"
 	Label = "Map22"
 }
 
+//		Episode 3		//
+
+adddefaultmap
+{
+	sky1 = "H2P_SKY3"
+}
+
 map HP_MAP21 "Planet Hell"
 {
 	next = "HP_MAP22"
-	sky1 = "H2P_SKY3"
 	par = 240
 	music = "$MUSIC_PERMAP09"
 	Label = "Map23"
@@ -220,7 +226,6 @@ map HP_MAP21 "Planet Hell"
 map HP_MAP22 "Vile Temple"
 {
 	next = "HP_MAP23"
-	sky1 = "H2P_SKY3"
 	par = 150
 	music = "$MUSIC_PERMAP04"
 	Label = "Map24"
@@ -229,7 +234,6 @@ map HP_MAP22 "Vile Temple"
 map HP_MAP23 "Hell's Cavern"
 {
 	next = "HP_MAP24"
-	sky1 = "H2P_SKY3"
 	par = 180
 	music = "$MUSIC_PERMAP19"
 	Label = "Map25"
@@ -238,7 +242,6 @@ map HP_MAP23 "Hell's Cavern"
 map HP_MAP24 "Hell's Park"
 {
 	next = "HP_MAP25"
-	sky1 = "H2P_SKY3"
 	par = 150
 	music = "$MUSIC_PERMAP23"
 	Label = "Map26"
@@ -247,7 +250,6 @@ map HP_MAP24 "Hell's Park"
 map HP_MAP25 "Hell's Gauntlet"
 {
 	next = "HP_MAP26"
-	sky1 = "H2P_SKY3"
 	par = 150
 	music = "$MUSIC_PERMAP27"
 	Label = "Map27"
@@ -256,7 +258,6 @@ map HP_MAP25 "Hell's Gauntlet"
 map HP_MAP26 "Circle of Hell"
 {
 	next = "HP_MAP27"
-	sky1 = "H2P_SKY3"
 	par = 300
 	music = "$MUSIC_PERMAP20"
 	Label = "Map28"
@@ -265,7 +266,6 @@ map HP_MAP26 "Circle of Hell"
 map HP_MAP27 "Hell Squared"
 {
 	next = "HP_MAP28"
-	sky1 = "H2P_SKY3"
 	par = 330
 	music = "$MUSIC_PERMAP28"
 	Label = "Map29"
@@ -274,7 +274,6 @@ map HP_MAP27 "Hell Squared"
 map HP_MAP28 "Neophyte Reception"
 {
 	next = "HP_MAP29"
-	sky1 = "H2P_SKY3"
 	par = 420
 	music = "$MUSIC_PERMAP26"
 	Label = "Map30"
@@ -283,7 +282,6 @@ map HP_MAP28 "Neophyte Reception"
 map HP_MAP29 "Initiation"
 {
 	next = "HP_MAP30"
-	sky1 = "H2P_SKY3"
 	par = 300
 	music = "$MUSIC_PERMAP25"
 	Label = "Map31"
@@ -292,7 +290,6 @@ map HP_MAP29 "Initiation"
 map HP_MAP30 "Sky High"
 {
 	next = EndSequence, "H2PEnding"
-	sky1 = "H2P_SKY3"
 	par = 180
 	nointermission
 	nosoundclipping
@@ -305,7 +302,6 @@ Intermission H2PEnding
 {
 	Image
 	{
-		// This is only here to initialize the background and the music
 		Background = "h2pbossb"
 		music = "$MUSIC_PERTEXT"
 		Time = -800
@@ -318,7 +314,6 @@ Intermission H2PInter_Cast
 {
 	Image
 	{
-		// This is only here to initialize the background and the music
 		Background = "H2PEND"
 		music = "$MUSIC_PEREND"
 		Time = -1
