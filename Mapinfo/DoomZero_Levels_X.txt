@@ -86,7 +86,7 @@ map DZ_MAP01 lookup "DZHUSTR_1"
 	titlepatch = "Zwilv00"
 	par = 30
 	music = "$MUSIC_DZ0MAP01"
-	Label = "E1M1"
+	Label = "DOOM ZERO, E1M1"
 }
 
 map DZ_MAP02 lookup "DZHUSTR_2"
@@ -96,7 +96,7 @@ map DZ_MAP02 lookup "DZHUSTR_2"
 	titlepatch = "Zwilv01"
 	par = 90
 	music = "$MUSIC_DZ0MAP02"
-	Label = "E1M2"
+	Label = "DOOM ZERO, E1M2"
 }
 
 map DZ_MAP03 lookup "DZHUSTR_3"
@@ -106,7 +106,7 @@ map DZ_MAP03 lookup "DZHUSTR_3"
 	titlepatch = "Zwilv02"
 	par = 120
 	music = "$MUSIC_DZ0MAP03"
-	Label = "E1M3"
+	Label = "DOOM ZERO, E1M3"
 }
 
 map DZ_MAP04 lookup "DZHUSTR_4"
@@ -116,7 +116,7 @@ map DZ_MAP04 lookup "DZHUSTR_4"
 	titlepatch = "Zwilv03"
 	par = 120
 	music = "$MUSIC_DZ0MAP04"
-	Label = "E1M4"
+	Label = "DOOM ZERO, E1M4"
 }
 
 map DZ_MAP05 lookup "DZHUSTR_5"
@@ -126,7 +126,7 @@ map DZ_MAP05 lookup "DZHUSTR_5"
 	titlepatch = "Zwilv04"
 	par = 90
 	music = "$MUSIC_DZ0MAP05"
-	Label = "E1M5"
+	Label = "DOOM ZERO, E1M5"
 }
 
 map DZ_MAP06 lookup "DZHUSTR_6"
@@ -137,7 +137,7 @@ map DZ_MAP06 lookup "DZHUSTR_6"
 	par = 150
 	sucktime = 1
 	music = "$MUSIC_DZ0MAP06"
-	Label = "E1M6"
+	Label = "DOOM ZERO, E1M6"
 }
 
 adddefaultmap
@@ -154,7 +154,7 @@ map DZ_MAP07 lookup "DZHUSTR_7"
 	par = 120
 	map07special
 	music = "$MUSIC_DZ0MAP07"
-	Label = "E1M7"
+	Label = "DOOM ZERO, E1M7"
 }
 
 map DZ_MAP08 lookup "DZHUSTR_8"
@@ -163,7 +163,7 @@ map DZ_MAP08 lookup "DZHUSTR_8"
 	titlepatch = "Zwilv07"
 	par = 120
 	music = "$MUSIC_DZ0MAP08"
-	Label = "E1M8"
+	Label = "DOOM ZERO, E1M8"
 }
 
 map DZ_MAP09 lookup "DZHUSTR_9"
@@ -172,7 +172,7 @@ map DZ_MAP09 lookup "DZHUSTR_9"
 	titlepatch = "Zwilv08"
 	par = 270
 	music = "$MUSIC_DZ0MAP09"
-	Label = "E1M9"
+	Label = "DOOM ZERO, E1M9"
 }
 
 map DZ_MAP10 lookup "DZHUSTR_10"
@@ -181,7 +181,7 @@ map DZ_MAP10 lookup "DZHUSTR_10"
 	titlepatch = "Zwilv09"
 	par = 90
 	music = "$MUSIC_DZ0MAP10"
-	Label = "E1M10"
+	Label = "DOOM ZERO, E1M10"
 }
 
 map DZ_MAP11 lookup "DZHUSTR_11"
@@ -190,7 +190,7 @@ map DZ_MAP11 lookup "DZHUSTR_11"
 	titlepatch = "Zwilv10"
 	par = 210
 	music = "$MUSIC_DZ0MAP11"
-	Label = "E1M11"
+	Label = "DOOM ZERO, E1M11"
 }
 
 //		Episode 2		//
@@ -207,7 +207,7 @@ map DZ_MAP12 lookup "DZHUSTR_12"
 	titlepatch = "Zwilv11"
 	par = 150
 	music = "$MUSIC_DZ0MAP12"
-	Label = "E2M1"
+	Label = "DOOM ZERO, E2M1"
 }
 
 map DZ_MAP13 lookup "DZHUSTR_13"
@@ -216,7 +216,7 @@ map DZ_MAP13 lookup "DZHUSTR_13"
 	titlepatch = "Zwilv12"
 	par = 150
 	music = "$MUSIC_DZ0MAP13"
-	Label = "E2M2"
+	Label = "DOOM ZERO, E2M2"
 }
 
 map DZ_MAP14 lookup "DZHUSTR_14"
@@ -225,7 +225,7 @@ map DZ_MAP14 lookup "DZHUSTR_14"
 	titlepatch = "Zwilv13"
 	par = 150
 	music = "$MUSIC_DZ0MAP14"
-	Label = "E2M3"
+	Label = "DOOM ZERO, E2M3"
 }
 
 map DZ_MAP15 lookup "DZHUSTR_15"
@@ -235,7 +235,7 @@ map DZ_MAP15 lookup "DZHUSTR_15"
 	titlepatch = "Zwilv14"
 	par = 210
 	music = "$MUSIC_DZ0MAP15"
-	Label = "E2M4"
+	Label = "DOOM ZERO, E2M4"
 }
 
 map DZ_MAP16 lookup "DZHUSTR_16"
@@ -245,7 +245,7 @@ map DZ_MAP16 lookup "DZHUSTR_16"
 	titlepatch = "Zwilv15"
 	par = 150
 	music = "$MUSIC_DZ0MAP16"
-	Label = "E2M5"
+	Label = "DOOM ZERO, E2M5"
 }
 
 map DZ_MAP17 lookup "DZHUSTR_17"
@@ -254,7 +254,7 @@ map DZ_MAP17 lookup "DZHUSTR_17"
 	titlepatch = "Zwilv16"
 	par = 420
 	music = "$MUSIC_DZ0MAP17"
-	Label = "E2M6"
+	Label = "DOOM ZERO, E2M6"
 }
 
 map DZ_MAP18 lookup "DZHUSTR_18"
@@ -263,7 +263,7 @@ map DZ_MAP18 lookup "DZHUSTR_18"
 	titlepatch = "Zwilv17"
 	par = 150
 	music = "$MUSIC_DZ0MAP18"
-	Label = "E2M7"
+	Label = "DOOM ZERO, E2M7"
 }
 
 map DZ_MAP19 lookup "DZHUSTR_19"
@@ -272,7 +272,7 @@ map DZ_MAP19 lookup "DZHUSTR_19"
 	titlepatch = "Zwilv18"
 	par = 210
 	music = "$MUSIC_DZ0MAP19"
-	Label = "E2M8"
+	Label = "DOOM ZERO, E2M8"
 }
 
 map DZ_MAP20 lookup "DZHUSTR_20"
@@ -281,7 +281,7 @@ map DZ_MAP20 lookup "DZHUSTR_20"
 	titlepatch = "Zwilv19"
 	par = 150
 	music = "$MUSIC_DZ0MAP20"
-	Label = "E2M9"
+	Label = "DOOM ZERO, E2M9"
 }
 
 //		Episode 3		//
@@ -300,7 +300,7 @@ map DZ_MAP21 lookup "DZHUSTR_21"
 	par = 240
 	music = "$MUSIC_DZ0MAP21"
 	forcenoskystretch
-	Label = "E3M1"
+	Label = "DOOM ZERO, E3M1"
 }
 
 map DZ_MAP22 lookup "DZHUSTR_22"
@@ -311,7 +311,7 @@ map DZ_MAP22 lookup "DZHUSTR_22"
 	par = 150
 	music = "$MUSIC_DZ0MAP22"
 	forcenoskystretch
-	Label = "E3M2"
+	Label = "DOOM ZERO, E3M2"
 }
 
 map DZ_MAP23 lookup "DZHUSTR_23"
@@ -322,7 +322,7 @@ map DZ_MAP23 lookup "DZHUSTR_23"
 	par = 180
 	music = "$MUSIC_DZ0MAP23"
 	forcenoskystretch
-	Label = "E3M3"
+	Label = "DOOM ZERO, E3M3"
 }
 
 map DZ_MAP24 lookup "DZHUSTR_24"
@@ -333,7 +333,7 @@ map DZ_MAP24 lookup "DZHUSTR_24"
 	par = 150
 	music = "$MUSIC_DZ0MAP24"
 	forcenoskystretch
-	Label = "E3M4"
+	Label = "DOOM ZERO, E3M4"
 }
 
 map DZ_MAP25 lookup "DZHUSTR_25"
@@ -344,7 +344,7 @@ map DZ_MAP25 lookup "DZHUSTR_25"
 	par = 150
 	music = "$MUSIC_DZ0MAP25"
 	forcenoskystretch
-	Label = "E3M5"
+	Label = "DOOM ZERO, E3M5"
 }
 
 map DZ_MAP26 lookup "DZHUSTR_26"
@@ -355,7 +355,7 @@ map DZ_MAP26 lookup "DZHUSTR_26"
 	par = 300
 	music = "$MUSIC_DZ0MAP26"
 	forcenoskystretch
-	Label = "E3M6"
+	Label = "DOOM ZERO, E3M6"
 }
 
 map DZ_MAP27 lookup "DZHUSTR_27"
@@ -366,7 +366,7 @@ map DZ_MAP27 lookup "DZHUSTR_27"
 	par = 330
 	music = "$MUSIC_DZ0MAP27"
 	forcenoskystretch
-	Label = "E3M7"
+	Label = "DOOM ZERO, E3M7"
 }
 
 map DZ_MAP28 lookup "DZHUSTR_28"
@@ -377,7 +377,7 @@ map DZ_MAP28 lookup "DZHUSTR_28"
 	par = 420
 	music = "$MUSIC_DZ0MAP28"
 	forcenoskystretch
-	Label = "E3M8"
+	Label = "DOOM ZERO, E3M8"
 }
 
 map DZ_MAP29 lookup "DZHUSTR_29"
@@ -388,19 +388,18 @@ map DZ_MAP29 lookup "DZHUSTR_29"
 	par = 300
 	music = "$MUSIC_DZ0MAP29"
 	forcenoskystretch
-	Label = "E3M9"
+	Label = "DOOM ZERO, E3M9"
 }
 
 map DZ_MAP30 lookup "DZHUSTR_30"
 {
 	titlepatch = "Zwilv29"
 	next = EndSequence, "DZ0Inter_Cast"
-	secretnext = EndSequence, "DZ0Inter_Cast"
 	par = 180
 	allowmonstertelefrags
 	music = "$MUSIC_DZ0MAP30"
 	forcenoskystretch
-	Label = "E3M10"
+	Label = "DOOM ZERO, E3M10"
 }
 
 //		Secret maps		//
@@ -414,7 +413,7 @@ map DZ_MAP31 lookup "DZHUSTR_31"
 	Cluster = 205
 	music = "$MUSIC_DZ0MAP31"
 	forcenoskystretch
-	Label = "E2M10"
+	Label = "DOOM ZERO, E2M10"
 }
 
 map DZ_MAP32 lookup "DZHUSTR_32"
@@ -425,13 +424,14 @@ map DZ_MAP32 lookup "DZHUSTR_32"
 	Cluster = 206
 	music = "$MUSIC_DZ0MAP32"
 	forcenoskystretch
-	Label = "E2M?"
+	Label = "DOOM ZERO, E2M?"
 }
 
 Intermission DZ0Inter_Cast
 {
 	Image
 	{
+		// This is only here to initialize the background and the music
 		Background = "SARCOPH"
 		music = "$MUSIC_DZ0END"
 		Time = -1
@@ -489,7 +489,7 @@ Intermission DZerocast
 	{
 		CastClass = "DCX_Alphasoul"
 		CastName = "Alpha Soul"
-		AttackSound = "Missile", 2, "imp/attack"
+		AttackSound = "Missile", 1, "caco/attack"
 	}
 	Cast
 	{

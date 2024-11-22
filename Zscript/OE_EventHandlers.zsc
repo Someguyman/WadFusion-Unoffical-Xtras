@@ -601,6 +601,26 @@ class DCX_UOEventHandler : EventHandler
 			Level.ReplaceTextures("SP_FACE3", "SP_FACE7", 0);
 			Level.ReplaceTextures("sflr7_2", "sflr7_7", 0);
 			Level.ReplaceTextures("sflr7_3", "sflr7_8", 0);
+			
+			Level.ReplaceTextures("SW1BLUE", "SW1METL", 0);
+			Level.ReplaceTextures("SW2BLUE", "SW2METL", 0);
+			
+			Level.ReplaceTextures("BRNPOIS", "BRNPOIS1", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("NUKEPOIS", "NUKPOIS1", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("BIGDOOR7", "BIGDOR7A", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SHAWN1", "SHAWN1A", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("STEP1", "STEP1A", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("STEP2", "STEP2A", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("STEP3", "STEP3A", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("STEP5", "STEP5A", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW1BRN1", "SW1BRN1A", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW1STARG", "SW1STARA", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW1STONE", "SW1STONA", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW1STON2", "SW1STONB", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW2BRN1", "SW2BRN1A", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW2STARG", "SW2STARA", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW2STONE", "SW2STONA", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW2STON2", "SW2STONB", TexMan.NOT_FLAT);
 		}
 	}
 	

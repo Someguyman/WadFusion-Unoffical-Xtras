@@ -34,7 +34,7 @@ clusterdef 64
 
 clusterdef 65
 {
-	pic = "TNRCRED"
+	flat = "$ROCKCK1"
 	music = "$MUSIC_TNRTEXT"
 	exittext = lookup, "tr_TEXT4"
 }
@@ -67,7 +67,7 @@ map tr_map01 lookup "TRHUSTR_1"
 	par = 30
 	Author = "$WS_AU_UNI"
 	music = "$MUSIC_TNRMAP01"
-	Label = "E4M1"
+	Label = "REVILUTION, E1M1"
 }
 
 map tr_map02 lookup "TRHUSTR_2"
@@ -76,7 +76,7 @@ map tr_map02 lookup "TRHUSTR_2"
 	par = 90
 	Author = "$WS_AU_BRAYDEN"
 	music = "$MUSIC_TNRMAP02"
-	Label = "E4M2"
+	Label = "REVILUTION, E1M2"
 }
 
 map tr_map03 lookup "TRHUSTR_3"
@@ -85,7 +85,7 @@ map tr_map03 lookup "TRHUSTR_3"
 	par = 120
 	Author = "$WS_AU_HANSEN"
 	music = "$MUSIC_TNRMAP03"
-	Label = "E4M3"
+	Label = "REVILUTION, E1M3"
 }
 
 map tr_map04 lookup "TRHUSTR_4"
@@ -94,7 +94,7 @@ map tr_map04 lookup "TRHUSTR_4"
 	par = 120
 	Author = "$WS_AU_DUFF"
 	music = "$MUSIC_TNRMAP04"
-	Label = "E4M4"
+	Label = "REVILUTION, E1M4"
 }
 
 map tr_map05 lookup "TRHUSTR_5"
@@ -103,7 +103,7 @@ map tr_map05 lookup "TRHUSTR_5"
 	par = 90
 	Author = "$WS_AU_MICAH"
 	music = "$MUSIC_TNRMAP05"
-	Label = "E4M5"
+	Label = "REVILUTION, E1M5"
 }
 
 map tr_map06 lookup "TRHUSTR_6"
@@ -112,7 +112,7 @@ map tr_map06 lookup "TRHUSTR_6"
 	par = 150
 	Author = "$WS_AU_XENO_MULLER_STEFFIN_MICAH"
 	music = "$MUSIC_TNRMAP06"
-	Label = "E4M6"
+	Label = "REVILUTION, E1M6"
 }
 
 //		Episode 1 Part 2		//
@@ -130,7 +130,7 @@ map tr_map07 lookup "TRHUSTR_7"
 	map07special
 	Author = "$WS_AU_POWELL"
 	music = "$MUSIC_TNRMAP07"
-	Label = "E4M7"
+	Label = "REVILUTION, E1M7"
 }
 
 map tr_map08 lookup "TRHUSTR_8"
@@ -139,7 +139,7 @@ map tr_map08 lookup "TRHUSTR_8"
 	par = 120
 	Author = "$WS_AU_SINCITY_STEFFIN"
 	music = "$MUSIC_TNRMAP08"
-	Label = "E4M8"
+	Label = "REVILUTION, E1M8"
 }
 
 map tr_map09 lookup "TRHUSTR_9"
@@ -148,7 +148,7 @@ map tr_map09 lookup "TRHUSTR_9"
 	par = 270
 	Author = "$WS_AU_WHOO_MICAH"
 	music = "$MUSIC_TNRMAP09"
-	Label = "E4M9"
+	Label = "REVILUTION, E1M9"
 }
 
 map tr_map10 lookup "TRHUSTR_10"
@@ -157,7 +157,7 @@ map tr_map10 lookup "TRHUSTR_10"
 	par = 90
 	Author = "$WS_AU_LOPEX_MULLER"
 	music = "$MUSIC_TNRMAP10"
-	Label = "E4M10"
+	Label = "REVILUTION, E1M10"
 }
 
 map tr_map11 lookup "TRHUSTR_11"
@@ -166,7 +166,7 @@ map tr_map11 lookup "TRHUSTR_11"
 	par = 210
 	Author = "$WS_AU_SEIFERT"
 	music = "$MUSIC_TNRMAP11"
-	Label = "E4M11"
+	Label = "REVILUTION, E1M11"
 }
 
 //		Episode 2		//
@@ -183,7 +183,7 @@ map tr_map12 lookup "TRHUSTR_12"
 	par = 150
 	Author = "$WS_AU_BUNNY_MULLER_MEGAMUR_STEFFEN"
 	music = "$MUSIC_TNRMAP12"
-	Label = "E5M1"
+	Label = "REVILUTION, E2M1"
 }
 
 map tr_map13 lookup "TRHUSTR_13"
@@ -192,7 +192,7 @@ map tr_map13 lookup "TRHUSTR_13"
 	par = 150
 	Author = "$WS_AU_MICAH"
 	music = "$MUSIC_TNRMAP13"
-	Label = "E5M2"
+	Label = "REVILUTION, E2M2"
 }
 
 map tr_map14 lookup "TRHUSTR_14"
@@ -201,7 +201,7 @@ map tr_map14 lookup "TRHUSTR_14"
 	par = 150
 	Author = "$WS_AU_DUFF"
 	music = "$MUSIC_TNRMAP14"
-	Label = "E5M3"
+	Label = "REVILUTION, E2M3"
 }
 
 map tr_map15 lookup "TRHUSTR_15"
@@ -211,7 +211,7 @@ map tr_map15 lookup "TRHUSTR_15"
 	par = 210
 	Author = "$WS_AU_D_GARG_MICAH"
 	music = "$MUSIC_TNRMAP15"
-	Label = "E5M4"
+	Label = "REVILUTION, E2M4"
 }
 
 map tr_map16 lookup "TRHUSTR_16"
@@ -220,7 +220,7 @@ map tr_map16 lookup "TRHUSTR_16"
 	par = 150
 	Author = "$WS_AU_STEFFIN"
 	music = "$MUSIC_TNRMAP16"
-	Label = "E5M5"
+	Label = "REVILUTION, E2M5"
 }
 
 map tr_map17 lookup "TRHUSTR_17"
@@ -229,7 +229,7 @@ map tr_map17 lookup "TRHUSTR_17"
 	par = 420
 	Author = "$WS_AU_BOURKE"
 	music = "$MUSIC_TNRMAP17"
-	Label = "E5M6"
+	Label = "REVILUTION, E2M6"
 }
 
 map tr_map18 lookup "TRHUSTR_18"
@@ -238,7 +238,7 @@ map tr_map18 lookup "TRHUSTR_18"
 	par = 150
 	Author = "$WS_AU_ALEXANDER"
 	music = "$MUSIC_TNRMAP18"
-	Label = "E5M7"
+	Label = "REVILUTION, E2M7"
 }
 
 map tr_map19 lookup "TRHUSTR_19"
@@ -247,7 +247,7 @@ map tr_map19 lookup "TRHUSTR_19"
 	par = 210
 	Author = "$WS_AU_GASPE"
 	music = "$MUSIC_TNRMAP19"
-	Label = "E5M8"
+	Label = "REVILUTION, E2M8"
 }
 
 map tr_map20 lookup "TRHUSTR_20"
@@ -256,7 +256,7 @@ map tr_map20 lookup "TRHUSTR_20"
 	par = 150
 	Author = "$WS_AU_CRESSWELL" 
 	music = "$MUSIC_TNRMAP20"
-	Label = "E5M9"
+	Label = "REVILUTION, E2M9"
 }
 
 //		Episode 3		//
@@ -274,7 +274,7 @@ map tr_map21 lookup "TRHUSTR_21"
 	par = 240
 	Author = "$WS_AU_ERADROP"
 	music = "$MUSIC_TNRMAP21"
-	Label = "E6M1"
+	Label = "REVILUTION, E3M1"
 }
 
 map tr_map22 lookup "TRHUSTR_22"
@@ -284,7 +284,7 @@ map tr_map22 lookup "TRHUSTR_22"
 	par = 150
 	Author = "$WS_AU_OlLYMPUS_MULLER_STEFFIN"
 	music = "$MUSIC_TNRMAP22"
-	Label = "E6M2"
+	Label = "REVILUTION, E3M2"
 }
 
 map tr_map23 lookup "TRHUSTR_23"
@@ -294,7 +294,7 @@ map tr_map23 lookup "TRHUSTR_23"
 	par = 180
 	Author = "$WS_AU_MICAH"
 	music = "$MUSIC_TNRMAP23"
-	Label = "E6M3"
+	Label = "REVILUTION, E3M3"
 }
 
 map tr_map24 lookup "TRHUSTR_24"
@@ -304,7 +304,7 @@ map tr_map24 lookup "TRHUSTR_24"
 	par = 150
 	Author = "$WS_AU_KRIZIK"
 	music = "$MUSIC_TNRMAP24"
-	Label = "E6M4"
+	Label = "REVILUTION, E3M4"
 }
 
 map tr_map25 lookup "TRHUSTR_25"
@@ -314,7 +314,7 @@ map tr_map25 lookup "TRHUSTR_25"
 	par = 150
 	Author = "$WS_AU_POWELL"
 	music = "$MUSIC_TNRMAP25"
-	Label = "E6M5"
+	Label = "REVILUTION, E3M5"
 }
 
 map tr_map26 lookup "TRHUSTR_26"
@@ -324,7 +324,7 @@ map tr_map26 lookup "TRHUSTR_26"
 	par = 300
 	Author = "$" //
 	music = "$MUSIC_TNRMAP26"
-	Label = "E6M6"
+	Label = "REVILUTION, E3M6"
 }
 
 map tr_map27 lookup "TRHUSTR_27"
@@ -334,7 +334,7 @@ map tr_map27 lookup "TRHUSTR_27"
 	par = 330
 	Author = "$WS_AU_MIONIC"
 	music = "$MUSIC_TNRMAP27"
-	Label = "E6M7"
+	Label = "REVILUTION, E3M7"
 }
 
 map tr_map28 lookup "TRHUSTR_28"
@@ -344,7 +344,7 @@ map tr_map28 lookup "TRHUSTR_28"
 	par = 420
 	Author = "$WS_AU_PINCHY"
 	music = "$MUSIC_TNRMAP28"
-	Label = "E6M8"
+	Label = "REVILUTION, E3M8"
 }
 
 map tr_map29 lookup "TRHUSTR_29"
@@ -354,7 +354,7 @@ map tr_map29 lookup "TRHUSTR_29"
 	par = 300
 	Author = "$WS_AU_ERADROP"
 	music = "$MUSIC_TNRMAP29"
-	Label = "E6M9"
+	Label = "REVILUTION, E3M9"
 }
 
 map tr_map30 lookup "TRHUSTR_30"
@@ -365,9 +365,13 @@ map tr_map30 lookup "TRHUSTR_30"
 	allowmonstertelefrags
 	Author = "$WS_AU_CALDWELL"
 	music = "$MUSIC_TNRMAP30"
-	next = EndSequence, "TNRInter_Cast"
-	secretnext = EndSequence, "TNRInter_Cast"
-	Label = "E6M10"
+	Next = EndGame
+	{
+		Pic = "tnrboss"
+		Music = "$MUSIC_TNREND"
+		Cast
+	}
+	Label = "REVILUTION, E3M10"
 }
 
 //		Secret maps		//
@@ -381,7 +385,7 @@ map tr_map31 lookup "TRHUSTR_31"
 	par = 120
 	Author = "$WS_AU_KRIZIK"
 	music = "$MUSIC_TNRMAP31"
-	Label = "E5M10"
+	Label = "REVILUTION, E2M10"
 }
 
 map tr_map32 lookup "TRHUSTR_32"
@@ -393,140 +397,5 @@ map tr_map32 lookup "TRHUSTR_32"
 	par = 30
 	Author = "$WS_AU_MULLER_MICAH"
 	music = "$MUSIC_TNRMAP32"
-	Label = "E5M11"
-}
-
-Intermission TNRInter_Cast
-{
-	Image
-	{
-		Background = "tnrboss"
-		music =  "$MUSIC_TNREND"
-		Time = -1
-	}
-	Link = TNTRevoCast
-}
-
-Intermission TNTRevoCast
-{
-	Cast
-	{
-		CastClass = "Zombieman"
-		CastName = "$CC_ZOMBIE"
-		AttackSound = "Missile", 1, "grunt/attack"
-	}
-	Cast
-	{
-		CastClass = "ShotgunGuy"
-		CastName = "$CC_SHOTGUN"
-		AttackSound = "Missile", 1, "shotguy/attack"
-	}
-	Cast
-	{
-		CastClass = "DoomImp"
-		CastName = "$CC_IMP"
-		AttackSound = "Missile", 2, "imp/attack"
-	}
-	Cast
-	{
-		CastClass = "ChaingunGuy"
-		CastName = "$CC_HEAVY"
-		AttackSound = "Missile", 1, "chainguy/attack"
-		AttackSound = "Missile", 2, "chainguy/attack"
-		AttackSound = "Missile", 3, "chainguy/attack"
-	}
-	Cast
-	{
-		CastClass = "Demon"
-		CastName = "$CC_DEMON"
-		AttackSound = "Melee", 1, "demon/melee"
-	}
-	Cast
-	{
-		CastClass = "DCX_Spectre"
-		CastName = "Spectre"
-		AttackSound = "Melee", 1, "demon/melee"
-	}
-	Cast
-	{
-		CastClass = "LostSoul"
-		CastName = "$CC_LOST"
-		AttackSound = "Missile", 1, "skull/melee"
-	}
-	Cast
-	{
-		CastClass = "Cacodemon"
-		CastName = "$CC_CACO"
-		AttackSound = "Missile", 1, "caco/attack"
-	}
-	Cast
-	{
-		CastClass = "HellKnight"
-		CastName = "$CC_HELL"
-		AttackSound = "Missile", 1, "baron/attack"
-	}
-	Cast
-	{
-		CastClass = "BaronOfHell"
-		CastName = "$CC_BARON"
-		AttackSound = "Missile", 1, "baron/attack"
-	}
-		Cast
-	{
-		CastClass = "Arachnotron"
-		CastName = "$CC_ARACH"
-		AttackSound = "Missile", 1, "baby/attack"
-	}
-	Cast
-	{
-		CastClass = "PainElemental"
-		CastName = "$CC_PAIN"
-		AttackSound = "Missile", 2, "skull/melee"
-	}
-	Cast
-	{
-		CastClass = "Revenant"
-		CastName = "$CC_REVEN"
-		AttackSound = "Missile", 1, "skeleton/attack"
-		AttackSound = "Melee", 1, "skeleton/swing"
-		AttackSound = "Melee", 3, "skeleton/melee"
-	}
-	Cast
-	{
-		CastClass = "Fatso"
-		CastName = "$CC_MANCU"
-		AttackSound = "Missile", 1, "fatso/attack"
-		AttackSound = "Missile", 4, "fatso/attack"
-		AttackSound = "Missile", 7, "fatso/attack"
-	}
-	Cast
-	{
-		CastClass = "Archvile"
-		CastName = "$CC_ARCH"
-		AttackSound = "Missile", 1, "vile/start"
-	}
-	Cast
-	{
-		CastClass = "SpiderMastermind"
-		CastName = "$CC_SPIDER"
-		AttackSound = "Missile", 1, "spider/attack"
-		AttackSound = "Missile", 2, "spider/attack"
-	}
-	Cast
-	{
-		CastClass = "Cyberdemon"
-		CastName = "$CC_CYBER"
-		AttackSound = "Missile", 1, "weapons/rocklf"
-		AttackSound = "Missile", 3, "weapons/rocklf"
-		AttackSound = "Missile", 5, "weapons/rocklf"
-	}
-	Cast
-	{
-		CastClass = "DoomPlayer"
-		CastName = "Our Hero"
-		AttackSound = "Missile", 0, "weapons/sshotf"
-	}
-	
-	Wiper {} 
-	Link = TNTRevoCast
+	Label = "REVILUTION, E2M11"
 }

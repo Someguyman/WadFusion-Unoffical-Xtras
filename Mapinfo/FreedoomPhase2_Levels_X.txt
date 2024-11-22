@@ -66,7 +66,7 @@ map FD_MAP01 "Hydroelectric Plant"
 	next = "FD_MAP02"
 	par = 30
 	music = "F_RUNNIN"
-	Label = "E1M1"
+	Label = "FREEDOOM 2, E1M1"
 }
 
 map FD_MAP02 "Filtration Tunnels"
@@ -74,7 +74,7 @@ map FD_MAP02 "Filtration Tunnels"
 	next = "FD_MAP03"
 	par = 90
 	music = "F_STALKS"
-	Label = "E1M2"
+	Label = "FREEDOOM 2, E1M2"
 }
 
 map FD_MAP03 "Crude Processing Center"
@@ -82,7 +82,7 @@ map FD_MAP03 "Crude Processing Center"
 	next = "FD_MAP04"
 	par = 120
 	music = "F_COUNTD"
-	Label = "E1M3"
+	Label = "FREEDOOM 2, E1M3"
 }
 
 map FD_MAP04 "Containment Bay"
@@ -90,7 +90,7 @@ map FD_MAP04 "Containment Bay"
 	next = "FD_MAP05"
 	par = 120
 	music = "F_BETWEE"
-	Label = "E1M4"
+	Label = "FREEDOOM 2, E1M4"
 }
 
 map FD_MAP05 "Sludge Burrow"
@@ -98,7 +98,7 @@ map FD_MAP05 "Sludge Burrow"
 	next = "FD_MAP06"
 	par = 90
 	music = "F_DOOM"
-	Label = "E1M5"
+	Label = "FREEDOOM 2, E1M5"
 }
 
 map FD_MAP06 "Janus Terminal"
@@ -107,7 +107,7 @@ map FD_MAP06 "Janus Terminal"
 	par = 150
 	sucktime = 1
 	music = "F_THE_DA"
-	Label = "E1M6"
+	Label = "FREEDOOM 2, E1M6"
 }
 
 //		Episode 1 Part 2		//
@@ -124,7 +124,7 @@ map FD_MAP07 "Logic Gate"
 	par = 120
 	map07special
 	music = "F_SHAWN"
-	Label = "E1M7"
+	Label = "FREEDOOM 2, E1M7"
 }
 
 map FD_MAP08 "Astronomy Complex"
@@ -132,7 +132,7 @@ map FD_MAP08 "Astronomy Complex"
 	next = "FD_MAP09"
 	par = 120
 	music = "F_DDTBLU"
-	Label = "E1M8"
+	Label = "FREEDOOM 2, E1M8"
 }
 
 map FD_MAP09 "Datacenter"
@@ -140,7 +140,7 @@ map FD_MAP09 "Datacenter"
 	next = "FD_MAP10"
 	par = 270
 	music = "F_IN_CIT"
-	Label = "E1M9"
+	Label = "FREEDOOM 2, E1M9"
 }
 
 map FD_MAP10 "Deadly Outlands"
@@ -148,7 +148,7 @@ map FD_MAP10 "Deadly Outlands"
 	next = "FD_MAP11"
 	par = 90
 	music = "F_DEAD"
-	Label = "E1M10"
+	Label = "FREEDOOM 2, E1M10"
 }
 
 map FD_MAP11 "Dimensional Rift Observatory"
@@ -156,7 +156,7 @@ map FD_MAP11 "Dimensional Rift Observatory"
 	next = "FD_MAP12"
 	par = 210
 	music = "F_STLKS2"
-	Label = "E1M11"
+	Label = "FREEDOOM 2, E1M11"
 }
 
 //		Episode 2		//
@@ -172,7 +172,7 @@ map FD_MAP12 "Railroads"
 	next = "FD_MAP13"
 	par = 150
 	music = "F_THEDA2"
-	Label = "E2M1"
+	Label = "FREEDOOM 2, E2M1"
 }
 
 map FD_MAP13 "Station Earth"
@@ -180,7 +180,7 @@ map FD_MAP13 "Station Earth"
 	next = "FD_MAP14"
 	par = 150
 	music = "F_DOOM2"
-	Label = "E2M2"
+	Label = "FREEDOOM 2, E2M2"
 }
 
 map FD_MAP14 "Nuclear Zone"
@@ -188,7 +188,7 @@ map FD_MAP14 "Nuclear Zone"
 	next = "FD_MAP15"
 	par = 150
 	music = "F_DDTBL2"
-	Label = "E2M3"
+	Label = "FREEDOOM 2, E2M3"
 }
 
 map FD_MAP15 "Hostile Takeover"
@@ -197,7 +197,7 @@ map FD_MAP15 "Hostile Takeover"
 	secretnext = "FD_MAP31"
 	par = 210
 	music = "F_RUNNI2"
-	Label = "E2M4"
+	Label = "FREEDOOM 2, E2M4"
 }
 
 map FD_MAP16 "Urban Jungle"
@@ -205,7 +205,7 @@ map FD_MAP16 "Urban Jungle"
 	next = "FD_MAP17"
 	par = 150
 	music = "F_DEAD2"
-	Label = "E2M5"
+	Label = "FREEDOOM 2, E2M5"
 }
 
 map FD_MAP17 "City Capitol"
@@ -213,7 +213,7 @@ map FD_MAP17 "City Capitol"
 	next = "FD_MAP18"
 	par = 420
 	music = "F_STLKS3"
-	Label = "E2M6"
+	Label = "FREEDOOM 2, E2M6"
 }
 
 map FD_MAP18 "Aquatics Lab"
@@ -221,7 +221,7 @@ map FD_MAP18 "Aquatics Lab"
 	next = "FD_MAP19"
 	par = 150
 	music = "F_ROMERO"
-	Label = "E2M7"
+	Label = "FREEDOOM 2, E2M7"
 }
 
 map FD_MAP19 "Sewage Control"
@@ -229,7 +229,7 @@ map FD_MAP19 "Sewage Control"
 	next = "FD_MAP20"
 	par = 210
 	music = "F_SHAWN2"
-	Label = "E2M8"
+	Label = "FREEDOOM 2, E2M8"
 }
 
 map FD_MAP20 "Blood Ember Fortress"
@@ -237,7 +237,7 @@ map FD_MAP20 "Blood Ember Fortress"
 	next = "FD_MAP21"
 	par = 150
 	music = "F_MESSAG"	
-	Label = "E2M9"
+	Label = "FREEDOOM 2, E2M9"
 }
 
 //		Episode 3		//
@@ -253,7 +253,7 @@ map FD_MAP21 "Under Realm"
 	next = "FD_MAP22"
 	par = 240
 	music = "F_COUNT2"
-	Label = "E3M1"
+	Label = "FREEDOOM 2, E3M1"
 }
 
 map FD_MAP22 "Remanasu"
@@ -261,7 +261,7 @@ map FD_MAP22 "Remanasu"
 	next = "FD_MAP23"
 	par = 150
 	music = "F_DDTBL3"
-	Label = "E3M2"
+	Label = "FREEDOOM 2, E3M2"
 }
 
 map FD_MAP23 "Underground Facility"
@@ -269,7 +269,7 @@ map FD_MAP23 "Underground Facility"
 	next = "FD_MAP24"
 	par = 180
 	music = "F_AMPIE"
-	Label = "E3M3"
+	Label = "FREEDOOM 2, E3M3"
 }
 
 map FD_MAP24 "Abandoned Teleporter Lab"
@@ -277,7 +277,7 @@ map FD_MAP24 "Abandoned Teleporter Lab"
 	next = "FD_MAP25"
 	par = 150
 	music = "F_THEDA3"
-	Label = "E3M4"
+	Label = "FREEDOOM 2, E3M4"
 }
 
 map FD_MAP25 "Persistence of Memory"
@@ -285,7 +285,7 @@ map FD_MAP25 "Persistence of Memory"
 	next = "FD_MAP26"
 	par = 150
 	music = "F_ADRIAN"
-	Label = "E3M5"
+	Label = "FREEDOOM 2, E3M5"
 }
 
 map FD_MAP26 "Dark Depths"
@@ -293,7 +293,7 @@ map FD_MAP26 "Dark Depths"
 	next = "FD_MAP27"
 	par = 300
 	music = "F_MESSG2"
-	Label = "E3M6"
+	Label = "FREEDOOM 2, E3M6"
 }
 
 map FD_MAP27 "Palace of Red"
@@ -301,7 +301,7 @@ map FD_MAP27 "Palace of Red"
 	next = "FD_MAP28"
 	par = 330
 	music = "F_ROMER2"
-	Label = "E3M7"
+	Label = "FREEDOOM 2, E3M7"
 }
 
 map FD_MAP28 "Grim Redoubt"
@@ -309,7 +309,7 @@ map FD_MAP28 "Grim Redoubt"
 	next = "FD_MAP29"
 	par = 420
 	music = "F_TENSE"
-	Label = "E3M8"
+	Label = "FREEDOOM 2, E3M8"
 }
 
 map FD_MAP29 "Melting Point"
@@ -317,18 +317,23 @@ map FD_MAP29 "Melting Point"
 	next = "FD_MAP30"
 	par = 300
 	music = "F_SHAWN3"
-	Label = "E3M9"
+	Label = "FREEDOOM 2, E3M9"
 }
 
 map FD_MAP30 "Jaws of Defeat"
 {
-	next = "EndGameC"
+	Next = EndGame
+	{
+		Pic = "BOSSBACK"
+		Music = "F_EVIL"
+		Cast
+	}
 	par = 180
 	nointermission
 	nosoundclipping
 	allowmonstertelefrags
 	music = "F_OPENIN"
-	Label = "E3M10"
+	Label = "FREEDOOM 2, E3M10"
 }
 
 //		Secret maps		//
@@ -341,7 +346,7 @@ map FD_MAP31 "Be Quiet"
 	cluster = 94
 	par = 120
 	music = "F_EVIL"
-	Label = "E2M10"
+	Label = "FREEDOOM 2, E2M10"
 }
 
 map FD_MAP32 "Not Sure"
@@ -352,5 +357,5 @@ map FD_MAP32 "Not Sure"
 	cluster = 95
 	par = 30
 	music = "F_ULTIMA"
-	Label = "E2M11"
+	Label = "FREEDOOM 2, E2M11"
 }

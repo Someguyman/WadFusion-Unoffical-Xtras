@@ -20,7 +20,7 @@ map HP_MAP01 "The Holding Cells"
 	next = "HP_MAP02"
 	par = 30
 	music = "$MUSIC_PERMAP15"
-	Label = "Map01"
+	Label = "HELL TO PAY, MAP01"
 }
 
 map HP_MAP02 "The Slave Quarters"
@@ -28,7 +28,7 @@ map HP_MAP02 "The Slave Quarters"
 	next = "HP_MAP03"
 	par = 90
 	music = "$MUSIC_PERMAP02"
-	Label = "Map02"
+	Label = "HELL TO PAY, MAP02"
 }
 
 map HP_MAP03 "The Mines"
@@ -36,7 +36,7 @@ map HP_MAP03 "The Mines"
 	next = "HP_MAP04"
 	par = 120
 	music = "$MUSIC_PERMAP10"
-	Label = "Map03"
+	Label = "HELL TO PAY, MAP03"
 }
 
 map HP_MAP04 "Nukage Processing"
@@ -44,7 +44,7 @@ map HP_MAP04 "Nukage Processing"
 	next = "HP_MAP05"
 	par = 120
 	music = "$MUSIC_PERMAP07"
-	Label = "Map04"
+	Label = "HELL TO PAY, MAP04"
 }
 
 map HP_MAP05 "Trustee Country"
@@ -52,7 +52,7 @@ map HP_MAP05 "Trustee Country"
 	next = "HP_MAP06"
 	par = 90
 	music = "$MUSIC_PERMAP22"
-	Label = "Map05"
+	Label = "HELL TO PAY, MAP05"
 }
 
 map HP_MAP06 "Command And Control"
@@ -61,7 +61,7 @@ map HP_MAP06 "Command And Control"
 	par = 150
 	sucktime = 1
 	music = "$MUSIC_PERMAP20"
-	Label = "Map06"
+	Label = "HELL TO PAY, MAP06"
 }
 
 //		Episode 1 Part 2		//
@@ -72,7 +72,7 @@ map HP_MAP07 "The Industrial Park"
 	par = 120
 	map07special
 	music = "$MUSIC_PERMAP12"
-	Label = "Map07"
+	Label = "HELL TO PAY, MAP07"
 }
 
 map HP_MAP08 "The Warehouse"
@@ -80,7 +80,7 @@ map HP_MAP08 "The Warehouse"
 	next = "HP_MAP09"
 	par = 120
 	music = "$MUSIC_PERMAP16"
-	Label = "Map08"
+	Label = "HELL TO PAY, MAP08"
 }
 
 map HP_MAP09 "The Military Complex"
@@ -88,7 +88,7 @@ map HP_MAP09 "The Military Complex"
 	next = "HP_MAP10"
 	par = 270
 	music = "$MUSIC_PERMAP25"
-	Label = "Map09"
+	Label = "HELL TO PAY, MAP09"
 }
 
 map HP_MAP10 "The Liquid Metal Labs"
@@ -96,7 +96,7 @@ map HP_MAP10 "The Liquid Metal Labs"
 	next = "HP_MAP11"
 	par = 90
 	music = "$MUSIC_PERMAP14"
-	Label = "Map10"
+	Label = "HELL TO PAY, MAP10"
 }
 
 map HP_MAP11 "The Spaceport"
@@ -104,7 +104,7 @@ map HP_MAP11 "The Spaceport"
 	next = "HP_MAP12"
 	par = 210
 	music = "$MUSIC_PERMAP27"
-	Label = "Map11"
+	Label = "HELL TO PAY, MAP11"
 }
 
 //		Episode 2		//
@@ -119,7 +119,7 @@ map HP_MAP12 "The Cargo Hold"
 	next = "HP_MAP13"
 	par = 150
 	music = "$MUSIC_PERMAP03"
-	Label = "Map12"
+	Label = "HELL TO PAY, MAP12"
 }
 
 map HP_MAP13 "The Engine Room"
@@ -127,7 +127,7 @@ map HP_MAP13 "The Engine Room"
 	next = "HP_MAP14"
 	par = 150
 	music = "$MUSIC_PERMAP05"
-	Label = "Map13"
+	Label = "HELL TO PAY, MAP13"
 }
 
 map HP_MAP14 "The Habitat Deck"
@@ -135,7 +135,7 @@ map HP_MAP14 "The Habitat Deck"
 	next = "HP_MAP15"
 	par = 150
 	music = "$MUSIC_PERMAP11"
-	Label = "Map14"
+	Label = "HELL TO PAY, MAP14"
 }
 
 map HP_MAP15 "Captain Bellows"
@@ -143,7 +143,7 @@ map HP_MAP15 "Captain Bellows"
 	next = "HP_MAP31"
 	par = 210
 	music = "$MUSIC_PERMAP23"
-	Label = "Map15"
+	Label = "HELL TO PAY, MAP15"
 }
 
 //	"Secret" Maps. These are treated as normal maps.	//
@@ -154,7 +154,7 @@ map HP_MAP31 "Secret Facility"
 	sky1 = "H2P_SKY3"
 	par = 120
 	music = "$MUSIC_PERMAP31"
-	Label = "Map16"	// From this point on the map labels don't match the map slot
+	Label = "HELL TO PAY, MAP16"	// From this point on the map labels don't match the map slot
 }
 
 map HP_MAP32 "Self-Destruct"
@@ -163,7 +163,7 @@ map HP_MAP32 "Self-Destruct"
 	sky1 = "H2P_SKY3"
 	par = 30
 	music = "$MUSIC_PERMAP30"
-	Label = "Map17"
+	Label = "HELL TO PAY, MAP17"
 }
 
 //	back to base maps	//
@@ -173,7 +173,7 @@ map HP_MAP16 "Io Base"
 	next = "HP_MAP17"
 	par = 150
 	music = "$MUSIC_PERMAP14"
-	Label = "Map18"
+	Label = "HELL TO PAY, MAP18"
 }
 
 map HP_MAP17 "Hot As Hell"
@@ -181,7 +181,7 @@ map HP_MAP17 "Hot As Hell"
 	next = "HP_MAP18"
 	par = 420
 	music = "$MUSIC_PERMAP13"
-	Label = "Map19"
+	Label = "HELL TO PAY, MAP19"
 }
 
 map HP_MAP18 "Big Crane"
@@ -189,7 +189,7 @@ map HP_MAP18 "Big Crane"
 	next = "HP_MAP19"
 	par = 150
 	music = "$MUSIC_PERMAP02"
-	Label = "Map20"
+	Label = "HELL TO PAY, MAP20"
 }
 
 map HP_MAP19 "Demon Chow"
@@ -197,7 +197,7 @@ map HP_MAP19 "Demon Chow"
 	next = "HP_MAP20"
 	par = 210
 	music = "$MUSIC_PERMAP17"
-	Label = "Map21"
+	Label = "HELL TO PAY, MAP21"
 }
 
 map HP_MAP20 "Master Computer"
@@ -205,7 +205,7 @@ map HP_MAP20 "Master Computer"
 	next = "HP_MAP21"
 	par = 150
 	music = "$MUSIC_PERMAP27"
-	Label = "Map22"
+	Label = "HELL TO PAY, MAP22"
 }
 
 //		Episode 3		//
@@ -220,7 +220,7 @@ map HP_MAP21 "Planet Hell"
 	next = "HP_MAP22"
 	par = 240
 	music = "$MUSIC_PERMAP09"
-	Label = "Map23"
+	Label = "HELL TO PAY, MAP23"
 }
 
 map HP_MAP22 "Vile Temple"
@@ -228,7 +228,7 @@ map HP_MAP22 "Vile Temple"
 	next = "HP_MAP23"
 	par = 150
 	music = "$MUSIC_PERMAP04"
-	Label = "Map24"
+	Label = "HELL TO PAY, MAP24"
 }
 
 map HP_MAP23 "Hell's Cavern"
@@ -236,7 +236,7 @@ map HP_MAP23 "Hell's Cavern"
 	next = "HP_MAP24"
 	par = 180
 	music = "$MUSIC_PERMAP19"
-	Label = "Map25"
+	Label = "HELL TO PAY, MAP25"
 }
 
 map HP_MAP24 "Hell's Park"
@@ -244,7 +244,7 @@ map HP_MAP24 "Hell's Park"
 	next = "HP_MAP25"
 	par = 150
 	music = "$MUSIC_PERMAP23"
-	Label = "Map26"
+	Label = "HELL TO PAY, MAP26"
 }
 
 map HP_MAP25 "Hell's Gauntlet"
@@ -252,7 +252,7 @@ map HP_MAP25 "Hell's Gauntlet"
 	next = "HP_MAP26"
 	par = 150
 	music = "$MUSIC_PERMAP27"
-	Label = "Map27"
+	Label = "HELL TO PAY, MAP27"
 }
 
 map HP_MAP26 "Circle of Hell"
@@ -260,7 +260,7 @@ map HP_MAP26 "Circle of Hell"
 	next = "HP_MAP27"
 	par = 300
 	music = "$MUSIC_PERMAP20"
-	Label = "Map28"
+	Label = "HELL TO PAY, MAP28"
 }
 
 map HP_MAP27 "Hell Squared"
@@ -268,7 +268,7 @@ map HP_MAP27 "Hell Squared"
 	next = "HP_MAP28"
 	par = 330
 	music = "$MUSIC_PERMAP28"
-	Label = "Map29"
+	Label = "HELL TO PAY, MAP29"
 }
 
 map HP_MAP28 "Neophyte Reception"
@@ -276,7 +276,7 @@ map HP_MAP28 "Neophyte Reception"
 	next = "HP_MAP29"
 	par = 420
 	music = "$MUSIC_PERMAP26"
-	Label = "Map30"
+	Label = "HELL TO PAY, MAP30"
 }
 
 map HP_MAP29 "Initiation"
@@ -284,7 +284,7 @@ map HP_MAP29 "Initiation"
 	next = "HP_MAP30"
 	par = 300
 	music = "$MUSIC_PERMAP25"
-	Label = "Map31"
+	Label = "HELL TO PAY, MAP31"
 }
 
 map HP_MAP30 "Sky High"
@@ -295,7 +295,7 @@ map HP_MAP30 "Sky High"
 	nosoundclipping
 	allowmonstertelefrags
 	music = "$MUSIC_PERMAP22"
-	Label = "Map32"
+	Label = "HELL TO PAY, MAP32"
 }
 
 Intermission H2PEnding
