@@ -14,6 +14,7 @@ gameinfo
 {
 	 AddEventHandlers = "DCX_UOEventHandler"
 	 infopage = "HELP", "UDCRED", "TNCRED", "PLCRED", "SCREDIT", "S2CREDIT", "XCREDIT", "D64CRE", "TNRCRD2", "p2cred" ,"DZOCRED"
+	 drawreadthis = true
 }
 
 

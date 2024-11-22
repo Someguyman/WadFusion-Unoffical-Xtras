@@ -805,28 +805,33 @@ class DCX_Alphasoul : Actor
 	States
 	{
 	Spawn:
-		SSKL AB 10 A_Look;
+		SSKL AB 10 Bright A_Look;
 		Loop;
 	See:
-		SSKL AABBCCDD 3 A_Chase;
+		SSKL AABB 3 Bright A_Chase;
 		Loop;
 	Missile:
-		SSKL E 10 A_FaceTarget;
-		SSKL F 4 A_FaceTarget;
-		SSKL G 4 BRIGHT A_headAttack;
-		SSKL F 4 A_FaceTarget;
-		SSKL E 12 A_Chase;
-		SSKL E 1 A_CPosRefire;
-		Goto Missile+1;
+		SSKL CD 5 Bright A_FaceTarget;
+		SSKL E 4 Bright A_FaceTarget;
+		SSKL F 4 BRIGHT 
+		{
+			A_SpawnProjectile("CacodemonBall",22,0,0,0);
+			A_FaceTarget();
+		}
+		SSKL E 4 Bright A_FaceTarget;
+		SSKL CCDD 3 Bright;
+		SSKL C 1 Bright A_CPosRefire;
+		Goto Missile+2;
 	Pain:
-		SSKL H 3;
-		SSKL H 3 A_Pain;
+		SSKL G 3 Bright;
+		SSKL G 3 Bright A_Pain;
 		Goto See;
 	Death:
-		SSKL I 5;
-		SSKL J 5 bright A_Scream;
-		SSKL K 5 bright A_NoBlocking;
-		SSKL LMNOPQ 5 bright;
+		SSKL H 6 Bright;
+		SSKL I 6 Bright A_Scream;
+		SSKL J 6 Bright A_NoBlocking();
+		SSKL KL 6 Bright;
+		SSKL MN 6;
 		Stop;
 	}
 }

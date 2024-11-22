@@ -662,6 +662,9 @@ class DCX_UOEventHandler : EventHandler
 			Level.ReplaceTextures("SW1BRN1", "SW1BRN1DZ", 0);
 			Level.ReplaceTextures("SW2BRN1", "SW2BRN1DZ", 0);
 			
+			Level.ReplaceTextures("SW1STON2", "SW1SKLD0",0);
+			Level.ReplaceTextures("SW2STON2", "SW2SKLD0",0);
+			
 			if ( ( mapName == "dz_map32" ) && ( CVar.FindCVar("dcx_TextureEchancements").GetBool() ) )
 			{
 				Level.ReplaceTextures("COMPUTE1", "COMPUTE9", 0);

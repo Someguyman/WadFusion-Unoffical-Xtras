@@ -106,6 +106,9 @@ switch doom 1 SW1WITCH on sound switches/normbutn pic SW2WITCH tics 0
 switch doom 1 WOODWITC on sound switches/normbutn pic WOODGAR1 tics 0
 
 switch doom 1 SW2WITCH on sound switches/normbutn pic SW1WITCH tics 0
+
+switch doom 1 SW1SKLD0 on sound switches/normbutn pic SW2SKLD0 tics 0
+switch doom 1 SW2SKLD0 on sound switches/normbutn pic SW1SKLD0 tics 0
 //switch doom 1 WOODGAR1 on sound switches/normbutn pic WOODWITC tics 0
 
 warp texture DZ0_SKY3 .5
