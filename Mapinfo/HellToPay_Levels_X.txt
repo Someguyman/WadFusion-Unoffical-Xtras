@@ -8,6 +8,13 @@ defaultmap
 	enterpic = "$in_H2P"
 }
 
+cluster 96
+{
+	pic = "h2pbossb"
+	music = "$MUSIC_PERTEXT"
+	exittext = lookup, "HPTEXT"
+}
+
 //		Episode 1 Part 1		//
 
 adddefaultmap
@@ -374,11 +381,4 @@ Intermission H2PCast
 		AttackSound = "Missile", 0, "weapons/sshotf"
 	}
 	Link = H2PCast
-}
-
-clusterdef 80
-{
-	//flat = "$RROCK03"
-	//music = "D_JP_WAS"
-	entertext = lookup, "P2_TEXT5"
 }

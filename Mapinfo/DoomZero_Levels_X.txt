@@ -290,6 +290,7 @@ adddefaultmap
 {
 	Cluster = 204
 	sky1 = "dz0_sky3"
+	//sky1 = "Giygas" 0.5
 }
 
 map DZ_MAP21 lookup "DZHUSTR_21"

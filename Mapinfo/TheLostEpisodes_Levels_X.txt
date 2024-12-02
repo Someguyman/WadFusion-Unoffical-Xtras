@@ -102,7 +102,7 @@ map LE_E1M7 "Core of Evil"
 {
 	levelnum = 7
 	next = "LE_E1M8"
-	Music = "$MUSIC_UNUSED22"
+	Music = "D_BETA22"
 	Author = "$WS_AU_KLIE"
 	par = 180
 	Label = "LOST EPISODES, E1M7"

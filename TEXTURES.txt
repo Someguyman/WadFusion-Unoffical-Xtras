@@ -60,4 +60,9 @@ Texture "COMPBOFF", 128, 128
 	Patch "COMPBOFF", 0, 0
 }
 
+Texture "Giygas", 186, 186
+{
+	Patch "Giygas", 0, 0
+}
+
 // End of texture definitions
