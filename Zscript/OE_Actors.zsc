@@ -7,7 +7,6 @@ class DCX_Spacevile : Archvile
 		PainSound "SpaceVile/pain";
 		DeathSound "SpaceVile/death";
 		ActiveSound "SpaceVile/active";
-		//MeleeSound "SpaceVile/stop";
 	}
 	States
 	{
