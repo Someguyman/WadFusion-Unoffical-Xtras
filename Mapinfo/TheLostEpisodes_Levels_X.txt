@@ -45,7 +45,7 @@ map LE_E1M1 "UAC Spaceport"
 	par = 30
 	Music = "T_RUNNIN"
 	Author = "$WS_AU_KLIE"
-	Label = "LOST EPISODES, E1M1"
+	Label = "THE LOST EPISODES OF DOOM, E1M1"
 }
 
 map LE_E1M2 "Fusion Power Plant"
@@ -55,7 +55,7 @@ map LE_E1M2 "Fusion Power Plant"
 	Music = "$MUSIC_e1m2"
 	Author = "$WS_AU_KLIE"
 	par = 75
-	Label = "LOST EPISODES, E1M2"
+	Label = "THE LOST EPISODES OF DOOM, E1M2"
 }
 
 map LE_E1M3 "Jovian Deuterium Plant"
@@ -65,7 +65,7 @@ map LE_E1M3 "Jovian Deuterium Plant"
 	Music = "$MUSIC_COUNTD"
 	Author = "$WS_AU_KLIE"
 	par = 120
-	Label = "LOST EPISODES, E1M3"
+	Label = "THE LOST EPISODES OF DOOM, E1M3"
 }
 
 map LE_E1M4 "Planetary Control Center"
@@ -75,7 +75,7 @@ map LE_E1M4 "Planetary Control Center"
 	Music = "$MUSIC_E2M2"
 	Author = "$WS_AU_KLIE"
 	par = 90
-	Label = "LOST EPISODES, E1M4"
+	Label = "THE LOST EPISODES OF DOOM, E1M4"
 }
 
 map LE_E1M5 "Weapons Research Center"
@@ -85,7 +85,7 @@ map LE_E1M5 "Weapons Research Center"
 	Music = "$MUSIC_E1M5"
 	Author = "$WS_AU_KLIE"
 	par = 165
-	Label = "LOST EPISODES, E1M5"
+	Label = "THE LOST EPISODES OF DOOM, E1M5"
 }
 
 map LE_E1M6 "Halls of Injustice"
@@ -95,7 +95,7 @@ map LE_E1M6 "Halls of Injustice"
 	Music = "T_THE_DA"
 	Author = "$WS_AU_KLIE"
 	par = 180
-	Label = "LOST EPISODES, E1M6"
+	Label = "THE LOST EPISODES OF DOOM, E1M6"
 }
 
 map LE_E1M7 "Core of Evil"
@@ -105,7 +105,7 @@ map LE_E1M7 "Core of Evil"
 	Music = "D_BETA22"
 	Author = "$WS_AU_KLIE"
 	par = 180
-	Label = "LOST EPISODES, E1M7"
+	Label = "THE LOST EPISODES OF DOOM, E1M7"
 }
 
 map LE_E1M8 "Callisto Consecration"
@@ -119,7 +119,7 @@ map LE_E1M8 "Callisto Consecration"
 	nosoundclipping
 	baronspecial
 	specialaction_lowerfloor
-	Label = "LOST EPISODES, E1M8"
+	Label = "THE LOST EPISODES OF DOOM, E1M8"
 }
 
 //		Episode 2		//
@@ -139,7 +139,7 @@ map LE_E2M1 "Io Anomaly"
 	par = 90
 	ResetHealth
     ResetInventory
-	Label = "LOST EPISODES, E2M1"
+	Label = "THE LOST EPISODES OF DOOM, E2M1"
 }
 
 map LE_E2M2 "Munitions Factory"
@@ -149,7 +149,7 @@ map LE_E2M2 "Munitions Factory"
 	par = 90
 	music = "$MUSIC_E1M3"
 	Author = "$WS_AU_KLIE"
-	Label = "LOST EPISODES, E2M2"
+	Label = "THE LOST EPISODES OF DOOM, E2M2"
 }
 
 map LE_E2M3 "Toxic Disposal Plant"
@@ -159,7 +159,7 @@ map LE_E2M3 "Toxic Disposal Plant"
 	par = 90
 	music = "$MUSIC_E1M7"
 	Author = "$WS_AU_KLIE"
-	Label = "LOST EPISODES, E2M3"
+	Label = "THE LOST EPISODES OF DOOM, E2M3"
 }
 
 map LE_E2M4 "Weapons Testing Facility"
@@ -169,7 +169,7 @@ map LE_E2M4 "Weapons Testing Facility"
 	par = 120
 	music = "$MUSIC_BETWEE"
 	Author = "$WS_AU_KLIE"
-	Label = "LOST EPISODES, E2M4"
+	Label = "THE LOST EPISODES OF DOOM, E2M4"
 }
 
 map LE_E2M5 "Training Grounds"
@@ -179,7 +179,7 @@ map LE_E2M5 "Training Grounds"
 	par = 90
 	music = "$MUSIC_E2M6"
 	Author = "$WS_AU_KLIE"
-	Label = "LOST EPISODES, E2M5"
+	Label = "THE LOST EPISODES OF DOOM, E2M5"
 }
 
 map LE_E2M6 "Military Garrison"
@@ -189,7 +189,7 @@ map LE_E2M6 "Military Garrison"
 	par = 360
 	music = "T_EVIL"
 	Author = "WS_AU_CARTER"
-	Label = "LOST EPISODES, E2M6"
+	Label = "THE LOST EPISODES OF DOOM, E2M6"
 }
 
 map LE_E2M7 "The Draining Pit"
@@ -199,7 +199,7 @@ map LE_E2M7 "The Draining Pit"
 	par = 240
 	music = "$MUSIC_MESSAG"
 	Author = "WS_AU_CARTER"
-	Label = "LOST EPISODES, E2M7"
+	Label = "THE LOST EPISODES OF DOOM, E2M7"
 }
 
 map LE_E2M8 "Late For Supper"
@@ -213,7 +213,7 @@ map LE_E2M8 "Late For Supper"
 	nosoundclipping
 	cyberdemonspecial
 	specialaction_exitlevel
-	Label = "LOST EPISODES, E2M8"
+	Label = "THE LOST EPISODES OF DOOM, E2M8"
 }
 
 //		Episode 3		//
@@ -234,7 +234,7 @@ map LE_E3M1 "Jovian Stonehenge"
 	par = 90
 	music = "$MUSIC_E1M8"
 	Author = "WS_AU_CARTER"
-	Label = "LOST EPISODES, E3M1"
+	Label = "THE LOST EPISODES OF DOOM, E3M1"
 	lightning
 }
 
@@ -245,7 +245,7 @@ map LE_E3M2 "Pillar of Peril"
 	par = 45
 	music = "$MUSIC_E3M7"
 	Author = "WS_AU_CARTER"
-	Label = "LOST EPISODES, E3M2"
+	Label = "THE LOST EPISODES OF DOOM, E3M2"
 	lightning
 }
 
@@ -256,7 +256,7 @@ map LE_E3M3 "Subterranean Stoneworks"
 	par = 90
 	music = "$MUSIC_E3M3"
 	Author = "WS_AU_CARTER"
-	Label = "LOST EPISODES, E3M3"
+	Label = "THE LOST EPISODES OF DOOM, E3M3"
 	lightning
 }
 
@@ -267,7 +267,7 @@ map LE_E3M4 "Pools of Despair"
 	par = 150
 	music = "$MUSIC_DOOM"
 	Author = "WS_AU_CARTER"
-	Label = "LOST EPISODES, E3M4"
+	Label = "THE LOST EPISODES OF DOOM, E3M4"
 	lightning
 }
 
@@ -278,7 +278,7 @@ map LE_E3M5 "The Cat-Skinner Box"
 	par = 90
 	music = "$MUSIC_E3M2"
 	Author = "WS_AU_CARTER"
-	Label = "LOST EPISODES, E3M5"
+	Label = "THE LOST EPISODES OF DOOM, E3M5"
 	lightning
 }
 
@@ -289,7 +289,7 @@ map LE_E3M6 "Somber Promenade"
 	par = 90
 	music = "$MUSIC_DEAD"
 	Author = "WS_AU_CARTER"
-	Label = "LOST EPISODES, E3M6"
+	Label = "THE LOST EPISODES OF DOOM, E3M6"
 	lightning
 }
 
@@ -300,7 +300,7 @@ map LE_E3M7 "Jupiter Killjoy"
 	par = 165
 	music = "$MUSIC_E2M4"
 	Author = "WS_AU_CARTER"
-	Label = "LOST EPISODES, E3M7"
+	Label = "THE LOST EPISODES OF DOOM, E3M7"
 	lightning
 }
 
@@ -315,7 +315,7 @@ map LE_E3M8 "Deja Vu"
 	nosoundclipping
 	spidermastermindspecial
 	specialaction_exitlevel
-	Label = "LOST EPISODES, E3M8"
+	Label = "THE LOST EPISODES OF DOOM, E3M8"
 	lightning
 }
 

@@ -1,9 +1,9 @@
-class DCX_Player_Unoffical : DCX_Player Replaces Doomplayer
+class DCX_Player_Unoffical : DCX_Player Replaces DCX_Player
 {
 	Default
 	{
 		Player.WeaponSlot 5, "H2P_RocketLauncher", "RocketLauncher";
-		Player.WeaponSlot 6, "H2P_PlasmaTrident", "PlasmaRifle", "Incinerator", "DCX_HeavyPlasmaGun";
+		Player.WeaponSlot 6, "H2P_PlasmaTrident", "PlasmaRifle", "DCX_HeavyPlasmaGun", "Incinerator", "DCX_DZ0PlasmaRifle";
 		Player.WeaponSlot 7, "H2P_IncendiaryTrident", "BFG9000", "CalamityBlade";
 		Player.WeaponSlot 8, "DCX_Unmaker";
 	}
@@ -11,10 +11,12 @@ class DCX_Player_Unoffical : DCX_Player Replaces Doomplayer
 
 class H2P_RocketLauncher : RocketLauncher
 {
+	/*
 	Default
 	{
 		Weapon.Slotnumber 5;
 	}
+	*/
 	States
 	{
 	Ready:
@@ -45,7 +47,7 @@ class H2P_PlasmaTrident : PlasmaRifle
 	{
 		Inventory.PickupMessage "$GOTPLASMA";
 		Tag "Plasma Trident";
-		Weapon.Slotnumber 6;
+		//Weapon.Slotnumber 6;
 	}
 	
 	action void A_H2PFirePlasma()
@@ -114,7 +116,7 @@ class H2P_IncendiaryTrident : BFG9000
 	{
 		Inventory.PickupMessage "$GOTBFG9000";
 		Tag "Incendiary Trident";
-		Weapon.Slotnumber 7;
+		//Weapon.Slotnumber 7;
 	}
 	
 		Action Void A_H2PFireBFG()
@@ -179,7 +181,7 @@ class DCX_DZ0PlasmaRifle : PlasmaRifle
 	Default
 	{
 		Weapon.SelectionOrder 1;
-		Weapon.Slotnumber 6;
+		//Weapon.Slotnumber 6;
 		Inventory.PickupMessage "You Got The New And Improved PlasmaRifle!";
 		Tag "PlasmaRifle 2.0";
 	}
