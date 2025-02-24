@@ -64,6 +64,12 @@ H2pExplosion/Explosion1 dsh2exp1
 H2pExplosion/Explosion2 dsh2exp2
 $attenuation H2pExplosion/Explosion2 0
 
+world/Klaxon dsklaxon
+$attenuation world/Klaxon 0
+world/PortalOpen dsgatopn
+world/PortalLoop dsgatlop
+world/PortalClose dsgatcls
+
 Dopefish/grunt dsdopepn
 
 Alpha/sight dsalpsit

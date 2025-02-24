@@ -43,7 +43,7 @@ map LE_E1M1 "UAC Spaceport"
 	levelnum = 1
 	next = "LE_E1M2"
 	par = 30
-	Music = "T_RUNNIN"
+	Music = "$MUSIC_e2m1"
 	Author = "$WS_AU_KLIE"
 	Label = "THE LOST EPISODES OF DOOM, E1M1"
 }
@@ -92,7 +92,7 @@ map LE_E1M6 "Halls of Injustice"
 {
 	levelnum = 6
 	next = "LE_E1M7"
-	Music = "T_THE_DA"
+	Music = "$MUSIC_DOOM"
 	Author = "$WS_AU_KLIE"
 	par = 180
 	Label = "THE LOST EPISODES OF DOOM, E1M6"
@@ -187,7 +187,7 @@ map LE_E2M6 "Military Garrison"
 	levelnum = 16
 	next = "LE_E2M7"
 	par = 360
-	music = "T_EVIL"
+	Music = "$MUSIC_VICTOR"
 	Author = "WS_AU_CARTER"
 	Label = "THE LOST EPISODES OF DOOM, E2M6"
 }
@@ -243,7 +243,7 @@ map LE_E3M2 "Pillar of Peril"
 	levelnum = 22
 	next = "LE_E3M3"
 	par = 45
-	music = "$MUSIC_E3M7"
+	music = "$MUSIC_E2M7"
 	Author = "WS_AU_CARTER"
 	Label = "THE LOST EPISODES OF DOOM, E3M2"
 	lightning
@@ -274,7 +274,7 @@ map LE_E3M4 "Pools of Despair"
 map LE_E3M5 "The Cat-Skinner Box"
 {
 	levelnum = 25
-	next = "LE_E3M6"
+	next = "LE_E3M7"
 	par = 90
 	music = "$MUSIC_E3M2"
 	Author = "WS_AU_CARTER"
@@ -285,7 +285,7 @@ map LE_E3M5 "The Cat-Skinner Box"
 map LE_E3M6 "Somber Promenade"
 {
 	levelnum = 26
-	next = "LE_E3M7"
+	next = "LE_E3M8"
 	par = 90
 	music = "$MUSIC_DEAD"
 	Author = "WS_AU_CARTER"

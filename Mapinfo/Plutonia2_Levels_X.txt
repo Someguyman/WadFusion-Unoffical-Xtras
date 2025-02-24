@@ -95,7 +95,7 @@ map PT_MAP04 lookup "P2HUSTR_4"
 	next = "PT_MAP05"
 	secretnext = "PT_MAP05"
 	par = 120
-	music = "$MUSIC_PLUMAP01"
+	Music = "P_RUNNIN"
 	Author = "$WS_AU_FREDRICK"
 	Label = "PLUTONIA 2, E1M4"
 }
@@ -115,7 +115,7 @@ map PT_MAP06 lookup "P2HUSTR_6"
 	next = "PT_MAP07"
 	secretnext = "PT_MAP07"
 	par = 150
-	music = "$MUSIC_PLUMAP06"
+	Music = "P_THE_DA"
 	Author = "$WS_AU_METABOLIST_PEROXYD"
 	Label = "PLUTONIA 2, E1M6"
 }
@@ -198,7 +198,7 @@ map PT_MAP13 lookup "P2HUSTR_13"
 {
 	next = "PT_MAP14"
 	par = 150
-	music = "$MUSIC_PLUMAP13"
+	Music = "P_DOOM2"
 	Author = "$WS_AU_FrGuMe"
 	Label = "PLUTONIA 2, E2M2"
 }
@@ -294,7 +294,7 @@ map PT_MAP22 lookup "P2HUSTR_22"
 	next = "PT_MAP23"
 	secretnext = "PT_MAP23"
 	par = 150
-	music = "$MUSIC_PLUMAP08"
+	Music = "P_DDTBLU"
 	Author = "$WS_AU_ERIK_GUSTA"
 	Label = "PLUTONIA 2, E3M2"
 }
@@ -395,7 +395,7 @@ map PT_MAP31 lookup "P2HUSTR_31"
 	sky1 = "PSKY3"
 	cluster = 54
 	par = 120
-	music = "$MUSIC_PLUMAP20"
+	Music = "P_MESSAG"
 	Author = "$WS_AU_ETERNAL"
 	Label = "PLUTONIA 2, E2M0"
 }

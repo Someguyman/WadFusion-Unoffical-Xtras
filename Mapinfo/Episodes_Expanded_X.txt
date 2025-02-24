@@ -1,5 +1,11 @@
 clearepisodes
 
+episode WF_NEWGAME
+{
+	Name = "WadFusion New Game Hack"
+	Optional
+}
+
 //		Doom 1 Episodes		//
 
 // The Original Triology //
