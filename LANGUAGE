@@ -107,7 +107,7 @@ TNTR_EPI01 = "\c[Orange]The Demonic Fleet";
 TNTR_EPI02 = "\c[Orange]Astroid Rampage";
 TNTR_EPI03 = "\c[Orange]Revolutionary Hell";
 
-PLUTONIA2_EPI01 = "\c[DarkGreen]U.A.A.F Guerrilla Warfare";
+PLUTONIA2_EPI01 = "\c[DarkGreen]Guerrilla Warfare";
 PLUTONIA2_EPI02 = "\c[DarkGreen]Hemoptic Hurricane";
 PLUTONIA2_EPI03 = "\c[DarkGreen]Satan's Coloney";
 PLUTONIA2_BONUS = "\c[GOLD]Bonus: \c[DarkBrown]Choclate";

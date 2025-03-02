@@ -3,8 +3,8 @@ class DCX_Player_Unoffical : DCX_Player Replaces DCX_Player
 	Default
 	{
 		Player.WeaponSlot 5, "H2P_RocketLauncher", "RocketLauncher";
-		Player.WeaponSlot 6, "H2P_PlasmaTrident", "PlasmaRifle", "DCX_HeavyPlasmaGun", "Incinerator", "DCX_DZ0PlasmaRifle";
-		Player.WeaponSlot 7, "H2P_IncendiaryTrident", "BFG9000", "CalamityBlade";
+		Player.WeaponSlot 6, "H2P_PlasmaTrident", "PlasmaRifle", "DCX_HeavyPlasmaGun", "ID24Incinerator", "DCX_DZ0PlasmaRifle";
+		Player.WeaponSlot 7, "H2P_IncendiaryTrident", "BFG9000", "ID24CalamityBlade";
 		Player.WeaponSlot 8, "DCX_Unmaker";
 	}
 }
