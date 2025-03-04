@@ -276,7 +276,7 @@ class DCX_UOEventHandler : EventHandler
 			
 			Level.ReplaceTextures("SW1STON1", "SW1STON1FD", 0);
 			Level.ReplaceTextures("SW2STON1", "SW2STON1FD", 0);
-		}
+		}	
 		
 		if ( mapPrefix == "fd_" )
         {
@@ -624,6 +624,32 @@ class DCX_UOEventHandler : EventHandler
 		}
 	}
 	
+	void DCX_MapsOfChaosTextureReplacement()
+	{
+		String mapName = level.MapName.MakeLower();
+		if ( mapName.left(4) == "cs_e" || mapName.left(4) == "ch_e" || mapName.left(4) == "co_e" )
+		{
+			// replace doom1 textures that are different from doom2
+			Level.ReplaceTextures("BIGDOOR7", "BIGDOR7A", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("BRNPOIS",  "BRNPOIS1", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("NUKEPOIS", "NUKPOIS1", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SHAWN1",   "SHAWN1A",  TexMan.NOT_FLAT);
+			Level.ReplaceTextures("STEP1",    "STEP1A",   TexMan.NOT_FLAT);
+			Level.ReplaceTextures("STEP2",    "STEP2A",   TexMan.NOT_FLAT);
+			Level.ReplaceTextures("STEP3",    "STEP3A",   TexMan.NOT_FLAT);
+			Level.ReplaceTextures("STEP5",    "STEP5A",   TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW1BRN1",  "SW1BRN1A", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW1STARG", "SW1STARA", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW1STONE", "SW1STONA", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW1STON2", "SW1STONB", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW2BRN1",  "SW2BRN1A", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW2STARG", "SW2STARA", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW2STONE", "SW2STONA", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW2STON2", "SW2STONB", TexMan.NOT_FLAT);
+		}
+	
+	}
+	
 	void DCX_DZTextureReplacement()
     {
 		String SkyName = TexMan.GetName(level.skytexture1);
@@ -685,11 +711,53 @@ class DCX_UOEventHandler : EventHandler
         }
 	}
 	
+	override void WorldTick()
+	{
+		String mapName = level.MapName.MakeLower();
+		
+		if ( mapName == "inter_d1e1" )
+		{
+			if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 3 )
+				level.NextMap = "co_e1m1";
+			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 2 )
+				level.NextMap = "ch_e1m1";
+			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 1 )
+				level.NextMap = "cs_e1m1";
+			else
+				level.NextMap = "e1m1";
+		}
+		
+		if ( mapName == "inter_d1e2" )
+		{
+			if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 3 )
+				level.NextMap = "co_e2m1";
+			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 2 )
+				level.NextMap = "ch_e2m1";
+			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 1 )
+				level.NextMap = "cs_e2m1";
+			else
+				level.NextMap = "e2m1";
+		}
+		
+		if ( mapName == "inter_d1e3" )
+		{
+			if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 3 )
+				level.NextMap = "co_e3m1";
+			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 2 )
+				level.NextMap = "ch_e3m1";
+			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 1 )
+				level.NextMap = "cs_e3m1";
+			else
+				level.NextMap = "e3m1";
+		}
+	}
+	
 	override void WorldLoaded(WorldEvent e)
 	{
 		DCX_UOTextureReplacements();
 		DCX_DZTextureReplacement();
 		DCX_EUTextureReplacement();
+		DCX_MapsOfChaosTextureReplacement();
 	}
 	
 }
