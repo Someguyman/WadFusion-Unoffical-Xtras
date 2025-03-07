@@ -230,6 +230,14 @@ class DCX_UOEventHandler : EventHandler
 			}
 		}
 	
+		override void WorldTick()
+	{
+		if ( CVar.FindCVar("wf_compat_nextmap").GetBool() )
+		{
+			MapsOfChaosReplacements ();
+		}
+	}
+	
     void DCX_UOTextureReplacements()
     {
 		String SkyName = TexMan.GetName(level.skytexture1);
@@ -711,9 +719,9 @@ class DCX_UOEventHandler : EventHandler
         }
 	}
 	
-	override void WorldTick()
+	void MapsOfChaosReplacements ()
 	{
-		String mapName = level.MapName.MakeLower();
+				String mapName = level.MapName.MakeLower();
 		
 		if ( mapName == "inter_d1e1" )
 		{
@@ -747,8 +755,9 @@ class DCX_UOEventHandler : EventHandler
 				level.NextMap = "ch_e3m1";
 			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 1 )
 				level.NextMap = "cs_e3m1";
-			else
+			else if ( !CVar.GetCvar("dcx_playstationmaps").getint() >= 1 )
 				level.NextMap = "e3m1";
+			
 		}
 	}
 	

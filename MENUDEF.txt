@@ -6,6 +6,21 @@ OptionValue MOCOnOffToggle
 	3.0, "Overkill"
 }
 
+OptionValue PsxMaps
+{
+	0.0, "Off"
+	1.0, "Originals"
+	2.0, "Remakes"
+}
+
+OptionValue Wolf3DTextureTweaks
+{
+	0.0, "\c[BLUE]Original \c-(Uncensored)"
+	1.0, "\c[CYAN]Unity \c-(Censored)"
+	2.0, "\c[PURPLE]GBA \c-(Censored Alt)"
+	3.0, "\c[DARK GREEN]BFG Edition \c-(Removed)"
+}
+
 OptionMenu "DCXGameplayOptions"
 {
 	Title "Gameplay options"
