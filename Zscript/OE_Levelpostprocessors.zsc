@@ -17,5 +17,14 @@ class DCX_PlayerbotSpawner : LevelPostProcessor
 						SetThingEdNum(i, 7734); 
 					}			 
 				}
+				
+				switch (checksum)	
+				{
+					case '8CDC44AC479ED46FF318D702D7AE457C':
+					{
+						SetSectorTexture(105,1,"FLOOR3_3");
+						Break;
+					}
+				}
 			}
 }

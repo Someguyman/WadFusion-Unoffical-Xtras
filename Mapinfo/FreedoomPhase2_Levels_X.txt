@@ -1,3 +1,4 @@
+//Freedoom phase 2 maps
 
 defaultmap
 {

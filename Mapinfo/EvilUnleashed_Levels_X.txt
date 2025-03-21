@@ -1,3 +1,4 @@
+//The Original Episode 5, now the 7th episode of Doom 1.
 
 defaultmap
 {

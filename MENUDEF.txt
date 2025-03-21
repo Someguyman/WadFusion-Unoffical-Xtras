@@ -21,6 +21,19 @@ OptionValue Wolf3DTextureTweaks
 	3.0, "\c[DARK GREEN]BFG Edition \c-(Removed)"
 }
 
+OptionValue DCX_CabalLevelOrder
+{
+	0.0, "$DCX_CABAL_DEFAULT"
+	1.0, "$DCX_CABAL_ODW"
+	2.0, "$DCX_CABAL_WOTM"
+}
+
+OptionValue CustomMonsters
+{
+	0.0, "\c[GOLD]On"
+	1.0, "\c[DARK GREY]Off"
+}
+
 OptionMenu "DCXGameplayOptions"
 {
 	Title "Gameplay options"
@@ -29,20 +42,35 @@ OptionMenu "DCXGameplayOptions"
 	StaticText "When enabled, you will be able to acess the maps from the playstation version", "dark red"
 	StaticText "The remakes option lets you play those maps in the style of the PC ones", "dark red"
 	StaticText " "
+	Option "Maps of Chaos Toggle", "DCX_MOC_toggle", "MOCOnOffToggle"
+	StaticText "When enabled, Replaces original doom episodes and doom II with the maps of chaos versions", "dark red"
+	StaticText " "
 	Option "$OPTIONS_W3D", "W3D_Text_toggle", "Wolf3DTextureTweaks"
 	StaticText "Alters the Wolfenstein 3D textures, enenmies, and music found in Doom 2's secret maps.", "dark red"
 	StaticText " "
+	Option "Cabal Level Order", "dcx_CabalOrder", "DCX_CabalLevelOrder"
+	StaticText "Configures the level order of the cabal series of maps.", "dark red"
+	StaticText " "
+	StaticText " "
+	StaticText " "
+	StaticText " "
+	StaticText " "
+	StaticText " "
+	StaticText " "
+	StaticText " "
+	StaticText " "
+	StaticText " "
+	StaticText " "
+	StaticText " "
+	StaticText " "
 	StaticText "Compatibility", "Gold"
 	StaticText " "
-	Option "Doom 64 for Doom 2 Xtras", "dcx_D64D2Xtras", "OnOff"
-	StaticText "Disables the new doom 64 for doom 2 additions like the unmaker and demon keys.", "dark red"
-	StaticText " "
-	Option "Disable Custom Actors", "dcx_CustomMonsters", "OnOff"
+	Option "Disable Custom Actors", "dcx_CustomMonsters", "CustomMonsters"
 	StaticText "Replaces every new actor with a vanilla equivilant.", "dark red"
 	StaticText "(Example: The Legacy of Rust and the Doom 64 for Doom 2 exclusive monsters)", "dark red"
 	StaticText "(Only enable if the gameplay mod in question doesn't support them)", "dark red"
 	StaticText " "
-	Option "Maps of Chaos Toggle", "DCX_MOC_toggle", "MOCOnOffToggle"
-	StaticText "When enabled, Replaces original doom episodes and doom II with the maps of chaos versions", "dark red"
+	Option "Doom 64 for Doom 2 Xtras", "dcx_D64D2Xtras", "OnOff", "dcx_CustomMonsters", 0
+	StaticText "Disables the new doom 64 for doom 2 additions like the unmaker and demon keys.", "dark red"
 	StaticText " "
 }

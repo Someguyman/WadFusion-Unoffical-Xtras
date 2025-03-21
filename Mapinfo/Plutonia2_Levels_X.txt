@@ -1,3 +1,5 @@
+//Plutonia 2 maps
+
 defaultmap
 {
 	nojump

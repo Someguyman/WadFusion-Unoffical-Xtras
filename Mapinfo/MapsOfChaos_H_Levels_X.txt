@@ -1,3 +1,4 @@
+//Maps of chaos Hardcore set
 
 defaultmap
 {
@@ -11,7 +12,7 @@ adddefaultmap
 	Cluster = 1
 	Sky1 = "SKY1"
 	ExitPic = "$IN_EPI1"
-	InterMusic = "$MUSIC_INTER"
+	InterMusic = "C_INTER"
 	BorderTexture = "FLOOR7_2"
 }
 
@@ -21,7 +22,7 @@ map CH_E1M1 "$HUSTR_E1M1"
 	Next = "CH_E1M2"
 	TitlePatch = "WILV00"
 	Par = 30
-	Music = "$MUSIC_E1M1"
+	Music = "C_E1M1"
 	Author = "$WF_AU_ROMERO"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M1"
 }
@@ -32,7 +33,7 @@ map CH_E1M2 "$HUSTR_E1M1"
 	Next = "CH_E1M3"
 	TitlePatch = "WILV01"
 	Par = 75
-	Music = "$MUSIC_E1M2"
+	Music = "C_E1M2"
 	Author = "$WF_AU_ROMERO"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M2"
 }
@@ -44,7 +45,7 @@ map CH_E1M3 "$HUSTR_E1M3"
 	SecretNext = "CH_E1M9"
 	TitlePatch = "WILV02"
 	Par = 120
-	Music = "$MUSIC_E1M3"
+	Music = "C_E1M3"
 	Author = "$WF_AU_ROMERO"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M3"
 }
@@ -55,7 +56,7 @@ map CH_E1M4 "$HUSTR_E1M4"
 	Next = "CH_E1M5"
 	TitlePatch = "WILV03"
 	Par = 90
-	Music = "$MUSIC_E1M4"
+	Music = "C_E1M4"
 	Author = "$WF_AU_ROMERO_HALL"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M4"
 }
@@ -66,7 +67,7 @@ map CH_E1M5 "$HUSTR_E1M5"
 	Next = "CH_E1M6"
 	TitlePatch = "WILV04"
 	Par = 165
-	Music = "$MUSIC_E1M5"
+	Music = "C_E1M5"
 	Author = "$WF_AU_ROMERO"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M5"
 }
@@ -77,7 +78,7 @@ map CH_E1M6 "$HUSTR_E1M6"
 	Next = "CH_E1M7"
 	TitlePatch = "WILV05"
 	Par = 180
-	Music = "$MUSIC_E1M6"
+	Music = "C_E1M6"
 	Author = "$WF_AU_ROMERO"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M6"
 }
@@ -88,7 +89,7 @@ map CH_E1M7 "$HUSTR_E1M7"
 	Next = "CH_E1M8"
 	TitlePatch = "WILV06"
 	Par = 180
-	Music = "$MUSIC_E1M7"
+	Music = "C_E1M7"
 	Author = "$WF_AU_ROMERO"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M7"
 }
@@ -99,7 +100,7 @@ map CH_E1M8 "$HUSTR_E1M8"
 	Next = endpic, "UDCRED"
 	TitlePatch = "WILV07"
 	Par = 165
-	Music = "$MUSIC_E1M8"
+	Music = "C_E1M8"
 	NoIntermission
 	BaronSpecial
 	SpecialAction_LowerFloor
@@ -114,7 +115,7 @@ map CH_E1M9 "$HUSTR_E1M9"
 	Next = "CH_E1M4"
 	TitlePatch = "WILV08"
 	Par = 165
-	Music = "$MUSIC_E1M9"
+	Music = "C_E1M9"
 	Author = "$WF_AU_ROMERO"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M9"
 }
@@ -124,7 +125,7 @@ adddefaultmap
 	Cluster = 2
 	Sky1 = "SKY2"
 	ExitPic = "$IN_EPI2"
-	InterMusic = "$MUSIC_INTER"
+	InterMusic = "C_INTER"
 	BorderTexture = "FLOOR7_2"
 }
 
@@ -134,7 +135,7 @@ map CH_E2M1 "$HUSTR_E2M1"
 	Next = "CH_E2M2"
 	TitlePatch = "WILV10"
 	Par = 90
-	Music = "$MUSIC_E2M1"
+	Music = "C_E2M1"
 	Author = "$WF_AU_PETERSEN_HALL"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M1"
 }
@@ -145,7 +146,7 @@ map CH_E2M2 "$HUSTR_E2M2"
 	Next = "CH_E2M3"
 	TitlePatch = "WILV11"
 	Par = 90
-	Music = "$MUSIC_E2M2"
+	Music = "C_E2M2"
 	Author = "$WF_AU_PETERSEN_HALL"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M2"
 }
@@ -156,7 +157,7 @@ map CH_E2M3 "$HUSTR_E2M3"
 	Next = "CH_E2M4"
 	TitlePatch = "WILV12"
 	Par = 90
-	Music = "$MUSIC_E2M3"
+	Music = "C_E2M3"
 	Author = "$WF_AU_PETERSEN_HALL"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M3"
 }
@@ -167,7 +168,7 @@ map CH_E2M4 "$HUSTR_E2M4"
 	Next = "CH_E2M5"
 	TitlePatch = "WILV13"
 	Par = 120
-	Music = "$MUSIC_E2M4"
+	Music = "C_E2M4"
 	Author = "$WF_AU_PETERSEN_HALL"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M4"
 }
@@ -179,7 +180,7 @@ map CH_E2M5 "$HUSTR_E2M5"
 	SecretNext = "CH_E2M9"
 	TitlePatch = "WILV14"
 	Par = 90
-	Music = "$MUSIC_E2M5"
+	Music = "C_E2M5"
 	Author = "$WF_AU_PETERSEN"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M5"
 }
@@ -190,7 +191,7 @@ map CH_E2M6 "$HUSTR_E2M6"
 	Next = "CH_E2M7"
 	TitlePatch = "WILV15"
 	Par = 360
-	Music = "$MUSIC_E2M6"
+	Music = "C_E2M6"
 	Author = "$WF_AU_PETERSEN"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M6"
 }
@@ -201,7 +202,7 @@ map CH_E2M7 "$HUSTR_E2M7"
 	Next = "CH_E2M8"
 	TitlePatch = "WILV16"
 	Par = 240
-	Music = "$MUSIC_E2M7"
+	Music = "C_E2M7"
 	Author = "$WF_AU_PETERSEN_HALL"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M7"
 }
@@ -212,7 +213,7 @@ map CH_E2M8 "$HUSTR_E2M8"
 	Next = "EndGame2"
 	TitlePatch = "WILV17"
 	Par = 135
-	Music = "$MUSIC_E2M8"
+	Music = "C_E2M8"
 	NoIntermission
 	CyberdemonSpecial
 	SpecialAction_ExitLevel
@@ -227,7 +228,7 @@ map CH_E2M9 "$HUSTR_E2M9"
 	next = "CH_E2M5"
 	TitlePatch = "WILV18"
 	Par = 170
-	Music = "$MUSIC_E2M9"
+	Music = "C_E2M9"
 	Author = "$WF_AU_PETERSEN"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M9"
 }
@@ -237,7 +238,7 @@ adddefaultmap
 	Cluster = 3
 	Sky1 = "SKY3"
 	ExitPic = "$IN_EPI3"
-	InterMusic = "$MUSIC_INTER"
+	InterMusic = "C_INTER"
 	BorderTexture = "FLOOR7_2"
 }
 
@@ -247,7 +248,7 @@ map CH_E3M1 "$HUSTR_E3M1"
 	Next = "CH_E3M2"
 	TitlePatch = "WILV20"
 	Par = 90
-	Music = "$MUSIC_E3M1"
+	Music = "C_E3M1"
 	Author = "$WF_AU_PETERSEN"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M1"
 }
@@ -258,7 +259,7 @@ map CH_E3M2 "$HUSTR_E3M2"
 	Next = "CH_E3M3"
 	TitlePatch = "WILV21"
 	Par = 45
-	Music = "$MUSIC_E3M2"
+	Music = "C_E3M2"
 	Author = "$WF_AU_PETERSEN"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M2"
 }
@@ -269,7 +270,7 @@ map CH_E3M3 "$HUSTR_E3M3"
 	Next = "CH_E3M4"
 	TitlePatch = "WILV22"
 	Par = 90
-	Music = "$MUSIC_E3M3"
+	Music = "C_E3M3"
 	Author = "$WF_AU_PETERSEN_HALL"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M3"
 }
@@ -280,7 +281,7 @@ map CH_E3M4 "$HUSTR_E3M4"
 	Next = "CH_E3M5"
 	TitlePatch = "WILV23"
 	Par = 150
-	Music = "$MUSIC_E3M4"
+	Music = "C_E3M4"
 	Author = "$WF_AU_PETERSEN"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M4"
 }
@@ -291,7 +292,7 @@ map CH_E3M5 "$HUSTR_E3M5"
 	Next = "CH_E3M6"
 	TitlePatch = "WILV24"
 	Par = 90
-	Music = "$MUSIC_E3M5"
+	Music = "C_E3M5"
 	Author = "$WF_AU_PETERSEN"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M5"
 }
@@ -303,7 +304,7 @@ map CH_E3M6 "$HUSTR_E3M6"
 	SecretNext = "CH_E3M9"
 	TitlePatch = "WILV25"
 	Par = 90
-	Music = "$MUSIC_E3M6"
+	Music = "C_E3M6"
 	Author = "$WF_AU_PETERSEN"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M6"
 }
@@ -314,7 +315,7 @@ map CH_E3M7 "$HUSTR_E3M7"
 	Next = "CH_E3M8"
 	TitlePatch = "WILV26"
 	Par = 165
-	Music = "$MUSIC_E3M7"
+	Music = "C_E3M7"
 	Author = "$WF_AU_PETERSEN_HALL"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M7"
 }
@@ -325,7 +326,7 @@ map CH_E3M8 "$HUSTR_E3M8"
 	Next = "endbunny"
 	TitlePatch = "WILV27"
 	Par = 105
-	Music = "$MUSIC_E3M8"
+	Music = "C_E3M8"
 	NoIntermission
 	SpiderMastermindSpecial
 	SpecialAction_ExitLevel
@@ -340,7 +341,7 @@ map CH_E3M9 "$HUSTR_E3M9"
 	Next = "CH_E3M7"
 	TitlePatch = "WILV28"
 	Par = 135
-	Music = "$MUSIC_E3M9"
+	Music = "C_E3M9"
 	Author = "$WF_AU_PETERSEN"
 	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M9"
 }

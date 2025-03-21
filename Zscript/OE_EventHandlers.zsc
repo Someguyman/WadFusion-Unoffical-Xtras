@@ -9,9 +9,12 @@ class DCX_UOEventHandler : EventHandler
 		
 		if ( mapPrefix == "eu_" )
 		{
-			if (e.Replacee == 'Archvile')
+			if ( CVar.FindCVar("dcx_CustomMonsters").GetBool() )
 			{
-				e.Replacement = 'DCX_Spacevile';
+				if (e.Replacee == 'Archvile')
+				{
+					e.Replacement = 'DCX_Spacevile';
+				}
 			}
 			
 			if (e.Replacee == 'HangTSkull')
@@ -25,7 +28,7 @@ class DCX_UOEventHandler : EventHandler
 			}
 		}
 		
-		if ( mapPrefix == "pg_" )
+		if ( mapPrefix == "pg_" && CVar.FindCVar("dcx_CustomMonsters").GetBool() )
 		{
 			if (e.Replacee == 'WolfensteinSS')
 			{
@@ -37,132 +40,132 @@ class DCX_UOEventHandler : EventHandler
 				e.Replacement = 'PG_BOMBdet';
 			}
 		}
+			
+			if ( mapPrefix == "hp_" )
+			{
+				if (e.Replacee == 'Doomimp')
+				{
+					e.Replacement = 'H2P_MetalHellion';
+				}
+			
+				if (e.Replacee == 'Demon')
+				{
+					e.Replacement = 'H2P_MechaReaper';
+				}
+			
+				if (e.Replacee == 'Spectre')
+				{
+					e.Replacement = 'H2P_StealthReaper';
+				}
+			
+				if (e.Replacee == 'LostSoul')
+				{
+					e.Replacement = 'H2P_LiquidMetalBlob';
+				}
+			
+				if (e.Replacee == 'Cacodemon')
+				{
+					e.Replacement = 'H2P_Watcher';
+				}
+			
+				if (e.Replacee == 'Painelemental')
+				{
+					e.Replacement = 'H2P_HotLiquidMetal';
+				}
+			
+				if (e.Replacee == 'Fatso')
+				{
+					e.Replacement = 'H2P_Sentry';
+				}
+			
+				if (e.Replacee == 'CommanderKeen')
+				{
+					e.Replacement = 'H2P_PowerCore';
+				}
+			
+				if (e.Replacee == 'ShortRedColumn')
+				{
+					e.Replacement = 'H2P_PeiceOfMeat';
+				}
+			
+				if (e.Replacee == 'SkullColumn')
+				{
+					e.Replacement = 'H2P_PeiceOfMeat2';
+				}
+			
+				if (e.Replacee == 'Meat2')
+				{
+					e.Replacement = 'H2P_SkinnedMeat';
+				}
+			
+				if (e.Replacee == 'Meat3')
+				{
+					e.Replacement = 'H2P_SkinnedMeat2';
+				}
+			
+				if (e.Replacee == 'Meat4')
+				{
+					e.Replacement = 'H2P_SkinnedMeat3';
+				}
+			
+				if (e.Replacee == 'TechPillar')
+				{
+					e.Replacement = 'H2P_ADeadguy';
+				}
+			
+				if (e.Replacee == 'WolfensteinSS')
+				{
+					e.Replacement = 'H2P_BOMBDestruct';
+				}
+			
+				if (e.Replacee == 'BossEye')
+				{
+					e.Replacement = 'H2P_Meltdown';
+				}
+			
+				if (e.Replacee == 'BossBrain')
+				{
+					e.Replacement = 'H2P_Explosion';
+				}
+			
+				if (e.Replacee == 'RocketLauncher')
+				{
+					e.Replacement = 'H2P_RocketLauncher';
+				}
+			
+				if (e.Replacee == 'Plasmarifle')
+				{
+					e.Replacement = 'H2P_PlasmaTrident';
+				}
+			
+				if (e.Replacee == 'BFG9000')
+				{
+					e.Replacement = 'H2P_IncendiaryTrident';
+				}
+			
+			}
 		
-		if ( mapPrefix == "hp_" )
-        {
-			if (e.Replacee == 'Doomimp')
+			if ( mapPrefix == "tr_" )
 			{
-				e.Replacement = 'H2P_MetalHellion';
-			}
+				if (e.Replacee == 'BossEye')
+				{
+					e.Replacement = 'FakeSpawnerCube';
+				}
 			
-			if (e.Replacee == 'Demon')
-			{
-				e.Replacement = 'H2P_MechaReaper';
-			}
+				if (e.Replacee == 'BossBrain')
+				{
+					e.Replacement = 'VIOSBoss';
+				}
 			
-			if (e.Replacee == 'Spectre')
-			{
-				e.Replacement = 'H2P_StealthReaper';
-			}
+				if (e.Replacee == 'Wolfensteinss')
+				{
+					e.Replacement = 'DCX_PlasmaTurret';
+				}
 			
-			if (e.Replacee == 'LostSoul')
-			{
-				e.Replacement = 'H2P_LiquidMetalBlob';
-			}
-			
-			if (e.Replacee == 'Cacodemon')
-			{
-				e.Replacement = 'H2P_Watcher';
-			}
-			
-			if (e.Replacee == 'Painelemental')
-			{
-				e.Replacement = 'H2P_HotLiquidMetal';
-			}
-			
-			if (e.Replacee == 'Fatso')
-			{
-				e.Replacement = 'H2P_Sentry';
-			}
-			
-			if (e.Replacee == 'CommanderKeen')
-			{
-				e.Replacement = 'H2P_PowerCore';
-			}
-			
-			if (e.Replacee == 'ShortRedColumn')
-			{
-				e.Replacement = 'H2P_PeiceOfMeat';
-			}
-			
-			if (e.Replacee == 'SkullColumn')
-			{
-				e.Replacement = 'H2P_PeiceOfMeat2';
-			}
-			
-			if (e.Replacee == 'Meat2')
-			{
-				e.Replacement = 'H2P_SkinnedMeat';
-			}
-			
-			if (e.Replacee == 'Meat3')
-			{
-				e.Replacement = 'H2P_SkinnedMeat2';
-			}
-			
-			if (e.Replacee == 'Meat4')
-			{
-				e.Replacement = 'H2P_SkinnedMeat3';
-			}
-			
-			if (e.Replacee == 'TechPillar')
-			{
-				e.Replacement = 'H2P_ADeadguy';
-			}
-			
-			if (e.Replacee == 'WolfensteinSS')
-			{
-				e.Replacement = 'H2P_BOMBDestruct';
-			}
-			
-			if (e.Replacee == 'BossEye')
-			{
-				e.Replacement = 'H2P_Meltdown';
-			}
-			
-			if (e.Replacee == 'BossBrain')
-			{
-				e.Replacement = 'H2P_Explosion';
-			}
-			
-			if (e.Replacee == 'RocketLauncher')
-			{
-				e.Replacement = 'H2P_RocketLauncher';
-			}
-			
-			if (e.Replacee == 'Plasmarifle')
-			{
-				e.Replacement = 'H2P_PlasmaTrident';
-			}
-			
-			if (e.Replacee == 'BFG9000')
-			{
-				e.Replacement = 'H2P_IncendiaryTrident';
-			}
-			
-			}
-		
-		if ( mapPrefix == "tr_" )
-        {
-			if (e.Replacee == 'BossEye')
-			{
-				e.Replacement = 'FakeSpawnerCube';
-			}
-			
-			if (e.Replacee == 'BossBrain')
-			{
-				e.Replacement = 'VIOSBoss';
-			}
-			
-			if (e.Replacee == 'Wolfensteinss')
-			{
-				e.Replacement = 'DCX_PlasmaTurret';
-			}
-			
-			if (e.Replacee == 'BossTarget')
-			{
-				e.Replacement = 'DCX_RocketTurret';
-			}
+				if (e.Replacee == 'BossTarget')
+				{
+					e.Replacement = 'DCX_RocketTurret';
+				}
 		}
 		
 		if ( mapPrefix == "dz_" )
@@ -238,13 +241,70 @@ class DCX_UOEventHandler : EventHandler
 		}
 	}
 	
-    void DCX_UOTextureReplacements()
+    void DCX_FreeDoomTextureReplacements()
     {
-		String SkyName = TexMan.GetName(level.skytexture1);
-		int flags = TexMan.ReturnFirst;
+			String SkyName = TexMan.GetName(level.skytexture1);
+			int flags = TexMan.ReturnFirst;
+			String mapPrefix = level.MapName.Left(3);
+			String mapName = level.MapName.MakeLower();
+			mapPrefix = mapPrefix.MakeLower();
+		
+			if ( mapName.left(4) == "fd_e" )
+			{
+				Level.ReplaceTextures("BRNPOIS", "BRNPOIS1", 0);
+				Level.ReplaceTextures("NUKEPOIS", "NUKPOIS1", 0);
+
+				Level.ReplaceTextures("SW1BRN1", "SW1BRN1A", 0);
+				Level.ReplaceTextures("SW2BRN1", "SW2BRN1A", 0);
+			
+				Level.ReplaceTextures("SKY1", "FDSKY1", 0);
+				Level.ReplaceTextures("SKY2", "FDSKY2", 0);
+				Level.ReplaceTextures("SKY3", "FDSKY3", 0);
+				Level.ReplaceTextures("SKY4", "FDSKY4", 0);
+			
+				Level.ReplaceTextures("SW1COMP", "SW1COMPAQ", 0);
+				Level.ReplaceTextures("SW2COMP", "SW2COMPAQ", 0);
+			
+				Level.ReplaceTextures("SW1STON1", "SW1STON1FD", 0);
+				Level.ReplaceTextures("SW2STON1", "SW2STON1FD", 0);
+			}	
+		
+			if ( mapPrefix == "fd_" )
+			{
+				Level.ReplaceTextures("DBRAIN1", "PBRAIN1", 0);
+				Level.ReplaceTextures("DBRAIN4", "PBRAIN4", 0);
+			
+				Level.ReplaceTextures("P-FRBLU1", "AROCK2", 0);
+				Level.ReplaceTextures("P-FRBLU2", "AROCK3", 0);
+			
+				Level.ReplaceTextures("SKY1", "FDSKY1", 0);
+				Level.ReplaceTextures("SKY2", "FDSKY2", 0);
+				Level.ReplaceTextures("SKY3", "FDSKY3", 0);
+				Level.ReplaceTextures("SKY4", "FDSKY4", 0);
+			
+				Level.ReplaceTextures("SW1COMP", "SW1COMPAQ", 0);
+				Level.ReplaceTextures("SW2COMP", "SW2COMPAQ", 0);
+			
+				Level.ReplaceTextures("SW1STON1", "SW1STON1FD", 0);
+				Level.ReplaceTextures("SW2STON1", "SW2STON1FD", 0);
+			}
+		
+	}
+	
+	void DCX_WIZWTextureReplacements()
+    {
 		String mapPrefix = level.MapName.Left(3);
 		String mapName = level.MapName.MakeLower();
 		mapPrefix = mapPrefix.MakeLower();
+		
+		if ( mapPrefix == "le_" )
+        {
+            Level.ReplaceTextures("BRNPOIS", "BRNPOIS1", 0);
+            Level.ReplaceTextures("NUKEPOIS", "NUKPOIS1", 0);
+
+            Level.ReplaceTextures("SW1BRN1", "SW1BRN1A", 0);
+            Level.ReplaceTextures("SW2BRN1", "SW2BRN1A", 0);
+		}
 		
 		if ( mapPrefix == "pg_" )
         {
@@ -265,55 +325,6 @@ class DCX_UOEventHandler : EventHandler
 			Level.ReplaceTextures("SW1TEK", "SW1PGTEK", 0);
 			Level.ReplaceTextures("SW2TEK", "SW2PGTEK", 0);
         }
-		
-		if ( mapName.left(4) == "fd_e" )
-        {
-            Level.ReplaceTextures("BRNPOIS", "BRNPOIS1", 0);
-            Level.ReplaceTextures("NUKEPOIS", "NUKPOIS1", 0);
-
-            Level.ReplaceTextures("SW1BRN1", "SW1BRN1A", 0);
-            Level.ReplaceTextures("SW2BRN1", "SW2BRN1A", 0);
-			
-			Level.ReplaceTextures("SKY1", "FDSKY1", 0);
-			Level.ReplaceTextures("SKY2", "FDSKY2", 0);
-			Level.ReplaceTextures("SKY3", "FDSKY3", 0);
-			Level.ReplaceTextures("SKY4", "FDSKY4", 0);
-			
-			Level.ReplaceTextures("SW1COMP", "SW1COMPAQ", 0);
-			Level.ReplaceTextures("SW2COMP", "SW2COMPAQ", 0);
-			
-			Level.ReplaceTextures("SW1STON1", "SW1STON1FD", 0);
-			Level.ReplaceTextures("SW2STON1", "SW2STON1FD", 0);
-		}	
-		
-		if ( mapPrefix == "fd_" )
-        {
-			Level.ReplaceTextures("DBRAIN1", "PBRAIN1", 0);
-            Level.ReplaceTextures("DBRAIN4", "PBRAIN4", 0);
-			
-			Level.ReplaceTextures("P-FRBLU1", "AROCK2", 0);
-			Level.ReplaceTextures("P-FRBLU2", "AROCK3", 0);
-			
-			Level.ReplaceTextures("SKY1", "FDSKY1", 0);
-			Level.ReplaceTextures("SKY2", "FDSKY2", 0);
-			Level.ReplaceTextures("SKY3", "FDSKY3", 0);
-			Level.ReplaceTextures("SKY4", "FDSKY4", 0);
-			
-			Level.ReplaceTextures("SW1COMP", "SW1COMPAQ", 0);
-			Level.ReplaceTextures("SW2COMP", "SW2COMPAQ", 0);
-			
-			Level.ReplaceTextures("SW1STON1", "SW1STON1FD", 0);
-			Level.ReplaceTextures("SW2STON1", "SW2STON1FD", 0);
-		}
-		
-		if ( mapPrefix == "le_" )
-        {
-            Level.ReplaceTextures("BRNPOIS", "BRNPOIS1", 0);
-            Level.ReplaceTextures("NUKEPOIS", "NUKPOIS1", 0);
-
-            Level.ReplaceTextures("SW1BRN1", "SW1BRN1A", 0);
-            Level.ReplaceTextures("SW2BRN1", "SW2BRN1A", 0);
-		}
 		
 		if ( mapPrefix == "hp_" )
         {
@@ -368,6 +379,13 @@ class DCX_UOEventHandler : EventHandler
 			
 			Level.ReplaceTextures("MIDSPACE", "MIDSPACE3", 0);
 		}
+	}
+	
+	void DCX_PLU2TextureReplacements()
+    {
+		String mapPrefix = level.MapName.Left(3);
+		String mapName = level.MapName.MakeLower();
+		mapPrefix = mapPrefix.MakeLower();
 		
 		if ( mapPrefix == "pt_" )
         {
@@ -473,6 +491,13 @@ class DCX_UOEventHandler : EventHandler
 			Level.ReplaceTextures("ZZZFACE8", "P2ZFACE8", 0);
 			Level.ReplaceTextures("ZZZFACE9", "P2ZFACE9", 0);
         }
+	}	
+	
+	void DCX_TNTRTextureReplacements()
+    {
+		String mapPrefix = level.MapName.Left(3);
+		String mapName = level.MapName.MakeLower();
+		mapPrefix = mapPrefix.MakeLower();
 		
 		if ( mapPrefix == "tr_" )
         {
@@ -597,9 +622,9 @@ class DCX_UOEventHandler : EventHandler
 			Level.ReplaceTextures("SW1STON2", "SW1STON2TR", 0);
 			Level.ReplaceTextures("SW2STON2", "SW2STON2TR", 0);
 		}
-    }
+	}
 	
-	void DCX_EUTextureReplacement()
+	void DCX_EUTextureReplacements()
     {
 		String mapPrefix = level.MapName.Left(3);
 		String mapName = level.MapName.MakeLower();
@@ -632,7 +657,7 @@ class DCX_UOEventHandler : EventHandler
 		}
 	}
 	
-	void DCX_MapsOfChaosTextureReplacement()
+	void DCX_MapsOfChaosTextureReplacements()
 	{
 		String mapName = level.MapName.MakeLower();
 		if ( mapName.left(4) == "cs_e" || mapName.left(4) == "ch_e" || mapName.left(4) == "co_e" )
@@ -658,7 +683,7 @@ class DCX_UOEventHandler : EventHandler
 	
 	}
 	
-	void DCX_DZTextureReplacement()
+	void DCX_DZTextureReplacements()
     {
 		String SkyName = TexMan.GetName(level.skytexture1);
 		int flags = TexMan.ReturnFirst;
@@ -763,10 +788,13 @@ class DCX_UOEventHandler : EventHandler
 	
 	override void WorldLoaded(WorldEvent e)
 	{
-		DCX_UOTextureReplacements();
-		DCX_DZTextureReplacement();
-		DCX_EUTextureReplacement();
-		DCX_MapsOfChaosTextureReplacement();
+		DCX_WIZWTextureReplacements();
+		DCX_FreeDoomTextureReplacements();
+		DCX_TNTRTextureReplacements();
+		DCX_PLU2TextureReplacements();
+		DCX_DZTextureReplacements();
+		DCX_EUTextureReplacements();
+		DCX_MapsOfChaosTextureReplacements();
 	}
 	
 }

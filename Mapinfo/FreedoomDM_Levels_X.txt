@@ -1,3 +1,4 @@
+//Freedm maps
 
 defaultmap
 {
@@ -55,7 +56,6 @@ map FD_DMM05 "Dense Fields"
 	next = "FD_DMM06"
 	secretnext = "FD_DMM06"
 	sky1 = "FDSKY5"
-	cluster = 90
 	par = 90
 	music = "F_DOOM"
 	Label = "FREEDOOM, DM05"
