@@ -287,8 +287,12 @@ class DCX_UOEventHandler : EventHandler
 			
 				Level.ReplaceTextures("SW1STON1", "SW1STON1FD", 0);
 				Level.ReplaceTextures("SW2STON1", "SW2STON1FD", 0);
-			}
-		
+				
+				if ( mapName.left(6) == "fd_dmm" )
+				{
+					Level.ReplaceTextures("LOGO", "LOGOFD", 0);
+				}
+			}	
 	}
 	
 	void DCX_WIZWTextureReplacements()

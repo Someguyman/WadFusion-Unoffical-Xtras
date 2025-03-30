@@ -172,7 +172,8 @@ map PT_MAP10 lookup "P2HUSTR_10"
 
 map PT_MAP11 lookup "P2HUSTR_11"
 {
-	Next = endpic, "p2cred"
+	//Next = endpic, "p2cred"
+	next = "PT_MAP12"
 	par = 210
 	music = "$MUSIC_PL2MAP11"
 	Author = "$WS_AU_GUSTA_RABOTIK"
@@ -266,7 +267,8 @@ map PT_MAP19 lookup "P2HUSTR_19"
 
 map PT_MAP20 lookup "P2HUSTR_20"
 {
-	Next = endpic, "p2cred"
+	//Next = endpic, "p2cred"
+	next = "PT_MAP21"
 	par = 150
 	music = "$MUSIC_PL2MAP20"
 	Author = "$WS_AU_ANGUS_GUSTA"

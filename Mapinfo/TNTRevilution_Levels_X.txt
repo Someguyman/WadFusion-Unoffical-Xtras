@@ -163,7 +163,8 @@ map tr_map10 lookup "TRHUSTR_10"
 
 map tr_map11 lookup "TRHUSTR_11"
 {
-	Next = endpic, "TNRCRD2"
+	//Next = endpic, "TNRCRD2"
+	next = "tr_map12"
 	par = 210
 	Author = "$WS_AU_SEIFERT"
 	music = "$MUSIC_TNRMAP11"
@@ -253,7 +254,8 @@ map tr_map19 lookup "TRHUSTR_19"
 
 map tr_map20 lookup "TRHUSTR_20"
 {
-	Next = endpic, "TNRCRD2"
+	//Next = endpic, "TNRCRD2"
+	next = "tr_map21"
 	par = 150
 	Author = "$WS_AU_CRESSWELL" 
 	music = "$MUSIC_TNRMAP20"

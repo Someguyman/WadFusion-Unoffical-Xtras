@@ -137,6 +137,7 @@ Class PG_BOMBdet : BossEye
 		TNT1 A 181 A_StartSound("PGBomb/Voice2");
 		TNT1 A 0 A_Jumpif((!CVar.FindCVar("dcx_TextureEchancements").GetBool()), 1 );
 		TNT1 A 0 A_SpawnItemEx("PG_AmbientKlaxon");
+		Goto Brainspawn;
 	Brainspawn:
 		TNT1 A 150 A_BrainSpit;
 		Wait;

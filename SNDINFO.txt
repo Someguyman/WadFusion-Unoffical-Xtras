@@ -7,6 +7,9 @@ SpaceVile/Death dssvildh
 VoidFire/Start dsblaze2
 VoidFire/Crackle dscrakl2
 
+Plasma/DoomZero DSPLASDZ
+$limit Plasma/DoomZero 0
+
 $attenuation PGBomb/Voice1 0
 PGBomb/Voice1 dsbomwar
 $limit PGBomb/Voice2 1

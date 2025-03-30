@@ -187,7 +187,8 @@ map DZ_MAP10 lookup "DZHUSTR_10"
 
 map DZ_MAP11 lookup "DZHUSTR_11"
 {
-	Next = endpic, "DZOCRED"
+	//Next = endpic, "DZOCRED"
+	Next = "DZ_MAP12"
 	titlepatch = "Zwilv10"
 	par = 210
 	music = "$MUSIC_DZ0MAP11"
@@ -278,7 +279,8 @@ map DZ_MAP19 lookup "DZHUSTR_19"
 
 map DZ_MAP20 lookup "DZHUSTR_20"
 {
-	Next = endpic, "DZOCRED"
+	//Next = endpic, "DZOCRED"
+	Next = "DZ_MAP21"
 	titlepatch = "Zwilv19"
 	par = 150
 	music = "$MUSIC_DZ0MAP20"
