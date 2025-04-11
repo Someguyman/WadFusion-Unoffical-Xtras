@@ -7,56 +7,12 @@ defaultmap
 	ExitPic = "p2interp"
 	enterpic = "p2interp"
 	intermusic = "D_JA_CER"
-}
-
-//		Clusterdefs		//
-
-clusterdef 50
-{
-	flat = "$GRASS2"
-	music = "D_JP_WAS"
-	exittext = lookup, "P2_TEXT1"
-}
-
-clusterdef 51
-{
-	flat = "$FMETAL1"
-	music = "D_JP_WAS"
-	exittext = lookup, "P2_TEXT2"
-}
-
-clusterdef 52
-{
-	flat = "$FLAT1"
-	music = "D_JP_WAS"
-	exittext = lookup, "P2_TEXT3"
-}
-
-clusterdef 53
-{
-	flat = "$BLOOD1"
-	//BLOOD1
-	music = "D_JP_WAS"
-	exittext = lookup, "P2_TEXT4"
-}
-
-clusterdef 54
-{
-	flat = "$RROCK03"
-	music = "D_JP_WAS"
-	entertext = lookup, "P2_TEXT5"
-}
-
-clusterdef 55
-{
-	flat = "$FLAT5_8"
-	music = "D_JP_WAS"
-	entertext = lookup, "P2_TEXT6"
+	F1 = "p2cred"
 }
 
 adddefaultmap
 {
-	Cluster = 50
+	Cluster = 116
 	sky1 = "PSKY1"
 }
 
@@ -126,7 +82,7 @@ map PT_MAP06 lookup "P2HUSTR_6"
 
 adddefaultmap
 {
-	Cluster = 51
+	Cluster = 117
 	sky1 = "PSKY1"
 }
 
@@ -184,7 +140,7 @@ map PT_MAP11 lookup "P2HUSTR_11"
 
 adddefaultmap
 {
-	Cluster = 52
+	Cluster = 118
 	sky1 = "PSKY2"
 }
 
@@ -279,7 +235,7 @@ map PT_MAP20 lookup "P2HUSTR_20"
 
 adddefaultmap
 {
-	Cluster = 53
+	Cluster = 119
 	sky1 = "PSKY3"
 }
 
@@ -397,7 +353,7 @@ map PT_MAP31 lookup "P2HUSTR_31"
 	next = "PT_MAP16"
 	secretnext = "PT_MAP32"
 	sky1 = "PSKY3"
-	cluster = 54
+	cluster = 120
 	par = 120
 	Music = "P_MESSAG"
 	Author = "$WS_AU_ETERNAL"
@@ -409,7 +365,7 @@ map PT_MAP32 lookup "P2HUSTR_32"
 	next = "PT_MAP16"
 	secretnext = "PT_MAP16"
 	sky1 = "PSKY3"
-	cluster = 55
+	cluster = 121
 	par = 30
 	music = "$MUSIC_PL2MAP32"
 	Author = "$WS_AU_KIRA_RABOTIK"
@@ -422,7 +378,7 @@ map PT_MAP33 lookup "P2HUSTR_33"
 {
 	Next = endpic, "P2TITTLE"
 	sky1 = "PSKY3"
-	cluster = 55
+	//cluster = 55
 	par = 30
 	music = "$MUSIC_PL2MAP33"
 	Author = "$WS_AU_BAKER"

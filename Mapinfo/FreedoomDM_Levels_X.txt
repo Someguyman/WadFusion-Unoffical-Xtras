@@ -9,7 +9,7 @@ defaultmap
 	NoSoundClipping
 	AllowRespawn 
 	ExitPic = "DMVICTOR"
-	Cluster = 666
+	//Cluster = 666
 	SpecialAction = "DCX_DM_MarineBotSpawner", EXIT_NORMAL, 0, 1
 	ResetHealth
     ResetInventory

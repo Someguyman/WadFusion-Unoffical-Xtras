@@ -7,13 +7,7 @@ defaultmap
 	exitpic = "$in_PER"
 	enterpic = "$in_PER"
 	InterMusic = "$MUSIC_PERINTER"
-}
-
-cluster 89
-{
-	pic = "perbos2"
-	music = "$MUSIC_PERTEXT"
-	exittext = lookup, "PGTEXT"
+	F1 = "CREDIT" 
 }
 
 //		Episode 1 Part 1		//

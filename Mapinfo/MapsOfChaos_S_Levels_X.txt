@@ -5,6 +5,7 @@ defaultmap
 	SuckTime = 1
 	NoJump
 	NoCrouch
+	F1 = "CREDIT" 
 }
 
 adddefaultmap

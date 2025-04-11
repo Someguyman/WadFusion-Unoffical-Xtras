@@ -1,0 +1,261 @@
+
+//		Doom The Lost Episode Clusterdef		//
+
+cluster 109
+{
+	flat = "$ceil4_1"
+	music = "D_BETA19"
+	exittext = lookup, "EUTEXT"
+}
+
+//		TNT Revilution Clusterdefs		//
+
+clusterdef 110
+{
+	flat = "$BLOOD1"
+	music = "$MUSIC_TNRTEXT"
+	exittext = lookup, "TR_TEXT1"
+}
+
+clusterdef 111
+{
+	flat = "$TEKDARKF"
+	music = "$MUSIC_TNRTEXT"
+	exittext = lookup, "TR_TEXT2"
+}
+
+clusterdef 112
+{
+	flat = "$FLOOR0_4"
+	music = "$MUSIC_TNRTEXT"
+	exittext = lookup, "TR_TEXT3"
+}
+
+clusterdef 113
+{
+	flat = "$ROCKCK1"
+	music = "$MUSIC_TNRTEXT"
+	exittext = lookup, "tr_TEXT4"
+}
+
+clusterdef 114
+{
+	flat = "$METALFL4"
+	music = "$MUSIC_TNRTEXT"
+	entertext = lookup, "TR_TEXT5"
+}
+
+clusterdef 115
+{
+	flat = "$BLUDSOUP"
+	music = "$MUSIC_TNRTEXT"
+	entertext = lookup, "TR_TEXT6"
+}
+
+//		Plutonia 2 Clusterdefs		//
+
+clusterdef 116
+{
+	flat = "$GRASS2"
+	music = "D_JP_WAS"
+	exittext = lookup, "P2_TEXT1"
+}
+
+clusterdef 117
+{
+	flat = "$FMETAL1"
+	music = "D_JP_WAS"
+	exittext = lookup, "P2_TEXT2"
+}
+
+clusterdef 118
+{
+	flat = "$FLAT1"
+	music = "D_JP_WAS"
+	exittext = lookup, "P2_TEXT3"
+}
+
+clusterdef 119
+{
+	flat = "$BLOOD1"
+	music = "D_JP_WAS"
+	exittext = lookup, "P2_TEXT4"
+}
+
+clusterdef 120
+{
+	flat = "$RROCK03"
+	music = "D_JP_WAS"
+	entertext = lookup, "P2_TEXT5"
+}
+
+clusterdef 121
+{
+	flat = "$FLAT5_8"
+	music = "D_JP_WAS"
+	entertext = lookup, "P2_TEXT6"
+}
+
+//		Doom Zero Clusterdefs		//
+
+cluster 122
+{
+	flat = "$BGFLAT06"
+	music = "$MUSIC_DZ0TEXT"
+	exittext = lookup, "IN_DZ1"
+
+}
+
+cluster 123
+{
+	flat = "$BGFLAT11"
+	music = "$MUSIC_DZ0TEXT"
+	exittext = lookup, "IN_DZ2"
+
+}
+
+cluster 124
+{
+	flat = "$BGFLAT20"
+	music = "$MUSIC_DZ0TEXT"
+	exittext = lookup, "IN_DZ3"
+}
+
+cluster 125
+{
+	//pic = "bossback"
+	flat = "MFLR8_1"
+	music = "$MUSIC_DZ0TEXT"
+	exittext = lookup, "IN_DZ4"
+}
+
+cluster 126
+{
+	flat = "$BGFLAT15"
+	music = "$MUSIC_DZ0TEXT"
+	entertext = lookup, "IN_DZ5"
+}
+
+cluster 127
+{
+	flat = "$BGFLAT31"
+	music = "$MUSIC_DZ0TEXT"
+	entertext = lookup, "IN_DZ6"
+}
+
+//		The Lost Episodes Of Doom Clusterdefs		//
+
+cluster 128
+{
+	flat = "$bgflat06"
+	music = "D_VICTOR"
+	exittext = lookup, "JE1TEXT"
+
+}
+
+cluster 129
+{
+	flat = "$bgflat11"
+	music = "D_VICTOR"
+	exittext = lookup, "JE2TEXT"
+}
+
+cluster 130
+{
+	flat = "$bgflat20"
+	music = "D_VICTOR"
+	exittext = lookup, "JE3TEXT"
+}
+
+// 		Perditions Gate Clusterdef		//
+
+cluster 131
+{
+	pic = "perbos2"
+	music = "$MUSIC_PERTEXT"
+	exittext = lookup, "PGTEXT"
+}
+
+//		H2P Clusterdef		//
+
+cluster 132
+{
+	pic = "h2pbossb"
+	music = "$MUSIC_PERTEXT"
+	exittext = lookup, "HPTEXT"
+}
+
+//		FreeDoom Phase 1 Clusterdefs		//
+
+cluster 133
+{
+	flat = "AQF051"
+	music = "F_VICTOR"
+	exittext = lookup, "F1_TEXT1"
+}
+
+cluster 134
+{
+	flat = "AQF054"
+	music = "F_VICTOR"
+	exittext = lookup, "F1_TEXT2"
+}
+
+cluster 135
+{
+	flat = "FLAT5_2"
+	music = "F_VICTOR"
+	exittext = lookup, "F1_TEXT3"
+}
+
+cluster 136
+{
+	Flat = "AQF075"
+	music = "f_VICTO2"
+	exittext = lookup, "F1_TEXT4"
+}
+
+//		FreeDoom Phase 2 Clusterdefs		//
+
+cluster 137
+{
+	flat = "AQF016"
+	exittext = lookup, "F2_TEXT1"
+	music = "F_READ_ME"
+}
+
+cluster 138
+{
+	flat = "AQF001"
+	exittext = lookup, "F2_TEXT2"
+	music = "F_READ_ME"
+
+}
+
+cluster 139
+{
+	flat = "FLAT5_6"
+	exittext = lookup, "F2_TEXT3"
+	music = "F_READ_ME"
+}
+
+cluster 140
+{
+	flat = "SLIME13"
+	exittext = lookup, "F2_TEXT4"
+	music = "F_READ_ME"
+}
+
+cluster 141
+{
+	flat = "AQF004"
+	entertext = lookup, "F2_TEXT5"
+	music = "F_READ_ME"
+}
+
+cluster 142
+{
+	flat = "AQF021"
+	entertext = lookup, "F2_TEXT6"
+	music = "F_READ_ME"
+}

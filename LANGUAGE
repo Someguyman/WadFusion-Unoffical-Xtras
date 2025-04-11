@@ -85,11 +85,11 @@ FREED1_EP02 = "\c[RED]Military Labs";
 FREED1_EP03 = "\c[RED]Event Horizon";
 FREED1_EP04 = "\c[RED]Double Impact";
 
-FREED2_EP01 = "\c[RED]Corrupted Complex";
-FREED2_EP02 = "\c[RED]Desolate Detroit";
-FREED2_EP03 = "\c[RED]Operation On The Offense";
+FREED2_EP01 = "\c[RED]Hallowed Scraps";
+FREED2_EP02 = "\c[RED]Monsteropolis";
+FREED2_EP03 = "\c[RED]Final Freedom";
 
-FREEDM = "\c[GOLD]Bonus: \c[RED]DeathMatch FreeDoom";
+FREEDM = "\c[GOLD]Bonus: \c[RED]FreeDoom DeathMatch";
 
 LOSTE_EP01 = "\c[Green]Massacre on Callisto";
 LOSTE_EP02 = "\c[Green]The Killing Fields of Io";

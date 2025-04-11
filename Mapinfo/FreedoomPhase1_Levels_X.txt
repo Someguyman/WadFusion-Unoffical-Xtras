@@ -9,42 +9,12 @@ defaultmap
 	InterMusic = "F_INTER"
 }
 
-//		Clusterdefs		//
-
-cluster 81 
-{
-	flat = "AQF051"
-	music = "F_VICTOR"
-	exittext = lookup, "F1_TEXT1"
-}
-
-cluster 82
-{
-	flat = "AQF054"
-	music = "F_VICTOR"
-	exittext = lookup, "F1_TEXT2"
-}
-
-cluster 83
-{
-	flat = "FLAT5_2"
-	music = "F_VICTOR"
-	exittext = lookup, "F1_TEXT3"
-}
-
-cluster 84
-{
-	Flat = "AQF075"
-	music = "f_VICTO2"
-	exittext = lookup, "F1_TEXT4"
-}
-
 //		Episode 1		//
 
 adddefaultmap
 {
 	sky1 = "FDSKY1"
-	cluster = 81
+	cluster = 133
 	//secretnext = "FD_E1M9"
 }
 
@@ -139,7 +109,7 @@ map FD_E1M9 "Nutrient Recycling"
 adddefaultmap
 {
 	sky1 = "FDSKY2"
-	cluster = 82
+	cluster = 134
 }
 
 
@@ -239,7 +209,7 @@ map FD_E2M9 "Fortress 31"
 adddefaultmap
 {
 	sky1 = "FDSKY3"
-	cluster = 83
+	cluster = 135
 }
 
 map FD_E3M1 "Land of the Lost"
@@ -333,7 +303,7 @@ map FD_E3M9 "Acquainted With Grief"
 adddefaultmap
 {
 	sky1 = "FDSKY4"
-	Cluster = 84
+	cluster = 136
 	exitpic = "$in_dbimp"
 	enterpic = "$in_dbimp"
 	InterMusic = "f_INTR3"

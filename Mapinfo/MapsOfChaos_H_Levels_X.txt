@@ -5,6 +5,7 @@ defaultmap
 	SuckTime = 1
 	NoJump
 	NoCrouch
+	F1 = "CREDIT" 
 }
 
 adddefaultmap
@@ -351,7 +352,7 @@ adddefaultmap
 	Cluster = 5
 	Sky1 = "RSKY1"
 	Exitpic = "$in_d2e1"
-	Enterpic = "$in_d2e1"
+	Enterpic = "$in_d2e1" 
 }
 
 Map CH_MAP01 "$HUSTR_1"
@@ -487,7 +488,6 @@ adddefaultmap
 	Sky1 = "RSKY2"
 	Exitpic = "$in_d2e2"
 	Enterpic = "$in_d2e2"
-	//Exitpic = "INTER_E4"
 }
 
 map CH_MAP12 "$HUSTR_12"

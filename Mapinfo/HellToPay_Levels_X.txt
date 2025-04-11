@@ -7,13 +7,7 @@ defaultmap
 	InterMusic = "$MUSIC_H2PINTER"
 	exitpic = "$in_H2P"
 	enterpic = "$in_H2P"
-}
-
-cluster 96
-{
-	pic = "h2pbossb"
-	music = "$MUSIC_PERTEXT"
-	exittext = lookup, "HPTEXT"
+	F1 = "CREDIT" 
 }
 
 //		Episode 1 Part 1		//

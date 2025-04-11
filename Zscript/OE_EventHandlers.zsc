@@ -208,7 +208,7 @@ class DCX_UOEventHandler : EventHandler
 			
 			if (e.Replacee == 'LiveStick')
 			{
-				e.Replacement = 'DC_Replacer';
+				e.Replacement = 'Actor';
 			}
 			
 			if (e.Replacee == 'PlasmaRifle')

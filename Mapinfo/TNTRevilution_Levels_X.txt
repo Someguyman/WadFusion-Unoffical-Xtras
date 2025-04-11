@@ -8,57 +8,14 @@ defaultmap
 	ExitPic = "tnrinter"
 	enterpic = "tnrinter"
 	intermusic = "$MUSIC_TNRINTER"
-}
-
-//		Clusterdefs		//
-
-clusterdef 62
-{
-	flat = "$BLOOD1"
-	music = "$MUSIC_TNRTEXT"
-	exittext = lookup, "TR_TEXT1"
-}
-
-clusterdef 63
-{
-	flat = "$TEKDARKF"
-	music = "$MUSIC_TNRTEXT"
-	exittext = lookup, "TR_TEXT2"
-}
-
-clusterdef 64
-{
-	flat = "$FLOOR0_4"
-	music = "$MUSIC_TNRTEXT"
-	exittext = lookup, "TR_TEXT3"
-}
-
-clusterdef 65
-{
-	flat = "$ROCKCK1"
-	music = "$MUSIC_TNRTEXT"
-	exittext = lookup, "tr_TEXT4"
-}
-
-clusterdef 66
-{
-	flat = "$METALFL4"
-	music = "$MUSIC_TNRTEXT"
-	entertext = lookup, "TR_TEXT5"
-}
-
-clusterdef 67
-{
-	flat = "$BLUDSOUP"
-	music = "$MUSIC_TNRTEXT"
-	entertext = lookup, "TR_TEXT6"
+	F1 = "TNRCRD2"
 }
 
 //		Episode 1 Part 1		//
 
 adddefaultmap
 {
-	Cluster = 62
+	Cluster = 110
 	sky1 = "TNR_SKY1"
 }
 
@@ -120,7 +77,7 @@ map tr_map06 lookup "TRHUSTR_6"
 
 adddefaultmap
 {
-	Cluster = 63
+	Cluster = 111
 	sky1 = "TNR_SKY1"
 }
 
@@ -175,7 +132,7 @@ map tr_map11 lookup "TRHUSTR_11"
 
 adddefaultmap
 {
-	Cluster = 64
+	Cluster = 112
 	sky1 = "TNR_SKY2"
 }
 
@@ -266,7 +223,7 @@ map tr_map20 lookup "TRHUSTR_20"
 
 adddefaultmap
 {
-	Cluster = 65
+	Cluster = 113
 	sky1 = "TNR_SKY3"
 }
 
@@ -384,8 +341,8 @@ map tr_map31 lookup "TRHUSTR_31"
 	next = "tr_map16"
 	secretnext = "tr_map32"
 	sky1 = "TNR_SKY3"
-	cluster = 66
-	par = 120
+	cluster = 120
+	par = 114
 	Author = "$WS_AU_KRIZIK"
 	music = "$MUSIC_TNRMAP31"
 	Label = "T.N.T REVILUTION, E2M10"
@@ -396,7 +353,7 @@ map tr_map32 lookup "TRHUSTR_32"
 	next = "tr_map16"
 	secretnext = "tr_map16"
 	sky1 = "TNR_SKY3"
-	cluster = 67
+	cluster = 115
 	par = 30
 	Author = "$WS_AU_MULLER_MICAH"
 	music = "$MUSIC_TNRMAP32"

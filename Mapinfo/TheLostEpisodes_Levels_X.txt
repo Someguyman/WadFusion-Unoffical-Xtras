@@ -7,33 +7,12 @@ defaultmap
 	InterMusic = "$MUSIC_INTER"
 	enterpic = "LEINTER"
 	exitpic = "LEINTER"
-}
-
-cluster 85
-{
-	flat = "$bgflat06"
-	music = "D_VICTOR"
-	exittext = lookup, "JE1TEXT"
-
-}
-
-cluster 86
-{
-	flat = "$bgflat11"
-	music = "D_VICTOR"
-	exittext = lookup, "JE2TEXT"
-}
-
-cluster 87
-{
-	flat = "$bgflat20"
-	music = "D_VICTOR"
-	exittext = lookup, "JE3TEXT"
+	F1 = "D1CRED" 
 }
 
 adddefaultmap
 {
-	Cluster = 85
+	Cluster = 128
 	sky1 = "LED_SKY1"
 }
 
@@ -127,7 +106,7 @@ map LE_E1M8 "Callisto Consecration"
 
 adddefaultmap
 {
-	Cluster = 86
+	Cluster = 129
 	sky1 = "LED_SKY2"
 }
 
@@ -221,7 +200,7 @@ map LE_E2M8 "Late For Supper"
 
 adddefaultmap
 {
-	Cluster = 87
+	Cluster = 130
 	sky1 = "SKY3A", 0.4
 	sky2 = "SKY3B", 0.1
 	doublesky

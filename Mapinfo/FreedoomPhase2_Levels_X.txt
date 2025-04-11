@@ -9,57 +9,12 @@ defaultmap
 	InterMusic = "F_DM2INT"
 }
 
-//		Clusterdefs		//
-
-cluster 90
-{
-	flat = "AQF016"
-	exittext = lookup, "F2_TEXT1"
-	music = "F_READ_ME"
-}
-
-cluster 91
-{
-	flat = "AQF001"
-	exittext = lookup, "F2_TEXT2"
-	music = "F_READ_ME"
-
-}
-
-cluster 92
-{
-	flat = "FLAT5_6"
-	exittext = lookup, "F2_TEXT3"
-	music = "F_READ_ME"
-}
-
-cluster 93
-{
-	flat = "SLIME13"
-	exittext = lookup, "F2_TEXT4"
-	music = "F_READ_ME"
-}
-
-cluster 94
-{
-	flat = "AQF004"
-	entertext = lookup, "F2_TEXT5"
-	music = "F_READ_ME"
-}
-
-cluster 95
-{
-	flat = "AQF021"
-	entertext = lookup, "F2_TEXT6"
-	music = "F_READ_ME"
-}
-
 //		Episode 1 Part 1		//
 
 adddefaultmap
 {
 	sky1 = "FDSKY5"
-	cluster = 90
+	cluster = 137
 }
 
 map FD_MAP01 "Hydroelectric Plant"
@@ -116,7 +71,7 @@ map FD_MAP06 "Janus Terminal"
 adddefaultmap
 {
 	sky1 = "FDSKY5"
-	cluster = 91
+	cluster = 138
 }
 
 map FD_MAP07 "Logic Gate"
@@ -165,7 +120,7 @@ map FD_MAP11 "Dimensional Rift Observatory"
 adddefaultmap
 {
 	sky1 = "FDSKY6"
-	cluster = 92
+	cluster = 139
 }
 
 map FD_MAP12 "Railroads"
@@ -246,7 +201,7 @@ map FD_MAP20 "Blood Ember Fortress"
 adddefaultmap
 {
 	sky1 = "FDSKY7"
-	cluster = 93
+	cluster = 140
 }
 
 map FD_MAP21 "Under Realm"
@@ -344,7 +299,7 @@ map FD_MAP31 "Be Quiet"
 	next = "FD_MAP16"
 	secretnext = "FD_MAP32"
 	sky1 = "FDSKY7"
-	cluster = 94
+	cluster = 141
 	par = 120
 	music = "F_EVIL"
 	Label = "FREEDOOM: PHASE 2, E2M10"
@@ -355,7 +310,7 @@ map FD_MAP32 "Not Sure"
 	next = "FD_MAP16"
 	secretnext = "FD_MAP16"
 	sky1 = "FDSKY7"
-	cluster = 95
+	cluster = 142
 	par = 30
 	music = "F_ULTIMA"
 	Label = "FREEDOOM: PHASE 2, E2M11"

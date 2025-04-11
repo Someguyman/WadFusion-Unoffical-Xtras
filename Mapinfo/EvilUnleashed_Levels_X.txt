@@ -7,17 +7,10 @@ defaultmap
 	NoCrouch
 	EnterPic = "$EP5INTE"
 	ExitPic = "$EP5INTE"
-	Cluster = 88
+	Cluster = 109
 	Sky1 = "EU_SKY5"
 	InterMusic = "D_BETA01"
 	Author = "$WS_AU_XASER"
-}
-
-cluster 88
-{
-	flat = "$ceil4_1"
-	music = "D_BETA19"
-	exittext = lookup, "EUTEXT"
 }
 
 map EU_MAP01 "Logos Anomaly"

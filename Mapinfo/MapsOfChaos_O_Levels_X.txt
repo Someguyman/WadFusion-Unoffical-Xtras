@@ -5,6 +5,7 @@ defaultmap
 	SuckTime = 1
 	NoJump
 	NoCrouch
+	F1 = "CREDIT" 
 }
 
 adddefaultmap
@@ -13,7 +14,7 @@ adddefaultmap
 	Sky1 = "SKY1"
 	ExitPic = "$IN_EPI1"
 	InterMusic = "C_INTER"
-	BorderTexture = "FLOOR7_2"
+	BorderTexture = "FLOOR7_2" 
 }
 
 map CO_E1M1 "$HUSTR_E1M1"

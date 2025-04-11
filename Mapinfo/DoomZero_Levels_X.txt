@@ -25,58 +25,15 @@ defaultmap
 	ExitPic = "DZOINTER"
 	enterpic = "DZOINTER"
 	Author = "$WS_AU_GOLDEN"
-}
-
-cluster 201
-{
-	flat = "$BGFLAT06"
-	music = "$MUSIC_DZ0TEXT"
-	exittext = lookup, "IN_DZ1"
-
-}
-
-cluster 202
-{
-	flat = "$BGFLAT11"
-	music = "$MUSIC_DZ0TEXT"
-	exittext = lookup, "IN_DZ2"
-
-}
-
-cluster 203
-{
-	flat = "$BGFLAT20"
-	music = "$MUSIC_DZ0TEXT"
-	exittext = lookup, "IN_DZ3"
-}
-
-cluster 204
-{
-	//pic = "bossback"
-	flat = "MFLR8_1"
-	music = "$MUSIC_DZ0TEXT"
-	exittext = lookup, "IN_DZ4"
-}
-
-cluster 205
-{
-	flat = "$BGFLAT15"
-	music = "$MUSIC_DZ0TEXT"
-	entertext = lookup, "IN_DZ5"
-}
-
-cluster 206
-{
-	flat = "$BGFLAT31"
-	music = "$MUSIC_DZ0TEXT"
-	entertext = lookup, "IN_DZ6"
+	F1 = "DZOCRED"
+	//DZOCRED
 }
 
 //		Episode 1		//
 
 adddefaultmap
 {
-	Cluster = 201
+	Cluster = 122
 	sky1 = "dz0_sky1"
 }
 
@@ -143,7 +100,7 @@ map DZ_MAP06 lookup "DZHUSTR_6"
 
 adddefaultmap
 {
-	Cluster = 202
+	Cluster = 123
 	sky1 = "dz0_sky1"
 }
 
@@ -199,7 +156,7 @@ map DZ_MAP11 lookup "DZHUSTR_11"
 
 adddefaultmap
 {
-	Cluster = 203
+	Cluster = 124
 	sky1 = "dz0_sky2"
 }
 
@@ -291,7 +248,7 @@ map DZ_MAP20 lookup "DZHUSTR_20"
 
 adddefaultmap
 {
-	Cluster = 204
+	Cluster = 125
 	sky1 = "dz0_sky3"
 	//sky1 = "Giygas" 0.5
 }
@@ -414,7 +371,7 @@ map DZ_MAP31 lookup "DZHUSTR_31"
 	secretnext = "DZ_MAP32"
 	titlepatch = "Zwilv30"
 	par = 120
-	Cluster = 205
+	Cluster = 126
 	music = "$MUSIC_DZ0MAP31"
 	forcenoskystretch
 	Label = "DOOM ZERO, E2M10"
@@ -425,7 +382,7 @@ map DZ_MAP32 lookup "DZHUSTR_32"
 	next = "DZ_MAP16"
 	titlepatch = "Zwilv31"
 	par = 30
-	Cluster = 206
+	Cluster = 127
 	music = "$MUSIC_DZ0MAP32"
 	forcenoskystretch
 	Label = "DOOM ZERO, E2M?"
