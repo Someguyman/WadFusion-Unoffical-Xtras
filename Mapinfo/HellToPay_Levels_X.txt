@@ -327,42 +327,49 @@ Intermission H2PCast
 {
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "H2P_MetalHellion"
 		CastName = "Metal Hellion"
 		AttackSound = "Missile", 2, "imp/attack"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "H2P_MechaReaper"
 		CastName = "Mecha Reaper"
 		AttackSound = "Melee", 1, "H2pPinky/Attack"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "H2P_StealthReaper"
 		CastName = "Stealth Reaper"
 		AttackSound = "Melee", 1, "H2pPinky/Attack"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "H2P_LiquidMetalBlob2"
 		CastName = "Liquid Metal Blob"
 		AttackSound = "Missile", 1, "H2pSkull/Attack"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "H2P_Watcher"
 		CastName = "Secuity Watcher"
 		AttackSound = "Missile", 1, "caco/attack"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "H2P_HotLiquidMetal"
 		CastName = "Mass of Molten Metal"
 		AttackSound = "Missile", 2, "H2pSkull/Attack"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "H2P_Sentry"
 		CastName = "Incendiary Sentry"
 		AttackSound = "Missile", 1, "fatso/attack"
@@ -371,6 +378,7 @@ Intermission H2PCast
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "DoomPlayer"
 		CastName = "Our Hero"
 		AttackSound = "Missile", 0, "weapons/sshotf"

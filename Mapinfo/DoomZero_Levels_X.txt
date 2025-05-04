@@ -404,24 +404,29 @@ Intermission DZerocast
 {
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "Zombieman"
 		CastName = "$CC_ZOMBIE"
 		AttackSound = "Missile", 1, "grunt/attack"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "ShotgunGuy"
 		CastName = "$CC_SHOTGUN"
 		AttackSound = "Missile", 1, "shotguy/attack"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "DoomImp"
 		CastName = "$CC_IMP"
 		AttackSound = "Missile", 2, "imp/attack"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
+		Draw = "M_CAST", 39, 5
 		CastClass = "ChaingunGuy"
 		CastName = "$CC_HEAVY"
 		AttackSound = "Missile", 1, "chainguy/attack"
@@ -430,60 +435,70 @@ Intermission DZerocast
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "Demon"
 		CastName = "$CC_DEMON"
 		AttackSound = "Melee", 1, "demon/melee"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "DCX_Spectre"
 		CastName = "Spectre"
 		AttackSound = "Melee", 1, "demon/melee"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "LostSoul"
 		CastName = "$CC_LOST"
 		AttackSound = "Missile", 1, "caco/attack"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "DCX_Alphasoul"
 		CastName = "Alpha Soul"
 		AttackSound = "Missile", 1, "caco/attack"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "Cacodemon"
 		CastName = "$CC_CACO"
 		AttackSound = "Missile", 1, "caco/attack"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "HellKnight"
 		CastName = "$CC_HELL"
 		AttackSound = "Missile", 1, "baron/attack"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "BaronOfHell"
 		CastName = "$CC_BARON"
 		AttackSound = "Missile", 1, "baron/attack"
 	}
-		Cast
+	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "Arachnotron"
 		CastName = "$CC_ARACH"
 		AttackSound = "Missile", 1, "baby/attack"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "PainElemental"
 		CastName = "$CC_PAIN"
 		AttackSound = "Missile", 2, "skull/melee"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "Revenant"
 		CastName = "$CC_REVEN"
 		AttackSound = "Missile", 1, "skeleton/attack"
@@ -492,6 +507,7 @@ Intermission DZerocast
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "Fatso"
 		CastName = "$CC_MANCU"
 		AttackSound = "Missile", 1, "fatso/attack"
@@ -500,12 +516,14 @@ Intermission DZerocast
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "Archvile"
 		CastName = "$CC_ARCH"
 		AttackSound = "Missile", 1, "vile/start"
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "SpiderMastermind"
 		CastName = "$CC_SPIDER"
 		AttackSound = "Missile", 1, "spider/attack"
@@ -513,6 +531,7 @@ Intermission DZerocast
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "Cyberdemon"
 		CastName = "$CC_CYBER"
 		AttackSound = "Missile", 1, "weapons/rocklf"
@@ -521,6 +540,7 @@ Intermission DZerocast
 	}
 	Cast
 	{
+		Draw = "M_CAST", 39, 5
 		CastClass = "DoomPlayer"
 		CastName = "Our Hero"
 		AttackSound = "Missile", 0, "weapons/sshotf"

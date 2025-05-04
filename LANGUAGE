@@ -80,24 +80,24 @@ WS_AU_UNKNOWN = "???";
 
 EVIL_UNLEASHED = "\c[RED]Evil Unleashed";
 
-FREED1_EP01 = "\c[RED]Outpost Outbreak";
-FREED1_EP02 = "\c[RED]Military Labs";
-FREED1_EP03 = "\c[RED]Event Horizon";
-FREED1_EP04 = "\c[RED]Double Impact";
+FREED1_EP01 = "\c[ICE]Outpost Outbreak";
+FREED1_EP02 = "\c[ICE]Military Labs";
+FREED1_EP03 = "\c[ICE]Event Horizon";
+FREED1_EP04 = "\c[ICE]Double Impact";
 
-FREED2_EP01 = "\c[RED]Hallowed Scraps";
-FREED2_EP02 = "\c[RED]Monsteropolis";
-FREED2_EP03 = "\c[RED]Final Freedom";
+FREED2_EP01 = "\c[ICE]Hallowed Scraps";
+FREED2_EP02 = "\c[ICE]Monsteropolis";
+FREED2_EP03 = "\c[ICE]Final Freedom";
 
-FREEDM = "\c[GOLD]Bonus: \c[RED]FreeDoom DeathMatch";
+FREEDM = "\c[GOLD]Bonus: \c[ICE]FreeDoom DeathMatch";
 
 LOSTE_EP01 = "\c[Green]Massacre on Callisto";
 LOSTE_EP02 = "\c[Green]The Killing Fields of Io";
 LOSTE_EP03 = "\c[Green]Hell's Gate - The Red Spot";
 
-PERD_G_EP1 = "\c[RED]The Earth Gates";
-PERD_G_EP2 = "\c[RED]World of the Ancients";
-PERD_G_EP3 = "\c[RED]Planet Hell";
+PERD_G_EP1 = "\c[Brick]The Earth Gates";
+PERD_G_EP2 = "\c[Brick]World of the Ancients";
+PERD_G_EP3 = "\c[Brick]Planet Hell";
 
 HELL2P_EP1 = "\c[Fire]Enslaved Homeword";
 HELL2P_EP2 = "\c[Fire]Planetary Voyage";
@@ -110,7 +110,7 @@ TNTR_EPI03 = "\c[Orange]Revolutionary Hell";
 PLUTONIA2_EPI01 = "\c[DarkGreen]Guerrilla Warfare";
 PLUTONIA2_EPI02 = "\c[DarkGreen]Hemoptic Hurricane";
 PLUTONIA2_EPI03 = "\c[DarkGreen]Satan's Coloney";
-PLUTONIA2_BONUS = "\c[GOLD]Bonus: \c[DarkBrown]Choclate";
+PLUTONIA2_BONUS = "\c[GOLD]Bonus: \c[DarkGreen]Choclate";
 
 DZERO_EPI01 = "\c[GREY]Zeroing In";
 DZERO_EPI02 = "\c[GREY]Though Hell And Back";
