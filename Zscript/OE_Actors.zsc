@@ -147,17 +147,15 @@ Class PG_BOMBdet : BossEye
 Class PG_AmbientKlaxon : Actor
 {
 	Default
-	{
+	{	
 		Radius 8;
 		Height 16;
+		+LOOKALLAROUND
 	}
 	states
 	{
 	spawn:
-		TNT1 A 1 A_Look;
-		loop;
-	see:
-		TNT1 A 35 A_Startsound("world/Klaxon");
+		TNT1 A 35 A_Startsound("world/Klaxon", CHAN_BODY, CHANF_DEFAULT, 1.0, ATTN_NONE);
 		loop;
 	}
 }

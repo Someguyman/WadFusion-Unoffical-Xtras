@@ -76,12 +76,6 @@ episode GBA_DM1
 	Optional
 }
 
-episode OneHumanity
-{
-	Name = "$BONUS_HUMAN"
-	Optional
-}
-
 //		Doom 2 Episodes		//
 
 //	Hell on earth	//
@@ -134,6 +128,12 @@ episode LR_MAP08
 episode DM_MAP01
 {
 	Name = "$BONUS_KEXDM"
+	Optional
+}
+
+episode OneHumanity
+{
+	Name = "$BONUS_HUMAN"
 	Optional
 }
 
