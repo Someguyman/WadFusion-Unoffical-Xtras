@@ -148,7 +148,7 @@ cluster 127
 cluster 128
 {
 	flat = "$bgflat06"
-	music = "D_VICTOR"
+	music = "$MUSIC_LOST_TEXT"
 	exittext = lookup, "JE1TEXT"
 
 }
@@ -156,14 +156,14 @@ cluster 128
 cluster 129
 {
 	flat = "$bgflat11"
-	music = "D_VICTOR"
+	music = "$MUSIC_LOST_TEXT"
 	exittext = lookup, "JE2TEXT"
 }
 
 cluster 130
 {
 	flat = "$bgflat20"
-	music = "D_VICTOR"
+	music = "$MUSIC_LOST_TEXT"
 	exittext = lookup, "JE3TEXT"
 }
 
