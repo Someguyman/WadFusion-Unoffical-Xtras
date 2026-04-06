@@ -135,59 +135,87 @@ EUTEXT =
 "deliver the goods. It's about time to\n"
 "show those bastards what Hell truly is!";
 
+MUSIC_L1M1 = "L1M1";
+MUSIC_L1M2 = "L1M2";
+MUSIC_L1M3 = "L1M3";
+MUSIC_L1M4 = "L1M4";
+MUSIC_L1M5 = "L1M5";
+MUSIC_L1M6 = "L1M6";
+MUSIC_L1M7 = "L1M7";
+MUSIC_L1M8 = "L1M8";
+
+MUSIC_L2M1 = "L2M1";
+MUSIC_L2M2 = "L2M2";
+MUSIC_L2M3 = "L2M3";
+MUSIC_L2M4 = "L2M4";
+MUSIC_L2M5 = "L2M5";
+MUSIC_L2M6 = "L2M6";
+MUSIC_L2M7 = "L2M7";
+MUSIC_L2M8 = "L2M8";
+
+MUSIC_L3M1 = "L3M1";
+MUSIC_L3M2 = "L3M2";
+MUSIC_L3M3 = "L3M3";
+MUSIC_L3M4 = "L3M4";
+MUSIC_L3M5 = "L3M5";
+MUSIC_L3M6 = "L3M6";
+MUSIC_L3M7 = "L3M7";
+MUSIC_L3M8 = "L3M8";
+
+MUSIC_LOST_START = "L_TITL";
+MUSIC_LOST_INTER = "L_INTR";
+MUSIC_LOST_TEXT = "L_VICT";
+MUSIC_LOST_END = "L_BUNN";
+
 JE1TEXT =
-"You've beaten back the demon hordes and\n"
-"cleared out the Callisto moon base.\n"
-"At this point it'd be wishful thinking to\n"
-"believe that the battle was already over.\n"
-"The harsh reality still lingers as all of\n"
-"your friends are still dead.\n"
+"Overcoming insurmountable odds, you have\n"
+"left the Massacre on Callisto behind you.\n"
 "\n"
-"As you stand victorious, you can't help\n"
-"but feel that it was all in vain. That\n"
-"even with everything you've accomplished,\n"
-"you couldn't save anyone.\n"
+"Unable to locate the focus of the hellish\n"
+"forces, you get back on your ship and\n"
+"blast off. But no sooner are you flying\n"
+"high above Callisto when your scanners\n"
+"detect abnormal energy fluctuations form\n"
+"Jupiter's innermost moon, Io.\n"
 "\n"
-"Now you've been teleported to the\n"
-"devestated Io base, and it reeks like a\n"
-"pile of festering corpses. With the death\n"
-"of your colleagues still fresh in your mind,\n"
-"you press on to the Killing Fields of Io.\n";
+"You could ignore the readings and attempt\n"
+"to reach the Martian colonies.\n"
+"But the emergency radio signals from\n"
+"Martian space have stopped.  Why?\n"
+"Once again, you are forced into a quick\n"
+"decision.\n"
+"Io, here you go.\n";
 
 JE2TEXT =
-"You've laid waste to the demons of Io and\n"
-"their Cyberdemon master. With the area now\n"
-"cleared, you discover a hidden portal deep\n"
-"within the base. With nothing left to lose,\n"
-"you pass through and find yourself in a\n"
-"strange facility you've never seen before\n"
-"in your life.\n"
-"\n"
-"You check your automap and discover a\n"
-"shocking truth. You are now inside the\n"
-"Red Spot of Jupiter! Here you discover that\n"
-"the demons are using the giant storm as a\n"
-"gateway into our dimension. Now you need to\n"
-"close it for good.\n"
-"\n"
-"The final battle begins at Hell's Gate!\n";
+"Climbing aboard your interplanetary\n"
+"capsule, you begin to plot a course to\n"
+"Earth. But then you ask yourself, is the\n"
+"Red Spot of Jupiter the epicenter of the\n"
+"strange force behind the Anomalies?\n"
+"Is the Red Spot the gateway to Hell?\n\n"
+"Should you venture to find out?\n\n"
+"Ultimately, your scientific curiosity\n"
+"wins out and your desire to put an end\n"
+"to the hellish nightmare.\n\n"
+"You have no idea what you may find once\n"
+"you get there ... if you survive the ride\n"
+"through the red eye. But one thing is for\n"
+"certain, you won't go down without a fight.";
 
 JE3TEXT =
-"The merciless Spiderdemon that lead the\n"
-"destruction of the Jovian moons has\n"
-"finally met its fiery demise. Your friends\n"
-"can now rest in peace knowing that their\n"
-"lives have been avenged.\n"
-"\n"
-"A portal suddenly appears and you quickly\n"
-"enter it. Behind you, you see the mysterious\n"
-"facilty trapped in Jupiter's Red Spot slowly\n"
-"fade into the planet's endless storm. The\n"
-"portal then disappears, and you look around\n"
-"to see the wondrous mountains of Earth!\n"
-"But the homecoming is bittersweet as the\n"
-"demons have invaded Earth. Weapons in hand,\n"
-"you return to battle one last time.\n";
+"In the aftermath of your whirlwind tour,\n"
+"words seem somewhat void of much meaning.\n\n"
+"The things you've seen, the places you've\n"
+"been, the horror, the unspeakable.\n"
+"Somehow you survived The Lost Episodes of\n"
+"Doom. You've descended into the bowels of\n"
+"Hell and have come out with your soul\n"
+"intact.\n\n"
+"The gateway to Hell is sealed forever\n"
+"...you hope.\n\n"
+"What awaits you back in Earth?\n"
+"You can only guess. All you know is that\n"
+"things can never be the same again.";
 
 MUSIC_PERINTER = "INTERG";
 MUSIC_H2PINTER = "INTERH";
