@@ -282,7 +282,7 @@ map tr_map26 lookup "TRHUSTR_26"
 	next = "tr_map27"
 	secretnext = "tr_map27"
 	par = 300
-	Author = "$" //
+	Author = "$WS_AU_MIONIC" //
 	music = "$MUSIC_TNRMAP26"
 	Label = "T.N.T REVILUTION, E3M6"
 }
@@ -292,7 +292,7 @@ map tr_map27 lookup "TRHUSTR_27"
 	next = "tr_map28"
 	secretnext = "tr_map28"
 	par = 330
-	Author = "$WS_AU_MIONIC"
+	Author = "$WS_AU_FREI_KNEZEVICH"
 	music = "$MUSIC_TNRMAP27"
 	Label = "T.N.T REVILUTION, E3M7"
 }

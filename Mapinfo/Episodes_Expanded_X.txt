@@ -1,7 +1,5 @@
 clearepisodes
 
-//		Doom 1 Episodes		//
-
 episode WF_NEWGAME_E1M1
 {
 	Name = "$DOOM1_EPI01"
@@ -22,6 +20,8 @@ episode WF_NEWGAME_E3M1
 	PicName = "M_EPI3"
 	Optional
 }
+
+// Doom 1 Expansions //
 
 episode WF_NEWGAME_E4M1
 {
@@ -73,7 +73,6 @@ episode GBA_DM1
 episode WF_NEWGAME_MAP01
 {
 	Name = "$DOOM2_EPI01"
-	PicName = "M_HELL"
 	Optional
 }
 
@@ -89,12 +88,16 @@ episode WF_NEWGAME_MAP21
 	Optional
 }
 
+//	Doom 2 Expansions	//
+
 episode WF_NEWGAME_NV_MAP01
 {
 	Name = "$DOOM2_EPI04"
 	PicName = "M_NOREST"
 	Optional
 }
+
+//	Legacy of Rust	//
 
 episode WF_NEWGAME_LR_MAP01
 {
@@ -110,6 +113,8 @@ episode WF_NEWGAME_LR_MAP08
 	Optional
 }
 
+//	Bonus Doom 2 maps	//
+
 episode DM_MAP01
 {
 	Name = "$BONUS_KEXDM"
@@ -119,6 +124,12 @@ episode DM_MAP01
 episode OneHumanity
 {
 	Name = "$BONUS_HUMAN"
+	Optional
+}
+
+episode WF_NEWGAME_KA_MAP
+{
+	Name = "$BONUS_KICKATTACK"
 	Optional
 }
 
@@ -142,6 +153,8 @@ episode WF_NEWGAME_AB_MAP21
 	Optional
 }
 
+//	Bonus Doom 64 maps	//
+
 episode AB_MAP33
 {
 	Name = "$BONUS_TITLE"
@@ -150,33 +163,49 @@ episode AB_MAP33
 
 //		Doom Zero Episodes		//
 
-episode dz_map01
+episode WF_NEWGAME_DZ_MAP01
 {
 	Name = "$DZERO_EPI01"
 	PicName = "M_ZERO"
 	optional
 }
 
-episode dz_map12
+episode WF_NEWGAME_DZ_MAP12
 {
 	Name = "$DZERO_EPI02"
 	PicName = "M_ZERO"
 	optional
 }
 
-episode dz_map21
+episode WF_NEWGAME_DZ_MAP21
 {
 	Name = "$DZERO_EPI03"
 	PicName = "M_ZERO"
 	optional
 }
 
-//		Master Levles		//
+//		Master Levels		//
 
 episode WF_NEWGAME_ML_MAP01
 {
 	Name = "$WF_CAMPAIGN_MASTER"
 	PicName = "M_MASTER"
+	Optional
+}
+
+/*
+episode ML_MAP37
+{
+	Name = "$MASTER_LV05"
+	PicName = "M_MASTR6"
+	Optional
+}
+*/
+
+episode INTER_MLCS
+{
+	Name = "$MASTER_LV05"
+	PicName = "M_MASTR6"
 	Optional
 }
 
@@ -220,19 +249,19 @@ episode WF_NEWGAME_TN_MAP21
 
 //	Revilution Episodes	//
 
-episode TR_MAP01
+episode WF_NEWGAME_TR_MAP01
 {
 	Name = "$TNTR_EPI01"
 	Optional
 }
 
-episode TR_MAP12
+episode WF_NEWGAME_TR_MAP12
 {
 	Name = "$TNTR_EPI02"
 	Optional
 }
 
-episode TR_MAP21
+episode WF_NEWGAME_TR_MAP21
 {
 	Name = "$TNTR_EPI03"
 	Optional
@@ -262,19 +291,19 @@ episode WF_NEWGAME_PL_MAP21
 
 //	Plutonia 2 Episodes	//
 
-episode PT_MAP01
+episode WF_NEWGAME_PT_MAP01
 {
 	Name = "$PLUTONIA2_EPI01"
 	Optional
 }
 
-episode PT_MAP12
+episode WF_NEWGAME_PT_MAP12
 {
 	Name = "$PLUTONIA2_EPI02"
 	Optional
 }
 
-episode PT_MAP21
+episode WF_NEWGAME_PT_MAP21
 {
 	Name = "$PLUTONIA2_EPI03"
 	Optional
@@ -288,19 +317,19 @@ episode PT_MAP33
 
 //		The Lost Episodes of Doom		//
 
-episode LE_E1M1
+episode WF_NEWGAME_LE_E1M1
 {
 	Name = "$LOSTE_EP01"
 	Optional
 }
 
-episode LE_E2M1
+episode WF_NEWGAME_LE_E2M1
 {
 	Name = "$LOSTE_EP02"
 	Optional
 }
 
-episode LE_E3M1
+episode WF_NEWGAME_LE_E3M1
 {
 	Name = "$LOSTE_EP03"
 	Optional
@@ -308,19 +337,19 @@ episode LE_E3M1
 
 //		Perditions Gate		//
 
-episode PG_MAP01
+episode WF_NEWGAME_PG_MAP01
 {
 	Name = "$PERD_G_EP1"
 	Optional
 }
 
-episode PG_MAP12
+episode WF_NEWGAME_PG_MAP12
 {
 	Name = "$PERD_G_EP2"
 	Optional
 }
 
-episode PG_MAP21
+episode WF_NEWGAME_PG_MAP21
 {
 	Name = "$PERD_G_EP3"
 	Optional
@@ -328,20 +357,20 @@ episode PG_MAP21
 
 //		Hell 2 pay		//
 
-episode HP_MAP01
+episode WF_NEWGAME_HP_MAP01
 {
 	Name = "$HELL2P_EP1"
 	Optional
 	Intro { Video = "movies/HELL2PAYINTRO.IVF" Sound = "movies/HELL2PAYINTRO.OGG" } //The Only one with an intro like this.
 }
 
-episode HP_MAP12
+episode WF_NEWGAME_HP_MAP12
 {
 	Name = "$HELL2P_EP2"
 	Optional
 }
 
-episode HP_MAP21
+episode WF_NEWGAME_HP_MAP21
 {
 	Name = "$HELL2P_EP3"
 	Optional

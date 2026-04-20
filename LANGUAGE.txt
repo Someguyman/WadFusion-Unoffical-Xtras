@@ -1,0 +1,849 @@
+[enu default]
+
+//	Perditions Gate
+WS_AU_MUSTAIN_MUSTAINESR = "Tom & Bob Mustaine";
+WS_AU_MUSTAIN_SIEBEN = "Tom Mustaine & Jimmy Sieben";
+WS_AU_MUSTAIN_MUSTAINESR_SIEBEN = "Tom & Bob Mustaine, Jimmy Sieben";
+WS_AU_MUSTAINESR = "Bob Mustaine";
+WS_AU_MCCANDLISH = "Mackey McCandlish";
+WS_AU_MUSTAIN_MCCANDLISH = "Tom Mustaine & Mackey McCandlish";
+
+WS_AU_GUSTA = "Adolf Vojta (Gusta)";
+WS_AU_PIPICZ = "Pavel Tvrzník (Pipicz)";
+WS_AU_FREDRICK = "Fredrik Johansson";
+WS_AU_METABOLIST = "Sam Woodman (Metabolist)";
+WS_AU_PEROXYD = "Vincent Catalaá (Peroxyd)";
+WS_AU_KIRA = "Charly Goulois (Kira)";
+WS_AU_TANGO = "Tango";
+WS_AU_RABOTIK = "Thomas van der Velden (Rabotik)";
+WS_AU_KRISTUS = "Kristian Käll (Kristus)";
+WS_AU_PAGB666 = "Pedro Arturo Gomez Blanco (PAGB666)";
+WS_AU_ETERNAL = "Alexander S. (Eternal)";
+WS_AU_JAKUBR = "Jakub Razák";
+WS_AU_ANGUS = "Jochen Schneidau (Angus)";
+WS_AU_ERIK = "Erik Alm";
+WS_AU_PALLAI = "Joe Pallai";
+WS_AU_VIRGIL = "Vick Bobkov (Virgil the Doom Poet)";
+WS_AU_BAKER = "Eric Baker (The Green Herring)";
+
+WS_AU_GUSTA_PIPICZ = "Gusta & Pipicz";
+WS_AU_METABOLIST_PEROXYD = "Metabolist & Peroxyd";
+WS_AU_KIRA_PEROXYD = "Kira & Peroxyd";
+WS_AU_GUSTA_RABOTIK = "Gusta and Rabotik";
+WS_AU_KrRaMePa = "Kristus, Rabotik, Metabolist, and PAGB666";
+WS_AU_FrGuMe = "Fredrik, Gusta, and Metabolist";
+WS_AU_MeJaPe = "Metabolist, Jakub, and Peroxyd";
+WS_AU_ANGUS_GUSTA = "Angus and Gusta";
+WS_AU_ERIK_GUSTA = "Erik and Gusta";
+WS_AU_MeViRa = "Metabolist, Virgil, and Rabotik";
+WS_AU_KIRA_RABOTIK = "Kira and Rabotik";
+
+WS_AU_UNI = "Uni \"SFoZ911\"";
+WS_AU_BRAYDEN = "Brayden \"AD_79\" Hart";
+WS_AU_HANSEN = "Christian Nygaard Hansen";
+WS_AU_DUFF = "Steve Duff";
+WS_AU_MICAH = "Micah \"Jaws in Space\" Petersen";
+WS_AU_XENO_MULLER_STEFFIN_MICAH = "XenoNemisis, Steve \"Kyka\" Muller, Darryl Steffen, and Micah Petersen.";
+WS_AU_POWELL = "Matt \"Cannonball\" Powell";
+WS_AU_SINCITY_STEFFIN = "\"sincity2100\" & Darryl Steffen";
+WS_AU_WHOO_MICAH = "\"Whoo\", Steve Muller, and Micah Petersen";
+WS_AU_LOPEX_MULLER = "Roberto \"Gothic\" Lopez & Steve Muller";
+WS_AU_SEIFERT = "Thomas \"Tourniquet\" Seifert";
+WS_AU_BUNNY_MULLER_MEGAMUR_STEFFEN = "\"Stupid Bunny\",  Steve Muller, \"Megamur\", and Darryl Steffen";
+WS_AU_D_GARG_MICAH = "\"D_GARG\" & Micah Petersen";
+WS_AU_STEFFIN = "Darryl \"Dobu gabu maru\" Steffen";
+WS_AU_BOURKE = "Chris \"Purist\" Bourke";
+WS_AU_ALEXANDER = "Alexander \"Eternal\" S";
+WS_AU_GASPE = "Gaspe";
+WS_AU_CRESSWELL = "James \"Phobus\" Cresswell";
+WS_AU_ERADROP = "\"Eradrop\"";
+WS_AU_OlLYMPUS_MULLER_STEFFIN = "\"Olympus\", Steve Muller, and Darryl Steffen";
+WS_AU_KRIZIK = "Michael Jan \"Valkiriforce\" Krizik";
+WS_AU_MIONIC = "\"TheMionicDonut\"";
+WS_AU_FREI_KNEZEVICH = "Richard \"Tarnsman\" Frei & Gus \"Alfonzo\" Knezevich";
+WS_AU_PINCHY = "\"Pinchy\"";
+WS_AU_CALDWELL = "James \"Obsidian\" Caldwell & Darryl Steffen";
+WS_AU_MULLER_MICAH = "Steve Muller & Micah Petersen";
+
+//The Lost Episodes Of Doom
+WS_AU_CARTER = "Bob Carter";
+
+//Doom: the lost episode (Evil Unleashed)
+WS_AU_XASER = "Xaser\"The Conquerer\" Acheron";
+
+//Doom Zero
+WS_AU_GOLDEN = "Christopher \"DASI-I\" Golden";
+
+
+//	AUTHOR UNKNOWN
+WS_AU_UNKNOWN = "???";
+
+EVIL_UNLEASHED = "\c[RED]Evil Unleashed";
+
+FREED1_EP01 = "\c[ICE]Outpost Outbreak";
+FREED1_EP02 = "\c[ICE]Military Labs";
+FREED1_EP03 = "\c[ICE]Event Horizon";
+FREED1_EP04 = "\c[ICE]Double Impact";
+
+FREED2_EP01 = "\c[ICE]Hallowed Scraps";
+FREED2_EP02 = "\c[ICE]Monsteropolis";
+FREED2_EP03 = "\c[ICE]Final Freedom";
+
+FREEDM = "\c[GOLD]Bonus: \c[ICE]FreeDoom DeathMatch";
+
+LOSTE_EP01 = "\c[Green]Massacre on Callisto";
+LOSTE_EP02 = "\c[Green]The Killing Fields of Io";
+LOSTE_EP03 = "\c[Green]Hell's Gate - The Red Spot";
+
+PERD_G_EP1 = "\c[Brick]The Earth Gates";
+PERD_G_EP2 = "\c[Brick]World of the Ancients";
+PERD_G_EP3 = "\c[Brick]Planet Hell";
+
+HELL2P_EP1 = "\c[Fire]Enslaved Homeword";
+HELL2P_EP2 = "\c[Fire]Planetary Voyage";
+HELL2P_EP3 = "\c[Fire]Return To Planet Hell";
+
+TNTR_EPI01 = "\c[Orange]The Demonic Fleet";
+TNTR_EPI02 = "\c[Orange]Astroid Rampage";
+TNTR_EPI03 = "\c[Orange]Revolutionary Hell";
+
+PLUTONIA2_EPI01 = "\c[DarkGreen]Guerrilla Warfare";
+PLUTONIA2_EPI02 = "\c[DarkGreen]Hemoptic Hurricane";
+PLUTONIA2_EPI03 = "\c[DarkGreen]Satan's Coloney";
+PLUTONIA2_BONUS = "\c[GOLD]Bonus: \c[DarkGreen]Choclate";
+
+DZERO_EPI01 = "\c[GREY]Zeroing In";
+DZERO_EPI02 = "\c[GREY]Though Hell And Back";
+DZERO_EPI03 = "\c[GREY]Realms Of The Wicked";
+
+BONUS_KICKATTACK = "\c[GOLD]Bonus: \c[DarkGreen]Kick Attack";
+
+EUTEXT =  
+"The smoking carcass of the carnivorous\n"
+"arachnid sizzles and slides to the floor\n"
+"with a sickening plop. The end, fiend.\n"
+"As walls and winds shift back into place,\n"
+"you simply can't hide a grin. Even Hell's\n"
+"ace of spades, the maniacal Void Lords,\n"
+"folded in the face of your hand. Their\n"
+"powers gone, this ghostly dimension\n"
+"begins to fade before your very eyes.\n"
+"You can't stifle a laugh, mocking Hell's\n"
+"champions, glory for all eternity.\n"
+"\n"
+"Grunting and heaving, you slowly rise to\n"
+"your feet. All that's left is Earth. If\n"
+"it's trouble the demons want, you'll\n"
+"deliver the goods. It's about time to\n"
+"show those bastards what Hell truly is!";
+
+JE1TEXT =
+"You've beaten back the demon hordes and\n"
+"cleared out the Callisto moon base.\n"
+"At this point it'd be wishful thinking to\n"
+"believe that the battle was already over.\n"
+"The harsh reality still lingers as all of\n"
+"your friends are still dead.\n"
+"\n"
+"As you stand victorious, you can't help\n"
+"but feel that it was all in vain. That\n"
+"even with everything you've accomplished,\n"
+"you couldn't save anyone.\n"
+"\n"
+"Now you've been teleported to the\n"
+"devestated Io base, and it reeks like a\n"
+"pile of festering corpses. With the death\n"
+"of your colleagues still fresh in your mind,\n"
+"you press on to the Killing Fields of Io.\n";
+
+JE2TEXT =
+"You've laid waste to the demons of Io and\n"
+"their Cyberdemon master. With the area now\n"
+"cleared, you discover a hidden portal deep\n"
+"within the base. With nothing left to lose,\n"
+"you pass through and find yourself in a\n"
+"strange facility you've never seen before\n"
+"in your life.\n"
+"\n"
+"You check your automap and discover a\n"
+"shocking truth. You are now inside the\n"
+"Red Spot of Jupiter! Here you discover that\n"
+"the demons are using the giant storm as a\n"
+"gateway into our dimension. Now you need to\n"
+"close it for good.\n"
+"\n"
+"The final battle begins at Hell's Gate!\n";
+
+JE3TEXT =
+"The merciless Spiderdemon that lead the\n"
+"destruction of the Jovian moons has\n"
+"finally met its fiery demise. Your friends\n"
+"can now rest in peace knowing that their\n"
+"lives have been avenged.\n"
+"\n"
+"A portal suddenly appears and you quickly\n"
+"enter it. Behind you, you see the mysterious\n"
+"facilty trapped in Jupiter's Red Spot slowly\n"
+"fade into the planet's endless storm. The\n"
+"portal then disappears, and you look around\n"
+"to see the wondrous mountains of Earth!\n"
+"But the homecoming is bittersweet as the\n"
+"demons have invaded Earth. Weapons in hand,\n"
+"you return to battle one last time.\n";
+
+MUSIC_PERINTER = "INTERG";
+MUSIC_H2PINTER = "INTERH";
+MUSIC_PERTEXT = "READPER";
+MUSIC_PEREND = "SUBTOX";
+
+MUSIC_PERMAP01 = "TIME";
+MUSIC_PERMAP02 = "OMINOS";
+MUSIC_PERMAP03 = "PEAMKR";
+MUSIC_PERMAP04 = "STRDRK";
+MUSIC_PERMAP05 = "HSEPWR";
+MUSIC_PERMAP06 = "SUBTOX";
+MUSIC_PERMAP07 = "LIQUID";
+MUSIC_PERMAP08 = "FSHFLD";
+MUSIC_PERMAP09 = "RBYSUT";
+MUSIC_PERMAP10 = "PLUCK";
+MUSIC_PERMAP11 = "NASTY";
+MUSIC_PERMAP12 = "CRUISN";
+MUSIC_PERMAP13 = "CTRLCV";
+MUSIC_PERMAP14 = "FSHFLD";
+MUSIC_PERMAP15 = "RISASH";
+MUSIC_PERMAP16 = "EVLOPE";
+MUSIC_PERMAP17 = "PLUCK";
+MUSIC_PERMAP18 = "NASTY";
+MUSIC_PERMAP19 = "PEAMKR";
+MUSIC_PERMAP20 = "HEDSHO";
+MUSIC_PERMAP21 = "RBYSUT";
+MUSIC_PERMAP22 = "THUMPR";
+MUSIC_PERMAP23 = "LIQUID";
+MUSIC_PERMAP24 = "PLUCK";
+MUSIC_PERMAP25 = "TOOTH";
+MUSIC_PERMAP26 = "HSEPWR";
+MUSIC_PERMAP27 = "JAVILN";
+MUSIC_PERMAP28 = "NASTY";
+MUSIC_PERMAP29 = "FSHFLD";
+MUSIC_PERMAP30 = "BOMRUS";
+MUSIC_PERMAP31 = "SUBTOX";
+MUSIC_PERMAP32 = "STRDRK";
+
+PGTEXT = 
+"The planet decimating bomb ment for\n"
+"earth explodes behind you as you sprint\n"
+"for the teleporter in front of you,\n"
+"Praying that it's a way back home,\n"
+"or at least out of this place...\n"
+"\n"
+"Is the end?";
+
+HPTEXT = 
+"As the last shards of planet hell\n"
+"are vaporized, you smile with grim\n"
+"satisfaction. You've doomed the\n"
+"hellians to extincion and ended\n"
+"their threat once and for all.\n"
+"\n"
+"Although the task of rebuilding earth\n"
+"will take years, you look forward to\n"
+"returning to california.\n"
+"\n"
+"But then you realize the next big quake\n"
+"is long overdue...";
+		 
+
+
+F1_TEXT1 = 
+"Free at last from that dreadful outpost!\n"
+"But you're still stuck on this rock, with\n"
+"the UAC and all their monstrous "experiments."\n"
+"Best not to dwell on what evil horrors\n"
+"they were going to create from you...\n"
+"\n"
+"You need a functioning starship to\n"
+"get back to Earth. The best chance at\n"
+"one is the facility they had you in\n"
+"when they first brought you planetside.\n"
+"When they first gave you your powers.\n"
+ "\n"
+"When the nightmare first began...\n"
+"\n"
+"Perfect time for the teleporter to\n"
+"glitch out your gear as you get ready\n"
+"to raid the Military Labs.";
+
+F1_TEXT2 =  
+"The remains of the massive brutes splat\n"
+"onto the ground, dripping blood bit by bit.\n"
+"The starport is yours.\n"
+"\n"
+"But no ship: the launch bay sits empty,\n"
+"leaving only a massive teleporter pad.\n"
+"Limited inorganics. Fixed destination.\n"
+"\n"
+"The name suggests it's probably the new\n"
+"AGM ship hub in this remote star cluster.\n"
+"Bastards owe you for what they've done,\n"
+"so what even is interstellar piracy\n"
+"but a bit of D.I.Y. law enforcement?\n"
+"\n"
+"You board the platform and fade away.\n"
+"Next stop: Horizon.";
+
+F1_TEXT3 =  
+"The abomination explodes into oblivion.\n"
+"What the hell even was that?\n"
+"\n"
+"As the shadow sets over this red rock,\n"
+"you realize that you're now trapped here.\n"
+"At least you've got more space in this\n"
+"wasteland than your old cell.\n"
+"\n"
+"You kick the corpse in anger, and it feels\n"
+"good. You kick it again, and a remote falls\n"
+"out. You press the button, and the ground\n"
+"gives way to reveal a teleporter. You look\n"
+"at the gizmo - it says "To Double Impact."\n"
+"\n"
+"Wherever or whatever that is, you pray\n"
+"to any listening deity that there's\n"
+"a working ship on the other side.";
+
+F1_TEXT4 = 	
+"Suppressing fire echoes above as the last\n"
+"survivors flee the ship. The launch process\n"
+"is irreversible: killing you now would only\n"
+"bring a slow death drifting through space.\n"
+"\n"
+"Fifty-nine. Fifty-eight. Fifty-seven. .  .\n"
+"You melt into the pilot's seat, lost in the\n"
+"voice of an automated assembly of angels\n"
+"delivering you from this wretched rock.\n"
+"\n"
+"The ship rumbles as she wakes up;\n"
+"you think of Earth as she lifts off.\n"
+"Hopefully the UAC won't find you there:\n"
+"they've got the outbreak to deal with,\n"
+"so that'll give you some time.\n"
+"\n"
+"Destination: Earth!";
+
+
+
+F2_TEXT1 =  
+"Not even Earth is safe. The monsters show\n"
+"up ahead of you everywhere you run.\n"
+"Where are they even coming from?\n"
+"\n"
+"Despite all the other destruction they've\n"
+"wrought, the teleportation infrastructure\n"
+"remains intact - you might be able to\n"
+"get back to civilization this way.\n"
+"\n"
+"You find an old pad and boot it up.\n"
+"Connection live. Handshake established.\n"
+"\n"
+"Growling and chittering on the intercom.\n"
+"\n"
+"Planted your feet.\n"
+"Checked your weapons.\n"
+"Time to punch through.";
+
+F2_TEXT2 =  
+"You didn't find anyone alive. Again.\n"
+"\n"
+"The fighting is taking its toll on you.\n"
+"The pain. The brutality. The loneliness.\n"
+"There's got to be a way to somewhere,\n"
+"something that isn't... this.\n"
+"\n"
+"A train rumbles in the distance.\n"
+"\n"
+"You follow the sound down the empty road\n"
+"and reach the edge of a railyard.\n"
+"\n"
+"Trains mean cities.\n"
+"Cities mean people.\n"
+"\n"
+"Right?";
+
+F2_TEXT3 =  
+"Here is no UAC but only monsters.\n"
+"Monsters, no humans and dusty days\n"
+"sleeping in old ruins and eating scraps.\n"
+"No one has escaped this wasteland alive.\n"
+"\n"
+"You've been tracking their movements.\n"
+"UAC records and demon scrawlings point\n"
+"to something big worming its way through\n"
+"the entire teleportation network.\n"
+"Sending its nightmare armies of brain-\n"
+"scrambled sapients - including humans -\n"
+"to conquer all known space.\n"
+"\n"
+"And now you're fighting at its doorstep.\n\n"
+"This could be the beginning\n"
+"of your freedom - or your doom.";
+
+F2_TEXT4 =  
+"The evil thing becomes unstable.\n"
+"Its final roars echo throughout the room\n"
+"until it crumples into scrap metal.\n"
+"\n"
+"A targeting portal opens, blissfully\n"
+"unaware of its master's demise.\n"
+"\n"
+"On the other side you see a small town.\n"
+"You ditch your weapons and slip through,\n"
+"leaving the UAC and all its horrors behind.\n"
+"\n"
+"No one will know who saved them.\n"
+"\n"
+"No one will know what happened here.\n"
+"\n"
+"No one will ever find you again.";
+
+F2_TEXT5 =  
+"You step into the teleporter. You feel a\n"
+"familiar flash and... you're in a cage?\n"
+"Jailed?\n"
+"\n"
+"There are other cages in here. Occupied.\n"
+"So is this how they capture humans?\n"
+"Or did they set this up specially for you,\n"
+"as a reward for being such a monkey wrench\n"
+"in their plans?\n"
+"\n"
+"The guards haven't noticed you - yet.\n"
+"Any noise could mean death. Or worse.\n"
+"\n"
+"When they zombify you, are you awake the\n"
+"entire time, locked inside of your brain?\n"
+"\n"
+"You'd rather not find out.";
+
+F2_TEXT6 =  
+"Forcibly uncaged again. Good job.\n"
+"\n"
+"But where are you? The air and gravity\n"
+"still feel like whatever planet that\n"
+"strange prison had been on.\n"
+"\n"
+"You look around and the layout triggers\n"
+"some old memories from history class.\n"
+"\n"
+"This is an arena.\n"
+"Where they send prisoners to die.\n"
+"That wasn't an exit - but an entrance.\n"
+"\n"
+"You will find your way back to the city,\n"
+"but it will have to be on the other side\n"
+"of a few homicidal mutants...";
+
+P2HUSTR_1 = "Comeback";
+P2HUSTR_2 = "Jungle Spirits";
+P2HUSTR_3 = "Emerald Eve";
+P2HUSTR_4 = "Filth";
+P2HUSTR_5 = "Flooded Chapel";
+P2HUSTR_6 = "Collider Complex";
+P2HUSTR_7 = "Enemy Caught";
+P2HUSTR_8 = "Harmany";
+P2HUSTR_9 = "Wormhole Zone";
+P2HUSTR_10 = "Cosmodrome";
+P2HUSTR_11 = "Arch-Violence";
+P2HUSTR_12 = "Imprisoned";
+P2HUSTR_13 = "Hard Facility";
+P2HUSTR_14 = "Charon Eclipse";
+P2HUSTR_15 = "Where Hate Runs Red";
+P2HUSTR_16 = "Predatorium";
+P2HUSTR_17 = "Mountain Doom";
+P2HUSTR_18 = "Buckets of Blood";
+P2HUSTR_19 = "Hecknology";
+P2HUSTR_20 = "Lurking Fear";
+P2HUSTR_21 = "Assassin";
+P2HUSTR_22 = "Locus Perditus";
+P2HUSTR_23 = "Aztecorum";
+P2HUSTR_24 = "Outpost of the Evil Dead";
+P2HUSTR_25 = "Black Ice";
+P2HUSTR_26 = "Plutopia";
+P2HUSTR_27 = "Red Hot";
+P2HUSTR_28 = "The Bloodwall";
+P2HUSTR_29 = "Ticket to Eternity";
+P2HUSTR_30 = "The Gatewatcher";
+P2HUSTR_31 = "Cybernation";
+P2HUSTR_32 = "Go 4 It";
+P2HUSTR_33 = "Chocolate";
+
+MUSIC_PL2TITLE = "";
+MUSIC_PL2INTER = "ja_cer";
+MUSIC_PL2TEXT = "jp_was";
+MUSIC_LEEND = "DTHTOL";
+
+MUSIC_PL2MAP01 = "JP_PYR";
+MUSIC_PL2MAP02 = "JR_BLO";
+MUSIC_PL2MAP03 = "SR_GAT";
+MUSIC_PL2MAP05 = "JP_DEA";
+MUSIC_PL2MAP07 = "JR_ROC";
+MUSIC_PL2MAP08 = "JR_GAM";
+MUSIC_PL2MAP09 = "JP_BAT";
+MUSIC_PL2MAP10 = "JP_AST";
+MUSIC_PL2MAP11 = "JP_BEC";
+MUSIC_PL2MAP12 = "EB_UND";
+MUSIC_PL2MAP14 = "JR_SAM";
+MUSIC_PL2MAP15 = "SR_STA";
+MUSIC_PL2MAP16 = "EB_COM";
+MUSIC_PL2MAP17 = "SR_NIG";
+MUSIC_PL2MAP18 = "JP_SIL";
+MUSIC_PL2MAP19 = "JP_DWE";
+MUSIC_PL2MAP20 = "JR_END";
+MUSIC_PL2MAP21 = "PC_MAR";
+MUSIC_PL2MAP23 = "JP_PLU";
+MUSIC_PL2MAP24 = "EB_AGA";
+MUSIC_PL2MAP25 = "JP_SAN";
+MUSIC_PL2MAP26 = "JP_PLU";
+MUSIC_PL2MAP27 = "PC_OUT";
+MUSIC_PL2MAP28 = "RP_GUT";
+MUSIC_PL2MAP29 = "JR_HUN";
+MUSIC_PL2MAP30 = "JP_CAT";
+MUSIC_PL2MAP32 = "jp_nob";
+MUSIC_PL2MAP33 = "JP_WAS";
+
+P2_TEXT1 = 
+"Jumping through the teleporter, you leave the\n"
+"complex behind, where you shut down one of the\n"
+"invaders' main interdimensional gates with its\n"
+"massive Hallion Collider device. This will put\n"
+"a stop to their plans for the meantime, giving\n"
+"you the chance to infiltrate the areas they\n"
+"control!\n"
+"\n"
+"On the other side of the Gate, your eyes adjust\n"
+"to the glare from the bleak sky. You see you have\n"
+"company. A feeling of deja vu floods your mind...";
+
+P2_TEXT2 = 
+"Defeated, you fall to your knees and all fades\n"
+"to black...\n"
+"\n"
+"But, in pain, you waken on the cold metal floor\n"
+"of a prison atop your battered gear, where they\n"
+"appear to have carelessly dumped you.";
+ 
+P2_TEXT3 = 
+"The red glare of the crimson clouds has faded\n"
+"and you now see the slimy bowels of hell exposed\n"
+"above you.\n"
+"\n"
+"You've learned that the elder brother of the twins\n"
+"you defeated, Baphomet and the Gatekeeper, awaits\n"
+"beyond a chain of heavily fortified stronholds.\n"
+"\n"
+"Time to find this abominable fiend and kick its\n"
+"bones to the ends of time!";
+ 
+P2_TEXT4 = 
+"You relish the echo of the explosions as your\n"
+"opponent's fragments fall back into the black\n"
+"pit of Hell.\n"
+"\n"
+"You make your way back to Earth amid fleeing\n"
+"monsters, their mutant flesh peeling from their\n"
+"tormented forms as they dissolve with the warped\n"
+"reality that brought them forth.\n"
+"\n"
+"Maybe now that Hell is dead your fellows will\n"
+"look up in wonder to free themselves from the\n"
+"blood frenzied madness and destruction that\n"
+"nearly spelled a final doom for our universe.";
+ 
+P2_TEXT5 = 
+"They lay in the stone houses of their court,\n"
+"preserved by spells for a glorious resurrection\n"
+"when the stars and the earth might once more\n"
+"be ready for them.";
+ 
+P2_TEXT6 = 
+"As you land on the teleportation device, the\n"
+"stink of a horde of unwashed monstrosities\n"
+"pervades the air...";
+ 
+TRHUSTR_1 = "Uprising";
+TRHUSTR_2 = "Geothermal";
+TRHUSTR_3 = "Access Denied";
+TRHUSTR_4 = "Blood Factory";
+TRHUSTR_5 = "Graveyard Shift";
+TRHUSTR_6 = "Communications Relay";
+TRHUSTR_7 = "No Man's Station";
+TRHUSTR_8 = "Fortress Of Bullets";
+TRHUSTR_9 = "Bunker Complex";
+TRHUSTR_10 = "Underground Activity";
+TRHUSTR_11 = "Pourriture";
+TRHUSTR_12 = "Transduction";
+TRHUSTR_13 = "Hangman's Curse";
+TRHUSTR_14 = "Abandoned Port";
+TRHUSTR_15 = "Nukage Zone";
+TRHUSTR_16 = "Devil's Den";
+TRHUSTR_17 = "Spider Colony";
+TRHUSTR_18 = "Hell's Signs";
+TRHUSTR_19 = "The Crash Site";
+TRHUSTR_20 = "Portal Facility";
+TRHUSTR_21 = "Bloody Garden";
+TRHUSTR_22 = "Pharaoh's Claim";
+TRHUSTR_23 = "Desolation";
+TRHUSTR_24 = "Redrum";
+TRHUSTR_25 = "Malware";
+TRHUSTR_26 = "Revengineer";
+TRHUSTR_27 = "The Visage Of Time";
+TRHUSTR_28 = "Superweapon Facility";
+TRHUSTR_29 = "Across The Blood Sea";
+TRHUSTR_30 = "Malignata";
+TRHUSTR_31 = "Anubis";
+TRHUSTR_32 = "Duality";
+
+MUSIC_TNRTITLE = "titl_tr";
+MUSIC_TNRINTER = "inter_tr";
+MUSIC_TNRTEXT = "read_tr";
+MUSIC_TNREND = "atmosp";
+
+MUSIC_TNRMAP01 = "tntmtl";
+MUSIC_TNRMAP02 = "neato";
+MUSIC_TNRMAP03 = "trndtl";
+MUSIC_TNRMAP04 = "seabat";
+MUSIC_TNRMAP05 = "noctra";
+MUSIC_TNRMAP06 = "ihateu";
+MUSIC_TNRMAP07 = "tarneu";
+MUSIC_TNRMAP08 = "crzctl";
+MUSIC_TNRMAP09 = "tntnot";
+MUSIC_TNRMAP10 = "lstres";
+MUSIC_TNRMAP11 = "rshhed";
+MUSIC_TNRMAP12 = "lonian";
+MUSIC_TNRMAP13 = "13hour";
+MUSIC_TNRMAP14 = "crawl";
+MUSIC_TNRMAP15 = "telnot";
+MUSIC_TNRMAP16 = "ave_vo";
+MUSIC_TNRMAP17 = "tntspi";
+MUSIC_TNRMAP18 = "reachn";
+MUSIC_TNRMAP19 = "tnttie";
+MUSIC_TNRMAP20 = "frnace";
+MUSIC_TNRMAP21 = "machin";
+MUSIC_TNRMAP22 = "tntter";
+MUSIC_TNRMAP23 = "reqjd1";
+MUSIC_TNRMAP24 = "arcane";
+MUSIC_TNRMAP25 = "shefel";
+MUSIC_TNRMAP26 = "godovj";
+MUSIC_TNRMAP27 = "gndclk";
+MUSIC_TNRMAP28 = "tntblu";
+MUSIC_TNRMAP29 = "lasbth";
+MUSIC_TNRMAP30 = "tntfel";
+MUSIC_TNRMAP31 = "atmosp";
+MUSIC_TNRMAP32 = "leave";
+
+TR_TEXT1 = 
+"SUCCESS! YOU HAVE SENT A MESSAGE TO EARTH\n"
+"WARNING THEM OF THE INCOMING DEMONIC\n"
+"FLEET. THE DEMONS WILL HAVE A RATHER\n"
+"UNPLEASANT SURPRISE WAITING FOR THEM WHEN\n"
+"THEY GET TO EARTH.\n"
+"\n"
+"WITH EARTH OUT OF HARMS WAY, IT'S TIME TO\n"
+"TAKE THIS FIGHT TO HELL. THERE'S A SHIP\n"
+"NOT TOO FAR FROM YOUR LOCATION AT THE\n"
+"BOTTOM OF A THERMAL VENT. YOU CAN USE IT\n"
+"TO FLY UP TO THE DEMONIC SHIP AND SET IT\n"
+"ON A RETURN COURSE TO HELL.";
+
+TR_TEXT2 = 
+"YOU'VE MADE IT TO THE SHIP. NOW YOU WISH\n"
+"YOU HAD PAID MORE ATTENTION IN FLIGHT\n"
+"CLASS. WITH THE PRESS OF A FEW BUTTONS\n"
+"THE ENGINES RUMBLE TO LIFE. YOU PLOT AN\n"
+"INTERCEPT COURSE WITH THE HELL SHIP THAT\n"
+"STILL ORBITS FAR ABOVE IO. THE THRUSTERS\n"
+"ROCKET YOU OUT OF THE MOON'S ATMOSPHERE\n"
+"TOWARD YOUR TARGET.\n"
+"\n"
+"THE HELL SHIP SOON TAKES NOTICE OF YOUR\n"
+"APPROACH AND A STEADY STREAM OF PLASMA\n"
+"HEADS IN YOUR DIRECTION. THE COOLING\n"
+"SYSTEM OF YOUR SHIP TAKES A DIRECT HIT.\n"
+"YOU QUICKLY CHANGE COURSE TOWARD SOME\n"
+"ASTEROIDS WHERE THERE ARE SOME LONG\n"
+"ABANDONED UAC BASES. YOU NEED TO FIND\n"
+"SOME REPLACEMENT PARTS FOR YOUR SHIP!";
+
+TR_TEXT3 = 
+"THE CONTROLS OF THE HELL SHIP LIE BEFORE\n"
+"YOU. THERE'S ONLY ONE TASK LEFT FOR YOU TO\n"
+"DO NOW, THE SHIP IS SET ON A COURSE TO\n"
+"RETURN TO ITS POINT OF ORIGIN.\n"
+"\n"
+"HELL... IT'S CHANGED SINCE YOU'VE LAST\n"
+"BEEN HERE, ADVANCED BIOTECH LITTERS THE\n"
+"LANDSCAPE. THE DEMONS HAVE USED UAC'S\n"
+"WEAPONRY TO ADVANCE THEIR OWN TECHNOLOGY.";
+
+TR_TEXT4 = 
+"THE SERVERS THAT HELD THE VIRTUAL\n"
+"CONSCIOUSNESS OF THE ONCE-MIGHTY ICON OF\n"
+"SIN EXPLODE TO PIECES ALL AROUND YOU.\n"
+"ALONG WITH IT GOES MASSIVE DATABANKS OF\n"
+"THE DEMONS RESEARCH INTO UAC WEAPONRY.\n"
+"YOV'VE PUT THIS HELLISH INDUSTRIAL\n"
+"REVILUTION TO AN END.\n"
+ "\n"
+"NOW YOU SIT DOWN TO WAIT FOR THE FINE\n"
+"FOLKS OF EARTH TO COME AND GET YOU.\n"
+"IT SHOULDN'T BE TOO LONG OF A WAIT, OF\n"
+"COURSE, THAT'S ASSUMING THAT THE EARTH'S\n"
+"DEFENCES HELD UP AGAINST THE FLEET OF\n"
+"HELL SHIPS THAT WAS HEADED THEIR WAY...";
+
+TR_TEXT5 = 
+"A ONCE-GREAT GOD WATCHES YOUR EVERY\n"
+"MOVE AS YOU TRAVERSE TO THE HELL SHIP.\n"
+"IF YOU WANT TO GO TO HELL YOU MUST BE\n"
+"WORTHY ENOUGH TO MAKE IT THROUGH HIS\n"
+"REALM FIRST.";
+
+TR_TEXT6 = 
+"HAVING OVERCOME THE TRIALS OF\n"
+"ANUBIS. HE SENDS YOU BACK TO\n"
+"YOUR OWN REALM... OR SO IT SEEMS.";	 
+ 
+DZHUSTR_1 = "High-rise Roof";
+DZHUSTR_2 = "Toxic Tower";
+DZHUSTR_3 = "Marble Zone";
+DZHUSTR_4 = "Triple Town";
+DZHUSTR_5 = "The Pits";
+DZHUSTR_6 = "Echo Hall";
+DZHUSTR_7 = "Claustrophobia";
+DZHUSTR_8 = "Module Base";
+DZHUSTR_9 = "Ancient Archives";
+DZHUSTR_10 = "Leap Gates";
+DZHUSTR_11 = "Too Close To Home";
+DZHUSTR_12 = "Underland";
+DZHUSTR_13 = "Tease";
+DZHUSTR_14 = "Crust";
+DZHUSTR_15 = "Peak Facility";
+DZHUSTR_16 = "Natural Supply";
+DZHUSTR_17 = "The Testing Labs";
+DZHUSTR_18 = "Atom Transporter";
+DZHUSTR_19 = "Quantum Processing";
+DZHUSTR_20 = "Familiar Face";
+DZHUSTR_21 = "Starbourn";
+DZHUSTR_22 = "The Cracks";
+DZHUSTR_23 = "Atmos Caves";
+DZHUSTR_24 = "Booster Hub";
+DZHUSTR_25 = "Abandoned Compound";
+DZHUSTR_26 = "Fortification";
+DZHUSTR_27 = "The Junction";
+DZHUSTR_28 = "Suspension";
+DZHUSTR_29 = "The Rematch";
+DZHUSTR_30 = "The Sarcophagus";
+DZHUSTR_31 = "Meat";
+DZHUSTR_32 = "Dark Roof";
+
+MUSIC_DZ0TITLE = "MINUS1";
+MUSIC_DZ0INTER = "P_SKUL";
+MUSIC_DZ0TEXT = "R_ZERO";
+MUSIC_DZ0END = "CLSSKN";
+
+MUSIC_DZ0MAP01 = "ZEROIN";
+MUSIC_DZ0MAP02 = "L_S_TS";
+MUSIC_DZ0MAP03 = "METBAL";
+MUSIC_DZ0MAP04 = "DECTFL";
+MUSIC_DZ0MAP05 = "PITIFL";
+MUSIC_DZ0MAP06 = "SNEAKI";
+MUSIC_DZ0MAP07 = "DOUBLB";
+MUSIC_DZ0MAP08 = "FAMNUC";
+MUSIC_DZ0MAP09 = "BOKWYM";
+MUSIC_DZ0MAP10 = "CNTAIM";
+MUSIC_DZ0MAP11 = "DTROIT";
+MUSIC_DZ0MAP12 = "MANTLE";
+MUSIC_DZ0MAP13 = "MARBLE";
+MUSIC_DZ0MAP14 = "TECTON";
+MUSIC_DZ0MAP15 = "INPART";
+MUSIC_DZ0MAP16 = "MU_LOK";
+MUSIC_DZ0MAP17 = "1548TK";
+MUSIC_DZ0MAP18 = "ASTARS";
+MUSIC_DZ0MAP19 = "FRSHDW";
+MUSIC_DZ0MAP20 = "WITCH";
+MUSIC_DZ0MAP21 = "W_SKUL";
+MUSIC_DZ0MAP22 = "M_FACE";
+MUSIC_DZ0MAP23 = "ATMOS3";
+MUSIC_DZ0MAP24 = "LIGHTT";
+MUSIC_DZ0MAP25 = "QUAD";
+MUSIC_DZ0MAP26 = "RKOVER";
+MUSIC_DZ0MAP27 = "TKANTP";
+MUSIC_DZ0MAP28 = "D_ZERO";
+MUSIC_DZ0MAP29 = "SURGRY";
+MUSIC_DZ0MAP30 = "T_CAVE";
+MUSIC_DZ0MAP31 = "CLSSKN";
+MUSIC_DZ0MAP32 = "S_ZERO";
+
+//New intermission texts
+IN_DZ1 =
+"IT'S BEEN YEARS SINCE THE DESTRUCTION OF\n"
+"THE ICON OF SIN AND THE ABOMINATION KNOWN\n"
+"AS THE TITAN, BUT NOW ALL OF A SUDDEN,\n"
+"MORE DEMONS ROAM THE EARTH ONCE AGAIN.\n"
+"\n"
+"YOU REALIZE THERE MUST BE YET ANOTHER\n"
+"PORTAL THAT HAS RECENTLY OPENED, SPEWING\n"
+"OUT A FRESH, NEW ARMY OF HELL'S ELITE.\n"
+"\n"
+"THEY ARE RAGE, BRUTAL, WITHOUT MERCY. BUT\n"
+"YOU, YOU WILL BE WORSE. RIP AND TEAR UNTIL\n"
+"IT IS DONE!";
+	
+IN_DZ2 =
+"THE DEEPER YOU GO INTO THE CITY, THE DENSER\n"
+"THE DEMON POPULATION BECOMES UNTIL YOU\n"
+"FINALLY FIND THE SOURCE: A PIT LEADING TO\n"
+"WHAT MAY BE THE ORIGIN OF THE DEMONIC\n"
+"SPAWN.\n"
+"\n"
+"YOU FLICK THE BLOOD AND SWEAT OFF YOUR\n"
+"BROW, CLINCH YOUR WEAPON, AND THEN\n"
+"PROCEED TO LEAP DOWN INTO THE DEPTHS OF\n"
+"THE INFESTATION.";
+	
+IN_DZ3 =
+"FINALLY. THE ONE BEHIND IT ALL IS THE\n"
+"DEMON WITCH HERSELF. YOU ENDURE THE\n"
+"ONSLAUGHT OF HER ENDLESSLY SPAWNING\n"
+"MINIONS, WAILING ON YOU WITH GLEEFUL\n"
+"VENGEANCE.\n"
+"\n"
+"BUT YOU MANAGE TO ESCAPE THROUGH WHAT\n"
+"LOOKS TO BE A PORTAL LEADING TO WHERE\n"
+"SHE CAME FROM. PERHAPS IT WILL TAKE YOU\n"
+"TO THE THING THAT COULD END HER!";
+	
+IN_DZ4 =
+"WITH HER SUPPLY OF HUMAN BLOOD CUT OFF,\n"
+"AND HER BEATING HEART DESTROYED,\n"
+"EVERYTHING AROUND YOU WITHERS AND DIES.\n"
+"YOU'VE WON.\n"
+"\n"
+"BUT ARE THERE YET STILL MORE THAT NEEDS\n"
+"TO BE ERADICATED? YOU CONTINUE YOUR HUNT\n"
+"AND IT DOESN'T TAKE YOU LONG TO FIND MORE\n"
+"TO KILL. BUT IT WAS A TRAP! THEY WERE JUST\n"
+"FODDER, LEADING YOU TO YOUR CAPTURE.\n"
+"\n"
+"IF THE DEMONS CANNOT ELIMINATE YOU, THEN\n"
+"PERHAPS THEY CAN IMPRISON YOU. BUT FOR HOW\n"
+"LONG? THIS WILL ONLY DELAY YOU. YOU CAN'T\n"
+"BE STOPPED...AS LONG AS THEY EXIST!";
+	
+IN_DZ5 =
+"CONGRATULATIONS, YOU'VE FOUND THE SECRET\n"
+"LEVEL! BUT SOMETHING'S NOT RIGHT.\n"
+"THE WALLS, THEY'RE...THEY'RE TWITCHING!";
+	
+IN_DZ6 =
+"YOU'VE FOUND THE SUPER SECRET LEVEL, BUT\n"
+"THIS TIME YOU'RE SOMEWHERE YOU'VE ALREADY\n"
+"BEEN.";

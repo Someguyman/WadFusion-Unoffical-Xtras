@@ -368,7 +368,7 @@ Map CO_MAP01 "$HUSTR_1"
 Map CO_MAP02 "$HUSTR_1"
 {
 	Label = "DOOM II, MAPS OF CHAOS: OVERKILL, E1M2"
-	Next = "MAP03"
+	Next = "CO_MAP03"
 	SecretNext = "MAP33"
 	TitlePatch = "CWILV01"
 	Par = 90
@@ -702,8 +702,8 @@ map CO_MAP30 "$HUSTR_30"
 map CO_MAP31 "$HUSTR_31"
 {
 	Label = "DOOM II, MAPS OF CHAOS: OVERKILL, E2M10"
-	Next = "MAP16"
-	SecretNext = "MAP32"
+	Next = "CO_MAP16"
+	SecretNext = "CO_MAP32"
 	Cluster = 9
 	TitlePatch = "CWILV30"
 	Par = 120
@@ -716,7 +716,7 @@ map CO_MAP31 "$HUSTR_31"
 map CO_MAP32 "$HUSTR_32"
 {
 	Label = "DOOM II, MAPS OF CHAOS: OVERKILL, E2M11"
-	Next = "MAP16"
+	Next = "CO_MAP16"
 	Cluster = 10
 	TitlePatch = "CWILV31"
 	Par = 30

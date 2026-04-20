@@ -41,7 +41,7 @@ class DCX_UOEventHandler : EventHandler
 			}
 		}
 			
-			if ( mapPrefix == "hp_" )
+		if ( mapPrefix == "hp_" && CVar.FindCVar("dcx_CustomMonsters").GetBool() )
 			{
 				if (e.Replacee == 'Doomimp')
 				{
@@ -145,7 +145,7 @@ class DCX_UOEventHandler : EventHandler
 			
 			}
 		
-			if ( mapPrefix == "tr_" )
+		if ( mapPrefix == "tr_" && CVar.FindCVar("dcx_CustomMonsters").GetBool() )
 			{
 				if (e.Replacee == 'BossEye')
 				{
@@ -168,7 +168,7 @@ class DCX_UOEventHandler : EventHandler
 				}
 		}
 		
-		if ( mapPrefix == "dz_" )
+		if ( mapPrefix == "dz_" && CVar.FindCVar("dcx_CustomMonsters").GetBool() )
 		{
 			//Pentegram
 			if (e.Replacee == 'Candlestick')
@@ -752,40 +752,77 @@ class DCX_UOEventHandler : EventHandler
 	{
 				String mapName = level.MapName.MakeLower();
 		
-		if ( mapName == "inter_d1e1" )
+		if ( mapName == "e1m1" )
 		{
 			if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 3 )
-				level.NextMap = "co_e1m1";
+				Level.ChangeLevel("co_e1m1", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
 			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 2 )
-				level.NextMap = "ch_e1m1";
+				Level.ChangeLevel("ch_e1m1", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
 			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 1 )
-				level.NextMap = "cs_e1m1";
+				Level.ChangeLevel("cs_e1m1", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
 			else
-				level.NextMap = "e1m1";
+				level.NextMap = "e1m2";
 		}
 		
-		if ( mapName == "inter_d1e2" )
+				if ( mapName == "e2m1" )
 		{
 			if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 3 )
-				level.NextMap = "co_e2m1";
+				Level.ChangeLevel("co_e2m1", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
 			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 2 )
-				level.NextMap = "ch_e2m1";
+				Level.ChangeLevel("ch_e2m1", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
 			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 1 )
-				level.NextMap = "cs_e2m1";
+				Level.ChangeLevel("cs_e2m1", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
 			else
-				level.NextMap = "e2m1";
+				level.NextMap = "e2m2";
 		}
 		
-		if ( mapName == "inter_d1e3" )
+				if ( mapName == "map01" )
 		{
 			if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 3 )
-				level.NextMap = "co_e3m1";
+				Level.ChangeLevel("co_map01", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
 			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 2 )
-				level.NextMap = "ch_e3m1";
+				Level.ChangeLevel("ch_map01", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
 			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 1 )
-				level.NextMap = "cs_e3m1";
+				Level.ChangeLevel("cs_map01", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
+			else
+				level.NextMap = "map02";
+		}
+		
+			   if ( mapName == "map12" )
+		{
+			if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 3 )
+				Level.ChangeLevel("co_map12", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
+			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 2 )
+				Level.ChangeLevel("ch_map12", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
+			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 1 )
+				Level.ChangeLevel("cs_map12", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
+			else
+				level.NextMap = "map13";
+		}
+		
+		
+			   if ( mapName == "map21" )
+		{
+			if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 3 )
+				Level.ChangeLevel("co_map21", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
+			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 2 )
+				Level.ChangeLevel("ch_map21", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
+			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 1 )
+				Level.ChangeLevel("cs_map21", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
+			else
+				level.NextMap = "map22";
+		}
+		
+		if ( mapName == "e3m1" )
+		{
+			if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 3 )
+				Level.ChangeLevel("co_e3m1", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
+			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 2 )
+				Level.ChangeLevel("ch_e3m1", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
+			else if ( CVar.GetCvar("DCX_MOC_toggle").getint() == 1 )
+				Level.ChangeLevel("cs_e3m1", 0, CHANGELEVEL_RESETINVENTORY|CHANGELEVEL_RESETHEALTH|CHANGELEVEL_NOINTERMISSION);
 			else if ( !CVar.GetCvar("dcx_playstationmaps").getint() >= 1 )
-				level.NextMap = "e3m1";
+				level.NextMap = "e3m2";
 			
 		}
 	}

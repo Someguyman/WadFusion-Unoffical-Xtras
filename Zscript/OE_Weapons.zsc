@@ -2,10 +2,10 @@ class DCX_Player_Unoffical : DCX_Player Replaces DCX_Player
 {
 	Default
 	{
-		//+NOMENU
+		+NOMENU
+		Player.StartItem "Clip", 50;
 		Player.StartItem "DCX_Pistol";
 		Player.StartItem "DCX_Fist";
-		Player.StartItem "Clip", 50;
 		Player.WeaponSlot 1, "DCX_Fist", "DCX_Chainsaw", "DCX_DoubleBladedChainsaw";
 		Player.WeaponSlot 2, "DCX_Pistol";
 		Player.WeaponSlot 3, "DCX_Shotgun", "DCX_SuperShotgun";

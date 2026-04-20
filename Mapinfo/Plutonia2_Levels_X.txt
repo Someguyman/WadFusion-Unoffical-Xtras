@@ -254,7 +254,7 @@ map PT_MAP22 lookup "P2HUSTR_22"
 	next = "PT_MAP23"
 	secretnext = "PT_MAP23"
 	par = 150
-	Music = "P_DDTBLU"
+	Music = "P_DDTBL3"
 	Author = "$WS_AU_ERIK_GUSTA"
 	Label = "PLUTONIA 2, E3M2"
 }
@@ -376,7 +376,7 @@ map PT_MAP32 lookup "P2HUSTR_32"
 
 map PT_MAP33 lookup "P2HUSTR_33"
 {
-	Next = endpic, "P2TITTLE"
+	Next = EndSequence, "JAGUAR DOOM,_Cast"
 	sky1 = "PSKY3"
 	//cluster = 55
 	par = 30

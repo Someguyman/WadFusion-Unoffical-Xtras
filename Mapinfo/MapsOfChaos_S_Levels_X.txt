@@ -368,7 +368,7 @@ Map CS_MAP01 "$HUSTR_1"
 Map CS_MAP02 "$HUSTR_1"
 {
 	Label = "DOOM II, MAPS OF CHAOS, E1M2"
-	Next = "MAP03"
+	Next = "CS_MAP03"
 	SecretNext = "MAP33"
 	TitlePatch = "CWILV01"
 	Par = 90
@@ -698,3 +698,29 @@ map CS_MAP30 "$HUSTR_30"
 	NoSoundClipping
 	Author = "$WF_AU_PETERSEN"
 }
+
+map CS_MAP31 "$HUSTR_31"
+{
+	Label = "DOOM II, MAPS OF CHAOS: STANDARD, E2M10"
+	Next = "CS_MAP16"
+	SecretNext = "CS_MAP32"
+	Cluster = 9
+	TitlePatch = "CWILV30"
+	Par = 120
+	Music = "$MUSIC_EVIL"
+	Enterpic = "$in_d2eW"
+	Exitpic = "$in_d2eW"
+	Author = "$WF_AU_PETERSEN"
+}
+
+map CH_MAP32 "$HUSTR_32"
+{
+	Label = "DOOM II, MAPS OF CHAOS: STANDARD, E2M11"
+	Next = "CS_MAP16"
+	Cluster = 10
+	TitlePatch = "CWILV31"
+	Par = 30
+	Music = "$MUSIC_ULTIMA"
+	Enterpic = "$in_d2eW"
+	Exitpic = "$in_d2eW"
+	Author = "$WF_AU_PETERSEN"
