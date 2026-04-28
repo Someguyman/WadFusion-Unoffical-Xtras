@@ -264,7 +264,7 @@ map PT_MAP23 lookup "P2HUSTR_23"
 	next = "PT_MAP24"
 	secretnext = "PT_MAP24"
 	par = 180
-	music = "$MUSIC_PL2MAP23"
+	Music = "p_romer2"
 	Author = "$WS_AU_PALLAI"
 	Label = "PLUTONIA 2, E3M3"
 }

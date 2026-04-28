@@ -46,23 +46,55 @@ episode WF_NEWGAME_E6M1
 
 // Unoffical Episode //
 
-episode EU_MAP01
+episode WF_NEWGAME_EU_MAP01
 {
 	Name = "$EVIL_UNLEASHED"
 	Optional
 }
 
-// Bonus Original Doom Maps //
+//		The Lost Episodes of Doom		//
 
-episode WF_NEWGAME_JA_MAP01
+episode WF_NEWGAME_LE_E1M1
 {
-	Name = "$BONUS_JAGUAR"
+	Name = "$LOSTE_EP01"
 	Optional
 }
 
-episode GBA_DM1
+episode WF_NEWGAME_LE_E2M1
 {
-	Name = "$BONUS_GBADM"
+	Name = "$LOSTE_EP02"
+	Optional
+}
+
+episode WF_NEWGAME_LE_E3M1
+{
+	Name = "$LOSTE_EP03"
+	Optional
+}
+
+//		Freedoom Phase 1		//
+
+episode FD_E1M1
+{
+	Name = "$FREED1_EP01"
+	Optional
+}
+
+episode FD_E2M1
+{
+	Name = "$FREED1_EP02"
+	Optional
+}
+
+episode FD_E3M1
+{
+	Name = "$FREED1_EP03"
+	Optional
+}
+
+episode FD_E4M1
+{
+	Name = "$FREED1_EP04"
 	Optional
 }
 
@@ -113,26 +145,6 @@ episode WF_NEWGAME_LR_MAP08
 	Optional
 }
 
-//	Bonus Doom 2 maps	//
-
-episode DM_MAP01
-{
-	Name = "$BONUS_KEXDM"
-	Optional
-}
-
-episode OneHumanity
-{
-	Name = "$BONUS_HUMAN"
-	Optional
-}
-
-episode WF_NEWGAME_KA_MAP
-{
-	Name = "$BONUS_KICKATTACK"
-	Optional
-}
-
 //		Doom 64 For Doom 2 Episodes		//
 
 episode WF_NEWGAME_AB_MAP01
@@ -150,14 +162,6 @@ episode WF_NEWGAME_AB_MAP12
 episode WF_NEWGAME_AB_MAP21
 {
 	Name = "$ABLOUTION_EPI03"
-	Optional
-}
-
-//	Bonus Doom 64 maps	//
-
-episode AB_MAP33
-{
-	Name = "$BONUS_TITLE"
 	Optional
 }
 
@@ -201,29 +205,6 @@ episode ML_MAP37
 	Optional
 }
 */
-
-episode INTER_MLCS
-{
-	Name = "$MASTER_LV05"
-	PicName = "M_MASTR6"
-	Optional
-}
-
-/*
-episode ML_MAP37
-{
-	Name = "$MASTER_LV05"
-	PicName = "M_MASTR6"
-	Optional
-}
-*/
-
-episode INTER_MLCS
-{
-	Name = "$MASTER_LV05"
-	PicName = "M_MASTR6"
-	Optional
-}
 
 //		TNT Episodes		//
 
@@ -309,32 +290,6 @@ episode WF_NEWGAME_PT_MAP21
 	Optional
 }
 
-episode PT_MAP33
-{
-	Name = "$PLUTONIA2_BONUS"
-	Optional
-}
-
-//		The Lost Episodes of Doom		//
-
-episode WF_NEWGAME_LE_E1M1
-{
-	Name = "$LOSTE_EP01"
-	Optional
-}
-
-episode WF_NEWGAME_LE_E2M1
-{
-	Name = "$LOSTE_EP02"
-	Optional
-}
-
-episode WF_NEWGAME_LE_E3M1
-{
-	Name = "$LOSTE_EP03"
-	Optional
-}
-
 //		Perditions Gate		//
 
 episode WF_NEWGAME_PG_MAP01
@@ -376,32 +331,6 @@ episode WF_NEWGAME_HP_MAP21
 	Optional
 }
 
-//		Freedoom Phase 1		//
-
-episode FD_E1M1
-{
-	Name = "$FREED1_EP01"
-	Optional
-}
-
-episode FD_E2M1
-{
-	Name = "$FREED1_EP02"
-	Optional
-}
-
-episode FD_E3M1
-{
-	Name = "$FREED1_EP03"
-	Optional
-}
-
-episode FD_E4M1
-{
-	Name = "$FREED1_EP04"
-	Optional
-}
-
 //		Freedoom Phase 2		//
 
 episode FD_MAP01
@@ -422,8 +351,50 @@ episode FD_MAP21
 	Optional
 }
 
+// Bonus Original Doom Maps //
+
+episode WF_NEWGAME_KA_MAP
+{
+	Name = "$BONUS_KICKATTACK"
+	Optional
+}
+
+//	Bonus Doom 2 maps	//
+
+episode OneHumanity
+{
+	Name = "$BONUS_HUMAN"
+	Optional
+}
+
+//	Bonus Doom 64 maps	//
+
+episode AB_MAP33
+{
+	Name = "$BONUS_TITLE"
+	Optional
+}
+
+episode PT_MAP33
+{
+	Name = "$PLUTONIA2_BONUS"
+	Optional
+}
+
+episode GBA_DM1
+{
+	Name = "$BONUS_GBADM"
+	Optional
+}
+
 episode FD_DMM01
 {
 	Name = "$FREEDM"
+	Optional
+}
+
+episode DM_MAP01
+{
+	Name = "$BONUS_KEXDM"
 	Optional
 }
