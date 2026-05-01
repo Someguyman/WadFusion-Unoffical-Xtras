@@ -190,21 +190,12 @@ episode WF_NEWGAME_DZ_MAP21
 
 //		Master Levels		//
 
-episode WF_NEWGAME_ML_MAP01
+episode WF_NEWGAME_MASTERHUB
 {
 	Name = "$WF_CAMPAIGN_MASTER"
 	PicName = "M_MASTER"
 	Optional
 }
-
-/*
-episode ML_MAP37
-{
-	Name = "$MASTER_LV05"
-	PicName = "M_MASTR6"
-	Optional
-}
-*/
 
 //		TNT Episodes		//
 
