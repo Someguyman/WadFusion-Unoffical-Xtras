@@ -342,6 +342,14 @@ episode FD_MAP21
 	Optional
 }
 
+// Jaguar Level Set //
+
+episode WF_NEWGAME_JA_MAP01
+{
+	Name = "$BONUS_JAGUAR"
+	Optional
+}
+
 // Bonus Original Doom Maps //
 
 episode WF_NEWGAME_KA_MAP
