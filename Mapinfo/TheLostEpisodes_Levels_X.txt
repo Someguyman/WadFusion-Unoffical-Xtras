@@ -201,8 +201,8 @@ map LE_E2M8 "Late For Supper"
 adddefaultmap
 {
 	Cluster = 130
-	sky1 = "SKY3A", 0.4
-	sky2 = "SKY3B", 0.1
+	sky1 = "LSKY3A", 0.4
+	sky2 = "LSKY3B", 0.1
 	doublesky
 	forcenoskystretch
 }
