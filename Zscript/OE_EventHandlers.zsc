@@ -127,22 +127,6 @@ class DCX_UOEventHandler : EventHandler
 				{
 					e.Replacement = 'H2P_Explosion';
 				}
-			
-				if (e.Replacee == 'RocketLauncher')
-				{
-					e.Replacement = 'H2P_RocketLauncher';
-				}
-			
-				if (e.Replacee == 'Plasmarifle')
-				{
-					e.Replacement = 'H2P_PlasmaTrident';
-				}
-			
-				if (e.Replacee == 'BFG9000')
-				{
-					e.Replacement = 'H2P_IncendiaryTrident';
-				}
-			
 			}
 		
 		if ( mapPrefix == "tr_" && CVar.FindCVar("dcx_CustomMonsters").GetBool() )
@@ -209,11 +193,6 @@ class DCX_UOEventHandler : EventHandler
 			if (e.Replacee == 'LiveStick')
 			{
 				e.Replacement = 'Actor';
-			}
-			
-			if (e.Replacee == 'PlasmaRifle')
-			{
-				e.Replacement = 'DCX_DZ0PlasmaRifle';
 			}
 		}
 		
