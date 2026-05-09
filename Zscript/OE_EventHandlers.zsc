@@ -128,7 +128,6 @@ class DCX_UOEventHandler : EventHandler
 				{
 					e.Replacement = 'H2P_Explosion';
 				}
-			
 			}
 		
 		if ( mapPrefix == "tr_" && CVar.FindCVar("dcx_CustomMonsters").GetBool() )
