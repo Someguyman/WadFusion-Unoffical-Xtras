@@ -4,6 +4,16 @@ SpaceVile/Attack dssvilak
 SpaceVile/Pain dssvilpn
 SpaceVile/Death dssvildh
 
+DZbaby/walk DZBSPWLK
+DZdemon/death DZSGTDTH
+DZcaco/active DZCACACT
+DZcaco/pain DZCACPIN
+DZKnight/pain DZNOBLPN
+DZBaron/pain DZNOBLPN
+DZSpider/Death DZSPIDTH
+
+$pitchset DZBaron/pain 0.95
+
 VoidFire/Start dsblaze2
 VoidFire/Crackle dscrakl2
 

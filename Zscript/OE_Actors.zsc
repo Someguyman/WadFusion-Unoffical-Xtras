@@ -746,6 +746,16 @@ class DCX_PlasmaTurret : Actor
 	}
 }
 
+Class DZ0_Megasphere : Megasphere
+{
+	States
+	{
+		Spawn:
+			MEGZ ABCD 6 BRIGHT;
+			Loop;
+	}
+}
+
 class DCX_RocketTurret : DCX_PlasmaTurret
 {
 	Default
@@ -900,13 +910,13 @@ Class DCX_WitchShot : SpawnShot
 	Default
 	{
 		SeeSound "witch/attack";
-		DeathSound "brain/cubeboom";
+		DeathSound "misc/teleport";
 	}
 	States
 	{
 	Spawn:
 		TNT1 A 3 BRIGHT; //A_SpawnSound
-		TNT1 BCD 3 BRIGHT A_SpawnFly;
+		TNT1 BCD 3 BRIGHT A_SpawnFly("TeleportFog");
 		Loop;
 	}
 }

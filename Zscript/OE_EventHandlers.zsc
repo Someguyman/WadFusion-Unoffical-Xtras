@@ -3,6 +3,7 @@ class DCX_UOEventHandler : EventHandler
 {
 	override void CheckReplacement(ReplaceEvent e)
 	{
+		
 		String mapPrefix = level.MapName.Left(3);
         mapPrefix = mapPrefix.MakeLower();
 		String mapName = level.MapName.MakeLower();
@@ -128,21 +129,6 @@ class DCX_UOEventHandler : EventHandler
 					e.Replacement = 'H2P_Explosion';
 				}
 			
-				if (e.Replacee == 'RocketLauncher')
-				{
-					e.Replacement = 'H2P_RocketLauncher';
-				}
-			
-				if (e.Replacee == 'Plasmarifle')
-				{
-					e.Replacement = 'H2P_PlasmaTrident';
-				}
-			
-				if (e.Replacee == 'BFG9000')
-				{
-					e.Replacement = 'H2P_IncendiaryTrident';
-				}
-			
 			}
 		
 		if ( mapPrefix == "tr_" && CVar.FindCVar("dcx_CustomMonsters").GetBool() )
@@ -213,7 +199,20 @@ class DCX_UOEventHandler : EventHandler
 			
 			if (e.Replacee == 'PlasmaRifle')
 			{
-				e.Replacement = 'DCX_DZ0PlasmaRifle';
+				e.Replacement = 'DCX_PlasmaRifleMKII';
+			}
+			
+			if (e.Replacee == 'megasphere')
+			{
+				e.Replacement = 'DZ0_megasphere';
+			}
+			
+			if ( mapName == "dz_map32" )
+			{
+				if (e.Replacee == 'Column')
+				{
+					e.Replacement = 'DCX_OFF_Column';
+				}
 			}
 		}
 		
@@ -233,13 +232,85 @@ class DCX_UOEventHandler : EventHandler
 			}
 		}
 	
-		override void WorldTick()
+	override void WorldTick()
 	{
 		if ( CVar.FindCVar("wf_compat_nextmap").GetBool() )
 		{
 			MapsOfChaosReplacements ();
 		}
 	}
+	
+		override void WorldThingSpawned(worldEvent e)
+		{
+			String mapPrefix = level.MapName.Left(3);
+			mapPrefix = mapPrefix.MakeLower();
+			String mapName = level.MapName.MakeLower();
+			let a = Arachnotron(e.thing);
+			let b = Baronofhell(e.thing);
+			let c = Cacodemon(e.thing);
+			let d = Demon(e.thing);
+			let k = Hellknight(e.thing);
+			let l = Lostsoul(e.thing);
+			let m = Spidermastermind(e.thing);
+			let p = Painelemental(e.thing);
+			let r = Revenant(e.thing);
+			let s = Spectre(e.thing);
+			let y = Cyberdemon(e.thing);
+			if ( mapPrefix == "dz_" )
+			{
+				if (a)
+				{			
+					a.ActiveSound = "Blank/NoSound";
+					a.PainSound = "Blank/NoSound";
+				}
+				if (b)
+				{			
+					b.ActiveSound = "Blank/NoSound";
+					b.PainSound = "DZBaron/pain";
+				}
+				if (c)
+				{
+					c.ActiveSound = "DZcaco/active";
+					c.PainSound = "DZcaco/pain";
+				}
+				if (d)
+				{
+					d.DeathSound = "DZDemon/Death";
+				}
+				if (k)
+				{			
+					k.ActiveSound = "Blank/NoSound";
+					k.PainSound = "DZKnight/pain";
+				}
+				if (l)
+				{			
+					l.PainSound = "Alpha/pain";
+				}
+				if (m)
+				{			
+					m.ActiveSound = "Blank/NoSound";
+					m.PainSound = "Blank/NoSound";
+					m.DeathSound = "DZSpider/Death";
+				}
+				if (p)
+				{
+					p.Activesound = "Blank/NoSound";
+				}
+				if (r)
+				{			
+					r.PainSound = "vile/pain";
+				}
+				if (s)
+				{
+					d.DeathSound = "DZDemon/Death";
+				}
+				if (y)
+				{			
+					y.ActiveSound = "Blank/NoSound";
+					y.PainSound = "Blank/NoSound";
+				}
+			}
+		}
 	
     void DCX_FreeDoomTextureReplacements()
     {
