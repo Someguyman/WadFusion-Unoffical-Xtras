@@ -6,6 +6,7 @@ SpaceVile/Death dssvildh
 
 DZbaby/walk DZBSPWLK
 DZdemon/death DZSGTDTH
+DZspectre/death DZSGTDTH
 DZcaco/active DZCACACT
 DZcaco/pain DZCACPIN
 DZKnight/pain DZNOBLPN

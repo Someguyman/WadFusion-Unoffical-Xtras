@@ -8833,6 +8833,48 @@ Texture "COMPBOFF", 128, 128
 	Patch "COMPBOFF", 0, 0
 }
 
+Texture "HPSKY1S", 1024, 680
+{
+	YScale 1.0
+	Patch "HPSKY1U", 0, -140
+	Patch "HPSKY1U", 0, 540
+}
+
+Texture "HPSKY2S", 1024, 680
+{
+	YScale 1.0
+	Patch "HPSKY2U", 0, -140
+	Patch "HPSKY2U", 0, 540
+}
+
+Texture "HPSKY3S", 1024, 680
+{
+	YScale 1.0
+	Patch "HPSKY3U", 0, -140
+	Patch "HPSKY3U", 0, 540
+}
+
+Texture "PGSKY1S", 1024, 680
+{
+	YScale 1.0
+	Patch "PGSKY1U", 0, -140
+	Patch "PGSKY1U", 0, 540
+}
+
+Texture "PGSKY2S", 1024, 680
+{
+	YScale 1.0
+	Patch "PGSKY2U", 0, -140
+	Patch "PGSKY2U", 0, 540
+}
+
+Texture "PGSKY3S", 1024, 680
+{
+	YScale 1.0
+	Patch "PGSKY3U", 0, -140
+	Patch "PGSKY3U", 0, 540
+}
+
 Texture "Giygas", 186, 186
 {
 	Patch "Giygas", 0, 0

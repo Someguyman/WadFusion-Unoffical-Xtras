@@ -226,7 +226,7 @@ class DCX_UOEventHandler : EventHandler
 			{
 				if (e.Replacement == 'H2P_Sentry')
 				{
-				e.Replacee = 'Fatso';
+					e.Replacee = 'Fatso';
 				}
 			}
 		}
@@ -248,14 +248,23 @@ class DCX_UOEventHandler : EventHandler
 			let b = Baronofhell(e.thing);
 			let c = Cacodemon(e.thing);
 			let d = Demon(e.thing);
+			let g = Chaingunguy(e.thing);
 			let k = Hellknight(e.thing);
 			let l = Lostsoul(e.thing);
 			let m = Spidermastermind(e.thing);
 			let p = Painelemental(e.thing);
 			let r = Revenant(e.thing);
-			let s = Spectre(e.thing);
+			let s = Shotgunguy(e.thing);
+			let t = Spectre(e.thing);
 			let y = Cyberdemon(e.thing);
-			if ( mapPrefix == "dz_" )
+			let z = Zombieman(e.thing);
+			
+			if ( mapPrefix == "hp_" )
+			{
+				//trustee guards
+			}
+			
+			if ( mapPrefix == "dz_" && CVar.GetCVar("dcx_CustomMonsters").GetBool() )
 			{
 				if (a)
 				{			
@@ -299,9 +308,9 @@ class DCX_UOEventHandler : EventHandler
 				{			
 					r.PainSound = "vile/pain";
 				}
-				if (s)
+				if (t)
 				{
-					d.DeathSound = "DZDemon/Death";
+					t.DeathSound = "DZspectre/death";
 				}
 				if (y)
 				{			
