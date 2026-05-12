@@ -106,4 +106,14 @@ Texture "SW2SKLD0", 32, 32
 	Patch "SW2_1", 22, 14
 }
 
+Texture "D1_SKY2", 256, 128
+{
+	Patch "D1_SKY2", 0, 0
+}
+
+Texture "D1_SKY3", 256, 128
+{
+	Patch "D1_SKY3", 0, 0
+}
+
 // End of texture definitions

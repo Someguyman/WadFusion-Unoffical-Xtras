@@ -153,8 +153,27 @@ class DCX_UOEventHandler : EventHandler
 				}
 		}
 		
+		if ( mapPrefix == "d1_" )
+		{
+			//DCX_PlasmaballDZ
+			if (e.Replacee == 'Plasmaball')
+			{
+				e.Replacement = 'DCX_PlasmaballDZ';
+			}
+		}
+		
 		if ( mapPrefix == "dz_" && CVar.FindCVar("dcx_CustomMonsters").GetBool() )
 		{
+			if (e.Replacee == 'Plasmaball')
+			{
+				e.Replacement = 'DCX_PlasmaballDZ';
+			}
+			
+			if (e.Replacee == 'ArachnotronPlasma')
+			{
+				e.Replacement = 'DCX_ArachnotronPlasmaDZ';
+			}
+			
 			//Pentegram
 			if (e.Replacee == 'Candlestick')
 			{
@@ -259,13 +278,54 @@ class DCX_UOEventHandler : EventHandler
 			let y = Cyberdemon(e.thing);
 			let z = Zombieman(e.thing);
 			
+			let plasma_pp = plasmaball(e.thing);
+			let plasma_mp = ArachnotronPlasma(e.thing);
+			
 			if ( mapPrefix == "hp_" )
 			{
 				//trustee guards
 			}
 			
+			if ( mapPrefix == "d1_" )
+			{
+				if (plasma_pp)
+				{
+					plasma_pp.seesound = "Plasma/DoomZero";
+				}
+				
+				if (plasma_mp)
+				{
+					plasma_mp.seesound = "Plasma/DoomZero";
+				}
+				
+				if (d)
+				{
+					d.DeathSound = "DZDemon/Death";
+				}
+				
+				if (t)
+				{
+					t.DeathSound = "DZspectre/death";
+				}
+				
+				if (m)
+				{			
+					m.DeathSound = "DZSpider/Death";
+				}
+			}
+			
 			if ( mapPrefix == "dz_" && CVar.GetCVar("dcx_CustomMonsters").GetBool() )
 			{
+				if (plasma_pp)
+				{
+					plasma_pp.seesound = "Plasma/DoomZero";
+				}
+				
+				if (plasma_mp)
+				{
+					plasma_mp.seesound = "Plasma/DoomZero";
+				}
+				
 				if (a)
 				{			
 					a.ActiveSound = "Blank/NoSound";
@@ -766,6 +826,54 @@ class DCX_UOEventHandler : EventHandler
 	
 	}
 	
+	void DCX_D1CTextureReplacements()
+    {
+		String SkyName = TexMan.GetName(level.skytexture1);
+		int flags = TexMan.ReturnFirst;
+		String mapPrefix = level.MapName.Left(3);
+		String mapName = level.MapName.MakeLower();
+		mapPrefix = mapPrefix.MakeLower();
+		if ( mapPrefix == "d1_" )
+        {
+			Level.ReplaceTextures("floor0_4", "dzflr0_4", 0);
+			Level.ReplaceTextures("floor6_3", "dzflr6_3", 0);
+			
+			//Level.ReplaceTextures("FIRELAVA", "BFALL1", 0);
+			//Level.ReplaceTextures("FIRELAV2", "BFALL2", 0);
+			//Level.ReplaceTextures("FIRELAV3", "BFALL3", 0);
+			
+			Level.ReplaceTextures("flat4", "d1_flat4", 0);
+			
+			Level.ReplaceTextures("gate5", "d1_gate5", 0);
+			Level.ReplaceTextures("gate6", "d1_gate6", 0);
+			
+			Level.ReplaceTextures("fwater1", "dzwatr1", 0);
+			Level.ReplaceTextures("fwater2", "dzwatr2", 0);
+			Level.ReplaceTextures("fwater3", "dzwatr3", 0);
+			Level.ReplaceTextures("fwater4", "dzwatr4", 0);
+			
+			Level.ReplaceTextures("BIGDOOR7", "BIGDOR7A", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("BRNPOIS" , "BRNPOIS1", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("NUKEPOIS", "NUKPOIS1", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SHAWN1"  , "SHAWN1A" , TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SKY1"    , "DSKY1"   , TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SKY2"    , "D1_SKY2"   , TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SKY3"    , "D1_SKY3"   , TexMan.NOT_FLAT);
+			Level.ReplaceTextures("STEP1"   , "STEP1A"  , TexMan.NOT_FLAT);
+			Level.ReplaceTextures("STEP2"   , "STEP2A"  , TexMan.NOT_FLAT);
+			Level.ReplaceTextures("STEP3"   , "STEP3A"  , TexMan.NOT_FLAT);
+			Level.ReplaceTextures("STEP5"   , "STEP5A"  , TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW1BRN1" , "SW1BRN1A", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW1STARG", "SW1STARA", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW1STONE", "SW1STONA", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW1STON2", "SW1STONB", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW2BRN1" , "SW2BRN1A", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW2STARG", "SW2STARA", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW2STONE", "SW2STONA", TexMan.NOT_FLAT);
+			Level.ReplaceTextures("SW2STON2", "SW2STONB", TexMan.NOT_FLAT);
+		}
+	}
+	
 	void DCX_DZTextureReplacements()
     {
 		String SkyName = TexMan.GetName(level.skytexture1);
@@ -912,6 +1020,7 @@ class DCX_UOEventHandler : EventHandler
 		DCX_FreeDoomTextureReplacements();
 		DCX_TNTRTextureReplacements();
 		DCX_PLU2TextureReplacements();
+		DCX_D1CTextureReplacements();
 		DCX_DZTextureReplacements();
 		DCX_EUTextureReplacements();
 		DCX_MapsOfChaosTextureReplacements();

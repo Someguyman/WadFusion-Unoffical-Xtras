@@ -7,6 +7,7 @@ include mapinfo/PerditionsGate_Levels_X.txt
 include mapinfo/HellToPay_Levels_X.txt
 include mapinfo/Plutonia2_Levels_X.txt
 include mapinfo/TNTRevilution_Levels_X.txt
+include mapinfo/DoomOne_Levels_X.txt
 include mapinfo/DoomZero_Levels_X.txt
 include mapinfo/MapsOfChaos_S_Levels_X.txt
 include mapinfo/MapsOfChaos_H_Levels_X.txt
