@@ -19,7 +19,7 @@ map EU_MAP01 "Logos Anomaly"
 	next = "EU_MAP02"
 	par = 30
 	music = "L_E5M1"
-	Label = "ULTIMATE DOOM, E7M1"
+	Label = "DOOM: THE LOST EPISODE, MAP01"
 }
 
 map EU_MAP02 "The Infernal Palace"
@@ -28,7 +28,7 @@ map EU_MAP02 "The Infernal Palace"
 	next = "EU_MAP03"
 	par = 60
 	music = "L_E5M2"
-	Label = "ULTIMATE DOOM, E7M2"
+	Label = "DOOM: THE LOST EPISODE, MAP02"
 }
 
 map EU_MAP03 "Ominous Lair"
@@ -39,7 +39,7 @@ map EU_MAP03 "Ominous Lair"
 	//music = "D_E2M6"
 	music = "D_BETA10"
 	Author = "Wills"
-	Label = "ULTIMATE DOOM, E7M3"
+	Label = "DOOM: THE LOST EPISODE, MAP03"
 }
 
 map EU_MAP04 "Caroll St. Station"
@@ -49,7 +49,7 @@ map EU_MAP04 "Caroll St. Station"
 	par = 817
 	//music = "D_E2M4"
 	music = "D_BETA14"
-	Label = "ULTIMATE DOOM, E7M4"
+	Label = "DOOM: THE LOST EPISODE, MAP04"
 }
 
 map EU_MAP05 "The Mansion"
@@ -59,7 +59,7 @@ map EU_MAP05 "The Mansion"
 	SecretNext = "EU_MAP09"
 	par = 180
 	music = "D_BETA22"
-	Label = "ULTIMATE DOOM, E7M5"
+	Label = "DOOM: THE LOST EPISODE, MAP05"
 }
 
 map EU_MAP06 "Twilight Descends"
@@ -69,7 +69,7 @@ map EU_MAP06 "Twilight Descends"
 	par = 300
 	//music = "D_E1M6"
 	music = "D_BETA08"
-	Label = "ULTIMATE DOOM, E7M6"
+	Label = "DOOM: THE LOST EPISODE, MAP06"
 }
 
 map EU_MAP07 "Threshold of Pain"
@@ -78,7 +78,7 @@ map EU_MAP07 "Threshold of Pain"
 	next = "EU_MAP08"
 	par = 142
 	music = "L_E5M7"
-	Label = "ULTIMATE DOOM, E7M7"
+	Label = "DOOM: THE LOST EPISODE, MAP07"
 }
 
 map EU_MAP08 "Redemption Denied"
@@ -91,7 +91,7 @@ map EU_MAP08 "Redemption Denied"
 	spidermastermindspecial
 	specialaction_exitlevel
 	music = "D_BETA21"
-	Label = "ULTIMATE DOOM, E7M8"
+	Label = "DOOM: THE LOST EPISODE, MAP08"
 }
 
 map EU_MAP09 "The Marshes"
@@ -102,5 +102,5 @@ map EU_MAP09 "The Marshes"
 	music = "D_BETA11"
 	cyberdemonspecial
 	specialaction_opendoor
-	Label = "ULTIMATE DOOM, E7M9"
+	Label = "DOOM: THE LOST EPISODE, MAP09"
 }

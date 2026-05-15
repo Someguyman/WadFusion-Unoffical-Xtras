@@ -25,7 +25,7 @@ map CH_E1M1 "$HUSTR_E1M1"
 	Par = 30
 	Music = "C_E1M1"
 	Author = "$WF_AU_ROMERO"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M1"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E1M1"
 }
 
 map CH_E1M2 "$HUSTR_E1M1"
@@ -36,7 +36,7 @@ map CH_E1M2 "$HUSTR_E1M1"
 	Par = 75
 	Music = "C_E1M2"
 	Author = "$WF_AU_ROMERO"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M2"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E1M2"
 }
 
 map CH_E1M3 "$HUSTR_E1M3"
@@ -48,7 +48,7 @@ map CH_E1M3 "$HUSTR_E1M3"
 	Par = 120
 	Music = "C_E1M3"
 	Author = "$WF_AU_ROMERO"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M3"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E1M3"
 }
 
 map CH_E1M4 "$HUSTR_E1M4"
@@ -59,7 +59,7 @@ map CH_E1M4 "$HUSTR_E1M4"
 	Par = 90
 	Music = "C_E1M4"
 	Author = "$WF_AU_ROMERO_HALL"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M4"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E1M4"
 }
 
 map CH_E1M5 "$HUSTR_E1M5"
@@ -70,7 +70,7 @@ map CH_E1M5 "$HUSTR_E1M5"
 	Par = 165
 	Music = "C_E1M5"
 	Author = "$WF_AU_ROMERO"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M5"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E1M5"
 }
 
 map CH_E1M6 "$HUSTR_E1M6"
@@ -81,7 +81,7 @@ map CH_E1M6 "$HUSTR_E1M6"
 	Par = 180
 	Music = "C_E1M6"
 	Author = "$WF_AU_ROMERO"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M6"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E1M6"
 }
 
 map CH_E1M7 "$HUSTR_E1M7"
@@ -92,7 +92,7 @@ map CH_E1M7 "$HUSTR_E1M7"
 	Par = 180
 	Music = "C_E1M7"
 	Author = "$WF_AU_ROMERO"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M7"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E1M7"
 }
 
 map CH_E1M8 "$HUSTR_E1M8"
@@ -107,7 +107,7 @@ map CH_E1M8 "$HUSTR_E1M8"
 	SpecialAction_LowerFloor
 	NoSoundClipping
 	Author = "$WF_AU_PETERSEN_HALL"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M8"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E1M8"
 }
 
 map CH_E1M9 "$HUSTR_E1M9"
@@ -118,7 +118,7 @@ map CH_E1M9 "$HUSTR_E1M9"
 	Par = 165
 	Music = "C_E1M9"
 	Author = "$WF_AU_ROMERO"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E1M9"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E1M9"
 }
 
 adddefaultmap
@@ -138,7 +138,7 @@ map CH_E2M1 "$HUSTR_E2M1"
 	Par = 90
 	Music = "C_E2M1"
 	Author = "$WF_AU_PETERSEN_HALL"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M1"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E2M1"
 }
 
 map CH_E2M2 "$HUSTR_E2M2"
@@ -149,7 +149,7 @@ map CH_E2M2 "$HUSTR_E2M2"
 	Par = 90
 	Music = "C_E2M2"
 	Author = "$WF_AU_PETERSEN_HALL"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M2"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E2M2"
 }
 
 map CH_E2M3 "$HUSTR_E2M3"
@@ -160,7 +160,7 @@ map CH_E2M3 "$HUSTR_E2M3"
 	Par = 90
 	Music = "C_E2M3"
 	Author = "$WF_AU_PETERSEN_HALL"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M3"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E2M3"
 }
 
 map CH_E2M4 "$HUSTR_E2M4"
@@ -171,7 +171,7 @@ map CH_E2M4 "$HUSTR_E2M4"
 	Par = 120
 	Music = "C_E2M4"
 	Author = "$WF_AU_PETERSEN_HALL"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M4"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E2M4"
 }
 
 map CH_E2M5 "$HUSTR_E2M5"
@@ -183,7 +183,7 @@ map CH_E2M5 "$HUSTR_E2M5"
 	Par = 90
 	Music = "C_E2M5"
 	Author = "$WF_AU_PETERSEN"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M5"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E2M5"
 }
 
 map CH_E2M6 "$HUSTR_E2M6"
@@ -194,7 +194,7 @@ map CH_E2M6 "$HUSTR_E2M6"
 	Par = 360
 	Music = "C_E2M6"
 	Author = "$WF_AU_PETERSEN"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M6"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E2M6"
 }
 
 map CH_E2M7 "$HUSTR_E2M7"
@@ -205,7 +205,7 @@ map CH_E2M7 "$HUSTR_E2M7"
 	Par = 240
 	Music = "C_E2M7"
 	Author = "$WF_AU_PETERSEN_HALL"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M7"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E2M7"
 }
 
 map CH_E2M8 "$HUSTR_E2M8"
@@ -220,7 +220,7 @@ map CH_E2M8 "$HUSTR_E2M8"
 	SpecialAction_ExitLevel
 	NoSoundClipping
 	Author = "$WF_AU_PETERSEN"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M8"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E2M8"
 }
 
 map CH_E2M9 "$HUSTR_E2M9"
@@ -231,7 +231,7 @@ map CH_E2M9 "$HUSTR_E2M9"
 	Par = 170
 	Music = "C_E2M9"
 	Author = "$WF_AU_PETERSEN"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E2M9"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E2M9"
 }
 
 adddefaultmap
@@ -251,7 +251,7 @@ map CH_E3M1 "$HUSTR_E3M1"
 	Par = 90
 	Music = "C_E3M1"
 	Author = "$WF_AU_PETERSEN"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M1"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E3M1"
 }
 
 map CH_E3M2 "$HUSTR_E3M2"
@@ -262,7 +262,7 @@ map CH_E3M2 "$HUSTR_E3M2"
 	Par = 45
 	Music = "C_E3M2"
 	Author = "$WF_AU_PETERSEN"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M2"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E3M2"
 }
 
 map CH_E3M3 "$HUSTR_E3M3"
@@ -273,7 +273,7 @@ map CH_E3M3 "$HUSTR_E3M3"
 	Par = 90
 	Music = "C_E3M3"
 	Author = "$WF_AU_PETERSEN_HALL"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M3"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E3M3"
 }
 
 map CH_E3M4 "$HUSTR_E3M4"
@@ -284,7 +284,7 @@ map CH_E3M4 "$HUSTR_E3M4"
 	Par = 150
 	Music = "C_E3M4"
 	Author = "$WF_AU_PETERSEN"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M4"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E3M4"
 }
 
 map CH_E3M5 "$HUSTR_E3M5"
@@ -295,7 +295,7 @@ map CH_E3M5 "$HUSTR_E3M5"
 	Par = 90
 	Music = "C_E3M5"
 	Author = "$WF_AU_PETERSEN"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M5"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E3M5"
 }
 
 map CH_E3M6 "$HUSTR_E3M6"
@@ -307,7 +307,7 @@ map CH_E3M6 "$HUSTR_E3M6"
 	Par = 90
 	Music = "C_E3M6"
 	Author = "$WF_AU_PETERSEN"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M6"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E3M6"
 }
 
 map CH_E3M7 "$HUSTR_E3M7"
@@ -318,7 +318,7 @@ map CH_E3M7 "$HUSTR_E3M7"
 	Par = 165
 	Music = "C_E3M7"
 	Author = "$WF_AU_PETERSEN_HALL"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M7"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E3M7"
 }
 
 map CH_E3M8 "$HUSTR_E3M8"
@@ -333,7 +333,7 @@ map CH_E3M8 "$HUSTR_E3M8"
 	SpecialAction_ExitLevel
 	NoSoundClipping
 	Author = "$WF_AU_PETERSEN"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M8"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E3M8"
 }
 
 map CH_E3M9 "$HUSTR_E3M9"
@@ -344,7 +344,7 @@ map CH_E3M9 "$HUSTR_E3M9"
 	Par = 135
 	Music = "C_E3M9"
 	Author = "$WF_AU_PETERSEN"
-	Label = "DOOM, MAPS OF CHAOS: HARDCORE, E3M9"
+	Label = "DOOM: MAPS OF CHAOS (HARDCORE), E3M9"
 }
 
 adddefaultmap
@@ -357,7 +357,7 @@ adddefaultmap
 
 Map CH_MAP01 "$HUSTR_1"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E1M1"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP01"
 	Next = "CH_MAP02"
 	TitlePatch = "CWILV00"
 	Par = 30
@@ -367,7 +367,7 @@ Map CH_MAP01 "$HUSTR_1"
 
 Map CH_MAP02 "$HUSTR_1"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E1M2"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP02"
 	Next = "CH_MAP03"
 	SecretNext = "MAP33"
 	TitlePatch = "CWILV01"
@@ -378,7 +378,7 @@ Map CH_MAP02 "$HUSTR_1"
 
 map CH_MAP03 "$HUSTR_3"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E1M3"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP03"
 	Next = "CH_MAP04"
 	TitlePatch = "CWILV02"
 	Par = 120
@@ -388,7 +388,7 @@ map CH_MAP03 "$HUSTR_3"
 
 map CH_MAP04 "$HUSTR_4"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E1M4"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP04"
 	Next = "CH_MAP05"
 	TitlePatch = "CWILV03"
 	Par = 120
@@ -398,7 +398,7 @@ map CH_MAP04 "$HUSTR_4"
 
 map CH_MAP05 "$HUSTR_5"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E1M5"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP05"
 	Next = "CH_MAP06"
 	TitlePatch = "CWILV04"
 	Par = 90
@@ -408,7 +408,7 @@ map CH_MAP05 "$HUSTR_5"
 
 map CH_MAP06 "$HUSTR_6"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E1M6"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP06"
 	Next = "CH_MAP07"
 	TitlePatch = "CWILV05"
 	Par = 150
@@ -428,7 +428,7 @@ adddefaultmap
 
 map CH_MAP07 "$HUSTR_7"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E1M7"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP07"
 	Next = "CH_MAP08"
 	TitlePatch = "CWILV06"
 	Par = 120
@@ -439,7 +439,7 @@ map CH_MAP07 "$HUSTR_7"
 
 map CH_MAP08 "$HUSTR_8"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E1M8"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP08"
 	Next = "CH_MAP09"
 	TitlePatch = "CWILV07"
 	Par = 120
@@ -449,7 +449,7 @@ map CH_MAP08 "$HUSTR_8"
 
 map CH_MAP09 "$HUSTR_9"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E1M9"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP09"
 	Next = "CH_MAP10"
 	TitlePatch = "CWILV08"
 	Par = 270
@@ -459,7 +459,7 @@ map CH_MAP09 "$HUSTR_9"
 
 map CH_MAP10 "$HUSTR_10"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E1M10"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP10"
 	Next = "CH_MAP11"
 	TitlePatch = "CWILV09"
 	Par = 90
@@ -469,7 +469,7 @@ map CH_MAP10 "$HUSTR_10"
 
 map CH_MAP11 "$HUSTR_11"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E1M11"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP11"
 	Secretnext = "CH_MAP12"
 	Next = "EndGame1"
 	TitlePatch = "CWILV10"
@@ -492,7 +492,7 @@ adddefaultmap
 
 map CH_MAP12 "$HUSTR_12"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E2M1"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP12"
 	Next = "CH_MAP13"
 	TitlePatch = "CWILV11"
 	Par = 150
@@ -502,7 +502,7 @@ map CH_MAP12 "$HUSTR_12"
 
 map CH_MAP13 "$HUSTR_13"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E2M2"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP13"
 	Next = "CH_MAP14"
 	TitlePatch = "CWILV12"
 	Par = 150
@@ -512,7 +512,7 @@ map CH_MAP13 "$HUSTR_13"
 
 map CH_MAP14 "$HUSTR_14"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E2M3"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP14"
 	Next = "CH_MAP15"
 	TitlePatch = "CWILV13"
 	Par = 150
@@ -522,7 +522,7 @@ map CH_MAP14 "$HUSTR_14"
 
 map CH_MAP15 "$HUSTR_15"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E2M4"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP15"
 	Next = "CH_MAP16"
 	SecretNext = "MAP31"
 	TitlePatch = "CWILV14"
@@ -533,7 +533,7 @@ map CH_MAP15 "$HUSTR_15"
 
 map CH_MAP16 "$HUSTR_16"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E2M5"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP16"
 	Next = "CH_MAP17"
 	secretnext = "PSX07"
 	TitlePatch = "CWILV15"
@@ -544,7 +544,7 @@ map CH_MAP16 "$HUSTR_16"
 
 map CH_MAP17 "$HUSTR_17"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E2M6"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP17"
 	Next = "CH_MAP18"
 	TitlePatch = "CWILV16"
 	Par = 420
@@ -554,7 +554,7 @@ map CH_MAP17 "$HUSTR_17"
 
 map CH_MAP18 "$HUSTR_18"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E2M7"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP18"
 	Next = "CH_MAP19"
 	TitlePatch = "CWILV17"
 	Par = 150
@@ -564,7 +564,7 @@ map CH_MAP18 "$HUSTR_18"
 
 map CH_MAP19 "$HUSTR_19"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E2M8"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP19"
 	Next = "CH_MAP20"
 	TitlePatch = "CWILV18"
 	Par = 210
@@ -574,7 +574,7 @@ map CH_MAP19 "$HUSTR_19"
 
 map CH_MAP20 "$HUSTR_20"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E2M9"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP20"
 	Secretnext = "CH_MAP21"
 	Next = "EndGame1"
 	TitlePatch = "CWILV19"
@@ -597,7 +597,7 @@ adddefaultmap
 
 map CH_MAP21 "$HUSTR_21"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E3M1"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP21"
 	Next = "CH_MAP22"
 	TitlePatch = "CWILV20"
 	Par = 240
@@ -607,7 +607,7 @@ map CH_MAP21 "$HUSTR_21"
 
 map CH_MAP22 "$HUSTR_22"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E3M2"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP22"
 	Next = "CH_MAP23"
 	TitlePatch = "CWILV21"
 	Par = 150
@@ -617,7 +617,7 @@ map CH_MAP22 "$HUSTR_22"
 
 map CH_MAP23 "$HUSTR_23"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E3M3"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP23"
 	Next = "CH_MAP24"
 	TitlePatch = "CWILV22"
 	Par = 180
@@ -627,7 +627,7 @@ map CH_MAP23 "$HUSTR_23"
 
 map CH_MAP24 "$HUSTR_24"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E3M4"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP24"
 	Next = "CH_MAP25"
 	TitlePatch = "CWILV23"
 	Par = 150
@@ -637,7 +637,7 @@ map CH_MAP24 "$HUSTR_24"
 
 map CH_MAP25 "$HUSTR_25"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E3M5"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP25"
 	Next = "CH_MAP26"
 	TitlePatch = "CWILV24"
 	Par = 150
@@ -647,7 +647,7 @@ map CH_MAP25 "$HUSTR_25"
 
 map CH_MAP26 "$HUSTR_26"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E3M6"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP26"
 	Next = "CH_MAP27"
 	TitlePatch = "CWILV25"
 	Par = 300
@@ -657,7 +657,7 @@ map CH_MAP26 "$HUSTR_26"
 
 map CH_MAP27 "$HUSTR_27"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E3M7"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP27"
 	Next = "CH_MAP28"
 	TitlePatch = "CWILV26"
 	Par = 330
@@ -667,7 +667,7 @@ map CH_MAP27 "$HUSTR_27"
 
 map CH_MAP28 "$HUSTR_28"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E3M8"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP28"
 	Next = "CH_MAP29"
 	TitlePatch = "CWILV27"
 	Par = 420
@@ -677,7 +677,7 @@ map CH_MAP28 "$HUSTR_28"
 
 map CH_MAP29 "$HUSTR_29"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E3M9"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP29"
 	Next = "CH_MAP30"
 	TitlePatch = "CWILV28"
 	Par = 300
@@ -687,7 +687,7 @@ map CH_MAP29 "$HUSTR_29"
 
 map CH_MAP30 "$HUSTR_30"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E3M10"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP30"
 	Next = "EndGameC"
 	TitlePatch = "CWILV29"
 	Par = 180
@@ -700,7 +700,7 @@ map CH_MAP30 "$HUSTR_30"
 
 map CH_MAP31 "$HUSTR_31"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E2M10"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP31"
 	Next = "CH_MAP16"
 	SecretNext = "CH_MAP32"
 	Cluster = 9
@@ -714,7 +714,7 @@ map CH_MAP31 "$HUSTR_31"
 
 map CH_MAP32 "$HUSTR_32"
 {
-	Label = "DOOM II, MAPS OF CHAOS: HARDCORE, E2M11"
+	Label = "DOOM II: MAPS OF CHAOS (HARDCORE), MAP32"
 	Next = "CH_MAP16"
 	Cluster = 10
 	TitlePatch = "CWILV31"

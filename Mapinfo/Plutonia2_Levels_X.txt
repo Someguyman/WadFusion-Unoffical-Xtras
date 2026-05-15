@@ -25,7 +25,7 @@ map PT_MAP01 lookup "P2HUSTR_1"
 	par = 30
 	music = "$MUSIC_PL2MAP01"
 	Author = "$WS_AU_GUSTA"
-	Label = "PLUTONIA 2, E1M1"
+	Label = "PLUTONIA II, MAP01"
 }
 
 map PT_MAP02 lookup "P2HUSTR_2"
@@ -35,7 +35,7 @@ map PT_MAP02 lookup "P2HUSTR_2"
 	par = 90
 	music = "$MUSIC_PL2MAP02"
 	Author = "$WS_AU_GUSTA"
-	Label = "PLUTONIA 2, E1M2"
+	Label = "PLUTONIA II, MAP02"
 }
 
 map PT_MAP03 lookup "P2HUSTR_3"
@@ -45,7 +45,7 @@ map PT_MAP03 lookup "P2HUSTR_3"
 	par = 120
 	music = "$MUSIC_PL2MAP03"
 	Author = "$WS_AU_GUSTA_PIPICZ"
-	Label = "PLUTONIA 2, E1M3"
+	Label = "PLUTONIA II, MAP03"
 }
 
 map PT_MAP04 lookup "P2HUSTR_4"
@@ -55,7 +55,7 @@ map PT_MAP04 lookup "P2HUSTR_4"
 	par = 120
 	Music = "P_RUNNIN"
 	Author = "$WS_AU_FREDRICK"
-	Label = "PLUTONIA 2, E1M4"
+	Label = "PLUTONIA II, MAP04"
 }
 
 map PT_MAP05 lookup "P2HUSTR_5"
@@ -65,7 +65,7 @@ map PT_MAP05 lookup "P2HUSTR_5"
 	par = 90
 	music = "$MUSIC_PL2MAP05"
 	Author = "$WS_AU_GUSTA"
-	Label = "PLUTONIA 2, E1M5"
+	Label = "PLUTONIA II, MAP05"
 }
 
 map PT_MAP06 lookup "P2HUSTR_6"
@@ -75,7 +75,7 @@ map PT_MAP06 lookup "P2HUSTR_6"
 	par = 150
 	Music = "P_THE_DA"
 	Author = "$WS_AU_METABOLIST_PEROXYD"
-	Label = "PLUTONIA 2, E1M6"
+	Label = "PLUTONIA II, MAP06"
 }
 
 //		Episode 1 Part 2		//
@@ -94,7 +94,7 @@ map PT_MAP07 lookup "P2HUSTR_7"
 	map07special
 	music = "$MUSIC_PL2MAP07"
 	Author = "$WS_AU_KIRA_PEROXYD"
-	Label = "PLUTONIA 2, E1M7"
+	Label = "PLUTONIA II, MAP07"
 }
 
 map PT_MAP08 lookup "P2HUSTR_8"
@@ -104,7 +104,7 @@ map PT_MAP08 lookup "P2HUSTR_8"
 	par = 120
 	music = "$MUSIC_PL2MAP08"
 	Author = "$WS_AU_TANGO"
-	Label = "PLUTONIA 2, E1M8"
+	Label = "PLUTONIA II, MAP08"
 }
 
 map PT_MAP09 lookup "P2HUSTR_9"
@@ -114,7 +114,7 @@ map PT_MAP09 lookup "P2HUSTR_9"
 	par = 270
 	music = "$MUSIC_PL2MAP09"
 	Author = "$WS_AU_GUSTA"
-	Label = "PLUTONIA 2, E1M9"
+	Label = "PLUTONIA II, MAP09"
 }
 
 map PT_MAP10 lookup "P2HUSTR_10"
@@ -123,7 +123,7 @@ map PT_MAP10 lookup "P2HUSTR_10"
 	par = 90
 	music = "$MUSIC_PL2MAP10"
 	Author = "$WS_AU_RABOTIK"
-	Label = "PLUTONIA 2, E1M10"
+	Label = "PLUTONIA II, MAP10"
 }
 
 map PT_MAP11 lookup "P2HUSTR_11"
@@ -133,7 +133,7 @@ map PT_MAP11 lookup "P2HUSTR_11"
 	par = 210
 	music = "$MUSIC_PL2MAP11"
 	Author = "$WS_AU_GUSTA_RABOTIK"
-	Label = "PLUTONIA 2, E1M11"
+	Label = "PLUTONIA II, MAP11"
 }
 
 //		Episode 2		//
@@ -150,7 +150,7 @@ map PT_MAP12 lookup "P2HUSTR_12"
 	par = 150
 	music = "$MUSIC_PL2MAP12"
 	Author = "$WS_AU_KrRaMePa"
-	Label = "PLUTONIA 2, E2M1"
+	Label = "PLUTONIA II, E2M1"
 }
 
 map PT_MAP13 lookup "P2HUSTR_13"
@@ -159,7 +159,7 @@ map PT_MAP13 lookup "P2HUSTR_13"
 	par = 150
 	Music = "P_DOOM2"
 	Author = "$WS_AU_FrGuMe"
-	Label = "PLUTONIA 2, E2M2"
+	Label = "PLUTONIA II, E2M2"
 }
 
 map PT_MAP14 lookup "P2HUSTR_14"
@@ -168,7 +168,7 @@ map PT_MAP14 lookup "P2HUSTR_14"
 	par = 150
 	music = "$MUSIC_PL2MAP14"
 	Author = "$WS_AU_ETERNAL"
-	Label = "PLUTONIA 2, E2M3"
+	Label = "PLUTONIA II, E2M3"
 }
 
 map PT_MAP15 lookup "P2HUSTR_15"
@@ -178,7 +178,7 @@ map PT_MAP15 lookup "P2HUSTR_15"
 	par = 210
 	music = "$MUSIC_PL2MAP15"
 	Author = "$WS_AU_KIRA"
-	Label = "PLUTONIA 2, E2M4"
+	Label = "PLUTONIA II, E2M4"
 }
 
 map PT_MAP16 lookup "P2HUSTR_16"
@@ -188,7 +188,7 @@ map PT_MAP16 lookup "P2HUSTR_16"
 	par = 150
 	music = "$MUSIC_PL2MAP16"
 	Author = "$WS_AU_GUSTA"
-	Label = "PLUTONIA 2, E2M5"
+	Label = "PLUTONIA II, E2M5"
 }
 
 map PT_MAP17 lookup "P2HUSTR_17"
@@ -198,7 +198,7 @@ map PT_MAP17 lookup "P2HUSTR_17"
 	par = 420
 	music = "D_SR_NIG"
 	Author = "$WS_AU_GUSTA"
-	Label = "PLUTONIA 2, E2M6"
+	Label = "PLUTONIA II, E2M6"
 }
 
 map PT_MAP18 lookup "P2HUSTR_18"
@@ -208,7 +208,7 @@ map PT_MAP18 lookup "P2HUSTR_18"
 	par = 150
 	music = "$MUSIC_PL2MAP18"
 	Author = "$WS_AU_GUSTA"
-	Label = "PLUTONIA 2, E2M7"
+	Label = "PLUTONIA II, E2M7"
 }
 
 map PT_MAP19 lookup "P2HUSTR_19"
@@ -218,7 +218,7 @@ map PT_MAP19 lookup "P2HUSTR_19"
 	par = 210
 	music = "$MUSIC_PL2MAP19"
 	Author = "$WS_AU_MeJaPe"
-	Label = "PLUTONIA 2, E2M8"
+	Label = "PLUTONIA II, E2M8"
 }
 
 map PT_MAP20 lookup "P2HUSTR_20"
@@ -228,7 +228,7 @@ map PT_MAP20 lookup "P2HUSTR_20"
 	par = 150
 	music = "$MUSIC_PL2MAP20"
 	Author = "$WS_AU_ANGUS_GUSTA"
-	Label = "PLUTONIA 2, E2M9"
+	Label = "PLUTONIA II, E2M9"
 }
 
 //		Episode 3		//
@@ -246,7 +246,7 @@ map PT_MAP21 lookup "P2HUSTR_21"
 	par = 240
 	music = "$MUSIC_PL2MAP21"
 	Author = "$WS_AU_ANGUS_GUSTA"
-	Label = "PLUTONIA 2, E3M1"
+	Label = "PLUTONIA II, MAP21"
 }
 
 map PT_MAP22 lookup "P2HUSTR_22"
@@ -256,7 +256,7 @@ map PT_MAP22 lookup "P2HUSTR_22"
 	par = 150
 	Music = "P_DDTBL3"
 	Author = "$WS_AU_ERIK_GUSTA"
-	Label = "PLUTONIA 2, E3M2"
+	Label = "PLUTONIA II, MAP22"
 }
 
 map PT_MAP23 lookup "P2HUSTR_23"
@@ -266,7 +266,7 @@ map PT_MAP23 lookup "P2HUSTR_23"
 	par = 180
 	Music = "p_romer2"
 	Author = "$WS_AU_PALLAI"
-	Label = "PLUTONIA 2, E3M3"
+	Label = "PLUTONIA II, MAP23"
 }
 
 map PT_MAP24 lookup "P2HUSTR_24"
@@ -276,7 +276,7 @@ map PT_MAP24 lookup "P2HUSTR_24"
 	par = 150
 	music = "$MUSIC_PL2MAP24"
 	Author = "$WS_AU_ERIK"
-	Label = "PLUTONIA 2, E3M4"
+	Label = "PLUTONIA II, MAP24"
 }
 
 map PT_MAP25 lookup "P2HUSTR_25"
@@ -286,7 +286,7 @@ map PT_MAP25 lookup "P2HUSTR_25"
 	par = 150
 	music = "$MUSIC_PL2MAP25"
 	Author = "$WS_AU_GUSTA"
-	Label = "PLUTONIA 2, E3M5"
+	Label = "PLUTONIA II, MAP25"
 }
 
 map PT_MAP26 lookup "P2HUSTR_26"
@@ -296,7 +296,7 @@ map PT_MAP26 lookup "P2HUSTR_26"
 	par = 300
 	music = "$MUSIC_PL2MAP26"
 	Author = "$WS_AU_RABOTIK"
-	Label = "PLUTONIA 2, E3M6"
+	Label = "PLUTONIA II, MAP26"
 }
 
 map PT_MAP27 lookup "P2HUSTR_27"
@@ -306,7 +306,7 @@ map PT_MAP27 lookup "P2HUSTR_27"
 	par = 330
 	music = "$MUSIC_PL2MAP27"
 	Author = "$WS_AU_MeViRa"
-	Label = "PLUTONIA 2, E3M7"
+	Label = "PLUTONIA II, MAP27"
 }
 
 map PT_MAP28 lookup "P2HUSTR_28"
@@ -316,7 +316,7 @@ map PT_MAP28 lookup "P2HUSTR_28"
 	par = 420
 	music = "$MUSIC_PL2MAP28"
 	Author = "$WS_AU_ETERNAL"
-	Label = "PLUTONIA 2, E3M8"
+	Label = "PLUTONIA II, MAP28"
 }
 
 map PT_MAP29 lookup "P2HUSTR_29"
@@ -326,7 +326,7 @@ map PT_MAP29 lookup "P2HUSTR_29"
 	par = 300
 	music = "$MUSIC_PL2MAP29"
 	Author = "$WS_AU_GUSTA_PIPICZ"
-	Label = "PLUTONIA 2, E3M9"
+	Label = "PLUTONIA II, MAP29"
 }
 
 map PT_MAP30 lookup "P2HUSTR_30"
@@ -343,7 +343,7 @@ map PT_MAP30 lookup "P2HUSTR_30"
 		Music = "$MUSIC_PL2END"
 		Cast
 	}
-	Label = "PLUTONIA 2, E3M10"
+	Label = "PLUTONIA II, MAP30"
 }
 
 //		Secret maps		//
@@ -357,7 +357,7 @@ map PT_MAP31 lookup "P2HUSTR_31"
 	par = 120
 	Music = "P_MESSAG"
 	Author = "$WS_AU_ETERNAL"
-	Label = "PLUTONIA 2, E2M0"
+	Label = "PLUTONIA II, MAP31"
 }
 
 map PT_MAP32 lookup "P2HUSTR_32"
@@ -369,7 +369,7 @@ map PT_MAP32 lookup "P2HUSTR_32"
 	par = 30
 	music = "$MUSIC_PL2MAP32"
 	Author = "$WS_AU_KIRA_RABOTIK"
-	Label = "PLUTONIA 2, E2M666"
+	Label = "PLUTONIA II, MAP32"
 }
 
 //		Bonus Map: Choclate		//
@@ -382,5 +382,5 @@ map PT_MAP33 lookup "P2HUSTR_33"
 	par = 30
 	music = "$MUSIC_PL2MAP33"
 	Author = "$WS_AU_BAKER"
-	Label = "Bonus"
+	Label = "PLUTONIA II, BONUS"
 }

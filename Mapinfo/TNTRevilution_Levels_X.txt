@@ -25,7 +25,7 @@ map tr_map01 lookup "TRHUSTR_1"
 	par = 30
 	Author = "$WS_AU_UNI"
 	music = "$MUSIC_TNRMAP01"
-	Label = "T.N.T REVILUTION, E1M1"
+	Label = "T.N.T REVILUTION, MAP01"
 }
 
 map tr_map02 lookup "TRHUSTR_2"
@@ -34,7 +34,7 @@ map tr_map02 lookup "TRHUSTR_2"
 	par = 90
 	Author = "$WS_AU_BRAYDEN"
 	music = "$MUSIC_TNRMAP02"
-	Label = "T.N.T REVILUTION, E1M2"
+	Label = "T.N.T REVILUTION, MAP02"
 }
 
 map tr_map03 lookup "TRHUSTR_3"
@@ -43,7 +43,7 @@ map tr_map03 lookup "TRHUSTR_3"
 	par = 120
 	Author = "$WS_AU_HANSEN"
 	music = "$MUSIC_TNRMAP03"
-	Label = "T.N.T REVILUTION, E1M3"
+	Label = "T.N.T REVILUTION, MAP03"
 }
 
 map tr_map04 lookup "TRHUSTR_4"
@@ -52,7 +52,7 @@ map tr_map04 lookup "TRHUSTR_4"
 	par = 120
 	Author = "$WS_AU_DUFF"
 	music = "$MUSIC_TNRMAP04"
-	Label = "T.N.T REVILUTION, E1M4"
+	Label = "T.N.T REVILUTION, MAP04"
 }
 
 map tr_map05 lookup "TRHUSTR_5"
@@ -61,7 +61,7 @@ map tr_map05 lookup "TRHUSTR_5"
 	par = 90
 	Author = "$WS_AU_MICAH"
 	music = "$MUSIC_TNRMAP05"
-	Label = "T.N.T REVILUTION, E1M5"
+	Label = "T.N.T REVILUTION, MAP05"
 }
 
 map tr_map06 lookup "TRHUSTR_6"
@@ -70,7 +70,7 @@ map tr_map06 lookup "TRHUSTR_6"
 	par = 150
 	Author = "$WS_AU_XENO_MULLER_STEFFIN_MICAH"
 	music = "$MUSIC_TNRMAP06"
-	Label = "T.N.T REVILUTION, E1M6"
+	Label = "T.N.T REVILUTION, MAP06"
 }
 
 //		Episode 1 Part 2		//
@@ -88,7 +88,7 @@ map tr_map07 lookup "TRHUSTR_7"
 	map07special
 	Author = "$WS_AU_POWELL"
 	music = "$MUSIC_TNRMAP07"
-	Label = "T.N.T REVILUTION, E1M7"
+	Label = "T.N.T REVILUTION, MAP07"
 }
 
 map tr_map08 lookup "TRHUSTR_8"
@@ -97,7 +97,7 @@ map tr_map08 lookup "TRHUSTR_8"
 	par = 120
 	Author = "$WS_AU_SINCITY_STEFFIN"
 	music = "$MUSIC_TNRMAP08"
-	Label = "T.N.T REVILUTION, E1M8"
+	Label = "T.N.T REVILUTION, MAP08"
 }
 
 map tr_map09 lookup "TRHUSTR_9"
@@ -106,7 +106,7 @@ map tr_map09 lookup "TRHUSTR_9"
 	par = 270
 	Author = "$WS_AU_WHOO_MICAH"
 	music = "$MUSIC_TNRMAP09"
-	Label = "T.N.T REVILUTION, E1M9"
+	Label = "T.N.T REVILUTION, MAP09"
 }
 
 map tr_map10 lookup "TRHUSTR_10"
@@ -115,7 +115,7 @@ map tr_map10 lookup "TRHUSTR_10"
 	par = 90
 	Author = "$WS_AU_LOPEX_MULLER"
 	music = "$MUSIC_TNRMAP10"
-	Label = "T.N.T REVILUTION, E1M10"
+	Label = "T.N.T REVILUTION, MAP10"
 }
 
 map tr_map11 lookup "TRHUSTR_11"
@@ -125,7 +125,7 @@ map tr_map11 lookup "TRHUSTR_11"
 	par = 210
 	Author = "$WS_AU_SEIFERT"
 	music = "$MUSIC_TNRMAP11"
-	Label = "T.N.T REVILUTION, E1M11"
+	Label = "T.N.T REVILUTION, MAP11"
 }
 
 //		Episode 2		//
@@ -142,7 +142,7 @@ map tr_map12 lookup "TRHUSTR_12"
 	par = 150
 	Author = "$WS_AU_BUNNY_MULLER_MEGAMUR_STEFFEN"
 	music = "$MUSIC_TNRMAP12"
-	Label = "T.N.T REVILUTION, E2M1"
+	Label = "T.N.T REVILUTION, MAP12"
 }
 
 map tr_map13 lookup "TRHUSTR_13"
@@ -151,7 +151,7 @@ map tr_map13 lookup "TRHUSTR_13"
 	par = 150
 	Author = "$WS_AU_MICAH"
 	music = "$MUSIC_TNRMAP13"
-	Label = "T.N.T REVILUTION, E2M2"
+	Label = "T.N.T REVILUTION, MAP13"
 }
 
 map tr_map14 lookup "TRHUSTR_14"
@@ -160,7 +160,7 @@ map tr_map14 lookup "TRHUSTR_14"
 	par = 150
 	Author = "$WS_AU_DUFF"
 	music = "$MUSIC_TNRMAP14"
-	Label = "T.N.T REVILUTION, E2M3"
+	Label = "T.N.T REVILUTION, MAP14"
 }
 
 map tr_map15 lookup "TRHUSTR_15"
@@ -170,7 +170,7 @@ map tr_map15 lookup "TRHUSTR_15"
 	par = 210
 	Author = "$WS_AU_D_GARG_MICAH"
 	music = "$MUSIC_TNRMAP15"
-	Label = "T.N.T REVILUTION, E2M4"
+	Label = "T.N.T REVILUTION, MAP15"
 }
 
 map tr_map16 lookup "TRHUSTR_16"
@@ -179,7 +179,7 @@ map tr_map16 lookup "TRHUSTR_16"
 	par = 150
 	Author = "$WS_AU_STEFFIN"
 	music = "$MUSIC_TNRMAP16"
-	Label = "T.N.T REVILUTION, E2M5"
+	Label = "T.N.T REVILUTION, MAP16"
 }
 
 map tr_map17 lookup "TRHUSTR_17"
@@ -188,7 +188,7 @@ map tr_map17 lookup "TRHUSTR_17"
 	par = 420
 	Author = "$WS_AU_BOURKE"
 	music = "$MUSIC_TNRMAP17"
-	Label = "T.N.T REVILUTION, E2M6"
+	Label = "T.N.T REVILUTION, MAP17"
 }
 
 map tr_map18 lookup "TRHUSTR_18"
@@ -197,7 +197,7 @@ map tr_map18 lookup "TRHUSTR_18"
 	par = 150
 	Author = "$WS_AU_ALEXANDER"
 	music = "$MUSIC_TNRMAP18"
-	Label = "T.N.T REVILUTION, E2M7"
+	Label = "T.N.T REVILUTION, MAP18"
 }
 
 map tr_map19 lookup "TRHUSTR_19"
@@ -206,7 +206,7 @@ map tr_map19 lookup "TRHUSTR_19"
 	par = 210
 	Author = "$WS_AU_GASPE"
 	music = "$MUSIC_TNRMAP19"
-	Label = "T.N.T REVILUTION, E2M8"
+	Label = "T.N.T REVILUTION, MAP19"
 }
 
 map tr_map20 lookup "TRHUSTR_20"
@@ -216,7 +216,7 @@ map tr_map20 lookup "TRHUSTR_20"
 	par = 150
 	Author = "$WS_AU_CRESSWELL" 
 	music = "$MUSIC_TNRMAP20"
-	Label = "T.N.T REVILUTION, E2M9"
+	Label = "T.N.T REVILUTION, MAP20"
 }
 
 //		Episode 3		//
@@ -234,7 +234,7 @@ map tr_map21 lookup "TRHUSTR_21"
 	par = 240
 	Author = "$WS_AU_ERADROP"
 	music = "$MUSIC_TNRMAP21"
-	Label = "T.N.T REVILUTION, E3M1"
+	Label = "T.N.T REVILUTION, MAP21"
 }
 
 map tr_map22 lookup "TRHUSTR_22"
@@ -244,7 +244,7 @@ map tr_map22 lookup "TRHUSTR_22"
 	par = 150
 	Author = "$WS_AU_OlLYMPUS_MULLER_STEFFIN"
 	music = "$MUSIC_TNRMAP22"
-	Label = "T.N.T REVILUTION, E3M2"
+	Label = "T.N.T REVILUTION, MAP22"
 }
 
 map tr_map23 lookup "TRHUSTR_23"
@@ -254,7 +254,7 @@ map tr_map23 lookup "TRHUSTR_23"
 	par = 180
 	Author = "$WS_AU_MICAH"
 	music = "$MUSIC_TNRMAP23"
-	Label = "T.N.T REVILUTION, E3M3"
+	Label = "T.N.T REVILUTION, MAP23"
 }
 
 map tr_map24 lookup "TRHUSTR_24"
@@ -264,7 +264,7 @@ map tr_map24 lookup "TRHUSTR_24"
 	par = 150
 	Author = "$WS_AU_KRIZIK"
 	music = "$MUSIC_TNRMAP24"
-	Label = "T.N.T REVILUTION, E3M4"
+	Label = "T.N.T REVILUTION, MAP24"
 }
 
 map tr_map25 lookup "TRHUSTR_25"
@@ -274,7 +274,7 @@ map tr_map25 lookup "TRHUSTR_25"
 	par = 150
 	Author = "$WS_AU_POWELL"
 	music = "$MUSIC_TNRMAP25"
-	Label = "T.N.T REVILUTION, E3M5"
+	Label = "T.N.T REVILUTION, MAP25"
 }
 
 map tr_map26 lookup "TRHUSTR_26"
@@ -284,7 +284,7 @@ map tr_map26 lookup "TRHUSTR_26"
 	par = 300
 	Author = "$WS_AU_MIONIC" //
 	music = "$MUSIC_TNRMAP26"
-	Label = "T.N.T REVILUTION, E3M6"
+	Label = "T.N.T REVILUTION, MAP26"
 }
 
 map tr_map27 lookup "TRHUSTR_27"
@@ -294,7 +294,7 @@ map tr_map27 lookup "TRHUSTR_27"
 	par = 330
 	Author = "$WS_AU_FREI_KNEZEVICH"
 	music = "$MUSIC_TNRMAP27"
-	Label = "T.N.T REVILUTION, E3M7"
+	Label = "T.N.T REVILUTION, MAP27"
 }
 
 map tr_map28 lookup "TRHUSTR_28"
@@ -304,7 +304,7 @@ map tr_map28 lookup "TRHUSTR_28"
 	par = 420
 	Author = "$WS_AU_PINCHY"
 	music = "$MUSIC_TNRMAP28"
-	Label = "T.N.T REVILUTION, E3M8"
+	Label = "T.N.T REVILUTION, MAP28"
 }
 
 map tr_map29 lookup "TRHUSTR_29"
@@ -314,7 +314,7 @@ map tr_map29 lookup "TRHUSTR_29"
 	par = 300
 	Author = "$WS_AU_ERADROP"
 	music = "$MUSIC_TNRMAP29"
-	Label = "T.N.T REVILUTION, E3M9"
+	Label = "T.N.T REVILUTION, MAP29"
 }
 
 map tr_map30 lookup "TRHUSTR_30"
@@ -331,7 +331,7 @@ map tr_map30 lookup "TRHUSTR_30"
 		Music = "$MUSIC_TNREND"
 		Cast
 	}
-	Label = "T.N.T REVILUTION, E3M10"
+	Label = "T.N.T REVILUTION, MAP30"
 }
 
 //		Secret maps		//
@@ -345,7 +345,7 @@ map tr_map31 lookup "TRHUSTR_31"
 	par = 114
 	Author = "$WS_AU_KRIZIK"
 	music = "$MUSIC_TNRMAP31"
-	Label = "T.N.T REVILUTION, E2M10"
+	Label = "T.N.T REVILUTION, MAP31"
 }
 
 map tr_map32 lookup "TRHUSTR_32"
@@ -357,5 +357,5 @@ map tr_map32 lookup "TRHUSTR_32"
 	par = 30
 	Author = "$WS_AU_MULLER_MICAH"
 	music = "$MUSIC_TNRMAP32"
-	Label = "T.N.T REVILUTION, E2M11"
+	Label = "T.N.T REVILUTION, MAP32"
 }

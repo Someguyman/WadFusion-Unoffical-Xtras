@@ -366,6 +366,12 @@ episode OneHumanity
 	Optional
 }
 
+episode LR_MAP99
+{
+	Name = "$BONUS_LORTESTMAP"
+	Optional
+}
+
 //	Bonus Doom 64 maps	//
 
 episode AB_MAP33

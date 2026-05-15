@@ -23,7 +23,7 @@ map PG_MAP01 "Main Gate"
 	par = 30
 	music = "$MUSIC_PERMAP01"
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
-	Label = "PERDITIONS GATE, E1M1"
+	Label = "PERDITIONS GATE, MAP01"
 }
 
 map PG_MAP02 "Secondary Complex"
@@ -32,7 +32,7 @@ map PG_MAP02 "Secondary Complex"
 	par = 90
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
 	music = "$MUSIC_PERMAP02"
-	Label = "PERDITIONS GATE, E1M2"
+	Label = "PERDITIONS GATE, MAP02"
 }
 
 map PG_MAP03 "Recreation Yard"
@@ -41,7 +41,7 @@ map PG_MAP03 "Recreation Yard"
 	par = 120
 	Author = "$WS_AU_MUSTAINE"
 	music = "$MUSIC_PERMAP03"
-	Label = "PERDITIONS GATE, E1M3"
+	Label = "PERDITIONS GATE, MAP03"
 }
 
 map PG_MAP04 "Storage Areas"
@@ -50,7 +50,7 @@ map PG_MAP04 "Storage Areas"
 	par = 120
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
 	music = "$MUSIC_PERMAP04"
-	Label = "PERDITIONS GATE, E1M4"
+	Label = "PERDITIONS GATE, MAP04"
 }
 
 map PG_MAP05 "Sub-Basement"
@@ -59,7 +59,7 @@ map PG_MAP05 "Sub-Basement"
 	par = 90
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
 	music = "$MUSIC_PERMAP05"
-	Label = "PERDITIONS GATE, E1M5"
+	Label = "PERDITIONS GATE, MAP05"
 }
 
 map PG_MAP06 "Delta Sector"
@@ -68,7 +68,7 @@ map PG_MAP06 "Delta Sector"
 	par = 150
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
 	music = "$MUSIC_PERMAP06"
-	Label = "PERDITIONS GATE, E1M6"
+	Label = "PERDITIONS GATE, MAP06"
 }
 
 //		Episode 1 Part 2		//
@@ -80,7 +80,7 @@ map PG_MAP07 "Nukage Refinery"
 	map07special
 	Author = "$WS_AU_MUSTAINE"
 	music = "$MUSIC_PERMAP07"
-	Label = "PERDITIONS GATE, E1M7"
+	Label = "PERDITIONS GATE, MAP07"
 }
 
 map PG_MAP08 "Drainage Tunnels"
@@ -89,7 +89,7 @@ map PG_MAP08 "Drainage Tunnels"
 	par = 120
 	Author = "$WS_AU_MUSTAINE"
 	music = "$MUSIC_PERMAP08"
-	Label = "PERDITIONS GATE, E1M8"
+	Label = "PERDITIONS GATE, MAP08"
 }
 
 map PG_MAP09 "Experimentation Labs"
@@ -98,7 +98,7 @@ map PG_MAP09 "Experimentation Labs"
 	par = 270
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
 	music = "$MUSIC_PERMAP09"
-	Label = "PERDITIONS GATE, E1M9"
+	Label = "PERDITIONS GATE, MAP09"
 }
 
 map PG_MAP10 "High Security Area"
@@ -107,7 +107,7 @@ map PG_MAP10 "High Security Area"
 	par = 90
 	Author = "$WS_AU_SIEBEN"
 	music = "$MUSIC_PERMAP10"
-	Label = "PERDITIONS GATE, E1M10"
+	Label = "PERDITIONS GATE, MAP10"
 }
 
 map PG_MAP11 "Central Portal"
@@ -116,7 +116,7 @@ map PG_MAP11 "Central Portal"
 	par = 210
 	Author = "$WS_AU_MUSTAINE"
 	music = "$MUSIC_PERMAP11"
-	Label = "PERDITIONS GATE, E1M11"
+	Label = "PERDITIONS GATE, MAP11"
 }
 
 //		Episode 2		//
@@ -132,7 +132,7 @@ map PG_MAP12 "Ancient Gate"
 	par = 150
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR_SIEBEN"
 	music = "$MUSIC_PERMAP12"
-	Label = "PERDITIONS GATE, E2M1"
+	Label = "PERDITIONS GATE, MAP12"
 }
 
 map PG_MAP13 "Teleport Platform"
@@ -141,7 +141,7 @@ map PG_MAP13 "Teleport Platform"
 	par = 150
 	Author = "$WS_AU_MUSTAIN_MCCANDLISH"
 	music = "$MUSIC_PERMAP13"
-	Label = "PERDITIONS GATE, E2M2"
+	Label = "PERDITIONS GATE, MAP13"
 }
 
 map PG_MAP14 "Transfer Locking Area"
@@ -150,7 +150,7 @@ map PG_MAP14 "Transfer Locking Area"
 	par = 150
 	Author = "$WS_AU_SIEBEN"
 	music = "$MUSIC_PERMAP14"
-	Label = "PERDITIONS GATE, E2M3"
+	Label = "PERDITIONS GATE, MAP14"
 }
 
 map PG_MAP15 "The Old Fortress"
@@ -160,7 +160,7 @@ map PG_MAP15 "The Old Fortress"
 	par = 210
 	Author = "$WS_AU_MUSTAIN_MCCANDLISH"
 	music = "$MUSIC_PERMAP15"
-	Label = "PERDITIONS GATE, E2M4"
+	Label = "PERDITIONS GATE, MAP15"
 }
 
 map PG_MAP16 "The Alien Shrine"
@@ -169,7 +169,7 @@ map PG_MAP16 "The Alien Shrine"
 	par = 150
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
 	music = "$MUSIC_PERMAP16"
-	Label = "PERDITIONS GATE, E2M5"
+	Label = "PERDITIONS GATE, MAP16"
 }
 
 map PG_MAP17 "Interdimensional Control"
@@ -178,7 +178,7 @@ map PG_MAP17 "Interdimensional Control"
 	par = 420
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
 	music = "$MUSIC_PERMAP17"
-	Label = "PERDITIONS GATE, E2M6"
+	Label = "PERDITIONS GATE, MAP17"
 }
 
 map PG_MAP18 "Computer Center"
@@ -187,7 +187,7 @@ map PG_MAP18 "Computer Center"
 	par = 150
 	Author = "$WS_AU_MUSTAINE"
 	music = "$MUSIC_PERMAP18"
-	Label = "PERDITIONS GATE, E2M7"
+	Label = "PERDITIONS GATE, MAP18"
 }
 
 map PG_MAP19 "Closer to Hell"
@@ -196,7 +196,7 @@ map PG_MAP19 "Closer to Hell"
 	par = 210
 	Author = "$WS_AU_SIEBEN"
 	music = "$MUSIC_PERMAP19"
-	Label = "PERDITIONS GATE, E2M8"
+	Label = "PERDITIONS GATE, MAP19"
 }
 
 map PG_MAP20 "The Last Stand"
@@ -205,7 +205,7 @@ map PG_MAP20 "The Last Stand"
 	par = 150
 	Author = "$WS_AU_MUSTAIN_MUSTAINESR"
 	music = "$MUSIC_PERMAP20"
-	Label = "PERDITIONS GATE, E2M9"
+	Label = "PERDITIONS GATE, MAP20"
 }
 
 //		Episode 3		//
@@ -221,7 +221,7 @@ map PG_MAP21 "Perdition's Gate"
 	par = 240
 	Author = "$WS_AU_SIEBEN"
 	music = "$MUSIC_PERMAP21"
-	Label = "PERDITIONS GATE, E3M1"
+	Label = "PERDITIONS GATE, MAP21"
 }
 
 map PG_MAP22 "The Deepest Reaches"
@@ -230,7 +230,7 @@ map PG_MAP22 "The Deepest Reaches"
 	par = 150
 	Author = "$WS_AU_MCCANDLISH"
 	music = "$MUSIC_PERMAP22"
-	Label = "PERDITIONS GATE, E3M2"
+	Label = "PERDITIONS GATE, MAP22"
 }
 
 map PG_MAP23 "Hell's Gymnasium"
@@ -239,7 +239,7 @@ map PG_MAP23 "Hell's Gymnasium"
 	par = 180
 	Author = "$WS_AU_SIEBEN"
 	music = "$MUSIC_PERMAP23"
-	Label = "PERDITIONS GATE, E3M3"
+	Label = "PERDITIONS GATE, MAP23"
 }
 
 map PG_MAP24 "BloodStone Gardens"
@@ -248,7 +248,7 @@ map PG_MAP24 "BloodStone Gardens"
 	par = 150
 	Author = "$WS_AU_MCCANDLISH"
 	music = "$MUSIC_PERMAP24"
-	Label = "PERDITIONS GATE, E3M4"
+	Label = "PERDITIONS GATE, MAP24"
 }
 
 map PG_MAP25 "Demon's Playground"
@@ -257,7 +257,7 @@ map PG_MAP25 "Demon's Playground"
 	par = 150
 	Author = "$WS_AU_MCCANDLISH"
 	music = "$MUSIC_PERMAP25"
-	Label = "PERDITIONS GATE, E3M5"
+	Label = "PERDITIONS GATE, MAP25"
 }
 
 map PG_MAP26 "The Bleeding Tunnels"
@@ -266,7 +266,7 @@ map PG_MAP26 "The Bleeding Tunnels"
 	par = 300
 	Author = "$WS_AU_UNKNOWN"
 	music = "$MUSIC_PERMAP26"
-	Label = "PERDITIONS GATE, E3M6"
+	Label = "PERDITIONS GATE, MAP26"
 }
 
 map PG_MAP27 "Devil's Masterpiece"
@@ -275,7 +275,7 @@ map PG_MAP27 "Devil's Masterpiece"
 	par = 330
 	Author = "$WS_AU_SIEBEN"
 	music = "$MUSIC_PERMAP27"
-	Label = "PERDITIONS GATE, E3M7"
+	Label = "PERDITIONS GATE, MAP27"
 }
 
 map PG_MAP28 "High-Tech Hades"
@@ -284,7 +284,7 @@ map PG_MAP28 "High-Tech Hades"
 	par = 420
 	Author = "$WS_AU_SIEBEN"
 	music = "$MUSIC_PERMAP28"
-	Label = "PERDITIONS GATE, E3M8"
+	Label = "PERDITIONS GATE, MAP28"
 }
 
 map PG_MAP29 "Bomb Facility"
@@ -293,7 +293,7 @@ map PG_MAP29 "Bomb Facility"
 	par = 300
 	Author = "$WS_AU_MUSTAINE"
 	music = "$MUSIC_PERMAP29"
-	Label = "PERDITIONS GATE, E3M9"
+	Label = "PERDITIONS GATE, MAP29"
 }
 
 map PG_MAP30 "Escape!"
@@ -305,7 +305,7 @@ map PG_MAP30 "Escape!"
 	allowmonstertelefrags
 	Author = "$WS_AU_MUSTAINE"
 	music = "$MUSIC_PERMAP30"
-	Label = "PERDITIONS GATE, E3M10"
+	Label = "PERDITIONS GATE, MAP30"
 }
 
 //		Secret Maps		//
@@ -317,7 +317,7 @@ map PG_MAP31 "Living Rock"
 	par = 120
 	Author = "$WS_AU_MCCANDLISH"
 	music = "$MUSIC_PERMAP31"
-	Label = "PERDITIONS GATE, E2M10"
+	Label = "PERDITIONS GATE, MAP31"
 }
 
 map PG_MAP32 "Radioactive Sea"
@@ -326,7 +326,7 @@ map PG_MAP32 "Radioactive Sea"
 	par = 30
 	Author = "$WS_AU_MCCANDLISH"
 	music = "$MUSIC_PERMAP32"
-	Label = "PERDITIONS GATE, E2M11"
+	Label = "PERDITIONS GATE, MAP32"
 }
 
 //		Ending Screen and Roll Call		//
