@@ -88,6 +88,7 @@ FREED1_EP04 = "\c[ICE]Double Impact";
 FREED2_EP01 = "\c[ICE]Hallowed Scraps";
 FREED2_EP02 = "\c[ICE]Monsteropolis";
 FREED2_EP03 = "\c[ICE]Final Freedom";
+FREED2_FULL = "\c[ICE]FreeDoom: Phase 2";
 
 FREEDM = "\c[DARKRED]DM: \c[ICE]DeathMatch FreeDM";
 
@@ -98,23 +99,28 @@ LOSTE_EP03 = "\c[Green]Hell's Gate - The Red Spot";
 PERD_G_EP1 = "\c[Brick]The Earth Gates";
 PERD_G_EP2 = "\c[Brick]World of the Ancients";
 PERD_G_EP3 = "\c[Brick]Planet Hell";
+PERD_G_FULL = "\c[Brick]Perditions Gate";
 
 HELL2P_EP1 = "\c[YELLOW]Enslaved Homeword";
 HELL2P_EP2 = "\c[YELLOW]Planetary Voyage";
 HELL2P_EP3 = "\c[YELLOW]Return To Planet Hell";
+HELL2P_FULL = "\c[YELLOW]Hell To Pay";
 
 TNTR_EPI01 = "\c[Orange]The Demonic Fleet";
 TNTR_EPI02 = "\c[Orange]Astroid Rampage";
 TNTR_EPI03 = "\c[Orange]Revolutionary Hell";
+TNTR_FULL = "\c[RED]T.N.T Revilution";
 
 PLUTONIA2_EPI01 = "\c[DarkGreen]Guerrilla Warfare";
 PLUTONIA2_EPI02 = "\c[DarkGreen]Hemoptic Hurricane";
 PLUTONIA2_EPI03 = "\c[DarkGreen]Satan's Coloney";
-PLUTONIA2_BONUS = "\c[GOLD]Bonus: \c[DarkBrown]Choclate";
+PLUTONIA2_FULL = "\c[RED]Plutonia 2";
+PLUTONIA2_BONUS = "\c[GOLD]Bonus: \c[RED]Choclate";
 
 DZERO_EPI01 = "\c[GREY]Zeroing In";
 DZERO_EPI02 = "\c[GREY]Though Hell And Back";
 DZERO_EPI03 = "\c[GREY]Realms Of The Wicked";
+DZERO_FULL = "\c[RED]Doom Zero";
 
 EUTEXT =  
 "The smoking carcass of the carnivorous\n"

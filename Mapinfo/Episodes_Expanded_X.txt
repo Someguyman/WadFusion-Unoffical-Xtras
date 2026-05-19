@@ -102,6 +102,7 @@ episode FD_E4M1
 
 //	Hell on earth	//
 
+/*
 episode WF_NEWGAME_MAP01
 {
 	Name = "$DOOM2_EPI01"
@@ -119,8 +120,21 @@ episode WF_NEWGAME_MAP21
 	Name = "$DOOM2_EPI03"
 	Optional
 }
+*/
 
-//	Doom 2 Expansions	//
+episode WF_NEWGAME_MAP01
+{
+	Name = "$DOOM2_FULL"
+	PicName = "M_HELL"
+	Optional
+}
+
+episode MASTERHUB
+{
+	Name = "$WF_CAMPAIGN_MASTER"
+	PicName = "M_MASTER"
+	Optional
+}
 
 episode WF_NEWGAME_NV_MAP01
 {
@@ -128,8 +142,6 @@ episode WF_NEWGAME_NV_MAP01
 	PicName = "M_NOREST"
 	Optional
 }
-
-//	Legacy of Rust	//
 
 episode WF_NEWGAME_LR_MAP01
 {
@@ -145,6 +157,7 @@ episode WF_NEWGAME_LR_MAP08
 	Optional
 }
 
+/*
 //		Doom 64 For Doom 2 Episodes		//
 
 episode WF_NEWGAME_AB_MAP01
@@ -164,9 +177,11 @@ episode WF_NEWGAME_AB_MAP21
 	Name = "$ABLOUTION_EPI03"
 	Optional
 }
+*/
 
 //		Doom Zero Episodes		//
 
+/*
 episode WF_NEWGAME_DZ_MAP01
 {
 	Name = "$DZERO_EPI01"
@@ -187,29 +202,13 @@ episode WF_NEWGAME_DZ_MAP21
 	PicName = "M_ZERO"
 	optional
 }
-
-//		Master Levels		//
-
-/*
-episode WF_NEWGAME_MASTERHUB
-{
-	Name = "$WF_CAMPAIGN_MASTER"
-	PicName = "M_MASTER"
-	Optional
-}
 */
-
-episode WF_NEWGAME_MASTERHUB
-{
-	Name = "$WF_CAMPAIGN_MASTER"
-	PicName = "M_MASTER"
-	Optional
-}
 
 //		TNT Episodes		//
 
 //	Original Evilution	//
 
+/*
 episode WF_NEWGAME_TN_MAP01
 {
 	Name = "$TNTE_EPI01"
@@ -247,11 +246,25 @@ episode WF_NEWGAME_TR_MAP21
 	Name = "$TNTR_EPI03"
 	Optional
 }
+*/
+
+episode WF_NEWGAME_TN_MAP01
+{
+	Name = "$TNTE_FULL"
+	Optional
+}
+
+episode WF_NEWGAME_TR_MAP01
+{
+	Name = "$TNTR_FULL"
+	Optional
+}
 
 //		Plutonia Episodes		//
 
 //	Original Plutonia	//
 
+/*
 episode WF_NEWGAME_PL_MAP01
 {
 	Name = "$PLUTONIA_EPI01"
@@ -289,9 +302,42 @@ episode WF_NEWGAME_PT_MAP21
 	Name = "$PLUTONIA2_EPI03"
 	Optional
 }
+*/
+
+episode WF_NEWGAME_PL_MAP01
+{
+	Name = "$PLUTONIA_FULL"
+	Optional
+}
+
+episode WF_NEWGAME_PT_MAP01
+{
+	Name = "$PLUTONIA2_FULL"
+	Optional
+}
+
+episode WF_NEWGAME_AB_MAP01
+{
+	Name = "$ABLOUTION_EPI03"
+	Optional
+}
+
+episode WF_NEWGAME_DZ_MAP01
+{
+	Name = "$DZERO_FULL"
+	PicName = "M_ZERO"
+	optional
+}
 
 //		Perditions Gate		//
 
+episode WF_NEWGAME_PG_MAP01
+{
+	Name = "$PERD_G_FULL"
+	Optional
+}
+
+/*
 episode WF_NEWGAME_PG_MAP01
 {
 	Name = "$PERD_G_EP1"
@@ -330,9 +376,19 @@ episode WF_NEWGAME_HP_MAP21
 	Name = "$HELL2P_EP3"
 	Optional
 }
+*/
+
+episode WF_NEWGAME_HP_MAP01
+{
+	Name = "$HELL2P_FULL"
+	Optional
+	Intro { Video = "movies/HELL2PAYINTRO.IVF" Sound = "movies/HELL2PAYINTRO.OGG" } //The Only one with an intro like this.
+}
+
 
 //		Freedoom Phase 2		//
 
+/*
 episode FD_MAP01
 {
 	Name = "$FREED2_EP01"
@@ -348,6 +404,13 @@ episode FD_MAP12
 episode FD_MAP21
 {
 	Name = "$FREED2_EP03"
+	Optional
+}
+*/
+
+episode FD_MAP01
+{
+	Name = "$FREED2_FULL"
 	Optional
 }
 
@@ -401,14 +464,14 @@ episode GBA_DM1
 	Optional
 }
 
-episode FD_DMM01
-{
-	Name = "$FREEDM"
-	Optional
-}
-
 episode DM_MAP01
 {
 	Name = "$BONUS_KEXDM"
+	Optional
+}
+
+episode FD_DMM01
+{
+	Name = "$FREEDM"
 	Optional
 }
